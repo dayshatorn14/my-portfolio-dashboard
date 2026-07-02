@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T14:20:06.627726+07:00",
+    "last_updated": "2026-07-02T14:23:56.032639+07:00",
     "summary": {
-        "total_value_thb": 31118.282893796513,
-        "total_profit_thb": 2139.965440732707,
-        "total_profit_percent": 7.384712532736969
+        "total_value_thb": 31118.818948898035,
+        "total_profit_thb": 2138.1594562304235,
+        "total_profit_percent": 7.377884056680624
     },
     "assets": [
         {
@@ -46,13 +46,13 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4084.199951171875,
-            "cost_per_unit_thb": 133501.22617149353,
-            "current_price_thb": 135963.02011370845,
-            "total_value_thb": 1985.0600936601434,
-            "profit_thb": 35.942191556337775,
-            "profit_percent": 1.844023469157156
+            "current_price_usd": 4080.39990234375,
+            "cost_per_unit_thb": 133661.63984298706,
+            "current_price_thb": 135999.73621655256,
+            "total_value_thb": 1985.5961487616673,
+            "profit_thb": 34.136207054056285,
+            "profit_percent": 1.7492650668599243
         }
     ],
-    "ai_analysis": "<p>ไม่ได้ตั้งค่า Gemini API Key จึงไม่มีบทวิเคราะห์จาก AI ในรอบนี้</p>"
+    "ai_analysis": "<p>เกิดข้อผิดพลาดในการเรียก AI: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.</p>"
 }
