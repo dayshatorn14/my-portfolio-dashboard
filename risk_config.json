@@ -1,0 +1,14 @@
+{
+    "default_stop_loss_percent": -5.0,
+    "default_take_profit_percent": 15.0,
+    "custom_rules": {
+        "SCB": {
+            "stop_loss_percent": -10.0,
+            "take_profit_percent": 20.0
+        },
+        "SIRI": {
+            "stop_loss_percent": -8.0,
+            "take_profit_percent": 12.0
+        }
+    }
+}

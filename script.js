@@ -112,14 +112,35 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (data.ai_analysis.market_analysis) {
                     html += `<div class="ai-block"><h3>📊 ภาพรวมตลาด</h3>${data.ai_analysis.market_analysis}</div>`;
                 }
-                if (data.ai_analysis.industry_suggestions) {
-                    html += `<div class="ai-block"><h3>🎯 กลุ่มอุตสาหกรรมที่น่าสนใจ</h3>${data.ai_analysis.industry_suggestions}</div>`;
-                }
                 aiContent.innerHTML = html;
+                
+                // Render Daily Picks
+                const picksEl = document.getElementById('daily-picks');
+                if (data.ai_analysis.daily_picks && data.ai_analysis.daily_picks.length > 0) {
+                    picksEl.innerHTML = '';
+                    data.ai_analysis.daily_picks.forEach(pick => {
+                        const div = document.createElement('div');
+                        div.className = 'pick-item';
+                        div.innerHTML = `
+                            <div class="pick-header">
+                                <span class="pick-symbol">${pick.symbol}</span>
+                                <span class="pick-tag">${pick.tag}</span>
+                            </div>
+                            <div class="pick-name">${pick.name}</div>
+                            <div class="pick-reason">${pick.reason}</div>
+                        `;
+                        picksEl.appendChild(div);
+                    });
+                } else {
+                    picksEl.innerHTML = '<p style="color: #cbd5e1;">กำลังสแกนหาโอกาสใหม่ๆ...</p>';
+                }
+                
             } else if (data.ai_analysis) {
                 aiContent.innerHTML = typeof data.ai_analysis === 'string' ? data.ai_analysis.replace(/\n/g, '<br>') : '';
+                document.getElementById('daily-picks').innerHTML = '<p>ไม่มีข้อมูลหุ้นแนะนำในรอบนี้</p>';
             } else {
                 aiContent.innerHTML = '<p>ไม่มีบทวิเคราะห์ในขณะนี้</p>';
+                document.getElementById('daily-picks').innerHTML = '<p>ไม่มีข้อมูลหุ้นแนะนำในรอบนี้</p>';
             }
 
             return data.last_updated;

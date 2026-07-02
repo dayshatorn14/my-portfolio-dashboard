@@ -578,3 +578,47 @@ tr:last-child td { border-bottom: none; }
     color: var(--primary-light);
     margin-bottom: 0.5rem;
 }
+
+/* Daily Picks Styling */
+.picks-section {
+    margin-bottom: 2rem;
+}
+.pick-item {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s, background 0.2s;
+}
+.pick-item:hover {
+    background: rgba(255,255,255,0.05);
+    transform: translateY(-2px);
+}
+.pick-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.pick-symbol {
+    font-weight: 700;
+    color: var(--primary-light);
+    font-size: 1.1rem;
+}
+.pick-tag {
+    font-size: 0.7rem;
+    background: var(--primary-glow);
+    color: var(--text-main);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+.pick-name {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+.pick-reason {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
