@@ -60,8 +60,17 @@
                     <a href="#" id="nav-watchlist" data-target="view-watchlist">Watchlist</a>
                 </div>
                 <div class="user-profile">
-                    <div class="theme-toggle">🌙</div>
-                    <div class="notification">🔔<span class="badge"></span></div>
+                    <div class="theme-toggle" id="theme-toggle" style="cursor: pointer; user-select: none; font-size: 1.2rem;">🌙</div>
+                    <div class="notification" id="notification-btn" style="cursor: pointer; position: relative;">
+                        🔔<span class="badge" id="notification-badge" style="display: none; position: absolute; top: -5px; right: -5px; background: red; width: 8px; height: 8px; border-radius: 50%;"></span>
+                        <!-- Dropdown menu -->
+                        <div id="notification-dropdown" class="premium-card dropdown-menu" style="display: none; position: absolute; right: -10px; top: 40px; width: 300px; z-index: 100; padding: 1rem; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+                            <h4 style="margin-bottom: 10px; border-bottom: 1px solid var(--card-border); padding-bottom: 5px; color: var(--text-main);">Notifications</h4>
+                            <div id="notification-list">
+                                <p style="color: var(--text-muted); font-size: 0.9rem;">No new notifications</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="avatar">
                         <img src="https://ui-avatars.com/api/?name=User&background=0D8ABC&color=fff" alt="User">
                         <div class="user-info">

@@ -12,6 +12,36 @@ document.addEventListener('DOMContentLoaded', async () => {
     const overlay = document.getElementById('loading-overlay');
     const loadingText = document.getElementById('loading-text');
 
+    // --- Theme Toggle ---
+    const themeToggle = document.getElementById('theme-toggle');
+    if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.classList.add('light-theme');
+        themeToggle.textContent = '☀️';
+    }
+    themeToggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('light-theme');
+        if (document.documentElement.classList.contains('light-theme')) {
+            localStorage.setItem('theme', 'light');
+            themeToggle.textContent = '☀️';
+        } else {
+            localStorage.setItem('theme', 'dark');
+            themeToggle.textContent = '🌙';
+        }
+    });
+
+    // --- Notification Logic ---
+    const notificationBtn = document.getElementById('notification-btn');
+    const notificationDropdown = document.getElementById('notification-dropdown');
+    notificationBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        notificationDropdown.style.display = notificationDropdown.style.display === 'none' ? 'block' : 'none';
+        document.getElementById('notification-badge').style.display = 'none';
+    });
+    document.addEventListener('click', () => {
+        if (notificationDropdown) notificationDropdown.style.display = 'none';
+    });
+    notificationDropdown.addEventListener('click', (e) => e.stopPropagation());
+
     // --- Load Main Data ---
     let currentData = null; // Store data for sorting
     let sortCol = '';
@@ -265,6 +295,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             } else {
                 watchlistContainer.innerHTML = '<p style="color: #cbd5e1;">ไม่มีข้อมูล Global Watchlist ในขณะนี้</p>';
             }
+
+            // Update Notification Dropdown
+            const notifList = document.getElementById('notification-list');
+            const dateStr = new Date(data.last_updated).toLocaleString('th-TH');
+            notifList.innerHTML = `<div style="padding: 10px 0; font-size: 0.85rem;">
+                <strong style="color: var(--primary-light);">System Sync Completed</strong><br>
+                <span style="color: var(--text-main);">Data successfully updated at ${dateStr}</span>
+            </div>`;
+            document.getElementById('notification-badge').style.display = 'block';
 
             return data.last_updated;
 

@@ -20,6 +20,24 @@
     --radius-lg: 24px;
 }
 
+:root.light-theme {
+    --bg-dark: #F3F4F6;
+    --card-bg: #FFFFFF;
+    --card-border: rgba(0, 0, 0, 0.1);
+    
+    --text-main: #111827;
+    --text-muted: #4B5563;
+    
+    --primary: #2563EB;
+    --primary-glow: rgba(37, 99, 235, 0.1);
+    --primary-light: #1D4ED8;
+    
+    --profit: #059669;
+    --profit-bg: rgba(5, 150, 105, 0.1);
+    --loss: #DC2626;
+    --loss-bg: rgba(220, 38, 38, 0.1);
+}
+
 * {
     margin: 0;
     padding: 0;
