@@ -1,37 +1,37 @@
 {
-    "last_updated": "2026-07-02T14:29:17.927803+07:00",
+    "last_updated": "2026-07-02T14:31:48.877011+07:00",
     "summary": {
-        "total_value_thb": 31040.965651805116,
-        "total_profit_thb": 2063.2338203168547,
-        "total_profit_percent": 7.120066650885592
+        "total_value_thb": 31219.415355840698,
+        "total_profit_thb": 2241.0979027768917,
+        "total_profit_percent": 7.7337060938986495
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.5,
-            "total_value_thb": 15250.0,
-            "profit_thb": 1650.0,
-            "profit_percent": 12.132352941176471
+            "current_price_thb": 154.0,
+            "total_value_thb": 15400.0,
+            "profit_thb": 1800.0,
+            "profit_percent": 13.23529411764706
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4500000476837158,
-            "total_value_thb": 2900.0000953674316,
-            "profit_thb": 80.00009536743164,
-            "profit_percent": 2.8368828144479306
+            "current_price_thb": 1.4600000381469727,
+            "total_value_thb": 2920.0000762939453,
+            "profit_thb": 100.00007629394531,
+            "profit_percent": 3.5461019962391953
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.200000762939453,
-            "total_value_thb": 688.0000305175781,
-            "profit_thb": 78.80003051757808,
-            "profit_percent": 12.935001726457331
+            "current_price_thb": 17.399999618530273,
+            "total_value_thb": 695.9999847412109,
+            "profit_thb": 86.79998474121089,
+            "profit_percent": 14.248191848524439
         },
         {
             "symbol": "K-US500XUH",
@@ -46,13 +46,13 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4078.60009765625,
-            "cost_per_unit_thb": 133461.1151046753,
-            "current_price_thb": 135735.80627124012,
-            "total_value_thb": 1981.7427715601057,
-            "profit_thb": 33.21049103184646,
-            "profit_percent": 1.70438495495917
+            "current_price_usd": 4078.300048828125,
+            "cost_per_unit_thb": 133501.22617149353,
+            "current_price_thb": 135766.6123592835,
+            "total_value_thb": 1982.192540445539,
+            "profit_thb": 33.07463834173336,
+            "profit_percent": 1.6969029070039234
         }
     ],
-    "ai_analysis": "<p>เกิดข้อผิดพลาดในการเรียก AI: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.</p>"
+    "ai_analysis": "<p>เกิดข้อผิดพลาดในการเรียก AI: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.</p>"
 }
