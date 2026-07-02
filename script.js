@@ -239,6 +239,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             const aiContent = document.getElementById('ai-content');
+            const isJsonAnalysis = data.ai_analysis && typeof data.ai_analysis === 'object';
+            
             if (isJsonAnalysis) {
                 let html = '';
                 if (data.ai_analysis.market_analysis) {
