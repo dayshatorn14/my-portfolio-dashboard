@@ -58,6 +58,8 @@
                     <a href="#" id="nav-dashboard" data-target="view-dashboard">Dashboard</a>
                     <a href="#" id="nav-market" data-target="view-market">Market</a>
                     <a href="#" id="nav-watchlist" data-target="view-watchlist">Watchlist</a>
+                    <a href="#" id="nav-daily-picks" data-target="view-daily-picks">Daily Picks</a>
+                    <a href="#" id="nav-market-news" data-target="view-market-news">Market News</a>
                 </div>
                 <div class="user-profile">
                     <div class="theme-toggle" id="theme-toggle" style="cursor: pointer; user-select: none; font-size: 1.2rem;">🌙</div>
@@ -83,45 +85,46 @@
 
             <!-- HOME VIEW -->
             <div id="view-home" class="view-section active">
-                <div class="dashboard-grid">
-                    <div class="grid-col-left">
-                        <section class="premium-card ai-section">
-                            <div class="section-header">
-                                <div class="ai-title">
-                                    <span class="ai-icon">🤖</span>
-                                    <h2>AI Analysis</h2>
-                                </div>
-                                <span class="ai-badge">Gemini Flash</span>
-                            </div>
-                            <div id="ai-content" class="analysis-box">
-                                <p class="loading-text">Generating insights...</p>
-                            </div>
-                        </section>
+                <section class="premium-card ai-section">
+                    <div class="section-header">
+                        <div class="ai-title">
+                            <span class="ai-icon">🤖</span>
+                            <h2>AI Analysis</h2>
+                        </div>
+                        <span class="ai-badge">Gemini Flash</span>
                     </div>
-                    <div class="grid-col-right">
-                        <section class="premium-card picks-section">
-                            <div class="section-header">
-                                <div class="ai-title">
-                                    <span class="ai-icon">🎯</span>
-                                    <h2>Daily Picks</h2>
-                                </div>
-                            </div>
-                            <div id="daily-picks" class="picks-list">
-                                <p class="loading-text">Scanning market for opportunities...</p>
-                            </div>
-                        </section>
+                    <div id="ai-content" class="analysis-box">
+                        <p class="loading-text">Generating insights...</p>
+                    </div>
+                </section>
+            </div>
 
-                        <section class="premium-card news-section">
-                            <div class="section-header">
-                                <h2>Market News</h2>
-                                <button class="icon-btn">⋮</button>
-                            </div>
-                            <div id="news-list" class="news-list">
-                                <p class="loading-text">Loading market news...</p>
-                            </div>
-                        </section>
+            <!-- DAILY PICKS VIEW -->
+            <div id="view-daily-picks" class="view-section" style="display: none;">
+                <section class="premium-card picks-section">
+                    <div class="section-header">
+                        <div class="ai-title">
+                            <span class="ai-icon">🎯</span>
+                            <h2>Daily Picks</h2>
+                        </div>
                     </div>
-                </div>
+                    <div id="daily-picks" class="picks-list">
+                        <p class="loading-text">Scanning market for opportunities...</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- MARKET NEWS VIEW -->
+            <div id="view-market-news" class="view-section" style="display: none;">
+                <section class="premium-card news-section">
+                    <div class="section-header">
+                        <h2>Market News</h2>
+                        <button class="icon-btn">⋮</button>
+                    </div>
+                    <div id="news-list" class="news-list">
+                        <p class="loading-text">Loading market news...</p>
+                    </div>
+                </section>
             </div>
 
             <!-- DASHBOARD VIEW -->
