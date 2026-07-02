@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T22:50:44.851493+07:00",
+    "last_updated": "2026-07-02T23:06:46.033139+07:00",
     "summary": {
-        "total_value_thb": 31250.701801983363,
-        "total_profit_thb": 2280.5812641836856,
-        "total_profit_percent": 7.8721842430998015
+        "total_value_thb": 31238.18513003344,
+        "total_profit_thb": 2266.8937957810485,
+        "total_profit_percent": 7.82462117282611
     },
     "assets": [
         {
@@ -37,29 +37,135 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.547718340893685,
-            "total_value_thb": 10259.531097724635,
-            "profit_thb": 259.531546764636,
-            "profit_percent": 2.595315584186411
+            "current_price_thb": 11.533849353756938,
+            "total_value_thb": 10247.209243257548,
+            "profit_thb": 247.20969229754883,
+            "profit_percent": 2.4720970339825334
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4143.0,
-            "cost_per_unit_thb": 132939.79361915588,
-            "current_price_thb": 137340.4563217163,
-            "total_value_thb": 2005.170662297058,
-            "profit_thb": 64.24967545738218,
-            "profit_percent": 3.3102674396858047
+            "current_price_usd": 4140.10009765625,
+            "cost_per_unit_thb": 133019.98515701294,
+            "current_price_thb": 137327.11265850812,
+            "total_value_thb": 2004.9758448142186,
+            "profit_thb": 62.88406152182961,
+            "profit_percent": 3.237955181254283
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 15.246923225s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 15\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 33.634350218s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำนวัตกรรมชิป AI ระดับโลกที่มีความต้องการเติบโตอย่างต่อเนื่องอย่างไร้คู่แข่งในปัจจุบัน",
+            "category": "Tech"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "โครงสร้างพื้นฐานคลาวด์ระดับโลกและการผสาน AI เข้ากับซอฟต์แวร์ธุรกิจสร้างรายได้สม่ำเสมอ",
+            "category": "Tech"
+        },
+        {
+            "symbol": "DE",
+            "name": "Deere & Company",
+            "exchange": "NYSE",
+            "reason": "ตอบรับกระแส Food Security โลกด้วยนวัตกรรมการเกษตรอัจฉริยะและความต้องการเครื่องจักรล้ำสมัย",
+            "category": "Agriculture & Technology"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผูกขาดเทคโนโลยีเครื่องจักร EUV สำหรับผลิตชิปขั้นสูง มีคูเมืองทางธุรกิจที่แข็งแกร่งที่สุดในยุโรป",
+            "category": "Tech"
+        },
+        {
+            "symbol": "MC.PA",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "หุ้นกลุ่มสินค้าหรูหราที่มีอำนาจในการตั้งราคา (Pricing Power) สูงมากและทนทานต่อสภาวะเงินเฟ้อ",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Company",
+            "exchange": "NYSE",
+            "reason": "กระดูกสันหลังของอุตสาหกรรมชิปโลก ได้ประโยชน์สูงสุดจากดีมานด์ AI และการย้ายฐานการผลิต",
+            "category": "Tech"
+        },
+        {
+            "symbol": "KBANK",
+            "name": "Kasikornbank PCL",
+            "exchange": "SET",
+            "reason": "ผู้นำกลุ่มธนาคารไทยที่ได้อานิสงส์จากกลุ่มแบงก์นำตลาดและมาตรการกระตุ้นเศรษฐกิจในประเทศ",
+            "category": "Financials"
+        },
+        {
+            "symbol": "CPF",
+            "name": "Charoen Pokphand Foods PCL",
+            "exchange": "SET",
+            "reason": "รับปัจจัยบวกโดยตรงจากธีม Food Security และการยกระดับสู่ผู้นำนวัตกรรมอาหารส่งออกของไทย",
+            "category": "Food & Agriculture"
+        },
+        {
+            "symbol": "GULF",
+            "name": "Gulf Energy Development PCL",
+            "exchange": "SET",
+            "reason": "หุ้นโครงสร้างพื้นฐานพลังงานที่มีการเติบโตสูงและเร่งการเปลี่ยนผ่านสู่พลังงานหมุนเวียนอย่างมั่นคง",
+            "category": "Utilities & Energy"
+        },
+        {
+            "symbol": "DELTA",
+            "name": "Delta Electronics (Thailand) PCL",
+            "exchange": "SET",
+            "reason": "แม้มีแรงขายทำกำไรระยะสั้น แต่ยังเป็นหัวหอกสำคัญในห่วงโซ่อุปทานชิ้นส่วนอิเล็กทรอนิกส์และดาต้าเซนเตอร์",
+            "category": "Tech"
+        },
+        {
+            "symbol": "BDMS",
+            "name": "Bangkok Dusit Medical Services PCL",
+            "exchange": "SET",
+            "reason": "หุ้นปลอดภัยคุณภาพสูง (Defensive Stock) รองรับเมกะเทรนด์การท่องเที่ยวเชิงการแพทย์และการดูแลสุขภาพ",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "XOM",
+            "name": "Exxon Mobil Corporation",
+            "exchange": "NYSE",
+            "reason": "ใช้ป้องกันความเสี่ยงเชิงภูมิรัฐศาสตร์ในตะวันออกกลาง และได้ประโยชน์จากราคาน้ำมันดิบที่ทรงตัวในระดับสูง",
+            "category": "Energy"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto Exchanges",
+            "reason": "ทองคำดิจิทัลที่ใช้เป็นสินทรัพย์ทางเลือกสำหรับกระจายความเสี่ยงท่ามกลางความตึงเครียดทางเศรษฐกิจโลก",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto Exchanges",
+            "reason": "โครงสร้างพื้นฐานสำหรับสัญญาอัจฉริยะ (Smart Contract) และ Web3 ที่ได้รับการยอมรับในระดับสถาบันการเงิน",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "7203",
+            "name": "Toyota Motor Corporation",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "การเติบโตอย่างแข็งแกร่งของรถยนต์ไฮบริดและยอดขายทั่วโลกที่มั่นคง ท่ามกลางการเปลี่ยนผ่านพลังงาน",
+            "category": "Automotive"
+        }
+    ],
     "news": [
         {
             "title": "หุ้นไทย ปิดบวก 5.33 จุด วอลุ่มเฉียดแสนล้าน กลุ่มแบงก์นำตลาด แต่แรงขาย DELTA ถ่วง | การเงินธนาคาร - LINE TODAY",
