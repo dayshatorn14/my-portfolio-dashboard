@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T14:23:56.032639+07:00",
+    "last_updated": "2026-07-02T14:26:02.088739+07:00",
     "summary": {
-        "total_value_thb": 31118.818948898035,
-        "total_profit_thb": 2138.1594562304235,
-        "total_profit_percent": 7.377884056680624
+        "total_value_thb": 31111.998618700974,
+        "total_profit_thb": 2133.6811656371683,
+        "total_profit_percent": 7.363026404459447
     },
     "assets": [
         {
@@ -28,10 +28,10 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.299999237060547,
-            "total_value_thb": 691.9999694824219,
-            "profit_thb": 82.79996948242183,
-            "profit_percent": 13.591590525676597
+            "current_price_thb": 17.200000762939453,
+            "total_value_thb": 688.0000305175781,
+            "profit_thb": 78.80003051757808,
+            "profit_percent": 12.935001726457331
         },
         {
             "symbol": "K-US500XUH",
@@ -46,12 +46,12 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4080.39990234375,
-            "cost_per_unit_thb": 133661.63984298706,
-            "current_price_thb": 135999.73621655256,
-            "total_value_thb": 1985.5961487616673,
-            "profit_thb": 34.136207054056285,
-            "profit_percent": 1.7492650668599243
+            "current_price_usd": 4079.5,
+            "cost_per_unit_thb": 133501.22617149353,
+            "current_price_thb": 135806.5587348938,
+            "total_value_thb": 1982.7757575294495,
+            "profit_thb": 33.6578554256439,
+            "profit_percent": 1.7268250109095433
         }
     ],
     "ai_analysis": "<p>เกิดข้อผิดพลาดในการเรียก AI: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.</p>"
