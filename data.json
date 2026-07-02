@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T22:44:03.587885+07:00",
+    "last_updated": "2026-07-02T22:43:12.244586+07:00",
     "summary": {
-        "total_value_thb": 31252.00155264956,
-        "total_profit_thb": 2282.4666364254263,
-        "total_profit_percent": 7.878851500467656
+        "total_value_thb": 31257.5155274811,
+        "total_profit_thb": 2287.394989681423,
+        "total_profit_percent": 7.895704081371951
     },
     "assets": [
         {
@@ -37,25 +37,25 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.549862260271707,
-            "total_value_thb": 10261.435855606713,
-            "profit_thb": 261.4363046467133,
-            "profit_percent": 2.614363163862497
+            "current_price_thb": 11.555659978026265,
+            "total_value_thb": 10266.586818233509,
+            "profit_thb": 266.5872672735095,
+            "profit_percent": 2.665872792443447
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4143.0,
-            "cost_per_unit_thb": 132899.68255233765,
-            "current_price_thb": 137299.01747131348,
-            "total_value_thb": 2004.5656550811768,
-            "profit_thb": 64.23028981704715,
-            "profit_percent": 3.3102674396858065
+            "current_price_usd": 4142.5,
+            "cost_per_unit_thb": 132939.79361915588,
+            "current_price_thb": 137323.88132095337,
+            "total_value_thb": 2004.9286672859191,
+            "profit_thb": 64.00768044624328,
+            "profit_percent": 3.2977993890655197
         }
     ],
     "ai_analysis": {
-        "market_analysis": "ไม่ได้ตั้งค่า Gemini API Key",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 56.132732181s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 56\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
