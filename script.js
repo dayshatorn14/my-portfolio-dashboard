@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     let portfolioConfig = [];
     let githubPAT = localStorage.getItem('github_pat') || '';
     let githubRepo = localStorage.getItem('github_repo') || '';
+    let lastKnownUpdate = null;
+    let pollInterval = null;
 
     // --- DOM Elements ---
     const settingsModal = document.getElementById('settings-modal');
@@ -13,10 +15,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- Load Main Data ---
     async function loadDashboardData() {
         try {
-            const response = await fetch('data.json');
+            // Cache busting for latest data
+            const response = await fetch(`data.json?t=${new Date().getTime()}`);
             if (!response.ok) throw new Error('ไม่สามารถโหลดข้อมูลได้');
             const data = await response.json();
             
+            lastKnownUpdate = data.last_updated;
             const updateTime = new Date(data.last_updated).toLocaleString('th-TH');
             document.getElementById('last-updated').textContent = `อัปเดตล่าสุด: ${updateTime}`;
             
@@ -68,16 +72,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 aiContent.innerHTML = '<p>ไม่มีบทวิเคราะห์ในขณะนี้</p>';
             }
 
+            return data.last_updated;
+
         } catch (error) {
             console.error('Error loading data:', error);
             document.getElementById('last-updated').textContent = 'เกิดข้อผิดพลาดในการโหลดข้อมูล';
+            return null;
         }
     }
 
     // --- Load Config ---
     async function loadPortfolioConfig() {
         try {
-            // Add cache-busting to get latest config
             const response = await fetch(`portfolio_config.json?t=${new Date().getTime()}`);
             if (response.ok) {
                 portfolioConfig = await response.json();
@@ -87,9 +93,80 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
+    // --- Auto Trigger & Polling ---
+    function checkAutoTrigger() {
+        if (!lastKnownUpdate || !githubPAT || !githubRepo) return;
+        
+        const lastTime = new Date(lastKnownUpdate).getTime();
+        const now = new Date().getTime();
+        const diffMinutes = (now - lastTime) / (1000 * 60);
+
+        if (diffMinutes > 15) {
+            console.log("Data is older than 15 minutes. Auto-triggering refresh...");
+            triggerGitHubAction("กำลังอัปเดตข้อมูลอัตโนมัติ เนื่องจากข้อมูลเก่าเกิน 15 นาที...");
+        }
+    }
+
+    function startPollingForUpdates() {
+        if (pollInterval) clearInterval(pollInterval);
+        const originalUpdate = lastKnownUpdate;
+        
+        pollInterval = setInterval(async () => {
+            try {
+                const response = await fetch(`data.json?t=${new Date().getTime()}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.last_updated !== originalUpdate) {
+                        // Data changed!
+                        clearInterval(pollInterval);
+                        await loadDashboardData();
+                        hideLoading();
+                        alert("อัปเดตข้อมูลและรีเฟรชหน้าเว็บเรียบร้อยแล้ว!");
+                    }
+                }
+            } catch (e) {
+                console.error("Polling error", e);
+            }
+        }, 10000); // Poll every 10 seconds
+    }
+
+    async function triggerGitHubAction(loadingMessage) {
+        if (!githubPAT || !githubRepo) {
+            alert('กรุณาตั้งค่า GitHub PAT และ Repository ในเมนูตั้งค่าก่อนครับ');
+            settingsModal.style.display = 'block';
+            return;
+        }
+
+        showLoading(loadingMessage);
+        try {
+            const response = await fetch(`https://api.github.com/repos/${githubRepo}/actions/workflows/update.yml/dispatches`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${githubPAT}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ ref: 'main' })
+            });
+
+            if (response.ok) {
+                // Start polling instead of just alerting
+                startPollingForUpdates();
+            } else {
+                const err = await response.json();
+                alert(`เกิดข้อผิดพลาด: ${err.message}`);
+                hideLoading();
+            }
+        } catch (e) {
+            alert(`Error: ${e.message}`);
+            hideLoading();
+        }
+    }
+
     // --- Initial Load ---
     await loadDashboardData();
     await loadPortfolioConfig();
+    checkAutoTrigger(); // Check if we need to auto-refresh on load
 
     // --- Settings Logic ---
     document.getElementById('btn-settings').addEventListener('click', () => {
@@ -112,36 +189,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // --- Refresh Logic (GitHub API) ---
-    document.getElementById('btn-refresh').addEventListener('click', async () => {
-        if (!githubPAT || !githubRepo) {
-            alert('กรุณาตั้งค่า GitHub PAT และ Repository ในเมนูตั้งค่าก่อนครับ');
-            settingsModal.style.display = 'block';
-            return;
-        }
-
-        showLoading('กำลังสั่งรันระบบเพื่อดึงข้อมูลล่าสุด...');
-        try {
-            const response = await fetch(`https://api.github.com/repos/${githubRepo}/actions/workflows/update.yml/dispatches`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${githubPAT}`,
-                    'Accept': 'application/vnd.github.v3+json',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ ref: 'main' })
-            });
-
-            if (response.ok) {
-                alert('สั่งรันสำเร็จแล้ว! กรุณารอประมาณ 1-2 นาที แล้วรีเฟรชหน้าเว็บนี้อีกครั้ง');
-            } else {
-                const err = await response.json();
-                alert(`เกิดข้อผิดพลาด: ${err.message}`);
-            }
-        } catch (e) {
-            alert(`Error: ${e.message}`);
-        } finally {
-            hideLoading();
-        }
+    document.getElementById('btn-refresh').addEventListener('click', () => {
+        triggerGitHubAction('ระบบกำลังดึงข้อมูลล่าสุด... (รอประมาณ 1 นาที เว็บจะรีเฟรชเอง)');
     });
 
     // --- Edit Portfolio Logic ---
@@ -205,7 +254,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         showLoading('กำลังบันทึกพอร์ตและอัปเดตไฟล์...');
         try {
-            // 1. Get SHA of existing file
             let sha = '';
             const getRes = await fetch(`https://api.github.com/repos/${githubRepo}/contents/portfolio_config.json`, {
                 headers: { 'Authorization': `Bearer ${githubPAT}` }
@@ -216,11 +264,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 sha = getJson.sha;
             }
 
-            // 2. Encode new content to Base64 (utf-8 safe)
             const jsonString = JSON.stringify(portfolioConfig, null, 4);
             const base64Content = btoa(unescape(encodeURIComponent(jsonString)));
 
-            // 3. Put new file
             const putRes = await fetch(`https://api.github.com/repos/${githubRepo}/contents/portfolio_config.json`, {
                 method: 'PUT',
                 headers: {
@@ -237,24 +283,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (!putRes.ok) throw new Error('ไม่สามารถอัปเดตไฟล์บน GitHub ได้');
 
-            // 4. Trigger workflow
-            showLoading('บันทึกสำเร็จ กำลังสั่งดึงข้อมูลล่าสุด...');
-            await fetch(`https://api.github.com/repos/${githubRepo}/actions/workflows/update.yml/dispatches`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${githubPAT}`,
-                    'Accept': 'application/vnd.github.v3+json',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ ref: 'main' })
-            });
-
-            alert('สำเร็จ! บันทึกพอร์ตและสั่งอัปเดตแล้ว กรุณารอ 1-2 นาทีแล้วกดรีเฟรชหน้าเว็บ');
             portfolioModal.style.display = 'none';
+            triggerGitHubAction('บันทึกสำเร็จ! กำลังรันข้อมูลใหม่ (รอประมาณ 1 นาที เว็บจะรีเฟรชเอง)');
 
         } catch (e) {
             alert(`Error: ${e.message}`);
-        } finally {
             hideLoading();
         }
     });
