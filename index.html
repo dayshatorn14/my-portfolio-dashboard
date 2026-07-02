@@ -51,12 +51,13 @@
             <header class="top-nav">
                 <div class="search-bar">
                     <span class="search-icon">🔍</span>
-                    <input type="text" placeholder="Search assets...">
+                    <input type="text" id="search-input" placeholder="Search global stocks (e.g. AAPL, TSLA)...">
                 </div>
                 <div class="nav-links">
-                    <a href="#" class="active">Dashboard</a>
-                    <a href="#">Market</a>
-                    <a href="#">Watchlist</a>
+                    <a href="#" id="nav-home" class="active" data-target="view-home">Home</a>
+                    <a href="#" id="nav-dashboard" data-target="view-dashboard">Dashboard</a>
+                    <a href="#" id="nav-market" data-target="view-market">Market</a>
+                    <a href="#" id="nav-watchlist" data-target="view-watchlist">Watchlist</a>
                 </div>
                 <div class="user-profile">
                     <div class="theme-toggle">🌙</div>
@@ -71,73 +72,102 @@
                 </div>
             </header>
 
-            <div class="dashboard-grid">
-                
-                <!-- Left Column (AI Analysis & Tables) -->
-                <div class="grid-col-left">
-                    <section class="premium-card ai-section">
-                        <div class="section-header">
-                            <div class="ai-title">
-                                <span class="ai-icon">🤖</span>
-                                <h2>AI Analysis</h2>
+            <!-- HOME VIEW -->
+            <div id="view-home" class="view-section active">
+                <div class="dashboard-grid">
+                    <div class="grid-col-left">
+                        <section class="premium-card ai-section">
+                            <div class="section-header">
+                                <div class="ai-title">
+                                    <span class="ai-icon">🤖</span>
+                                    <h2>AI Analysis</h2>
+                                </div>
+                                <span class="ai-badge">Gemini Flash</span>
                             </div>
-                            <span class="ai-badge">Gemini Flash</span>
-                        </div>
-                        <div id="ai-content" class="analysis-box">
-                            <p class="loading-text">Generating insights...</p>
-                        </div>
-                    </section>
-
-                    <section class="premium-card assets-section">
-                        <div class="section-header">
-                            <h2>Your Assets</h2>
-                            <p class="subtitle">Live tracking your portfolio</p>
-                        </div>
-                        <div class="table-responsive">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Asset</th>
-                                        <th>Shares</th>
-                                        <th>Avg. Cost</th>
-                                        <th>Current Price</th>
-                                        <th>Total Value</th>
-                                        <th>Profit / Loss</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="assets-body">
-                                    <!-- Populated by JS -->
-                                </tbody>
-                            </table>
-                        </div>
-                    </section>
-                </div>
-
-                <!-- Right Column (Screener & Market News) -->
-                <div class="grid-col-right">
-                    <section class="premium-card picks-section">
-                        <div class="section-header">
-                            <div class="ai-title">
-                                <span class="ai-icon">🎯</span>
-                                <h2>Daily Picks</h2>
+                            <div id="ai-content" class="analysis-box">
+                                <p class="loading-text">Generating insights...</p>
                             </div>
-                        </div>
-                        <div id="daily-picks" class="picks-list">
-                            <p class="loading-text">Scanning market for opportunities...</p>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
+                    <div class="grid-col-right">
+                        <section class="premium-card picks-section">
+                            <div class="section-header">
+                                <div class="ai-title">
+                                    <span class="ai-icon">🎯</span>
+                                    <h2>Daily Picks</h2>
+                                </div>
+                            </div>
+                            <div id="daily-picks" class="picks-list">
+                                <p class="loading-text">Scanning market for opportunities...</p>
+                            </div>
+                        </section>
 
-                    <section class="premium-card news-section">
-                        <div class="section-header">
-                            <h2>Market News</h2>
-                            <button class="icon-btn">⋮</button>
-                        </div>
-                        <div id="news-list" class="news-list">
-                            <p class="loading-text">Loading market news...</p>
-                        </div>
-                    </section>
+                        <section class="premium-card news-section">
+                            <div class="section-header">
+                                <h2>Market News</h2>
+                                <button class="icon-btn">⋮</button>
+                            </div>
+                            <div id="news-list" class="news-list">
+                                <p class="loading-text">Loading market news...</p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
+            </div>
 
+            <!-- DASHBOARD VIEW -->
+            <div id="view-dashboard" class="view-section" style="display: none; height: 100%;">
+                <section class="premium-card assets-section" style="height: 100%; display: flex; flex-direction: column;">
+                    <div class="section-header">
+                        <h2>Your Assets</h2>
+                        <p class="subtitle">Live tracking your portfolio (Click column headers to sort)</p>
+                    </div>
+                    <div class="table-responsive" style="flex: 1; overflow-y: auto;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th data-sort="symbol" style="cursor: pointer;">Asset ↕</th>
+                                    <th data-sort="shares" style="cursor: pointer;">Shares ↕</th>
+                                    <th data-sort="cost" style="cursor: pointer;">Avg. Cost ↕</th>
+                                    <th data-sort="price" style="cursor: pointer;">Current Price ↕</th>
+                                    <th data-sort="value" style="cursor: pointer;">Total Value ↕</th>
+                                    <th data-sort="profit" style="cursor: pointer;">Profit / Loss ↕</th>
+                                </tr>
+                            </thead>
+                            <tbody id="assets-body">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <!-- MARKET VIEW -->
+            <div id="view-market" class="view-section" style="display: none; height: 100%;">
+                <section class="premium-card" style="height: 100%; padding: 0; overflow: hidden; border-radius: var(--radius-lg);">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container" style="height:100%;width:100%">
+                      <div id="tradingview_chart" style="height:100%;width:100%"></div>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </section>
+            </div>
+
+            <!-- WATCHLIST VIEW -->
+            <div id="view-watchlist" class="view-section" style="display: none; height: 100%; overflow-y: auto;">
+                <section class="premium-card">
+                    <div class="section-header">
+                        <div class="ai-title">
+                            <span class="ai-icon">⭐</span>
+                            <h2>Global Top 15 Watchlist</h2>
+                        </div>
+                        <span class="ai-badge">AI Picked</span>
+                    </div>
+                    <p class="subtitle" style="margin-bottom: 1.5rem;">The top 15 most recommended stocks globally right now.</p>
+                    <div id="global-watchlist-container" class="watchlist-grid">
+                        <p class="loading-text">Loading global recommendations...</p>
+                    </div>
+                </section>
             </div>
         </main>
     </div>
@@ -196,6 +226,7 @@
         <p id="loading-text" class="loading-status">Processing...</p>
     </div>
     
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

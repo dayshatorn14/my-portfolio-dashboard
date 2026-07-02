@@ -13,6 +13,154 @@ document.addEventListener('DOMContentLoaded', async () => {
     const loadingText = document.getElementById('loading-text');
 
     // --- Load Main Data ---
+    let currentData = null; // Store data for sorting
+    let sortCol = '';
+    let sortAsc = true;
+    let tvWidget = null;
+
+    // --- SPA Navigation ---
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const viewSections = document.querySelectorAll('.view-section');
+
+    function switchView(targetId) {
+        navLinks.forEach(link => link.classList.remove('active'));
+        document.querySelector(`.nav-links a[data-target="${targetId}"]`).classList.add('active');
+        
+        viewSections.forEach(sec => sec.style.display = 'none');
+        document.getElementById(targetId).style.display = 'block';
+
+        if (targetId === 'view-market') {
+            if (!tvWidget) {
+                initTradingView('NASDAQ:AAPL');
+            }
+        }
+    }
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchView(link.getAttribute('data-target'));
+        });
+    });
+
+    // --- TradingView Logic ---
+    function initTradingView(symbol) {
+        if (typeof TradingView !== 'undefined') {
+            document.getElementById('tradingview_chart').innerHTML = '';
+            tvWidget = new TradingView.widget({
+                "autosize": true,
+                "symbol": symbol,
+                "interval": "D",
+                "timezone": "Asia/Bangkok",
+                "theme": "dark",
+                "style": "1",
+                "locale": "en",
+                "enable_publishing": false,
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "gridColor": "rgba(255, 255, 255, 0.05)",
+                "hide_top_toolbar": false,
+                "hide_legend": false,
+                "save_image": false,
+                "container_id": "tradingview_chart"
+            });
+        }
+    }
+
+    // --- Search Logic ---
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            const query = searchInput.value.trim().toUpperCase();
+            if (query) {
+                switchView('view-market');
+                initTradingView(query);
+            }
+        }
+    });
+
+    // --- Sorting Logic ---
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+        th.addEventListener('click', () => {
+            const col = th.getAttribute('data-sort');
+            if (sortCol === col) {
+                sortAsc = !sortAsc;
+            } else {
+                sortCol = col;
+                sortAsc = true;
+            }
+            if (currentData) renderAssetsTable(currentData);
+        });
+    });
+
+    function renderAssetsTable(data) {
+        const tbody = document.getElementById('assets-body');
+        tbody.innerHTML = '';
+        
+        let recs = {};
+        let isJsonAnalysis = false;
+        if (data.ai_analysis && typeof data.ai_analysis === 'object') {
+            isJsonAnalysis = true;
+            recs = data.ai_analysis.recommendations || {};
+        }
+
+        let sortedAssets = [...data.assets];
+        if (sortCol) {
+            sortedAssets.sort((a, b) => {
+                let valA, valB;
+                if (sortCol === 'symbol') { valA = a.symbol; valB = b.symbol; }
+                else if (sortCol === 'shares') { valA = a.shares; valB = b.shares; }
+                else if (sortCol === 'cost') { valA = a.cost_per_unit_thb; valB = b.cost_per_unit_thb; }
+                else if (sortCol === 'price') { valA = a.current_price_thb; valB = b.current_price_thb; }
+                else if (sortCol === 'value') { valA = a.total_value_thb; valB = b.total_value_thb; }
+                else if (sortCol === 'profit') { valA = a.profit_thb; valB = b.profit_thb; }
+                
+                if (valA < valB) return sortAsc ? -1 : 1;
+                if (valA > valB) return sortAsc ? 1 : -1;
+                return 0;
+            });
+        }
+        
+        sortedAssets.forEach(asset => {
+            const isProfit = asset.profit_thb >= 0;
+            const pSign = isProfit ? '+' : '';
+            const pClass = isProfit ? 'profit' : 'loss';
+            
+            const shares = asset.shares % 1 === 0 ? asset.shares.toLocaleString('th-TH') : asset.shares.toLocaleString('th-TH', {minimumFractionDigits: 4, maximumFractionDigits: 4});
+            
+            let costText = `฿${asset.cost_per_unit_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+            let currentText = `฿${asset.current_price_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+            
+            if (asset.symbol === 'MTS-GOLD') {
+                costText += `<br><span style="font-size: 0.8rem; color: #94a3b8;">$${asset.cost_per_unit_usd.toLocaleString('en-US')}</span>`;
+                currentText += `<br><span style="font-size: 0.8rem; color: #94a3b8;">$${asset.current_price_usd.toLocaleString('en-US')}</span>`;
+            }
+
+            let recBadge = '';
+            if (isJsonAnalysis && recs[asset.symbol]) {
+                const rec = recs[asset.symbol];
+                const action = rec.action ? rec.action.toUpperCase() : '';
+                if (action.includes('BUY')) {
+                    recBadge = `<span class="rec-badge buy" title="${rec.reason}">⬆️</span> `;
+                } else if (action.includes('SELL')) {
+                    recBadge = `<span class="rec-badge sell" title="${rec.reason}">⬇️</span> `;
+                } else if (action.includes('HOLD')) {
+                    recBadge = `<span class="rec-badge hold" title="${rec.reason}">⏳</span> `;
+                }
+            }
+
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${recBadge}<strong>${asset.symbol}</strong></td>
+                <td>${shares}</td>
+                <td>${costText}</td>
+                <td>${currentText}</td>
+                <td>฿${asset.total_value_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
+                <td class="${pClass}">${pSign}฿${Math.abs(asset.profit_thb).toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})} <br><span style="font-size: 0.85em;">(${pSign}${asset.profit_percent.toFixed(2)}%)</span></td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
     async function loadDashboardData() {
         try {
             // Cache busting for latest data
@@ -26,6 +174,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             document.getElementById('total-value').textContent = `฿${data.summary.total_value_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
             
+            currentData = data;
+            
             const profitValue = data.summary.total_profit_thb;
             const profitPercent = data.summary.total_profit_percent;
             const profitSign = profitValue >= 0 ? '+' : '';
@@ -35,55 +185,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             totalProfitEl.textContent = `${profitSign}฿${Math.abs(profitValue).toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})} (${profitSign}${profitPercent.toFixed(2)}%)`;
             totalProfitEl.className = profitClass;
 
-            const tbody = document.getElementById('assets-body');
-            tbody.innerHTML = '';
-            
-            let recs = {};
-            let isJsonAnalysis = false;
-            if (data.ai_analysis && typeof data.ai_analysis === 'object') {
-                isJsonAnalysis = true;
-                recs = data.ai_analysis.recommendations || {};
-            }
-            
-            data.assets.forEach(asset => {
-                const isProfit = asset.profit_thb >= 0;
-                const pSign = isProfit ? '+' : '';
-                const pClass = isProfit ? 'profit' : 'loss';
-                
-                const shares = asset.shares % 1 === 0 ? asset.shares.toLocaleString('th-TH') : asset.shares.toLocaleString('th-TH', {minimumFractionDigits: 4, maximumFractionDigits: 4});
-                
-                let costText = `฿${asset.cost_per_unit_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
-                let currentText = `฿${asset.current_price_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
-                
-                if (asset.symbol === 'MTS-GOLD') {
-                    costText += `<br><span style="font-size: 0.8rem; color: #94a3b8;">$${asset.cost_per_unit_usd.toLocaleString('en-US')}</span>`;
-                    currentText += `<br><span style="font-size: 0.8rem; color: #94a3b8;">$${asset.current_price_usd.toLocaleString('en-US')}</span>`;
-                }
-
-                let recBadge = '';
-                if (isJsonAnalysis && recs[asset.symbol]) {
-                    const rec = recs[asset.symbol];
-                    const action = rec.action ? rec.action.toUpperCase() : '';
-                    if (action.includes('BUY')) {
-                        recBadge = `<span class="rec-badge buy" title="${rec.reason}">⬆️</span> `;
-                    } else if (action.includes('SELL')) {
-                        recBadge = `<span class="rec-badge sell" title="${rec.reason}">⬇️</span> `;
-                    } else if (action.includes('HOLD')) {
-                        recBadge = `<span class="rec-badge hold" title="${rec.reason}">⏳</span> `;
-                    }
-                }
-
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td>${recBadge}<strong>${asset.symbol}</strong></td>
-                    <td>${shares}</td>
-                    <td>${costText}</td>
-                    <td>${currentText}</td>
-                    <td>฿${asset.total_value_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
-                    <td class="${pClass}">${pSign}฿${Math.abs(asset.profit_thb).toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})} <br><span style="font-size: 0.85em;">(${pSign}${asset.profit_percent.toFixed(2)}%)</span></td>
-                `;
-                tbody.appendChild(tr);
-            });
+            renderAssetsTable(data);
 
             // Render News
             const newsListEl = document.getElementById('news-list');
@@ -141,6 +243,27 @@ document.addEventListener('DOMContentLoaded', async () => {
             } else {
                 aiContent.innerHTML = '<p>ไม่มีบทวิเคราะห์ในขณะนี้</p>';
                 document.getElementById('daily-picks').innerHTML = '<p>ไม่มีข้อมูลหุ้นแนะนำในรอบนี้</p>';
+            }
+
+            // Render Global Watchlist
+            const watchlistContainer = document.getElementById('global-watchlist-container');
+            if (data.global_watchlist && data.global_watchlist.length > 0) {
+                watchlistContainer.innerHTML = '';
+                data.global_watchlist.forEach(stock => {
+                    const div = document.createElement('div');
+                    div.className = 'pick-item';
+                    div.innerHTML = `
+                        <div class="pick-header">
+                            <span class="pick-symbol">${stock.symbol}</span>
+                            <span class="pick-tag">${stock.exchange || stock.category}</span>
+                        </div>
+                        <div class="pick-name">${stock.name}</div>
+                        <div class="pick-reason">${stock.reason}</div>
+                    `;
+                    watchlistContainer.appendChild(div);
+                });
+            } else {
+                watchlistContainer.innerHTML = '<p style="color: #cbd5e1;">ไม่มีข้อมูล Global Watchlist ในขณะนี้</p>';
             }
 
             return data.last_updated;

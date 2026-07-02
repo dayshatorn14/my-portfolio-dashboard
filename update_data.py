@@ -182,6 +182,34 @@ def generate_ai_analysis(summary, assets, news_list):
         print(f"Error calling AI: {e}")
         return {"market_analysis": f"Error: {e}", "recommendations": {}, "daily_picks": []}
 
+def generate_global_watchlist(news_list):
+    if not GEMINI_API_KEY:
+        return []
+    
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel('gemini-flash-latest')
+    
+    news_text = "\n".join([f"- {n['title']} ({n['source']})" for n in news_list[:12]]) if news_list else "ไม่มีข่าวเด่น"
+    
+    prompt = f"""
+    คุณคือนักวิเคราะห์การลงทุนระดับโลก (Global Investment Strategist)
+    จากข่าวเศรษฐกิจโลกปัจจุบัน: {news_text}
+    
+    จงคัดเลือกหุ้นที่น่าลงทุนที่สุดในโลก 15 อันดับ ณ ปัจจุบัน (เน้นพิจารณาหุ้นใน US, Europe, Asia, รวมถึง Crypto ยอดนิยม) 
+    ส่งคืนเป็น JSON array เท่านั้น รูปแบบ:
+    [
+        {{"symbol": "AAPL", "name": "Apple Inc.", "exchange": "NASDAQ", "reason": "เหตุผลสั้นๆ", "category": "Tech"}},
+        ...
+    ]
+    ให้มีจำนวน 15 ตัวพอดี ห้ามขาดห้ามเกิน
+    """
+    try:
+        response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
+        return json.loads(response.text)
+    except Exception as e:
+        print(f"Error generating watchlist: {e}")
+        return []
+
 def send_line_text(msg):
     if not LINE_CHANNEL_ACCESS_TOKEN or not LINE_USER_ID:
         return
@@ -223,6 +251,9 @@ def main():
     print("Generating AI Analysis (Team)...")
     ai_analysis = generate_ai_analysis(summary, assets, all_news)
     
+    print("Generating Global Watchlist...")
+    global_watchlist = generate_global_watchlist(all_news)
+    
     print("Sending LINE Summary...")
     send_line_summary(summary, assets)
     
@@ -231,6 +262,7 @@ def main():
         "summary": summary,
         "assets": assets,
         "ai_analysis": ai_analysis,
+        "global_watchlist": global_watchlist,
         "news": all_news
     }
     
