@@ -68,7 +68,7 @@ body {
     overflow: hidden;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .app-container {
         grid-template-columns: 1fr;
         height: auto;
@@ -175,7 +175,7 @@ body {
     flex-direction: column;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .main-content { padding: 1.5rem; height: auto; overflow: visible; }
 }
 
