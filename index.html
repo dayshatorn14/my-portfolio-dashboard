@@ -5,103 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="dashboard-container">
-        <header>
-            <div class="header-content">
-                <h1>📈 Portfolio Dashboard</h1>
-                <p id="last-updated">อัปเดตล่าสุด: กำลังโหลด...</p>
-            </div>
-            <div class="header-actions">
-                <button id="btn-refresh" class="btn btn-primary" title="ซิงก์ข้อมูลล่าสุดจากตลาด">🔄 Refresh</button>
-                <button id="btn-edit-portfolio" class="btn btn-secondary">✏️ จัดการพอร์ต</button>
-                <button id="btn-settings" class="btn btn-secondary">⚙️ ตั้งค่า</button>
-            </div>
-        </header>
-
-        <section class="summary-cards">
-            <div class="card glass">
-                <h3>มูลค่าพอร์ตรวม</h3>
-                <h2 id="total-value">฿0.00</h2>
-            </div>
-            <div class="card glass">
-                <h3>กำไร/ขาดทุนรวม</h3>
-                <h2 id="total-profit" class="profit">฿0.00 (0.00%)</h2>
-            </div>
-        </section>
-
-        <section class="assets-table-container glass">
-            <h2>รายละเอียดสินทรัพย์</h2>
-            <div class="table-responsive">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>สินทรัพย์</th>
-                            <th>จำนวน</th>
-                            <th>ต้นทุนเฉลี่ย</th>
-                            <th>ราคาปัจจุบัน</th>
-                            <th>มูลค่าปัจจุบัน</th>
-                            <th>กำไร/ขาดทุน</th>
-                        </tr>
-                    </thead>
-                    <tbody id="assets-body">
-                        <!-- ข้อมูลจะถูกเติมด้วย JavaScript -->
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <section class="news-container glass">
-            <h2>📰 ข่าวสารล่าสุด (News & Updates)</h2>
-            <div id="news-list" class="news-list">
-                <p style="color: #cbd5e1;">กำลังโหลดข่าวสาร...</p>
-            </div>
-        </section>
-
-        <section class="ai-analysis glass">
-            <h2>🤖 สรุปสถานการณ์ & ความเสี่ยง (AI Analysis)</h2>
-            <div id="ai-content" class="analysis-box">
-                กำลังวิเคราะห์ข้อมูล...
-            </div>
-        </section>
+    <div class="app-container">
         
-        <footer>
-            <p>Automated by GitHub Actions | Powered by Gemini AI</p>
-        </footer>
+        <!-- Sidebar / Overview -->
+        <aside class="sidebar">
+            <div class="brand-logo">
+                <span class="logo-icon">✨</span>
+                <h2>Antigravity</h2>
+            </div>
+            
+            <div class="my-card premium-card">
+                <div class="card-header">
+                    <p>Total Balance</p>
+                    <span class="card-icon">💳</span>
+                </div>
+                <h1 id="total-value">฿0.00</h1>
+                
+                <div class="card-footer">
+                    <div>
+                        <p>Total Profit / Loss</p>
+                        <h3 id="total-profit" class="profit">฿0.00 (0.00%)</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button id="btn-refresh" class="btn btn-primary">🔄 Sync Data</button>
+                <button id="btn-edit-portfolio" class="btn btn-secondary">⚙️ Manage Portfolio</button>
+                <button id="btn-settings" class="btn btn-outline">🔑 API Settings</button>
+            </div>
+            
+            <div class="system-info">
+                <p id="last-updated">Last Updated: Loading...</p>
+                <p class="credit">Powered by Gemini AI</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Top Navigation -->
+            <header class="top-nav">
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Search assets...">
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="active">Dashboard</a>
+                    <a href="#">Market</a>
+                    <a href="#">Watchlist</a>
+                </div>
+                <div class="user-profile">
+                    <div class="theme-toggle">🌙</div>
+                    <div class="notification">🔔<span class="badge"></span></div>
+                    <div class="avatar">
+                        <img src="https://ui-avatars.com/api/?name=User&background=0D8ABC&color=fff" alt="User">
+                        <div class="user-info">
+                            <span class="name">Investor</span>
+                            <span class="role">Pro</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-grid">
+                
+                <!-- Left Column (Tables & News) -->
+                <div class="grid-col-left">
+                    <section class="premium-card assets-section">
+                        <div class="section-header">
+                            <h2>Your Assets</h2>
+                            <p class="subtitle">Live tracking your portfolio</p>
+                        </div>
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Asset</th>
+                                        <th>Shares</th>
+                                        <th>Avg. Cost</th>
+                                        <th>Current Price</th>
+                                        <th>Total Value</th>
+                                        <th>Profit / Loss</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="assets-body">
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section class="premium-card news-section">
+                        <div class="section-header">
+                            <h2>Market News</h2>
+                            <button class="icon-btn">⋮</button>
+                        </div>
+                        <div id="news-list" class="news-list">
+                            <p class="loading-text">Loading market news...</p>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Right Column (AI Analysis) -->
+                <div class="grid-col-right">
+                    <section class="premium-card ai-section">
+                        <div class="section-header">
+                            <div class="ai-title">
+                                <span class="ai-icon">🤖</span>
+                                <h2>AI Analysis</h2>
+                            </div>
+                            <span class="ai-badge">Gemini Flash</span>
+                        </div>
+                        <div id="ai-content" class="analysis-box">
+                            <p class="loading-text">Generating insights...</p>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </main>
     </div>
 
-    <!-- Modal: Settings (GitHub PAT) -->
+    <!-- Modal: Settings -->
     <div id="settings-modal" class="modal">
-        <div class="modal-content glass">
+        <div class="modal-content premium-card">
             <span class="close-btn" id="close-settings">&times;</span>
-            <h2>⚙️ การตั้งค่าระบบ (Settings)</h2>
-            <p style="margin-bottom: 1rem; color: #94a3b8; font-size: 0.9rem;">
-                เพื่อใช้งานปุ่ม Refresh และจัดการพอร์ต คุณต้องใส่ GitHub Personal Access Token (PAT) ที่มีสิทธิ์ 'repo' <br>
-                (ข้อมูลนี้จะถูกเก็บไว้ในเบราว์เซอร์ของคุณเท่านั้น ปลอดภัย 100%)
-            </p>
+            <h2>API Settings</h2>
+            <p class="modal-subtitle">Configure your GitHub connection</p>
             <div class="form-group">
                 <label for="github-pat">GitHub PAT:</label>
                 <input type="password" id="github-pat" placeholder="ghp_xxxxxxxxxxxx">
             </div>
             <div class="form-group">
-                <label for="github-repo">ชื่อ Repository (เช่น username/repo):</label>
-                <input type="text" id="github-repo" placeholder="dayshatorn14/my-portfolio-dashboard">
+                <label for="github-repo">Repository (username/repo):</label>
+                <input type="text" id="github-repo" placeholder="username/repo">
             </div>
-            <button id="save-settings" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">บันทึกการตั้งค่า</button>
+            <button id="save-settings" class="btn btn-primary full-width">Save Settings</button>
         </div>
     </div>
 
     <!-- Modal: Edit Portfolio -->
     <div id="portfolio-modal" class="modal">
-        <div class="modal-content glass" style="max-width: 800px;">
+        <div class="modal-content premium-card large-modal">
             <span class="close-btn" id="close-portfolio">&times;</span>
-            <h2>✏️ จัดการพอร์ตการลงทุน</h2>
-            <p style="margin-bottom: 1rem; color: #94a3b8; font-size: 0.9rem;">
-                กดเพิ่มหรือลบสินทรัพย์ จากนั้นกด "บันทึกและอัปเดต" ระบบจะทำการแก้ไขและรันดึงข้อมูลใหม่ทันที
-            </p>
-            <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+            <h2>Manage Portfolio</h2>
+            <p class="modal-subtitle">Add or edit your tracked assets</p>
+            <div class="table-responsive edit-table-container">
                 <table id="edit-portfolio-table">
                     <thead>
                         <tr>
@@ -114,19 +167,21 @@
                         </tr>
                     </thead>
                     <tbody id="edit-portfolio-body">
-                        <!-- รายชื่อหุ้นสำหรับแก้ไข -->
+                        <!-- Populated by JS -->
                     </tbody>
                 </table>
             </div>
-            <button id="add-asset-btn" class="btn btn-secondary" style="margin-top: 1rem;">+ เพิ่มสินทรัพย์</button>
-            <button id="save-portfolio-btn" class="btn btn-primary" style="margin-top: 1rem; float: right;">บันทึกและอัปเดต (Push)</button>
+            <div class="modal-actions">
+                <button id="add-asset-btn" class="btn btn-outline">+ Add Asset</button>
+                <button id="save-portfolio-btn" class="btn btn-primary">Save & Sync</button>
+            </div>
         </div>
     </div>
 
     <!-- Loading Overlay -->
     <div id="loading-overlay" class="loading-overlay" style="display: none;">
         <div class="loader"></div>
-        <p id="loading-text" style="margin-top: 1rem; font-weight: 600;">กำลังรันคำสั่ง...</p>
+        <p id="loading-text" class="loading-status">Processing...</p>
     </div>
     
     <script src="script.js"></script>
