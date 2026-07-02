@@ -49,12 +49,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     let tvWidget = null;
 
     // --- SPA Navigation ---
-    const navLinks = document.querySelectorAll('.nav-links a');
+    const navLinks = document.querySelectorAll('.sidebar-nav a');
     const viewSections = document.querySelectorAll('.view-section');
 
     function switchView(targetId) {
         navLinks.forEach(link => link.classList.remove('active'));
-        document.querySelector(`.nav-links a[data-target="${targetId}"]`).classList.add('active');
+        document.querySelector(`.sidebar-nav a[data-target="${targetId}"]`).classList.add('active');
         
         viewSections.forEach(sec => sec.style.display = 'none');
         document.getElementById(targetId).style.display = 'block';
@@ -70,8 +70,19 @@ document.addEventListener('DOMContentLoaded', async () => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             switchView(link.getAttribute('data-target'));
+            // Close mobile menu if open
+            const sidebar = document.getElementById('sidebar');
+            if(sidebar) sidebar.classList.remove('open');
         });
     });
+
+    // --- Mobile Menu ---
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', () => {
+            document.getElementById('sidebar').classList.toggle('open');
+        });
+    }
 
     // --- TradingView Logic ---
     function initTradingView(symbol) {
@@ -123,7 +134,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     function renderAssetsTable(data) {
-        const tbody = document.getElementById('assets-body');
+        const tbody = document.getElementById('portfolio-body');
         tbody.innerHTML = '';
         
         let recs = {};
@@ -200,20 +211,19 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             lastKnownUpdate = data.last_updated;
             const updateTime = new Date(data.last_updated).toLocaleString('th-TH');
-            document.getElementById('last-updated').textContent = `อัปเดตล่าสุด: ${updateTime}`;
-            
-            document.getElementById('total-value').textContent = `฿${data.summary.total_value_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+            document.getElementById('last-update').textContent = `อัปเดตล่าสุด: ${updateTime}`;
+            document.getElementById('total-balance-display').textContent = `฿${data.summary.total_value_thb.toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
             
             currentData = data;
             
             const profitValue = data.summary.total_profit_thb;
             const profitPercent = data.summary.total_profit_percent;
             const profitSign = profitValue >= 0 ? '+' : '';
-            const profitClass = profitValue >= 0 ? 'profit' : 'loss';
+            const profitClass = profitValue >= 0 ? 'positive' : 'negative';
             
-            const totalProfitEl = document.getElementById('total-profit');
+            const totalProfitEl = document.getElementById('total-profit-display');
             totalProfitEl.textContent = `${profitSign}฿${Math.abs(profitValue).toLocaleString('th-TH', {minimumFractionDigits: 2, maximumFractionDigits: 2})} (${profitSign}${profitPercent.toFixed(2)}%)`;
-            totalProfitEl.className = profitClass;
+            totalProfitEl.className = 'profit-amount ' + profitClass;
 
             renderAssetsTable(data);
 
@@ -311,7 +321,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         } catch (error) {
             console.error('Error loading data:', error);
-            document.getElementById('last-updated').textContent = 'เกิดข้อผิดพลาดในการโหลดข้อมูล';
+            document.getElementById('last-update').textContent = 'เกิดข้อผิดพลาดในการโหลดข้อมูล';
             return null;
         }
     }
@@ -393,7 +403,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadPortfolioConfig();
 
     // --- Settings Logic ---
-    document.getElementById('btn-settings').addEventListener('click', () => {
+    document.getElementById('api-settings-btn').addEventListener('click', () => {
         document.getElementById('github-pat').value = githubPAT;
         document.getElementById('github-repo').value = githubRepo;
         settingsModal.style.display = 'block';
@@ -413,12 +423,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // --- Refresh Logic (GitHub API) ---
-    document.getElementById('btn-refresh').addEventListener('click', () => {
+    document.getElementById('sync-data-btn').addEventListener('click', () => {
         triggerGitHubAction('ระบบกำลังดึงข้อมูลล่าสุด... (รอประมาณ 1 นาที เว็บจะรีเฟรชเอง)');
     });
 
     // --- Edit Portfolio Logic ---
-    document.getElementById('btn-edit-portfolio').addEventListener('click', () => {
+    document.getElementById('manage-portfolio-btn').addEventListener('click', () => {
         renderEditTable();
         portfolioModal.style.display = 'block';
     });
