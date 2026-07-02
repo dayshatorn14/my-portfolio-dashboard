@@ -170,10 +170,13 @@ body {
 .main-content {
     padding: 2rem 3rem 0 3rem;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
 }
+
+.main-content::-webkit-scrollbar { width: 8px; }
+.main-content::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
 
 @media (max-width: 1200px) {
     .main-content { padding: 1.5rem; height: auto; overflow: visible; }
@@ -269,7 +272,8 @@ body {
     grid-template-columns: 1fr 350px;
     gap: 2rem;
     flex: 1;
-    overflow: hidden;
+    overflow: visible;
+    height: auto;
     padding-bottom: 2rem;
 }
 
@@ -282,19 +286,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: 100%;
-    overflow-y: auto;
-    padding-right: 1rem;
+    height: auto;
+    overflow: visible;
 }
 
 .grid-col-right {
-    height: 100%;
-    overflow-y: auto;
-    padding-right: 1rem;
+    height: auto;
+    overflow: visible;
 }
-
-.grid-col-left::-webkit-scrollbar, .grid-col-right::-webkit-scrollbar { width: 6px; }
-.grid-col-left::-webkit-scrollbar-thumb, .grid-col-right::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
 
 /* Premium Card Base */
 .premium-card {
