@@ -59,7 +59,15 @@ def fetch_prices():
             asset_data["total_value_thb"] = current_price * asset["shares"]
             
         elif asset["type"] == "US_FUND_PROXY":
-            simulated_nav = 11.5046 
+            # K-US500XUH is Unhedged and tracks IVV. Web scraping Kasikorn/Finnomena directly is blocked by 403/Cloudflare.
+            # We can calculate it almost perfectly in real-time:
+            # Anchor 2026-07-02: NAV=11.5516, IVV=749.47, USD_THB=33.13 -> Scale factor = 11.5516 / (749.47 * 33.13) = 0.00046522
+            try:
+                ivv_price = float(yf.Ticker("IVV").history(period="1d")['Close'].iloc[-1])
+                simulated_nav = ivv_price * usd_thb_rate * 0.00046522
+            except:
+                simulated_nav = 11.5516 # Fallback to last known NAV
+            
             asset_data["cost_per_unit_thb"] = asset["cost_thb"]
             asset_data["current_price_thb"] = simulated_nav
             asset_data["total_value_thb"] = simulated_nav * asset["shares"]

@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T18:29:19.311214+07:00",
+    "last_updated": "2026-07-02T22:28:25.619347+07:00",
     "summary": {
-        "total_value_thb": 31187.20434024647,
-        "total_profit_thb": 2210.057906984566,
-        "total_profit_percent": 7.6268997434741
+        "total_value_thb": 31253.071345073105,
+        "total_profit_thb": 2282.36540904707,
+        "total_profit_percent": 7.878183617917549
     },
     "assets": [
         {
@@ -37,169 +37,29 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.5046,
-            "total_value_thb": 10221.22275436,
-            "profit_thb": 221.22320340000078,
-            "profit_percent": 2.2122321333380794
+            "current_price_thb": 11.553900713989787,
+            "total_value_thb": 10265.0238060818,
+            "profit_thb": 265.0242551217998,
+            "profit_percent": 2.650242670224495
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4076.199951171875,
-            "cost_per_unit_thb": 133421.01933574677,
-            "current_price_thb": 135615.17424142454,
-            "total_value_thb": 1979.9815439247982,
-            "profit_thb": 32.03466162289533,
-            "profit_percent": 1.6445346592325834
+            "current_price_usd": 4135.2998046875,
+            "cost_per_unit_thb": 132979.8893880844,
+            "current_price_thb": 137126.54089244083,
+            "total_value_thb": 2002.0474970296361,
+            "profit_thb": 60.541111963603726,
+            "profit_percent": 3.1182545898011385
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<p><strong>ภาพวิเคราะห์จาก Economist & Fund Manager:</strong> ตลาดหุ้นไทยในช่วงครึ่งแรกของปี 2569 แสดงความแข็งแกร่งอย่างโดดเด่นโดยให้ผลตอบแทนชนะดัชนี S&P 500 ของสหรัฐฯ ได้รับแรงหนุนสำคัญจากการพิจารณาร่างงบประมาณรายจ่ายประจำปี 2570 ซึ่งกระตุ้นแรงซื้อในกลุ่ม Domestic Play (หุ้นที่พึ่งพาเศรษฐกิจในประเทศ) แม้ว่าในระยะสั้น (ต้นเดือนกรกฎาคม) ตลาดจะมีการพักฐานเล็กน้อยเพื่อรอความชัดเจนของผลประกอบการไตรมาส 2 แต่ภาพรวมเศรษฐกิจยังมีแนวโน้มฟื้นตัวต่อเนื่อง</p><p><strong>กลยุทธ์พอร์ตการลงทุน (Quant view):</strong> พอร์ตปัจจุบันมีผลกำไรที่น่าพึงพอใจ (+7.63%) นำโดยกลุ่มการเงินและอุปโภคบริโภค (SCB และ OSP) แนะนำให้คงสัดส่วนสินทรัพย์เพื่อรักษากำไร และเตรียมพร้อมเข้าสะสมหุ้นกลุ่มเด่นเพิ่มเติมเมื่อตลาดย่อตัวเพื่อรับรอบการเติบโตถัดไป</p>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "ทำกำไรได้ดีถึง 12.87% และเป็นกลุ่มธนาคารขนาดใหญ่ที่จะได้รับประโยชน์โดยตรงจากมาตรการกระตุ้นเศรษฐกิจและงบประมาณปี 2570"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ราคาปัจจุบันสูงกว่าต้นทุนเล็กน้อย แนะนำถือครองเพื่อรับปันผลและรอแรงหนุนจากการฟื้นตัวของภาคอสังหาริมทรัพย์ครึ่งปีหลัง"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "สร้างกำไรสูงสุดในพอร์ตที่ 14.25% สะท้อนถึงความแข็งแกร่งของกลุ่ม Domestic Play ควรถือทำกำไรต่อไป (Let Profits Run)"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "แม้ว่าหุ้นไทยจะชนะ S&P 500 ในครึ่งปีแรก แต่ควรคงสัดส่วนหุ้นสหรัฐฯ นี้ไว้เพื่อการกระจายความเสี่ยงระดับโลก"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "ทองคำยังคงทำหน้าที่เป็นสินทรัพย์ปลอดภัยที่ดีในช่วงที่ตลาดหุ้นอยู่ในช่วงพักฐานรอปัจจัยใหม่และประกาศงบการเงิน"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "CPALL",
-                "name": "บริษัท ซีพี ออลล์ จำกัด (มหาชน)",
-                "reason": "ได้รับอานิสงส์โดยตรงจากเม็ดเงินกระตุ้นเศรษฐกิจและแรงซื้อกลุ่ม Domestic Play จากการพิจารณางบประมาณปี 2570",
-                "tag": "Value/Domestic Play"
-            },
-            {
-                "symbol": "ADVANC",
-                "name": "บริษัท แอดวานซ์ อินโฟร์ เซอร์วิส จำกัด (มหาชน)",
-                "reason": "มีความมั่นคงสูงและมีศักยภาพในการสนับสนุนโครงสร้างพื้นฐานดิจิทัลให้แก่กลุ่มเทคโนโลยีและสตาร์ทอัพตามนโยบายสนับสนุนของภาครัฐ",
-                "tag": "Dividend/Infrastructure"
-            }
-        ]
+        "market_analysis": "ไม่ได้ตั้งค่า Gemini API Key",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำห่วงโซ่อุปทานชิป AI ระดับโลกที่มีอำนาจการต่อรองราคาสูงและความต้องการยังเติบโตอย่างแข็งแกร่ง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "การรวมเทคโนโลยี Generative AI เข้ากับบริการ Cloud (Azure) และซอฟต์แวร์องค์กรช่วยขับเคลื่อนการเติบโตอย่างมั่นคง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ความต้องการยาลดน้ำหนักและยารักษาโรคอ้วน (GLP-1) พุ่งสูงทั่วโลก สร้างกระแสเงินสดมหาศาล",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผูกขาดการผลิตเครื่องพิมพ์ชิปเทคโนโลยีขั้นสูงแบบ EUV ซึ่งจำเป็นอย่างยิ่งสำหรับการผลิตเซมิคอนดักเตอร์รุ่นใหม่",
-            "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Company",
-            "exchange": "NYSE",
-            "reason": "ผู้รับจ้างผลิตชิปอันดับหนึ่งของโลกที่ได้ประโยชน์สูงสุดจากคลื่นความต้องการโครงสร้างพื้นฐาน AI",
-            "category": "Tech"
-        },
-        {
-            "symbol": "CPALL",
-            "name": "CP ALL PCL",
-            "exchange": "SET",
-            "reason": "หุ้นกลุ่ม Domestic Play เด่นของไทยที่ได้รับอานิสงส์จากการบริโภคในประเทศและมาตรการกระตุ้นเศรษฐกิจปี 2570",
-            "category": "Consumer"
-        },
-        {
-            "symbol": "AOT",
-            "name": "Airports of Thailand PCL",
-            "exchange": "SET",
-            "reason": "หุ้นฟื้นตัวตามภาคการท่องเที่ยวไทยที่กลับมาเติบโตแข็งแกร่งและเป็นจุดผ่านสำคัญของนักท่องเที่ยวทั่วโลก",
-            "category": "Tourism"
-        },
-        {
-            "symbol": "ADVANC",
-            "name": "Advanced Info Service PCL",
-            "exchange": "SET",
-            "reason": "หุ้นปลอดภัยที่มีกระแสเงินสดแข็งแกร่ง จ่ายปันผลสม่ำเสมอ และได้ประโยชน์จากการขยายตัวของโครงสร้างพื้นฐานดิจิทัลไทย",
-            "category": "Telecom"
-        },
-        {
-            "symbol": "MC",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "แบรนด์หรูระดับไฮเอนด์มีอำนาจในการปรับราคาขึ้นตามอัตราเงินเฟ้อโดยไม่กระทบต่อฐานลูกค้ากลุ่มมั่งคั่ง",
-            "category": "Luxury"
-        },
-        {
-            "symbol": "0700",
-            "name": "Tencent Holdings Limited",
-            "exchange": "HKEX",
-            "reason": "ยักษ์ใหญ่เทคโนโลยีจีนที่ฟื้นตัวจากการปรับโครงสร้างธุรกิจ เกม และโซเชียลมีเดีย พร้อมการประเมินมูลค่าที่น่าดึงดูด",
-            "category": "Tech"
-        },
-        {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "TYO",
-            "reason": "ความเป็นผู้นำในตลาดรถยนต์ไฮบริดที่ทำกำไรได้ดี ท่ามกลางการชะลอตัวของรถยนต์ไฟฟ้าล้วน (EV)",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "ทองคำดิจิทัลที่ได้รับการยอมรับจากสถาบันการเงินขนาดใหญ่ผ่าน Spot ETF ทั่วโลก ช่วยป้องกันความเสี่ยงด้านเงินเฟ้อ",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "ผู้นำแพลตฟอร์ม Smart Contract ที่รองรับแอปพลิเคชันแบบกระจายศูนย์ (dApps) และระบบการเงินแบบใหม่",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การเติบโตแบบคู่ขนานจากธุรกิจ E-commerce ที่ฟื้นตัว และธุรกิจ Cloud Computing (AWS) ที่ขับเคลื่อนด้วย AI",
-            "category": "Tech"
-        },
-        {
-            "symbol": "META",
-            "name": "Meta Platforms, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การฟื้นตัวของรายได้โฆษณาผ่านแพลตฟอร์ม Social Media และประสิทธิภาพของ AI ในการแนะนำเนื้อหาที่ตรงเป้าหมาย",
-            "category": "Tech"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
         {
             "title": "สรุป 'ผลตอบแทน' สินทรัพย์ครึ่งปีแรก 2026 'หุ้นไทย' ชนะ S&P 500 สหรัฐ",
