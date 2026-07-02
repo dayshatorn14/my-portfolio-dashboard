@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-07-02T14:36:55.245920+07:00",
+    "last_updated": "2026-07-02T14:39:07.501282+07:00",
     "summary": {
-        "total_value_thb": 31163.55642537316,
-        "total_profit_thb": 2185.8245938848995,
-        "total_profit_percent": 7.543118304068584
+        "total_value_thb": 31113.204344061167,
+        "total_profit_thb": 2136.0579107992635,
+        "total_profit_percent": 7.371526094603137
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 153.5,
-            "total_value_thb": 15350.0,
-            "profit_thb": 1750.0,
-            "profit_percent": 12.867647058823529
+            "current_price_thb": 153.0,
+            "total_value_thb": 15300.0,
+            "profit_thb": 1700.0,
+            "profit_percent": 12.5
         },
         {
             "symbol": "SIRI",
@@ -46,12 +46,12 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4075.699951171875,
-            "cost_per_unit_thb": 133461.1151046753,
-            "current_price_thb": 135639.28939978033,
-            "total_value_thb": 1980.3336252367928,
-            "profit_thb": 31.801344708533634,
-            "profit_percent": 1.6320666086123086
+            "current_price_usd": 4076.199951171875,
+            "cost_per_unit_thb": 133421.01933574677,
+            "current_price_thb": 135615.17424142454,
+            "total_value_thb": 1979.9815439247982,
+            "profit_thb": 32.03466162289533,
+            "profit_percent": 1.6445346592325834
         }
     ],
     "ai_analysis": "<p>เกิดข้อผิดพลาดในการเรียก AI: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.</p>"
