@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T14:27:18.384733+07:00",
+    "last_updated": "2026-07-02T14:29:17.927803+07:00",
     "summary": {
-        "total_value_thb": 31045.20853476105,
-        "total_profit_thb": 2067.476703272787,
-        "total_profit_percent": 7.13470852479279
+        "total_value_thb": 31040.965651805116,
+        "total_profit_thb": 2063.2338203168547,
+        "total_profit_percent": 7.120066650885592
     },
     "assets": [
         {
@@ -28,10 +28,10 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.299999237060547,
-            "total_value_thb": 691.9999694824219,
-            "profit_thb": 82.79996948242183,
-            "profit_percent": 13.591590525676597
+            "current_price_thb": 17.200000762939453,
+            "total_value_thb": 688.0000305175781,
+            "profit_thb": 78.80003051757808,
+            "profit_percent": 12.935001726457331
         },
         {
             "symbol": "K-US500XUH",
@@ -46,12 +46,12 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4079.10009765625,
+            "current_price_usd": 4078.60009765625,
             "cost_per_unit_thb": 133461.1151046753,
-            "current_price_thb": 135752.44627062976,
-            "total_value_thb": 1981.9857155511945,
-            "profit_thb": 33.45343502293531,
-            "profit_percent": 1.7168530055794546
+            "current_price_thb": 135735.80627124012,
+            "total_value_thb": 1981.7427715601057,
+            "profit_thb": 33.21049103184646,
+            "profit_percent": 1.70438495495917
         }
     ],
     "ai_analysis": "<p>เกิดข้อผิดพลาดในการเรียก AI: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.</p>"
