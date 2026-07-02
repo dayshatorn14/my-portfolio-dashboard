@@ -110,7 +110,7 @@ def generate_ai_analysis(summary, assets, news_text):
         return "<p>ไม่ได้ตั้งค่า Gemini API Key จึงไม่มีบทวิเคราะห์จาก AI ในรอบนี้</p>"
         
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-1.5-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash')
     
     prompt = f"""
     คุณคือผู้เชี่ยวชาญด้านการลงทุน พอร์ตของฉันมีดังนี้:
