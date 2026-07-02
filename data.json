@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T22:37:22.414732+07:00",
+    "last_updated": "2026-07-02T22:44:03.587885+07:00",
     "summary": {
-        "total_value_thb": 31256.61576280688,
-        "total_profit_thb": 2288.2518663846495,
-        "total_profit_percent": 7.89914085091724
+        "total_value_thb": 31252.00155264956,
+        "total_profit_thb": 2282.4666364254263,
+        "total_profit_percent": 7.878851500467656
     },
     "assets": [
         {
@@ -37,21 +37,21 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.557451568841222,
-            "total_value_thb": 10268.178551001649,
-            "profit_thb": 268.1790000416495,
-            "profit_percent": 2.6817901208395987
+            "current_price_thb": 11.549862260271707,
+            "total_value_thb": 10261.435855606713,
+            "profit_thb": 261.4363046467133,
+            "profit_percent": 2.614363163862497
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4141.10009765625,
-            "cost_per_unit_thb": 132819.47571659088,
-            "current_price_thb": 137153.2308112029,
-            "total_value_thb": 2002.4371698435623,
-            "profit_thb": 63.27282438133534,
-            "profit_percent": 3.262891282494851
+            "current_price_usd": 4143.0,
+            "cost_per_unit_thb": 132899.68255233765,
+            "current_price_thb": 137299.01747131348,
+            "total_value_thb": 2004.5656550811768,
+            "profit_thb": 64.23028981704715,
+            "profit_percent": 3.3102674396858065
         }
     ],
     "ai_analysis": {
