@@ -38,6 +38,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             const tbody = document.getElementById('assets-body');
             tbody.innerHTML = '';
             
+            let recs = {};
+            let isJsonAnalysis = false;
+            if (data.ai_analysis && typeof data.ai_analysis === 'object') {
+                isJsonAnalysis = true;
+                recs = data.ai_analysis.recommendations || {};
+            }
+            
             data.assets.forEach(asset => {
                 const isProfit = asset.profit_thb >= 0;
                 const pSign = isProfit ? '+' : '';
@@ -53,9 +60,22 @@ document.addEventListener('DOMContentLoaded', async () => {
                     currentText += `<br><span style="font-size: 0.8rem; color: #94a3b8;">$${asset.current_price_usd.toLocaleString('en-US')}</span>`;
                 }
 
+                let recBadge = '';
+                if (isJsonAnalysis && recs[asset.symbol]) {
+                    const rec = recs[asset.symbol];
+                    const action = rec.action ? rec.action.toUpperCase() : '';
+                    if (action.includes('BUY')) {
+                        recBadge = `<span class="rec-badge buy" title="${rec.reason}">⬆️</span> `;
+                    } else if (action.includes('SELL')) {
+                        recBadge = `<span class="rec-badge sell" title="${rec.reason}">⬇️</span> `;
+                    } else if (action.includes('HOLD')) {
+                        recBadge = `<span class="rec-badge hold" title="${rec.reason}">⏳</span> `;
+                    }
+                }
+
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
-                    <td><strong>${asset.symbol}</strong></td>
+                    <td>${recBadge}<strong>${asset.symbol}</strong></td>
                     <td>${shares}</td>
                     <td>${costText}</td>
                     <td>${currentText}</td>
@@ -87,8 +107,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             const aiContent = document.getElementById('ai-content');
-            if (data.ai_analysis) {
-                aiContent.innerHTML = data.ai_analysis.replace(/\n/g, '<br>');
+            if (isJsonAnalysis) {
+                let html = '';
+                if (data.ai_analysis.market_analysis) {
+                    html += `<div class="ai-block"><h3>📊 ภาพรวมตลาด</h3>${data.ai_analysis.market_analysis}</div>`;
+                }
+                if (data.ai_analysis.industry_suggestions) {
+                    html += `<div class="ai-block"><h3>🎯 กลุ่มอุตสาหกรรมที่น่าสนใจ</h3>${data.ai_analysis.industry_suggestions}</div>`;
+                }
+                aiContent.innerHTML = html;
+            } else if (data.ai_analysis) {
+                aiContent.innerHTML = typeof data.ai_analysis === 'string' ? data.ai_analysis.replace(/\n/g, '<br>') : '';
             } else {
                 aiContent.innerHTML = '<p>ไม่มีบทวิเคราะห์ในขณะนี้</p>';
             }
@@ -115,18 +144,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     // --- Auto Trigger & Polling ---
-    function checkAutoTrigger() {
-        if (!lastKnownUpdate || !githubPAT || !githubRepo) return;
-        
-        const lastTime = new Date(lastKnownUpdate).getTime();
-        const now = new Date().getTime();
-        const diffMinutes = (now - lastTime) / (1000 * 60);
-
-        if (diffMinutes > 15) {
-            console.log("Data is older than 15 minutes. Auto-triggering refresh...");
-            triggerGitHubAction("กำลังอัปเดตข้อมูลอัตโนมัติ เนื่องจากข้อมูลเก่าเกิน 15 นาที...");
-        }
-    }
+    // --- Auto Trigger & Polling ---
+    // (Auto-refresh on page load disabled as requested)
 
     function startPollingForUpdates() {
         if (pollInterval) clearInterval(pollInterval);
@@ -187,7 +206,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- Initial Load ---
     await loadDashboardData();
     await loadPortfolioConfig();
-    checkAutoTrigger(); // Check if we need to auto-refresh on load
 
     // --- Settings Logic ---
     document.getElementById('btn-settings').addEventListener('click', () => {

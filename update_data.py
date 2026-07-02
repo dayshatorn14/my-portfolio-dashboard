@@ -109,7 +109,7 @@ def fetch_news(portfolio):
 
 def generate_ai_analysis(summary, assets, news_list):
     if not GEMINI_API_KEY:
-        return "<p>ไม่ได้ตั้งค่า Gemini API Key จึงไม่มีบทวิเคราะห์จาก AI ในรอบนี้</p>"
+        return {"market_analysis": "ไม่ได้ตั้งค่า Gemini API Key", "recommendations": {}, "industry_suggestions": ""}
         
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel('gemini-flash-latest')
@@ -122,20 +122,26 @@ def generate_ai_analysis(summary, assets, news_list):
     สินทรัพย์:
     {json.dumps(assets, indent=2, ensure_ascii=False)}
     
-    📰 พาดหัวข่าวเศรษฐกิจ/การลงทุน ล่าสุด:
+    📰 ข่าวเศรษฐกิจ/การลงทุน ล่าสุด:
     {news_text}
     
-    คำสั่ง:
-    1. วิเคราะห์ผลกระทบจากข่าวล่าสุดที่มีต่อภาพรวมพอร์ต (ภาพรวมตลาด) ว่าเป็นบวกหรือลบ
-    2. ฟันธงคำแนะนำสำหรับหุ้น **แต่ละตัวในพอร์ต** ว่าควร "ซื้อ (Buy)", "ขาย (Sell)", หรือ "ถือ (Hold)" พร้อมระบุเหตุผลสั้นๆ 1 ประโยค 
-    3. เสนอแนะ "หุ้นหรือกลุ่มอุตสาหกรรมอื่น" 1-2 กลุ่มที่กำลังน่าสนใจหรือได้ประโยชน์จากข่าวช่วงนี้
-    4. เขียนเป็นภาษาไทย และใช้ HTML tags (เช่น <h3>, <p>, <ul>, <li>, <strong>) ในการจัดรูปแบบให้สวยงาม อ่านง่าย โดยเฉพาะข้อ 2 ให้ใช้ <ul><li> 
+    คำสั่ง: ส่งคืนข้อมูลเป็น JSON เท่านั้น (ไม่ต้องใส่ backticks หรือ markdown ใดๆ) โดยมีโครงสร้างดังนี้:
+    {{
+        "market_analysis": "วิเคราะห์ผลกระทบจากข่าวล่าสุดที่มีต่อภาพรวมพอร์ตว่าเป็นบวกหรือลบ (HTML format เช่น <p>... </p>)",
+        "recommendations": {{
+            "SYMBOL1": {{"action": "BUY หรือ SELL หรือ HOLD", "reason": "เหตุผลสั้นๆ 1 ประโยค"}},
+            "SYMBOL2": {{"action": "BUY หรือ SELL หรือ HOLD", "reason": "เหตุผลสั้นๆ 1 ประโยค"}}
+        }},
+        "industry_suggestions": "เสนอแนะกลุ่มอุตสาหกรรมอื่นที่กำลังน่าสนใจ 1-2 กลุ่ม (HTML format เช่น <ul><li>...</li></ul>)"
+    }}
+    วิเคราะห์หุ้นทุกตัวที่มีในสินทรัพย์ (ยกเว้น NEW) และใส่ใน recommendations
     """
     try:
-        response = model.generate_content(prompt)
-        return response.text
+        response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
+        return json.loads(response.text)
     except Exception as e:
-        return f"<p>เกิดข้อผิดพลาดในการเรียก AI: {str(e)}</p>"
+        print(f"Error calling AI: {e}")
+        return {"market_analysis": f"Error: {e}", "recommendations": {}, "industry_suggestions": ""}
 
 def send_line_message(summary, assets):
     if not LINE_CHANNEL_ACCESS_TOKEN or not LINE_USER_ID:

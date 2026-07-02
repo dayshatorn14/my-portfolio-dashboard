@@ -73,8 +73,21 @@
 
             <div class="dashboard-grid">
                 
-                <!-- Left Column (Tables & AI Analysis) -->
+                <!-- Left Column (AI Analysis & Tables) -->
                 <div class="grid-col-left">
+                    <section class="premium-card ai-section">
+                        <div class="section-header">
+                            <div class="ai-title">
+                                <span class="ai-icon">🤖</span>
+                                <h2>AI Analysis</h2>
+                            </div>
+                            <span class="ai-badge">Gemini Flash</span>
+                        </div>
+                        <div id="ai-content" class="analysis-box">
+                            <p class="loading-text">Generating insights...</p>
+                        </div>
+                    </section>
+
                     <section class="premium-card assets-section">
                         <div class="section-header">
                             <h2>Your Assets</h2>
@@ -96,19 +109,6 @@
                                     <!-- Populated by JS -->
                                 </tbody>
                             </table>
-                        </div>
-                    </section>
-
-                    <section class="premium-card ai-section">
-                        <div class="section-header">
-                            <div class="ai-title">
-                                <span class="ai-icon">🤖</span>
-                                <h2>AI Analysis</h2>
-                            </div>
-                            <span class="ai-badge">Gemini Flash</span>
-                        </div>
-                        <div id="ai-content" class="analysis-box">
-                            <p class="loading-text">Generating insights...</p>
                         </div>
                     </section>
                 </div>
