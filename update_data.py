@@ -129,16 +129,42 @@ def fetch_news(portfolio):
         queries.append(f"หุ้น {' '.join(symbols)} ข่าว")
     queries.append("S&P500 ทองคำ ข่าวเศรษฐกิจโลก")
     
-    with DDGS() as ddgs:
+    with DDGS(timeout=10) as ddgs:
         for query in queries:
             try:
-                results = ddgs.news(query, max_results=3, timelimit="w")
+                results = ddgs.news(query, max_results=3, timelimit="d")
                 for r in results:
                     news_results.append({
                         "title": r.get('title', ''),
                         "url": r.get('url', ''),
                         "source": r.get('source', ''),
                         "date": r.get('date', datetime.datetime.now(datetime.timezone.utc).isoformat())
+                    })
+            except Exception as e:
+                pass
+                
+    # Fallback to Google News RSS if DDGS returns nothing (due to Rate Limit)
+    if not news_results:
+        import urllib.request
+        import xml.etree.ElementTree as ET
+        import urllib.parse
+        from email.utils import parsedate_to_datetime
+        
+        rss_queries = ["หุ้นไทย", "เศรษฐกิจโลก"]
+        for query in rss_queries:
+            try:
+                url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=th&gl=TH&ceid=TH:th"
+                req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                xml_data = urllib.request.urlopen(req, timeout=10).read()
+                root = ET.fromstring(xml_data)
+                for item in root.findall('.//item')[:3]:
+                    pub_date = item.find('pubDate').text
+                    iso_date = parsedate_to_datetime(pub_date).isoformat() if pub_date else datetime.datetime.now(datetime.timezone.utc).isoformat()
+                    news_results.append({
+                        "title": item.find('title').text,
+                        "url": item.find('link').text,
+                        "source": item.find('source').text if item.find('source') is not None else "Google News",
+                        "date": iso_date
                     })
             except Exception as e:
                 pass

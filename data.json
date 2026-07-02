@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T22:28:25.619347+07:00",
+    "last_updated": "2026-07-02T22:37:22.414732+07:00",
     "summary": {
-        "total_value_thb": 31253.071345073105,
-        "total_profit_thb": 2282.36540904707,
-        "total_profit_percent": 7.878183617917549
+        "total_value_thb": 31256.61576280688,
+        "total_profit_thb": 2288.2518663846495,
+        "total_profit_percent": 7.89914085091724
     },
     "assets": [
         {
@@ -37,21 +37,21 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.553900713989787,
-            "total_value_thb": 10265.0238060818,
-            "profit_thb": 265.0242551217998,
-            "profit_percent": 2.650242670224495
+            "current_price_thb": 11.557451568841222,
+            "total_value_thb": 10268.178551001649,
+            "profit_thb": 268.1790000416495,
+            "profit_percent": 2.6817901208395987
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4135.2998046875,
-            "cost_per_unit_thb": 132979.8893880844,
-            "current_price_thb": 137126.54089244083,
-            "total_value_thb": 2002.0474970296361,
-            "profit_thb": 60.541111963603726,
-            "profit_percent": 3.1182545898011385
+            "current_price_usd": 4141.10009765625,
+            "cost_per_unit_thb": 132819.47571659088,
+            "current_price_thb": 137153.2308112029,
+            "total_value_thb": 2002.4371698435623,
+            "profit_thb": 63.27282438133534,
+            "profit_percent": 3.262891282494851
         }
     ],
     "ai_analysis": {
@@ -62,10 +62,22 @@
     "global_watchlist": [],
     "news": [
         {
+            "title": "หุ้นไทย ปิดบวก 5.33 จุด วอลุ่มเฉียดแสนล้าน กลุ่มแบงก์นำตลาด แต่แรงขาย DELTA ถ่วง | การเงินธนาคาร - LINE TODAY",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43aGVtcFRQTmVLT3lJU05hWlVMV3FGbUNTYWhrOGxRZnlUUXEwdWtxZ0hTc3c5eXY1VG14bGhlSm02TUN2WDR1aHNZa19sbEp3SjdIMWhR?oc=5",
+            "source": "LINE TODAY",
+            "date": "2026-07-02T13:52:30+00:00"
+        },
+        {
             "title": "สรุป 'ผลตอบแทน' สินทรัพย์ครึ่งปีแรก 2026 'หุ้นไทย' ชนะ S&P 500 สหรัฐ",
             "url": "https://www.msn.com/th-th/news/other/สรุป-ผลตอบแทน-สินทรัพย์ครึ่งปีแรก-2026-หุ้นไทย-ชนะ-s-p-500-สหรัฐ/ar-AA271OoU",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-07-02T08:33:00+00:00"
+        },
+        {
+            "title": "\"Food Security\" พลิกเกมเศรษฐกิจโลก \"ดร.ประเสริฐ\" ชี้ไทยต้องเปลี่ยนสู่ชาตินวัตกรรม - สยามรัฐ",
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvSWl0WllacjdmcTB3VEJjcGtyZ2FnQ3poNEROdFVkX0hpUTRxOTh4TzRHWExsellHUl9YckdXeHE2dmVtQk1hM2dsX3pEYS0wNFhkRA?oc=5",
+            "source": "สยามรัฐ",
+            "date": "2026-07-02T06:00:02+00:00"
         },
         {
             "title": "ข่าวดีสตาร์ทอัพไทย รัฐบาลชวนคว้าทุน 2 ล้าน เพื่อขยายตลาดต่อยอดธุรกิจ พร้อมปลดล็อก NIA",
@@ -74,16 +86,40 @@
             "date": "2026-07-02T03:08:00+00:00"
         },
         {
+            "title": "บล.ทิสโก้ คาด \"หุ้นไทย\" ครึ่งปีหลังปรับขึ้นแบบมีคุณภาพ - pptvhd36",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMTU5HSmxqQjVRMFNCMi1yV0ZFcVlhTlBFUDZZbjh1YThVTVlBajNTLXlDNGFNVXdXRk03NkhGV005TTVUVjd1UExhVnBWdU5xQWQtamQ1NHhwVE5UZTJsWk0waEpOQQ?oc=5",
+            "source": "pptvhd36",
+            "date": "2026-07-02T02:45:00+00:00"
+        },
+        {
             "title": "เข้าใจอดีต เพื่อไปต่อ! วิกฤตต้มยำกุ้งเมื่อ 29 ปีที่แล้วเศรษฐกิจ-หุ้นไทยเจอมาหนักแค่ไหน",
             "url": "https://www.msn.com/th-th/news/other/เข้าใจอดีต-เพื่อไปต่อ-วิกฤตต้มยำกุ้งเมื่อ-29-ปีที่แล้วเศรษฐกิจ-หุ้นไทยเจอมาหนักแค่ไหน/ar-AA271ISP",
             "source": "Thairath Money",
             "date": "2026-07-02T01:09:00+00:00"
         },
         {
+            "title": "หุ้นไทยยังไปต่อได้อีก! IAA ชี้เป้าดัชนีปีนี้ 1,619 จุด ปัจจัยบวกเพียบ พร้อมเปิดโพย 5 หุ้นเด่น - Thairath.co.th",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SUHlIVWc0dENVQUsxQzFYNmNNdk42LTJGNk5GWFRGWndIaGRBWFhxS2VHd3d6dGtzZVVTZlgxR0VyVnB0Y0ZUN0JYbE5ad2xtTTFIdEV2SHZLLXdRNnhIeGpXS3JmSEFreUE?oc=5",
+            "source": "Thairath.co.th",
+            "date": "2026-07-01T10:07:07+00:00"
+        },
+        {
             "title": "\"หุ้นไทย\" วันนี้ (1 ก.ค. 2569) ปิดลบ 3.01 จุด ขาดปัจจัยใหม่ รอประกาศงบไตรมาส 2",
             "url": "https://www.msn.com/th-th/news/other/หุ้นไทย-วันนี้-1-กค-2569-ปิดลบ-301-จุด-ขาดปัจจัยใหม่-รอประกาศงบไตรมาส-2/ar-AA26XGLs",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-07-01T09:52:00+00:00"
+        },
+        {
+            "title": "ศึกอิหร่านถล่ม ‘เศรษฐกิจโลก’ ‘เร่งความเร็ว’ เปลี่ยนผ่านพลังงาน - ประชาชาติธุรกิจ",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNV94SjNEQUpsR21LSmNfUGIwR09YbWQ4LS02TkpHZERuSUVlMThTZ1BtT3hHdmVKVncwQUhCd3JGS09qVGZtdEdNRU55WFdfUThDbUlkVGw?oc=5",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-07-01T01:05:00+00:00"
+        },
+        {
+            "title": "เศรษฐกิจโลกส่งสัญญาณอ่อนแอท่ามกลางความตึงเครียดในตะวันออกกลาง ขณะที่การส่งออกไทยโตชะลอลง - ผู้จัดการออนไลน์",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIdjV6OURzNUxqeW05eEJFVnlTTEo1bXF4LUJqVjAtbkF6VmZWNDFfYzF5TEctcDlDSHBzV2VsU0dwbXVNanF2QkdDaTh2WkZ2SXVDSE9oYks1Yjljd2I0dzhJNGY?oc=5",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-06-30T05:41:00+00:00"
         },
         {
             "title": "\"หุ้นไทย\" เช้านี้ (29 มิ.ย. 2569) ปิดบวก 25.11 จุด พิจารณางบปี 70 หนุนแรงซื้อกลุ่มโดเมสติก",
