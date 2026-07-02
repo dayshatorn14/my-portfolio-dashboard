@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-02T14:31:48.877011+07:00",
+    "last_updated": "2026-07-02T14:33:42.911340+07:00",
     "summary": {
-        "total_value_thb": 31219.415355840698,
-        "total_profit_thb": 2241.0979027768917,
-        "total_profit_percent": 7.7337060938986495
+        "total_value_thb": 31197.21636184291,
+        "total_profit_thb": 2219.48453035465,
+        "total_profit_percent": 7.659276244467406
     },
     "assets": [
         {
@@ -19,10 +19,10 @@
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4600000381469727,
-            "total_value_thb": 2920.0000762939453,
-            "profit_thb": 100.00007629394531,
-            "profit_percent": 3.5461019962391953
+            "current_price_thb": 1.4500000476837158,
+            "total_value_thb": 2900.0000953674316,
+            "profit_thb": 80.00009536743164,
+            "profit_percent": 2.8368828144479306
         },
         {
             "symbol": "OSP",
@@ -46,12 +46,12 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4078.300048828125,
-            "cost_per_unit_thb": 133501.22617149353,
-            "current_price_thb": 135766.6123592835,
-            "total_value_thb": 1982.192540445539,
-            "profit_thb": 33.07463834173336,
-            "profit_percent": 1.6969029070039234
+            "current_price_usd": 4075.0,
+            "cost_per_unit_thb": 133461.1151046753,
+            "current_price_thb": 135615.99502563477,
+            "total_value_thb": 1979.9935273742676,
+            "profit_thb": 31.461246846008407,
+            "profit_percent": 1.6146125553269801
         }
     ],
     "ai_analysis": "<p>เกิดข้อผิดพลาดในการเรียก AI: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.</p>"
