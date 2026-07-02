@@ -1,0 +1,7 @@
+[
+    {"symbol": "SCB", "ticker": "SCB.BK", "shares": 100, "cost_thb": 136.00, "type": "TH_STOCK"},
+    {"symbol": "SIRI", "ticker": "SIRI.BK", "shares": 2000, "cost_thb": 1.41, "type": "TH_STOCK"},
+    {"symbol": "OSP", "ticker": "OSP.BK", "shares": 40, "cost_thb": 15.23, "type": "TH_STOCK"},
+    {"symbol": "K-US500XUH", "ticker": "IVV", "shares": 888.4466, "cost_thb": 11.2556, "type": "US_FUND_PROXY"},
+    {"symbol": "MTS-GOLD", "ticker": "GC=F", "shares": 0.0146, "cost_usd": 4010.25, "type": "GOLD"}
+]

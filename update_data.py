@@ -10,15 +10,13 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 LINE_CHANNEL_ACCESS_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
 LINE_USER_ID = os.environ.get("LINE_USER_ID")
 
-# Portfolio Definition
-PORTFOLIO = [
-    {"symbol": "SCB", "ticker": "SCB.BK", "shares": 100, "cost_thb": 136.00, "type": "TH_STOCK"},
-    {"symbol": "SIRI", "ticker": "SIRI.BK", "shares": 2000, "cost_thb": 1.41, "type": "TH_STOCK"},
-    {"symbol": "OSP", "ticker": "OSP.BK", "shares": 40, "cost_thb": 15.23, "type": "TH_STOCK"},
-    # We use IVV (iShares Core S&P 500 ETF) as a proxy for K-US500XUH NAV for real-time tracking
-    {"symbol": "K-US500XUH", "ticker": "IVV", "shares": 888.4466, "cost_thb": 11.2556, "type": "US_FUND_PROXY"},
-    {"symbol": "MTS-GOLD", "ticker": "GC=F", "shares": 0.0146, "cost_usd": 4010.25, "type": "GOLD"}
-]
+# Load Portfolio Definition
+try:
+    with open('portfolio_config.json', 'r', encoding='utf-8') as f:
+        PORTFOLIO = json.load(f)
+except Exception as e:
+    print("Error loading portfolio config:", e)
+    PORTFOLIO = []
 
 def get_exchange_rate():
     # USD to THB

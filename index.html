@@ -14,7 +14,11 @@
                 <h1>📈 Portfolio Dashboard</h1>
                 <p id="last-updated">อัปเดตล่าสุด: กำลังโหลด...</p>
             </div>
-            <div class="header-decoration"></div>
+            <div class="header-actions">
+                <button id="btn-refresh" class="btn btn-primary" title="ซิงก์ข้อมูลล่าสุดจากตลาด">🔄 Refresh</button>
+                <button id="btn-edit-portfolio" class="btn btn-secondary">✏️ จัดการพอร์ต</button>
+                <button id="btn-settings" class="btn btn-secondary">⚙️ ตั้งค่า</button>
+            </div>
         </header>
 
         <section class="summary-cards">
@@ -59,6 +63,63 @@
         <footer>
             <p>Automated by GitHub Actions | Powered by Gemini AI</p>
         </footer>
+    </div>
+
+    <!-- Modal: Settings (GitHub PAT) -->
+    <div id="settings-modal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-btn" id="close-settings">&times;</span>
+            <h2>⚙️ การตั้งค่าระบบ (Settings)</h2>
+            <p style="margin-bottom: 1rem; color: #94a3b8; font-size: 0.9rem;">
+                เพื่อใช้งานปุ่ม Refresh และจัดการพอร์ต คุณต้องใส่ GitHub Personal Access Token (PAT) ที่มีสิทธิ์ 'repo' <br>
+                (ข้อมูลนี้จะถูกเก็บไว้ในเบราว์เซอร์ของคุณเท่านั้น ปลอดภัย 100%)
+            </p>
+            <div class="form-group">
+                <label for="github-pat">GitHub PAT:</label>
+                <input type="password" id="github-pat" placeholder="ghp_xxxxxxxxxxxx">
+            </div>
+            <div class="form-group">
+                <label for="github-repo">ชื่อ Repository (เช่น username/repo):</label>
+                <input type="text" id="github-repo" placeholder="dayshatorn14/my-portfolio-dashboard">
+            </div>
+            <button id="save-settings" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">บันทึกการตั้งค่า</button>
+        </div>
+    </div>
+
+    <!-- Modal: Edit Portfolio -->
+    <div id="portfolio-modal" class="modal">
+        <div class="modal-content glass" style="max-width: 800px;">
+            <span class="close-btn" id="close-portfolio">&times;</span>
+            <h2>✏️ จัดการพอร์ตการลงทุน</h2>
+            <p style="margin-bottom: 1rem; color: #94a3b8; font-size: 0.9rem;">
+                กดเพิ่มหรือลบสินทรัพย์ จากนั้นกด "บันทึกและอัปเดต" ระบบจะทำการแก้ไขและรันดึงข้อมูลใหม่ทันที
+            </p>
+            <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                <table id="edit-portfolio-table">
+                    <thead>
+                        <tr>
+                            <th>Symbol</th>
+                            <th>Ticker (Yahoo)</th>
+                            <th>Shares</th>
+                            <th>Cost</th>
+                            <th>Type</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="edit-portfolio-body">
+                        <!-- รายชื่อหุ้นสำหรับแก้ไข -->
+                    </tbody>
+                </table>
+            </div>
+            <button id="add-asset-btn" class="btn btn-secondary" style="margin-top: 1rem;">+ เพิ่มสินทรัพย์</button>
+            <button id="save-portfolio-btn" class="btn btn-primary" style="margin-top: 1rem; float: right;">บันทึกและอัปเดต (Push)</button>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay" style="display: none;">
+        <div class="loader"></div>
+        <p id="loading-text" style="margin-top: 1rem; font-weight: 600;">กำลังรันคำสั่ง...</p>
     </div>
     
     <script src="script.js"></script>
