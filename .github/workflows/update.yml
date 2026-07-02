@@ -2,8 +2,8 @@ name: Update Portfolio Data
 
 on:
   schedule:
-    # Runs at 02:00 and 08:00 UTC (which is 09:00 and 15:00 BKK time) Monday to Friday
-    - cron: '0 2,8 * * 1-5'
+    # Runs at 03:00 and 08:00 UTC (which is 10:00 and 15:00 BKK time) Monday to Friday
+    - cron: '0 3,8 * * 1-5'
   workflow_dispatch: # Allows manual trigger from the Actions tab
 
 jobs:

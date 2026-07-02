@@ -65,6 +65,27 @@ document.addEventListener('DOMContentLoaded', async () => {
                 tbody.appendChild(tr);
             });
 
+            // Render News
+            const newsListEl = document.getElementById('news-list');
+            if (data.news && data.news.length > 0) {
+                newsListEl.innerHTML = '';
+                data.news.forEach(n => {
+                    const d = new Date(n.date).toLocaleString('th-TH');
+                    const item = document.createElement('div');
+                    item.className = 'news-item';
+                    item.innerHTML = `
+                        <a href="${n.url}" target="_blank" rel="noopener noreferrer">${n.title}</a>
+                        <div class="news-meta">
+                            <span>🏢 ${n.source}</span>
+                            <span>🕒 ${d}</span>
+                        </div>
+                    `;
+                    newsListEl.appendChild(item);
+                });
+            } else {
+                newsListEl.innerHTML = '<p style="color: #cbd5e1;">ไม่มีข่าวสารในช่วงนี้</p>';
+            }
+
             const aiContent = document.getElementById('ai-content');
             if (data.ai_analysis) {
                 aiContent.innerHTML = data.ai_analysis.replace(/\n/g, '<br>');

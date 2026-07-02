@@ -206,6 +206,66 @@ td {
 tr:last-child td { border-bottom: none; }
 tr:hover td { background-color: rgba(255, 255, 255, 0.03); }
 
+/* News Container */
+.news-container {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+
+.news-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #e2e8f0;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.news-list::-webkit-scrollbar { width: 6px; }
+.news-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 4px; }
+
+.news-item {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-left: 4px solid var(--accent-color);
+    transition: transform 0.2s, background 0.2s;
+}
+
+.news-item:hover {
+    transform: translateX(5px);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.news-item a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.news-item a:hover {
+    color: #60a5fa;
+}
+
+.news-meta {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* AI Analysis */
 .ai-analysis {
     padding: 2rem;

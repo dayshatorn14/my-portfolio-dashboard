@@ -83,15 +83,10 @@ def fetch_news(portfolio):
     print("Searching for news...")
     news_results = []
     
-    # Query 1: General Thai Market
     queries = ["เศรษฐกิจไทย หุ้นไทย ข่าว"]
-    
-    # Query 2: Specific Portfolio Symbols
     symbols = [asset['symbol'] for asset in portfolio if asset['symbol'] != 'NEW']
     if symbols:
         queries.append(f"หุ้น {' '.join(symbols)} ข่าวธุรกิจ")
-    
-    # Query 3: US Market & Gold
     queries.append("S&P500 ทองคำ ข่าวเศรษฐกิจโลก")
     
     with DDGS() as ddgs:
@@ -99,18 +94,27 @@ def fetch_news(portfolio):
             try:
                 results = ddgs.news(query, max_results=3, timelimit="w")
                 for r in results:
-                    news_results.append(f"- {r['title']} ({r.get('source', '')})")
+                    news_results.append({
+                        "title": r.get('title', ''),
+                        "url": r.get('url', ''),
+                        "source": r.get('source', ''),
+                        "date": r.get('date', datetime.datetime.now(datetime.timezone.utc).isoformat())
+                    })
             except Exception as e:
                 print(f"Error fetching news for '{query}': {e}")
                 
-    return "\n".join(set(news_results)) if news_results else "ไม่มีข่าวเด่นในช่วงนี้"
+    unique_news = {n['url']: n for n in news_results if n['url']}.values()
+    sorted_news = sorted(unique_news, key=lambda x: x.get('date', ''), reverse=True)
+    return sorted_news
 
-def generate_ai_analysis(summary, assets, news_text):
+def generate_ai_analysis(summary, assets, news_list):
     if not GEMINI_API_KEY:
         return "<p>ไม่ได้ตั้งค่า Gemini API Key จึงไม่มีบทวิเคราะห์จาก AI ในรอบนี้</p>"
         
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel('gemini-flash-latest')
+    
+    news_text = "\n".join([f"- {n['title']} ({n['source']})" for n in news_list[:10]]) if news_list else "ไม่มีข่าวเด่นในช่วงนี้"
     
     prompt = f"""
     คุณคือผู้เชี่ยวชาญด้านการลงทุน พอร์ตของฉันมีดังนี้:
@@ -122,9 +126,10 @@ def generate_ai_analysis(summary, assets, news_text):
     {news_text}
     
     คำสั่ง:
-    1. วิเคราะห์ผลกระทบจากข่าวล่าสุดที่มีต่อหุ้นในพอร์ต (SCB, SIRI, OSP ฯลฯ) ว่าเป็นบวกหรือลบ 
-    2. เสนอแนะ "หุ้นหรือกลุ่มอุตสาหกรรมอื่น" 1-2 กลุ่มที่กำลังน่าสนใจหรือได้ประโยชน์จากข่าวช่วงนี้
-    3. เขียนเป็นภาษาไทย และใช้ HTML tags (เช่น <h3>, <p>, <ul>, <li>, <strong>) ในการจัดรูปแบบให้สวยงาม อ่านง่าย ความยาวพอประมาณ ไม่เกิน 2-3 ย่อหน้า
+    1. วิเคราะห์ผลกระทบจากข่าวล่าสุดที่มีต่อภาพรวมพอร์ต (ภาพรวมตลาด) ว่าเป็นบวกหรือลบ
+    2. ฟันธงคำแนะนำสำหรับหุ้น **แต่ละตัวในพอร์ต** ว่าควร "ซื้อ (Buy)", "ขาย (Sell)", หรือ "ถือ (Hold)" พร้อมระบุเหตุผลสั้นๆ 1 ประโยค 
+    3. เสนอแนะ "หุ้นหรือกลุ่มอุตสาหกรรมอื่น" 1-2 กลุ่มที่กำลังน่าสนใจหรือได้ประโยชน์จากข่าวช่วงนี้
+    4. เขียนเป็นภาษาไทย และใช้ HTML tags (เช่น <h3>, <p>, <ul>, <li>, <strong>) ในการจัดรูปแบบให้สวยงาม อ่านง่าย โดยเฉพาะข้อ 2 ให้ใช้ <ul><li> 
     """
     try:
         response = model.generate_content(prompt)
@@ -152,7 +157,7 @@ def send_line_message(summary, assets):
         s = "+" if a['profit_thb'] >= 0 else ""
         msg += f"\n- {a['symbol']}: {s}{a['profit_percent']:.2f}%"
         
-    msg += "\n\n📰 มีบทวิเคราะห์และข่าวสารใหม่! กดดูรายละเอียดได้ที่หน้า Dashboard บนเว็บของคุณเลยครับ"
+    msg += "\n\n📰 มีบทวิเคราะห์คำแนะนำ (ซื้อ/ขาย/ถือ) และข่าวใหม่ล่าสุด! กดดูรายละเอียดบนเว็บได้เลยครับ"
         
     data = {
         "to": LINE_USER_ID,
@@ -170,10 +175,23 @@ def main():
     summary, assets = fetch_prices()
     
     print("Fetching news...")
-    news_text = fetch_news(PORTFOLIO)
+    new_news = fetch_news(PORTFOLIO)
+    
+    old_news = []
+    try:
+        if os.path.exists('data.json'):
+            with open('data.json', 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+                old_news = old_data.get('news', [])
+    except Exception as e:
+        print("Error loading old data.json for news history:", e)
+        
+    # Merge and keep unique by URL, then sort by date, max 20 items
+    combined_news = {n['url']: n for n in (new_news + old_news) if 'url' in n}
+    all_news = sorted(combined_news.values(), key=lambda x: x.get('date', ''), reverse=True)[:20]
     
     print("Generating AI Analysis...")
-    ai_analysis = generate_ai_analysis(summary, assets, news_text)
+    ai_analysis = generate_ai_analysis(summary, assets, all_news)
     
     print("Sending LINE Message...")
     send_line_message(summary, assets)
@@ -182,7 +200,8 @@ def main():
         "last_updated": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).isoformat(),
         "summary": summary,
         "assets": assets,
-        "ai_analysis": ai_analysis
+        "ai_analysis": ai_analysis,
+        "news": all_news
     }
     
     with open('data.json', 'w', encoding='utf-8') as f:
