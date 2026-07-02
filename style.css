@@ -32,10 +32,20 @@ body {
     margin: 0 auto;
 }
 
+/* Header & Title */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
     margin-bottom: 3rem;
-    position: relative;
 }
 
 h1 {
@@ -52,6 +62,58 @@ h1 {
     font-size: 1rem;
 }
 
+/* Buttons */
+.header-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px -1px rgba(37, 99, 235, 0.5);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.btn-danger {
+    background: rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+    border: 1px solid #ef4444;
+    padding: 0.3rem 0.6rem;
+}
+.btn-danger:hover { background: #ef4444; color: white; }
+
+/* Cards & Glassmorphism */
 .glass {
     background: var(--card-bg);
     backdrop-filter: blur(12px);
@@ -59,11 +121,12 @@ h1 {
     border: 1px solid var(--border-color);
     border-radius: 1rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    animation: fadeIn 0.6s ease-out forwards;
 }
 
 .summary-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -96,9 +159,12 @@ h1 {
 .profit { color: var(--profit-color) !important; }
 .loss { color: var(--loss-color) !important; }
 
+/* Main Table */
 .assets-table-container {
     padding: 2rem;
     margin-bottom: 2rem;
+    animation-delay: 0.2s; 
+    opacity: 0;
 }
 
 .assets-table-container h2 {
@@ -108,13 +174,17 @@ h1 {
 }
 
 .table-responsive {
+    width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+    margin-bottom: 1rem;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
+    white-space: nowrap; /* Prevents text from breaking in cells */
 }
 
 th {
@@ -133,17 +203,15 @@ td {
     font-size: 1.05rem;
 }
 
-tr:last-child td {
-    border-bottom: none;
-}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background-color: rgba(255, 255, 255, 0.03); }
 
-tr:hover td {
-    background-color: rgba(255, 255, 255, 0.03);
-}
-
+/* AI Analysis */
 .ai-analysis {
     padding: 2rem;
     margin-bottom: 2rem;
+    animation-delay: 0.4s; 
+    opacity: 0;
 }
 
 .ai-analysis h2 {
@@ -161,96 +229,15 @@ tr:hover td {
     font-size: 1.05rem;
 }
 
-.analysis-box p {
-    margin-bottom: 1rem;
-}
-
-.analysis-box ul {
-    margin-left: 1.5rem;
-    margin-bottom: 1rem;
-}
+.analysis-box p { margin-bottom: 1rem; }
+.analysis-box ul { margin-left: 1.5rem; margin-bottom: 1rem; }
 
 footer {
     text-align: center;
     color: var(--text-secondary);
     font-size: 0.9rem;
     margin-top: 3rem;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.glass {
-    animation: fadeIn 0.6s ease-out forwards;
-}
-
-.assets-table-container { animation-delay: 0.2s; opacity: 0; }
-.ai-analysis { animation-delay: 0.4s; opacity: 0; }
-
-@media (max-width: 768px) {
-    .card h2 { font-size: 2rem; }
-    td, th { padding: 0.75rem 0.5rem; }
-    .assets-table-container, .ai-analysis { padding: 1.5rem; }
-}
-
-/* New UI Components: Buttons, Modals, Loader */
-.header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-@media (max-width: 768px) {
-    header { flex-direction: column; align-items: center; }
-}
-
-.header-actions {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-}
-
-.btn {
-    padding: 0.6rem 1.2rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-family: inherit;
-}
-
-.btn-primary {
-    background: linear-gradient(135deg, #3b82f6, #2563eb);
-    color: white;
-    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.4);
-}
-
-.btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px -1px rgba(37, 99, 235, 0.5);
-}
-
-.btn-secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-.btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
+    padding-bottom: 2rem;
 }
 
 /* Modals */
@@ -264,6 +251,7 @@ header {
     height: 100%; 
     background-color: rgba(0,0,0,0.6); 
     backdrop-filter: blur(5px);
+    overflow-y: auto; /* Allows scrolling if modal is too long */
 }
 
 .modal-content {
@@ -280,7 +268,9 @@ header {
 
 .close-btn {
     color: var(--text-secondary);
-    float: right;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
@@ -289,10 +279,7 @@ header {
 
 .close-btn:hover { color: white; }
 
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
+.form-group { margin-bottom: 1.5rem; }
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
@@ -315,7 +302,7 @@ header {
     border-color: var(--accent-color);
 }
 
-/* Edit Portfolio Table */
+/* Edit Portfolio Table Inputs */
 #edit-portfolio-table th, #edit-portfolio-table td {
     padding: 0.5rem;
     font-size: 0.9rem;
@@ -323,20 +310,13 @@ header {
 
 #edit-portfolio-table input, #edit-portfolio-table select {
     width: 100%;
+    min-width: 80px;
     padding: 0.4rem;
     background: rgba(0,0,0,0.3);
     border: 1px solid rgba(255,255,255,0.2);
     color: white;
     border-radius: 4px;
 }
-
-.btn-danger {
-    background: rgba(239, 68, 68, 0.2);
-    color: #ef4444;
-    border: 1px solid #ef4444;
-    padding: 0.3rem 0.6rem;
-}
-.btn-danger:hover { background: #ef4444; color: white; }
 
 /* Loader */
 .loading-overlay {
@@ -360,3 +340,83 @@ header {
 }
 
 @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================
+   Responsive Design (Media Queries)
+   ========================================= */
+
+/* Tablet Portrait & Large Mobile */
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .header-content {
+        align-items: center;
+    }
+    .header-actions {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    body { padding: 1rem 0.5rem; }
+    
+    h1 { font-size: 2rem; }
+    
+    .card h2 { font-size: 2rem; }
+    .card { padding: 1.5rem; }
+    
+    .assets-table-container, .ai-analysis {
+        padding: 1.5rem 1rem;
+    }
+    
+    .assets-table-container h2, .ai-analysis h2 {
+        font-size: 1.3rem;
+    }
+    
+    th, td {
+        padding: 1rem 0.75rem;
+        font-size: 0.95rem;
+    }
+    
+    .analysis-box { font-size: 0.95rem; }
+    
+    .btn {
+        flex: 1 1 auto;
+        padding: 0.7rem 1rem;
+    }
+    
+    .modal-content {
+        padding: 1.5rem;
+        margin: 10% auto;
+        width: 95%;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    h1 { font-size: 1.7rem; }
+    
+    .header-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn { width: 100%; }
+    
+    .card h2 { font-size: 1.75rem; }
+    .card h3 { font-size: 1rem; }
+    
+    th, td {
+        font-size: 0.85rem;
+        padding: 0.75rem 0.5rem;
+    }
+}
