@@ -1,0 +1,58 @@
+{
+    "last_updated": "2026-07-02T15:00:00+07:00",
+    "summary": {
+        "total_value_thb": 30565.02,
+        "total_profit_thb": 1584.35,
+        "total_profit_percent": 5.47
+    },
+    "assets": [
+        {
+            "symbol": "SCB",
+            "shares": 100,
+            "cost_per_unit_thb": 136.00,
+            "current_price_thb": 147.50,
+            "total_value_thb": 14750.00,
+            "profit_thb": 1150.00,
+            "profit_percent": 8.46
+        },
+        {
+            "symbol": "SIRI",
+            "shares": 2000,
+            "cost_per_unit_thb": 1.41,
+            "current_price_thb": 1.46,
+            "total_value_thb": 2920.00,
+            "profit_thb": 100.00,
+            "profit_percent": 3.55
+        },
+        {
+            "symbol": "OSP",
+            "shares": 40,
+            "cost_per_unit_thb": 15.23,
+            "current_price_thb": 17.40,
+            "total_value_thb": 696.00,
+            "profit_thb": 86.80,
+            "profit_percent": 14.25
+        },
+        {
+            "symbol": "K-US500XUH",
+            "shares": 888.4466,
+            "cost_per_unit_thb": 11.2556,
+            "current_price_thb": 11.5046,
+            "total_value_thb": 10221.22,
+            "profit_thb": 221.22,
+            "profit_percent": 2.21
+        },
+        {
+            "symbol": "MTS-GOLD",
+            "shares": 0.0146,
+            "cost_per_unit_usd": 4010.25,
+            "current_price_usd": 4064.23,
+            "cost_per_unit_thb": 1951.47,
+            "current_price_thb": 1977.80,
+            "total_value_thb": 1977.80,
+            "profit_thb": 26.33,
+            "profit_percent": 1.35
+        }
+    ],
+    "ai_analysis": "<h3>📈 สรุปสถานการณ์พอร์ต (ทดสอบ)</h3>\n<p>ตลาดหุ้นไทยวันนี้ทรงตัว กลุ่มธนาคาร (SCB) และเครื่องดื่ม (OSP) ยังคงแข็งแกร่ง \nในขณะที่ดัชนี S&P500 ของสหรัฐฯ ได้รับปัจจัยบวกจากตัวเลขเศรษฐกิจ ทองคำมีการปรับฐานเล็กน้อยแต่ยังทรงตัวในระดับสูงเพื่อป้องกันความเสี่ยงของพอร์ต</p>\n<ul>\n<li><strong>SCB:</strong> แข็งแกร่งจากผลประกอบการไตรมาสล่าสุด</li>\n<li><strong>OSP:</strong> แนวโน้มยอดขายฟื้นตัว</li>\n<li><strong>K-US500XUH:</strong> แนะนำ DCA ต่อเนื่อง</li>\n</ul>"
+}

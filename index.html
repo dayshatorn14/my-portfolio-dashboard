@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <div class="header-content">
+                <h1>📈 Portfolio Dashboard</h1>
+                <p id="last-updated">อัปเดตล่าสุด: กำลังโหลด...</p>
+            </div>
+            <div class="header-decoration"></div>
+        </header>
+
+        <section class="summary-cards">
+            <div class="card glass">
+                <h3>มูลค่าพอร์ตรวม</h3>
+                <h2 id="total-value">฿0.00</h2>
+            </div>
+            <div class="card glass">
+                <h3>กำไร/ขาดทุนรวม</h3>
+                <h2 id="total-profit" class="profit">฿0.00 (0.00%)</h2>
+            </div>
+        </section>
+
+        <section class="assets-table-container glass">
+            <h2>รายละเอียดสินทรัพย์</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>สินทรัพย์</th>
+                            <th>จำนวน</th>
+                            <th>ต้นทุนเฉลี่ย</th>
+                            <th>ราคาปัจจุบัน</th>
+                            <th>มูลค่าปัจจุบัน</th>
+                            <th>กำไร/ขาดทุน</th>
+                        </tr>
+                    </thead>
+                    <tbody id="assets-body">
+                        <!-- ข้อมูลจะถูกเติมด้วย JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="ai-analysis glass">
+            <h2>🤖 สรุปสถานการณ์ & ความเสี่ยง (AI Analysis)</h2>
+            <div id="ai-content" class="analysis-box">
+                กำลังวิเคราะห์ข้อมูล...
+            </div>
+        </section>
+        
+        <footer>
+            <p>Automated by GitHub Actions | Powered by Gemini AI</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
