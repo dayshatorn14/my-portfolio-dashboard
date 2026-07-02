@@ -4,6 +4,7 @@ import datetime
 import requests
 import yfinance as yf
 import google.generativeai as genai
+from duckduckgo_search import DDGS
 
 # Configuration & Keys from Environment Variables (GitHub Secrets)
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -19,12 +20,11 @@ except Exception as e:
     PORTFOLIO = []
 
 def get_exchange_rate():
-    # USD to THB
     try:
         usd_thb = yf.Ticker("THB=X").history(period="1d")['Close'].iloc[-1]
         return float(usd_thb)
     except:
-        return 33.33 # Fallback
+        return 33.33
 
 def fetch_prices():
     usd_thb_rate = get_exchange_rate()
@@ -37,7 +37,7 @@ def fetch_prices():
         try:
             current_price = float(ticker.history(period="1d")['Close'].iloc[-1])
         except:
-            current_price = 0 # Error fallback
+            current_price = 0
             
         asset_data = {
             "symbol": asset["symbol"],
@@ -50,12 +50,7 @@ def fetch_prices():
             asset_data["total_value_thb"] = current_price * asset["shares"]
             
         elif asset["type"] == "US_FUND_PROXY":
-            # For simplicity in this demo, we estimate NAV movement based on ETF percentage change
-            # Real implementation would scrape AMEX/NAV directly. We'll use a simulated fixed NAV update for demo.
-            # Here we just assume IVV price change % applies to NAV cost.
-            # To keep it simple, we use a static estimate or last known NAV for this example script
-            # In a real app, you'd scrape the KAsset website.
-            simulated_nav = 11.5046 # Using last known
+            simulated_nav = 11.5046 
             asset_data["cost_per_unit_thb"] = asset["cost_thb"]
             asset_data["current_price_thb"] = simulated_nav
             asset_data["total_value_thb"] = simulated_nav * asset["shares"]
@@ -63,18 +58,14 @@ def fetch_prices():
         elif asset["type"] == "GOLD":
             asset_data["cost_per_unit_usd"] = asset["cost_usd"]
             asset_data["current_price_usd"] = current_price
-            
             asset_data["cost_per_unit_thb"] = asset["cost_usd"] * usd_thb_rate
             asset_data["current_price_thb"] = current_price * usd_thb_rate
             asset_data["total_value_thb"] = asset_data["current_price_thb"] * asset["shares"]
 
-        # Calculate Profits
         total_cost_thb += (asset_data["cost_per_unit_thb"] * asset["shares"])
         total_value_thb += asset_data["total_value_thb"]
-        
         asset_data["profit_thb"] = asset_data["total_value_thb"] - (asset_data["cost_per_unit_thb"] * asset["shares"])
         asset_data["profit_percent"] = (asset_data["profit_thb"] / (asset_data["cost_per_unit_thb"] * asset["shares"])) * 100
-        
         updated_assets.append(asset_data)
 
     total_profit_thb = total_value_thb - total_cost_thb
@@ -88,7 +79,33 @@ def fetch_prices():
     
     return summary, updated_assets
 
-def generate_ai_analysis(summary, assets):
+def fetch_news(portfolio):
+    print("Searching for news...")
+    news_results = []
+    
+    # Query 1: General Thai Market
+    queries = ["เศรษฐกิจไทย หุ้นไทย ข่าว"]
+    
+    # Query 2: Specific Portfolio Symbols
+    symbols = [asset['symbol'] for asset in portfolio if asset['symbol'] != 'NEW']
+    if symbols:
+        queries.append(f"หุ้น {' '.join(symbols)} ข่าวธุรกิจ")
+    
+    # Query 3: US Market & Gold
+    queries.append("S&P500 ทองคำ ข่าวเศรษฐกิจโลก")
+    
+    with DDGS() as ddgs:
+        for query in queries:
+            try:
+                results = ddgs.news(query, max_results=3, timelimit="w")
+                for r in results:
+                    news_results.append(f"- {r['title']} ({r.get('source', '')})")
+            except Exception as e:
+                print(f"Error fetching news for '{query}': {e}")
+                
+    return "\n".join(set(news_results)) if news_results else "ไม่มีข่าวเด่นในช่วงนี้"
+
+def generate_ai_analysis(summary, assets, news_text):
     if not GEMINI_API_KEY:
         return "<p>ไม่ได้ตั้งค่า Gemini API Key จึงไม่มีบทวิเคราะห์จาก AI ในรอบนี้</p>"
         
@@ -101,8 +118,13 @@ def generate_ai_analysis(summary, assets):
     สินทรัพย์:
     {json.dumps(assets, indent=2, ensure_ascii=False)}
     
-    กรุณาวิเคราะห์สั้นๆ (ไม่เกิน 3-4 บรรทัด) ถึงแนวโน้มตลาดของหุ้น SCB, SIRI, OSP และ S&P500 วันนี้ พร้อมสรุปความเสี่ยง 
-    เขียนเป็นภาษาไทย และใช้ HTML tags (เช่น <h3>, <p>, <ul>, <li>, <strong>) ในการจัดรูปแบบให้สวยงาม
+    📰 พาดหัวข่าวเศรษฐกิจ/การลงทุน ล่าสุด:
+    {news_text}
+    
+    คำสั่ง:
+    1. วิเคราะห์ผลกระทบจากข่าวล่าสุดที่มีต่อหุ้นในพอร์ต (SCB, SIRI, OSP ฯลฯ) ว่าเป็นบวกหรือลบ 
+    2. เสนอแนะ "หุ้นหรือกลุ่มอุตสาหกรรมอื่น" 1-2 กลุ่มที่กำลังน่าสนใจหรือได้ประโยชน์จากข่าวช่วงนี้
+    3. เขียนเป็นภาษาไทย และใช้ HTML tags (เช่น <h3>, <p>, <ul>, <li>, <strong>) ในการจัดรูปแบบให้สวยงาม อ่านง่าย ความยาวพอประมาณ ไม่เกิน 2-3 ย่อหน้า
     """
     try:
         response = model.generate_content(prompt)
@@ -122,13 +144,15 @@ def send_line_message(summary, assets):
     }
     
     sign = "+" if summary['total_profit_thb'] >= 0 else ""
-    msg = f"📈 อัปเดตพอร์ตล่าสุด!\n"
+    msg = f"📈 อัปเดตพอร์ต & ข่าวล่าสุด!\n"
     msg += f"💰 มูลค่ารวม: ฿{summary['total_value_thb']:,.2f}\n"
-    msg += f"📊 กำไร/ขาดทุน: {sign}฿{summary['total_profit_thb']:,.2f} ({sign}{summary['total_profit_percent']:.2f}%)\n"
+    msg += f"📊 กำไร: {sign}฿{summary['total_profit_thb']:,.2f} ({sign}{summary['total_profit_percent']:.2f}%)\n"
     
     for a in assets:
         s = "+" if a['profit_thb'] >= 0 else ""
         msg += f"\n- {a['symbol']}: {s}{a['profit_percent']:.2f}%"
+        
+    msg += "\n\n📰 มีบทวิเคราะห์และข่าวสารใหม่! กดดูรายละเอียดได้ที่หน้า Dashboard บนเว็บของคุณเลยครับ"
         
     data = {
         "to": LINE_USER_ID,
@@ -139,18 +163,17 @@ def send_line_message(summary, assets):
             }
         ]
     }
-    response = requests.post(url, headers=headers, json=data)
-    if response.status_code == 200:
-        print("LINE Message sent successfully.")
-    else:
-        print(f"Failed to send LINE Message: {response.status_code} {response.text}")
+    requests.post(url, headers=headers, json=data)
 
 def main():
     print("Fetching prices...")
     summary, assets = fetch_prices()
     
+    print("Fetching news...")
+    news_text = fetch_news(PORTFOLIO)
+    
     print("Generating AI Analysis...")
-    ai_analysis = generate_ai_analysis(summary, assets)
+    ai_analysis = generate_ai_analysis(summary, assets, news_text)
     
     print("Sending LINE Message...")
     send_line_message(summary, assets)
