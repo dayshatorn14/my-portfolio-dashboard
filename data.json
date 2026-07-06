@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-07-06T14:29:20.397871+07:00",
+    "last_updated": "2026-07-06T19:04:52.416127+07:00",
     "summary": {
-        "total_value_thb": 31018.80519365316,
-        "total_profit_thb": 2039.3167207874503,
-        "total_profit_percent": 7.037103925063821
+        "total_value_thb": 31119.923648513723,
+        "total_profit_thb": 2140.4351756480137,
+        "total_profit_percent": 7.386035049073285
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 150.5,
-            "total_value_thb": 15050.0,
-            "profit_thb": 1450.0,
-            "profit_percent": 10.661764705882353
+            "current_price_thb": 151.5,
+            "total_value_thb": 15150.0,
+            "profit_thb": 1550.0,
+            "profit_percent": 11.397058823529411
         },
         {
             "symbol": "SIRI",
@@ -46,127 +46,167 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4163.0,
+            "current_price_usd": 4165.2998046875,
             "cost_per_unit_thb": 133581.4330072403,
-            "current_price_thb": 138669.5357170105,
-            "total_value_thb": 2024.5752214683532,
-            "profit_thb": 74.2862995626449,
-            "profit_percent": 3.808989464497223
+            "current_price_thb": 138746.14221430942,
+            "total_value_thb": 2025.6936763289177,
+            "profit_thb": 75.4047544232094,
+            "profit_percent": 3.8663376270182717
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 504 Deadline expired before operation could complete.",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>ตลาดหุ้นไทยในเดือนกรกฎาคมมีแนวโน้มผันผวน แต่ได้รับแรงหนุนจากโมเมนตัมเชิงบวกและฟันด์โฟลว์ที่เริ่มไหลเข้าในกลุ่มหุ้นที่มีพื้นฐานแกร่ง</li><li>ปัจจัยทางการเมืองและนโยบายเศรษฐกิจในประเทศยังคงเป็นตัวกำหนดทิศทางหลัก ทำให้นักวิเคราะห์แนะนำให้เน้นหุ้นปลอดภัย (Defensive) และหุ้นปันผลสูง</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>ทองคำยังคงเป็นสินทรัพย์ยุทธศาสตร์ที่สำคัญภายใต้ภาวะภูมิรัฐศาสตร์และระเบียบโลกใหม่ที่แบ่งแยก (Fragmented World) เพื่อป้องกันความเสี่ยง</li><li>อย่างไรก็ตาม เริ่มมีแรงกดดันระยะสั้นจากข่าวธนาคารจีนบางแห่งระงับการซื้อขายทองคำรายบุคคล ซึ่งอาจส่งผลต่อความต้องการซื้อในฝั่งเอเชีย</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรปัจจุบันอยู่ที่ 11.4% แนะนำถือต่อเพื่อรับปันผลและรับประโยชน์จากกระแสเงินทุนต่างชาติที่ไหลเข้ากลุ่มธนาคารใหญ่ที่มีพื้นฐานแกร่ง"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "ราคาหุ้นปรับขึ้นเล็กน้อย มีกำไร 4.26% แนะนำถือครองเพื่อรอรับปันผลเด่น และเป็นหนึ่งในกลุ่มอสังหาฯ ที่ยังคงประคองตัวได้ดี"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "ทำกำไรได้ดีถึง 14.9% แนะนำถือเพื่อ Let Profits Run เนื่องจากเป็นกลุ่มสินค้าอุปโภคบริโภคที่เป็นเกราะป้องกันความผันผวนในเดือนกรกฎาคม"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "แนะนำถือเพื่อกระจายความเสี่ยงไปยังตลาดสหรัฐฯ แม้ตลาดจะมีความผันผวนจากนโยบายอัตราดอกเบี้ย แต่ดัชนี S&P500 ยังมีแนวโน้มเติบโตระยะยาว"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "แนะนำถือทองคำไว้ในพอร์ตเพื่อทำหน้าที่เป็นสินทรัพย์ปลอดภัยและกระจายความเสี่ยง ท่ามกลางความตึงเครียดทางเศรษฐกิจโลก"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "BDMS",
+                "name": "Bangkok Dusit Medical Services",
+                "reason": "เป็นหุ้นกลุ่มโรงพยาบาลที่มีลักษณะเป็น Defensive แข็งแกร่ง เหมาะสำหรับหลบความผันผวนของตลาดหุ้นไทยในเดือนกรกฎาคม",
+                "tag": "Defensive"
+            },
+            {
+                "symbol": "CPALL",
+                "name": "CP All Public Company Limited",
+                "reason": "ได้รับประโยชน์โดยตรงจากมาตรการกระตุ้นกำลังซื้อและการท่องเที่ยวที่ฟื้นตัวต่อเนื่อง เป็นหุ้นใหญ่ที่เป็นเป้าหมายของฟันด์โฟลว์",
+                "tag": "Value"
+            }
+        ]
     },
     "global_watchlist": [
         {
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิปประมวลผล AI ระดับโลกที่ยังคงเติบโตอย่างก้าวกระโดดตามความต้องการของตลาดคลาวด์และดาต้าเซ็นเตอร์",
+            "reason": "ผู้นำเทคโนโลยีชิปประมวลผล AI ระดับโลก มีความได้เปรียบทางการแข่งขันสูงและเติบโตตามความต้องการโครงสร้างพื้นฐาน AI",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำการผสานเทคโนโลยี Generative AI เข้ากับซอฟต์แวร์สำนักงานและบริการระบบคลาวด์ Azure ที่เติบโตอย่างแข็งแกร่ง",
+            "reason": "ผู้นำด้านซอฟต์แวร์ระดับโลกและบริการคลาวด์ Azure ที่ผสาน AI เชิงรุก มีกระแสเงินสดแข็งแกร่ง ทนทานต่อความผันผวน",
             "category": "Tech"
         },
         {
             "symbol": "AAPL",
             "name": "Apple Inc.",
             "exchange": "NASDAQ",
-            "reason": "การเปิดตัว Apple Intelligence ช่วยกระตุ้นรอบการอัปเกรดอุปกรณ์สมาร์ทโฟนและสร้างรายได้บริการที่มั่นคง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดของโลกที่เป็นกระดูกสันหลังให้กับโครงสร้างพื้นฐาน AI ทั่วโลก",
+            "reason": "ฐานผู้ใช้งานที่เหนียวแน่นและศักยภาพในการผสาน AI (Apple Intelligence) เข้ากับอุปกรณ์ฮาร์ดแวร์เพื่อกระตุ้นยอดขายรอบใหม่",
             "category": "Tech"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
             "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดการผลิตเครื่องพิมพ์ชิปเทคโนโลยี EUV ซึ่งจำเป็นอย่างยิ่งสำหรับการผลิตเซมิคอนดักเตอร์รุ่นถัดไป",
+            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูง (EUV) ได้รับประโยชน์โดยตรงจากกระแสชาตินิยมด้านเทคโนโลยีและการย้ายฐานการผลิตเซมิคอนดักเตอร์",
+            "category": "Tech"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปที่ก้าวหน้าที่สุดในโลก ได้รับคำสั่งซื้อชิป AI มหาศาลจากทั้ง Nvidia, Apple และ AMD",
             "category": "Tech"
         },
         {
             "symbol": "LLY",
-            "name": "Eli Lilly and Company",
+            "name": "Eli Lilly and Co.",
             "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวาน (Mounjaro & Zepbound) ที่มีความต้องการในตลาดโลกสูงมากและเติบโตระยะยาว",
+            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวานที่เติบโตอย่างรวดเร็ว มีสิทธิบัตรและผลิตภัณฑ์ยาที่ยากต่อการลอกเลียนแบบ",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "ยักษ์ใหญ่เวชภัณฑ์ยุโรป เจ้าของแบรนด์ยาลดน้ำหนักยอดนิยมอย่าง Wegovy และ Ozempic ความต้องการทั่วโลกยังสูงกว่ากำลังการผลิต",
             "category": "Healthcare"
         },
         {
             "symbol": "JPM",
             "name": "JPMorgan Chase & Co.",
             "exchange": "NYSE",
-            "reason": "ธนาคารที่แข็งแกร่งที่สุดในสหรัฐฯ ได้ประโยชน์จากส่วนต่างอัตราดอกเบี้ยที่ดีและความมั่นคงทางการเงินในยุคดอกเบี้ยสูง",
-            "category": "Finance"
+            "reason": "สถาบันการเงินที่ใหญ่ที่สุดในสหรัฐฯ ได้ประโยชน์จากทิศทางดอกเบี้ยที่ทรงตัวในระดับสูงและระบบนิเวศการลงทุนที่แข็งแกร่ง",
+            "category": "Financials"
         },
         {
-            "symbol": "MC",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "แบรนด์หรูระดับโลกที่มีอำนาจในการกำหนดราคาสูง สามารถต้านทานภาวะเงินเฟ้อและความผันผวนทางเศรษฐกิจได้ดี",
-            "category": "Consumer Discretionary"
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การฟื้นตัวอย่างแข็งแกร่งของ AWS และระบบค้าปลีก e-commerce ที่มีประสิทธิภาพสูงด้วยการผสานเทคโนโลยีโลจิสติกส์ AI",
+            "category": "Tech"
         },
         {
             "symbol": "7203",
             "name": "Toyota Motor Corporation",
             "exchange": "Tokyo Stock Exchange",
-            "reason": "ยอดขายรถยนต์ไฮบริดเติบโตแข็งแกร่งทั่วโลก และได้ประโยชน์จากทิศทางค่าเงินเยนที่ช่วยหนุนการส่งออก",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "RELIANCE",
-            "name": "Reliance Industries Limited",
-            "exchange": "National Stock Exchange of India",
-            "reason": "กลุ่มธุรกิจยักษ์ใหญ่ของอินเดียที่ครอบคลุมทั้งพลังงาน ค้าปลีก และโทรคมนาคม รับประโยชน์สูงสุดจากเศรษฐกิจอินเดียที่เติบโตเร็ว",
-            "category": "Conglomerate"
-        },
-        {
-            "symbol": "CPALL",
-            "name": "CP ALL PCL",
-            "exchange": "SET",
-            "reason": "หุ้นไทยที่ได้รับประโยชน์โดยตรงจากการฟื้นตัวของการท่องเที่ยว มาตรการกระตุ้นเศรษฐกิจในประเทศ และฟันด์โฟลว์ไหลเข้า",
-            "category": "Consumer Staples"
+            "reason": "ได้ประโยชน์จากนโยบายเงินเยนอ่อนค่า ความต้องการรถยนต์ไฮบริดทั่วโลกเติบโตสูง และมูลค่าหุ้น (Valuation) ที่ยังน่าสนใจ",
+            "category": "Consumer Cyclical"
         },
         {
             "symbol": "BDMS",
             "name": "Bangkok Dusit Medical Services PCL",
             "exchange": "SET",
-            "reason": "หุ้นปลอดภัย (Defensive) ที่มีกระแสเงินสดแข็งแกร่ง และได้ประโยชน์จากการเติบโตของเมดิคัลทัวริซึมในประเทศไทย",
+            "reason": "หุ้นโรงพยาบาลชั้นนำของไทย มีพื้นฐานแข็งแกร่ง ทนทานต่อความผันผวนทางเศรษฐกิจ และได้รับอานิสงส์จากกลุ่มนักท่องเที่ยวเชิงการแพทย์",
             "category": "Healthcare"
         },
         {
-            "symbol": "GLD",
-            "name": "SPDR Gold Shares",
-            "exchange": "NYSE Arca",
-            "reason": "กองทุน ETF ทองคำเพื่อใช้เป็นสินทรัพย์เชิงยุทธศาสตร์ในการกระจายความเสี่ยงท่ามกลางความตึงเครียดทางภูมิรัฐศาสตร์โลก",
-            "category": "Commodity"
+            "symbol": "AOT",
+            "name": "Airports of Thailand PCL",
+            "exchange": "SET",
+            "reason": "หุ้นผูกขาดสนามบินหลักของไทย รับอานิสงส์ตรงจากการฟื้นตัวของภาคการท่องเที่ยว และมาตรการกระตุ้นจากภาครัฐ",
+            "category": "Industrials"
+        },
+        {
+            "symbol": "RELIANCE",
+            "name": "Reliance Industries Limited",
+            "exchange": "National Stock Exchange of India",
+            "reason": "กลุ่มบริษัทที่ใหญ่ที่สุดในอินเดีย ครอบคลุมทั้งพลังงาน โทรคมนาคม และค้าปลีก เติบโตตามทิศทางเศรษฐกิจอินเดียที่มีศักยภาพสูงสุดในเอเชีย",
+            "category": "Energy/Conglomerate"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
-            "exchange": "Crypto Exchanges",
-            "reason": "สินทรัพย์ดิจิทัลยอดนิยม (Digital Gold) ที่ได้รับการยอมรับมากขึ้นจากการจัดตั้ง Spot ETF และสภาวะการลดมูลค่าเงินกระดาษ",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ทางเลือกเชิงยุทธศาสตร์ (Digital Gold) ที่ได้รับการยอมรับมากขึ้นผ่านการจัดตั้ง Spot ETF ท่ามกลางวิกฤตความเชื่อมั่นเงินตราและภูมิรัฐศาสตร์",
             "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
-            "exchange": "Crypto Exchanges",
-            "reason": "เครือข่ายบล็อกเชนอัจฉริยะ (Smart Contract) อันดับหนึ่ง ที่ได้รับอานิสงส์จากการอนุมัติ Spot ETF และการใช้งานในระบบการเงินดิจิทัล",
+            "exchange": "Crypto",
+            "reason": "บล็อกเชน Smart Contract หลักของโลกที่ขับเคลื่อนระบบการเงินไร้ตัวกลาง (DeFi) มีแนวโน้มเติบโตต่อเนื่องจากการอนุมัติ Spot ETF",
             "category": "Crypto"
         }
     ],
     "news": [
+        {
+            "title": "'โกลเบล็ก' ชี้หุ้นไทยเดือน ก.ค. ผันผวน คัด 5 หุ้นเด่นพื้นฐาน ...",
+            "url": "https://www.thebangkokinsight.com/news/stock-finance/stock/1670960/",
+            "source": "The Bangkok Insight",
+            "date": "2026-07-06T11:12:00+00:00"
+        },
         {
             "title": "ลงทุนเดือน ก.ค. ต้องจับตาอะไร กูรูชี้ 8 ปัจจัยกำหนดทิศหุ้นไทย พร้อมเปิดโผ 5 หุ้นเด่น",
             "url": "https://www.msn.com/th-th/news/other/ลงทุนเดือน-กค-ต้องจับตาอะไร-กูรูชี้-8-ปัจจัยกำหนดทิศหุ้นไทย-พร้อมเปิดโผ-5-หุ้นเด่น/ar-AA27hEDy",
