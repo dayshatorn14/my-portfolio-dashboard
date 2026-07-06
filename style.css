@@ -1,40 +1,42 @@
 :root {
-    /* Color Palette */
-    --primary-bg: #0b0f19;
-    --card-bg: rgba(20, 26, 40, 0.7);
-    --card-border: rgba(255, 255, 255, 0.08);
+    /* Color Palette - MG Sporty Red Theme */
+    --primary-bg: #0a0b0e;
+    --card-bg: rgba(20, 20, 22, 0.75);
+    --card-border: rgba(227, 24, 55, 0.15);
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
     
-    --primary-color: #3b82f6;
-    --primary-hover: #2563eb;
-    --primary-light: #60a5fa;
-    --secondary-color: #8b5cf6;
-    --accent-neon: #10b981;
-    --accent-danger: #ef4444;
+    --primary-color: #E31837; /* MG Red */
+    --primary-hover: #b01028;
+    --primary-light: #ff475e;
+    --secondary-color: #2b2b2b;
+    --accent-neon: #10b981; /* Keep positive profit green */
+    --accent-danger: #E31837; /* Negative profit red */
     
     --glass-bg: rgba(255, 255, 255, 0.03);
-    --glass-hover: rgba(255, 255, 255, 0.06);
-    --scrollbar-thumb: rgba(255, 255, 255, 0.1);
+    --glass-hover: rgba(227, 24, 55, 0.08); /* Slight red tint on hover */
+    --scrollbar-thumb: rgba(227, 24, 55, 0.2);
     
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 20px;
     
-    --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    --shadow-glass: 0 8px 32px 0 rgba(227, 24, 55, 0.1); /* Subtle red shadow */
 }
 
 /* Light Theme Overrides */
 .light-theme {
-    --primary-bg: #f1f5f9;
+    --primary-bg: #f9f9f9;
     --card-bg: rgba(255, 255, 255, 0.85);
-    --card-border: rgba(0, 0, 0, 0.08);
-    --text-main: #1e293b;
+    --card-border: rgba(227, 24, 55, 0.2);
+    --text-main: #0f172a;
     --text-muted: #64748b;
-    --glass-bg: rgba(0, 0, 0, 0.03);
-    --glass-hover: rgba(0, 0, 0, 0.06);
-    --scrollbar-thumb: rgba(0, 0, 0, 0.15);
-    --shadow-glass: 0 8px 32px 0 rgba(148, 163, 184, 0.2);
+    
+    --glass-bg: rgba(227, 24, 55, 0.03);
+    --glass-hover: rgba(227, 24, 55, 0.08);
+    --scrollbar-thumb: rgba(227, 24, 55, 0.2);
+    
+    --shadow-glass: 0 8px 32px 0 rgba(227, 24, 55, 0.15);
 }
 
 * {
