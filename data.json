@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-05T23:54:44.577335+00:00",
+    "last_updated": "2026-07-06T07:00:58.482520+07:00",
     "summary": {
-        "total_value_thb": 31242.69727745577,
-        "total_profit_thb": 2274.333381033539,
-        "total_profit_percent": 7.8510936591570255
+        "total_value_thb": 31255.024787632665,
+        "total_profit_thb": 2284.9042498329873,
+        "total_profit_percent": 7.8871064649237015
     },
     "assets": [
         {
@@ -37,59 +37,59 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.531873619598528,
-            "total_value_thb": 10245.453908962005,
-            "profit_thb": 245.4543580020054,
-            "profit_percent": 2.454543690238884
+            "current_price_thb": 11.542320060823123,
+            "total_value_thb": 10254.735014150096,
+            "profit_thb": 254.7354631900962,
+            "profit_percent": 2.54735474628738
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4192.39990234375,
-            "cost_per_unit_thb": 132819.47571659088,
-            "current_price_thb": 138852.2802876588,
-            "total_value_thb": 2027.2432921998184,
-            "profit_thb": 88.07894673759142,
-            "profit_percent": 4.54210840580387
+            "current_price_usd": 4194.89990234375,
+            "cost_per_unit_thb": 132939.79361915588,
+            "current_price_thb": 139060.9381636046,
+            "total_value_thb": 2030.289697188627,
+            "profit_thb": 89.36871034895125,
+            "profit_percent": 4.604448658905315
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>กลุ่มธนาคารพาณิชย์เป็นตัวนำตลาดจากแนวโน้มผลประกอบการ Q2/69 ที่เติบโตอย่างแข็งแกร่งและดึงดูดกระแสเงินทุน</li><li>ภาพรวมดัชนีหุ้นไทยครึ่งหลังปี 2026 มีแนวโน้มเชิงบวก โดยสมาคมนักวิเคราะห์ (IAA) ตั้งเป้าหมายที่ 1,619 จุด หนุนด้วยมาตรการกระตุ้นเศรษฐกิจของรัฐ เช่น สินเชื่อดอกเบี้ยคนละครึ่ง</li><li>เริ่มเห็นสัญญาณการโยกย้ายเงินลงทุน (Portfolio Rotation) จากตลาดสหรัฐฯ ที่เริ่มตึงตัว กลับเข้าสู่ตลาดเอเชียและหุ้นไทยที่ราคายังมีมูลค่าที่น่าสนใจ</li></ul> <h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>ธนาคาร ซีไอเอ็มบี ไทย (CIMBT) แนะนำสลับพอร์ตเข้าลงทุนในทองคำในไตรมาส 3 เพื่อเป็นสินทรัพย์ปลอดภัยป้องกันความผันผวนของตลาดโลก</li><li>กระแสความต้องการกระจายความเสี่ยงเพิ่มขึ้นอย่างต่อเนื่องจากความกังวลเรื่องทิศทางเศรษฐกิจและนโยบายการเงินในฝั่งตะวันตก</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>โมเมนตัมตลาดหุ้นไทยเป็นบวก:</b> ดัชนี SET มีแนวโน้มเติบโตโดดเด่นในระดับ Top 5 ของเอเชียสำหรับครึ่งปีหลัง โดยมีกระแสเงินทุนต่างชาติ (Fund Flow) ไหลเข้าหนุนกลุ่มอุตสาหกรรมหลัก</li><li><b>กระแสเทคโนโลยีและ AI:</b> หุ้นกลุ่มเทคโนโลยีและนวัตกรรม AI ยังคงเป็นธีมหลักที่ขับเคลื่อนตลาดโลก แม้ธนาคารกลางทั่วโลกจะต้องเผชิญโจทย์ยากในการบริหารนโยบายการเงิน</li><li><b>ความเสี่ยงภูมิรัฐศาสตร์:</b> การแบ่งขั้วอำนาจทางเศรษฐกิจโลกและความตึงเครียดระหว่างประเทศยังคงเป็นความเสี่ยงหลักที่จำกัด Upside ของตลาดหุ้น</li></ul> <h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>สินทรัพย์เชิงยุทธศาสตร์:</b> ทองคำได้รับการยอมรับว่าเป็นสินทรัพย์ปลอดภัยหลักในการกระจายความเสี่ยงท่ามกลางความผันผวนของระเบียบโลกใหม่</li><li><b>มาตรการควบคุมในจีน:</b> การระงับการเก็งกำไรทองคำในรายบุคคลของธนาคารจีนอาจส่งผลกดดันอุปสงค์ฝั่งเอเชียในระยะสั้น</li><li><b>ราคายังทรงตัวในระดับสูง:</b> แรงหนุนจากความกังวลเรื่องเงินเฟ้อและความไม่แน่นอนทางเศรษฐกิจยังช่วยพยุงราคาทองคำในภาพรวม</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรปัจจุบันดีเยี่ยมที่ 12.87% และได้รับอานิสงส์โดยตรงจากกระแสเชิงบวกในกลุ่มธนาคารที่นำตลาดในเวลานี้"
+                "reason": "ราคามีกำไรสะสมที่ดีกว่า 12.87% และได้รับอานิสงส์จากเม็ดเงินต่างชาติที่เริ่มไหลกลับเข้ากลุ่มธนาคารพาณิชย์ขนาดใหญ่"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "ถือรับปันผลและรออานิสงส์จากมาตรการกระตุ้นอสังหาริมทรัพย์และสินเชื่อดอกเบี้ยต่ำจากภาครัฐ"
+                "reason": "ราคายังทรงตัวบวกเล็กน้อย แนะนำถือเพื่อรอประเมินการฟื้นตัวของภาคอสังหาริมทรัพย์และรอรับเงินปันผล"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "กำไรเติบโตอย่างแข็งแกร่งเกือบ 15% ควรสะสมหุ้นต้นทุนต่ำนี้ไว้เพื่อรอรอบการบริโภคในประเทศฟื้นตัว"
+                "reason": "สร้างกำไรได้โดดเด่นถึง 14.90% แนะนำถือครองต่อเพื่อรับประโยชน์จากการบริโภคในประเทศที่ฟื้นตัว"
             },
             "K-US500XUH": {
                 "action": "HOLD",
-                "reason": "แม้ตลาดหุ้นไทยจะเริ่มกลับมาชนะ S&P 500 ในครึ่งปีแรก แต่ยังจำเป็นต้องถือครองเพื่อการกระจายความเสี่ยงระดับโลก"
+                "reason": "การเติบโตของเศรษฐกิจสหรัฐฯ และหุ้นกลุ่มเทคโนโลยีขนาดใหญ่ยังช่วยหนุนดัชนี S&P500 ในระยะยาว"
             },
             "MTS-GOLD": {
-                "action": "BUY",
-                "reason": "แนะนำซื้อสะสมเพิ่มสอดคล้องกับคำแนะนำของนักวิเคราะห์ในการเพิ่มน้ำหนักทองคำในไตรมาส 3 เพื่อรับมือความผันผวน"
+                "action": "HOLD",
+                "reason": "คงสถานะทองคำเป็นสินทรัพย์ปลอดภัยยุทธศาสตร์เพื่อกระจายความเสี่ยงพอร์ตการลงทุนในภาวะที่ตลาดโลกผันผวน"
             }
         },
         "daily_picks": [
             {
-                "symbol": "CPF",
-                "name": "บริษัท เจริญโภคภัณฑ์อาหาร จำกัด (มหาชน)",
-                "reason": "ได้รับปัจจัยหนุนระยะยาวจากเมกะเทรนด์ความมั่นคงทางอาหาร (Food Security) และการปรับตัวของบริษัทสู่นวัตกรรมอาหารระดับโลก",
-                "tag": "Value"
+                "symbol": "ADVANC",
+                "name": "บริษัท แอดวานซ์ อินโฟร์ เซอร์วิส จำกัด (มหาชน)",
+                "reason": "หุ้นปลอดภัยขนาดใหญ่ที่เป็นเป้าหมายของ Fund Flow มีรายได้ที่มั่นคง และได้อานิสงส์เชิงบวกจากกระแสโครงสร้างพื้นฐาน AI",
+                "tag": "Tech & Dividend"
             },
             {
-                "symbol": "K-CHINA",
-                "name": "กองทุนเปิดเค ไชน่า หุ้นทุน",
-                "reason": "ตรงตามบทวิเคราะห์ของ CIMBT ที่แนะนำให้สลับพอร์ตในไตรมาส 3 เข้าสู่หุ้นจีนเพื่อบริหารความเสี่ยงและจับจังหวะการฟื้นตัวของตลาดที่ระดับราคาค่อนข้างถูก",
-                "tag": "Growth"
+                "symbol": "CPALL",
+                "name": "บริษัท ซีพี ออลล์ จำกัด (มหาชน)",
+                "reason": "รับปัจจัยบวกโดยตรงจากการฟื้นตัวของกำลังซื้อในประเทศ และการท่องเที่ยวในครึ่งปีหลังที่เป็นเป้าหมายซื้อคืนของนักลงทุนต่างชาติ",
+                "tag": "Value"
             }
         ]
     },
@@ -98,150 +98,114 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านเทคโนโลยีชิปประมวลผล AI ระดับโลก มีความต้องการเสถียรและเติบโตต่อเนื่องตามเทรนด์นวัตกรรม",
+            "reason": "ผู้นำด้านชิปประมวลผล AI ระดับโลก ได้รับประโยชน์สูงสุดจากโครงสร้างพื้นฐานเทคโนโลยีในยุค Fragmented World",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "โครงสร้างธุรกิจแข็งแกร่งจากการรวม AI เข้ากับระบบ Cloud (Azure) และซอฟต์แวร์สำนักงาน",
+            "reason": "ผู้นำด้านการรวมระบบ AI เข้ากับซอฟต์แวร์องค์กรและบริการ Cloud Azure ที่แข็งแกร่ง",
             "category": "Tech"
         },
         {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "แบรนด์แข็งแกร่ง กระแสเงินสดสูง และการเปิดตัวฟีเจอร์ Apple Intelligence ช่วยกระตุ้นยอดขายใหม่",
-            "category": "Tech"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเครื่องผลิตชิปขั้นสูงระบบ EUV มีความสำคัญอย่างยิ่งต่อซัพพลายเชนเซมิคอนดักเตอร์โลก",
-            "category": "Tech"
-        },
-        {
-            "symbol": "MC.PA",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "หุ้นกลุ่มสินค้าหรูหราที่มีอำนาจในการกำหนดราคาสูง ได้ประโยชน์จากการฟื้นตัวของกำลังซื้อกลุ่มบน",
-            "category": "Consumer"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Company",
-            "exchange": "NYSE",
-            "reason": "ผู้รับจ้างผลิตชิปอันดับหนึ่งของโลก ได้รับคำสั่งซื้อล้นหลามจากบริษัทเทคโนโลยีชั้นนำทั่วโลก",
-            "category": "Tech"
-        },
-        {
-            "symbol": "0700.HK",
-            "name": "Tencent Holdings Limited",
-            "exchange": "HKEX",
-            "reason": "หุ้นเทคโนโลยีจีนขนาดใหญ่ ได้รับอานิสงส์จากมาตรการกระตุ้นเศรษฐกิจและการสลับพอร์ตเข้าสู่ตลาดเอเชียตามคำแนะนำของ CIMBT",
-            "category": "Tech"
-        },
-        {
-            "symbol": "1211.HK",
-            "name": "BYD Company Limited",
-            "exchange": "HKEX",
-            "reason": "ผู้นำตลาดรถยนต์ไฟฟ้าในจีนและระดับโลก มีการขยายตลาดส่งออกอย่างรวดเร็วและต้นทุนการผลิตที่ได้เปรียบ",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "KBANK.BK",
-            "name": "Kasikornbank Public Company Limited",
-            "exchange": "SET",
-            "reason": "กลุ่มธนาคารไทยที่มีผลประกอบการแข็งแกร่งในไตรมาส 2 และได้รับอานิสงส์จากดัชนีหุ้นไทยที่มีแนวโน้มปรับขึ้น",
-            "category": "Financial"
-        },
-        {
-            "symbol": "SCB.BK",
-            "name": "SCB X Public Company Limited",
-            "exchange": "SET",
-            "reason": "เน้นกลยุทธ์การเติบโตผ่านเทคโนโลยีทางการเงินและการจ่ายปันผลในระดับสูงที่ดึงดูดนักลงทุน",
-            "category": "Financial"
-        },
-        {
-            "symbol": "CPALL.BK",
-            "name": "CP ALL Public Company Limited",
-            "exchange": "SET",
-            "reason": "ได้รับประโยชน์จากมาตรการกระตุ้นเศรษฐกิจของรัฐบาลและการฟื้นตัวของการบริโภคและการท่องเที่ยวในประเทศ",
-            "category": "Consumer"
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Binance/Global",
+            "reason": "สินทรัพย์ดิจิทัลทางเลือกหลัก ทำหน้าที่เป็นทองคำดิจิทัลท่ามกลางความผันผวนของระบบการเงินโลก",
+            "category": "Crypto"
         },
         {
             "symbol": "GLD",
             "name": "SPDR Gold Shares",
             "exchange": "NYSE Arca",
-            "reason": "สินทรัพย์ปลอดภัยชั้นดีเพื่อกระจายความเสี่ยงและรับมือความผันผวนของตลาดตามคำแนะนำของ CIMBT ในช่วงครึ่งปีหลัง",
+            "reason": "ETF ทองคำเพื่อกระจายความเสี่ยง เป็นสินทรัพย์ยุทธศาสตร์ที่ปลอดภัยจากความตึงเครียดทางภูมิรัฐศาสตร์",
             "category": "Commodity"
         },
         {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับการยอมรับในระดับสากล ผ่านกองทุน Spot ETF และการเป็นทองคำดิจิทัลช่วยป้องกันความเสี่ยง",
-            "category": "Crypto"
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตเซมิคอนดักเตอร์ขั้นสูงที่ใหญ่ที่สุดในโลก เป็นหัวใจสำคัญของห่วงโซ่อุปทาน AI",
+            "category": "Tech"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "แพลตฟอร์ม Smart Contract ชั้นนำ มีการพัฒนาเครือข่ายต่อเนื่องและได้รับประโยชน์จากกระแส Spot ETF",
+            "exchange": "Binance/Global",
+            "reason": "เครือข่ายบล็อกเชนหลักที่รองรับ Smart Contract และการเติบโตของสินทรัพย์ดิจิทัลระดับโลก",
             "category": "Crypto"
         },
         {
-            "symbol": "7203.T",
-            "name": "Toyota Motor Corporation",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ยอดขายรถยนต์ไฮบริดเติบโตอย่างแข็งแกร่งทั่วโลก ท่ามกลางการชะลอตัวชั่วคราวของตลาดรถยนต์ไฟฟ้าล้วน",
-            "category": "Automotive"
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูง (EUV) ของโลก ปลอดภัยจากสภาวะการแบ่งขั้วทางเทคโนโลยี",
+            "category": "Tech"
+        },
+        {
+            "symbol": "CPALL",
+            "name": "CP ALL Pcl.",
+            "exchange": "SET",
+            "reason": "หุ้นไทยขนาดใหญ่ที่มีความแข็งแกร่งด้านการบริโภคในประเทศ ได้รับประโยชน์โดยตรงจากกระแสเงินทุนไหลเข้า",
+            "category": "Consumer Staples"
+        },
+        {
+            "symbol": "BDMS",
+            "name": "Bangkok Dusit Medical Services Pcl.",
+            "exchange": "SET",
+            "reason": "หุ้นปลอดภัย (Defensive) ของไทยที่มีแนวโน้มเติบโตรองรับผู้ป่วยต่างชาติและสังคมผู้สูงอายุ",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "AOT",
+            "name": "Airports of Thailand Pcl.",
+            "exchange": "SET",
+            "reason": "ด่านแรกของการท่องเที่ยวไทย ได้รับอานิสงส์จากการฟื้นตัวของอุตสาหกรรมการบินและท่องเที่ยวอย่างต่อเนื่อง",
+            "category": "Tourism & Transport"
+        },
+        {
+            "symbol": "SAP",
+            "name": "SAP SE",
+            "exchange": "Xetra",
+            "reason": "ยักษ์ใหญ่ซอฟต์แวร์ยุโรปที่เปลี่ยนผ่านสู่ระบบคลาวด์และ AI สำหรับองค์กรได้อย่างยอดเยี่ยม",
+            "category": "Tech"
+        },
+        {
+            "symbol": "BABA",
+            "name": "Alibaba Group Holding Limited",
+            "exchange": "HKEX",
+            "reason": "หุ้นเทคโนโลยีจีนที่มีมูลค่าต่ำกว่าพื้นฐานจริง (Undervalued) พร้อมรุกตลาดคลาวด์ AI ในเอเชีย",
+            "category": "Tech"
+        },
+        {
+            "symbol": "LVMH",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "แบรนด์หรูระดับโลกที่มีอำนาจในการกำหนดราคาสูง ต้านทานแรงกดดันจากภาวะเงินเฟ้อได้ดี",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "AWS ได้ประโยชน์เต็มที่จากการเติบโตของโครงสร้างพื้นฐาน AI ควบคู่กับธุรกิจค้าปลีกที่ฟื้นตัว",
+            "category": "Tech"
+        },
+        {
+            "symbol": "XOM",
+            "name": "Exxon Mobil Corporation",
+            "exchange": "NYSE",
+            "reason": "หุ้นกลุ่มพลังงานที่ใช้ป้องกันความเสี่ยง (Hedge) จากภาวะสงครามและความขัดแย้งทางภูมิรัฐศาสตร์",
+            "category": "Energy"
         }
     ],
     "news": [
         {
-            "title": "หน้าหลัก - ตลาดหลักทรัพย์แห่งประเทศไทย - SET",
-            "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBkT0UzZGdpWkZrOHpKVVVvazE5aFFhZmNyejQ2U3N6bkl3MDJOdjFKM002Ujh2UFlGM2tmX3VxaHFpSEE?oc=5",
-            "source": "SET",
-            "date": "2026-07-05T23:54:43.094235+00:00"
-        },
-        {
-            "title": "หุ้นไทยโมเมนตัมดี 5 กลุ่มรับฟันด์โฟลว์ - Thunhoon",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBIeG5pVjFGTUZvdDFqZERpa1BqdDdNRnRMZmh6V01wdERKcVp5ZXdCWVpJVkhlZ000aWhING1qdW1OVVFJYWxaSWVMZ1VfdVk5NmpGZUxlT0ppSmM5cDFzYmlwME45bE5ONXdPOTZJb2tuR1lEdlhNb0JR?oc=5",
-            "source": "Thunhoon",
-            "date": "2026-07-05T23:54:43.094269+00:00"
-        },
-        {
-            "title": "สังคมข่าวหุ้น | ข่าวหุ้นธุรกิจ - LINE TODAY",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yWG1HNFhxMW1jMmhvWEg2TWxqVXZ4VElpS2QzTEEwUFJpTDdoYmVFQ1hqeHE5c3lvNTJGRGU3NVpKckhoTTQ5SFk3YV85Q1dMSVBaSHZB?oc=5",
-            "source": "LINE TODAY",
-            "date": "2026-07-05T23:54:43.094279+00:00"
-        },
-        {
-            "title": "AI กับโจทย์หินธนาคารกลางโลก - ข่าวหุ้นธุรกิจออนไลน์",
-            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3RjVpQThRVkRqUnVCX0J1WlRyOEE2cnhjQUpleVVlZURiMk5XU3RNaHpOVi1NUFI3Um5rWmt5TFBfYVFBV1laR3I2ZFY3dw?oc=5",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-07-05T23:54:43.867177+00:00"
-        },
-        {
-            "title": "Mid-Year Outlook 2026: Investing in a fragmented world order - bangkokbiznews",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wb3kzaF9aN2hmQmVsY0xkdkJuckxyZkQxR19yTHBCWXV0a1BtTmdDMl9OVDEtY2NxVEt2XzdkeUZfdkxvVTVtdFR1RGVUUHNrelA0R3Z5NGVxaFhRZGVHbElrSDA5UUpCb1NhTDM0UQ?oc=5",
-            "source": "bangkokbiznews",
-            "date": "2026-07-05T23:54:43.867198+00:00"
-        },
-        {
-            "title": "‘ศุภจี’ ชี้ ทองคำเป็นสินทรัพย์ยุทธศาสตร์ ท่ามกลางความผันผวนของเศรษฐกิจโลก - The Bangkok Insight",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMi1hN08yR3VpdlpSR3R0T09GMkRUazVlTm1lZHBWb082LXNOUGV2Y1JwS0dMbkhqUzI5ZWtqU2ZqbjZwTzZmWVFsTFZTeFFQQTVQSjY2M2c2MmEyaU5nbEEyY2dWUFhKLVJzTnNWb0I5blB3?oc=5",
-            "source": "The Bangkok Insight",
-            "date": "2026-07-05T23:54:43.867203+00:00"
-        },
-        {
-            "title": "ราคาทองคำวันนี้ 6 กรกฎาคม: SJC, DOJI และ PNJ ยังคงสูงกว่า 151 ล้านดองเวียดนาม - Vietnam.vn",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUkFZZG5ldTdvMlhBRmNVczdhUlJ3TGZGN09mU243TUVYQzdVdnp4QUQ2WUhpZGtka2QyZ0lEMXJyVkljY3hSYXltOGs3bWp5ZkxaeUk4bXlTdXJIaGdEOXAyVWVVRWxLRFlENjFCS3lKNVhKaDY5Sm9LeHR2OXVVZ21kQVV4M0MwMDB0cXNudUxIUQ?oc=5",
+            "title": "ราคาทองคำวันนี้ (6 กรกฎาคม): มีความเสี่ยงหลายประการแฝงอยู่ - Vietnam.vn",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mSXZueWY5QlFZYkNpVTBzaEFhOFowYzdveldDRmtOd1AzSVRXeC1uS1JCMlZ6ZUJlVmJuc3Vnb1FoSU9QdEc5bWFmbDRnWEI3REdvWGpaZ1kzRXlmeURYcXlaa1Y5WTJnTXZXSzNjYjliZnBueFE?oc=5",
             "source": "Vietnam.vn",
-            "date": "2026-07-05T23:54:44.577245+00:00"
+            "date": "2026-07-05T23:54:44.577314+00:00"
         },
         {
             "title": "ธนาคารจีนได้ระงับการซื้อขายทองคำรายบุคคลโดยรวมแล้ว - Vietnam.vn",
@@ -250,10 +214,64 @@
             "date": "2026-07-05T23:54:44.577306+00:00"
         },
         {
-            "title": "ราคาทองคำวันนี้ (6 กรกฎาคม): มีความเสี่ยงหลายประการแฝงอยู่ - Vietnam.vn",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mSXZueWY5QlFZYkNpVTBzaEFhOFowYzdveldDRmtOd1AzSVRXeC1uS1JCMlZ6ZUJlVmJuc3Vnb1FoSU9QdEc5bWFmbDRnWEI3REdvWGpaZ1kzRXlmeURYcXlaa1Y5WTJnTXZXSzNjYjliZnBueFE?oc=5",
+            "title": "ราคาทองคำวันนี้ 6 กรกฎาคม: SJC, DOJI และ PNJ ยังคงสูงกว่า 151 ล้านดองเวียดนาม - Vietnam.vn",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUkFZZG5ldTdvMlhBRmNVczdhUlJ3TGZGN09mU243TUVYQzdVdnp4QUQ2WUhpZGtka2QyZ0lEMXJyVkljY3hSYXltOGs3bWp5ZkxaeUk4bXlTdXJIaGdEOXAyVWVVRWxLRFlENjFCS3lKNVhKaDY5Sm9LeHR2OXVVZ21kQVV4M0MwMDB0cXNudUxIUQ?oc=5",
             "source": "Vietnam.vn",
-            "date": "2026-07-05T23:54:44.577314+00:00"
+            "date": "2026-07-05T23:54:44.577245+00:00"
+        },
+        {
+            "title": "‘ศุภจี’ ชี้ ทองคำเป็นสินทรัพย์ยุทธศาสตร์ ท่ามกลางความผันผวนของเศรษฐกิจโลก - The Bangkok Insight",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMi1hN08yR3VpdlpSR3R0T09GMkRUazVlTm1lZHBWb082LXNOUGV2Y1JwS0dMbkhqUzI5ZWtqU2ZqbjZwTzZmWVFsTFZTeFFQQTVQSjY2M2c2MmEyaU5nbEEyY2dWUFhKLVJzTnNWb0I5blB3?oc=5",
+            "source": "The Bangkok Insight",
+            "date": "2026-07-05T23:54:43.867203+00:00"
+        },
+        {
+            "title": "Mid-Year Outlook 2026: Investing in a fragmented world order - bangkokbiznews",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wb3kzaF9aN2hmQmVsY0xkdkJuckxyZkQxR19yTHBCWXV0a1BtTmdDMl9OVDEtY2NxVEt2XzdkeUZfdkxvVTVtdFR1RGVUUHNrelA0R3Z5NGVxaFhRZGVHbElrSDA5UUpCb1NhTDM0UQ?oc=5",
+            "source": "bangkokbiznews",
+            "date": "2026-07-05T23:54:43.867198+00:00"
+        },
+        {
+            "title": "AI กับโจทย์หินธนาคารกลางโลก - ข่าวหุ้นธุรกิจออนไลน์",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3RjVpQThRVkRqUnVCX0J1WlRyOEE2cnhjQUpleVVlZURiMk5XU3RNaHpOVi1NUFI3Um5rWmt5TFBfYVFBV1laR3I2ZFY3dw?oc=5",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-07-05T23:54:43.867177+00:00"
+        },
+        {
+            "title": "สังคมข่าวหุ้น | ข่าวหุ้นธุรกิจ - LINE TODAY",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yWG1HNFhxMW1jMmhvWEg2TWxqVXZ4VElpS2QzTEEwUFJpTDdoYmVFQ1hqeHE5c3lvNTJGRGU3NVpKckhoTTQ5SFk3YV85Q1dMSVBaSHZB?oc=5",
+            "source": "LINE TODAY",
+            "date": "2026-07-05T23:54:43.094279+00:00"
+        },
+        {
+            "title": "หุ้นไทยโมเมนตัมดี 5 กลุ่มรับฟันด์โฟลว์ - Thunhoon",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBIeG5pVjFGTUZvdDFqZERpa1BqdDdNRnRMZmh6V01wdERKcVp5ZXdCWVpJVkhlZ000aWhING1qdW1OVVFJYWxaSWVMZ1VfdVk5NmpGZUxlT0ppSmM5cDFzYmlwME45bE5ONXdPOTZJb2tuR1lEdlhNb0JR?oc=5",
+            "source": "Thunhoon",
+            "date": "2026-07-05T23:54:43.094269+00:00"
+        },
+        {
+            "title": "หน้าหลัก - ตลาดหลักทรัพย์แห่งประเทศไทย - SET",
+            "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBkT0UzZGdpWkZrOHpKVVVvazE5aFFhZmNyejQ2U3N6bkl3MDJOdjFKM002Ujh2UFlGM2tmX3VxaHFpSEE?oc=5",
+            "source": "SET",
+            "date": "2026-07-05T23:54:43.094235+00:00"
+        },
+        {
+            "title": "SET ทะยาน top 5 เอเชียส่องเทรนด์ครึ่งปีหลัง ตันแล้วหรือไปต่อ?",
+            "url": "https://www.msn.com/th-th/news/other/set-ทะยาน-top-5-เอเชียส่องเทรนด์ครึ่งปีหลัง-ตันแล้วหรือไปต่อ/ar-AA27ebg0",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-07-05T06:01:00+00:00"
+        },
+        {
+            "title": "จับตา 4 ความเสี่ยงใหญ่กระทบตลาดหุ้นโลก ส่องทางรอดครึ่งปีหลัง ...",
+            "url": "https://thestandard.co/global-stock-market-risks-ai-supercycle/",
+            "source": "THE STANDARD",
+            "date": "2026-07-05T05:08:00+00:00"
+        },
+        {
+            "title": "คุยกับ Binance TH สินทรัพย์ดิจิทัลกลางกระแส 'หุ้นเทคฯ-AI'",
+            "url": "https://www.msn.com/th-th/news/other/คุยกับ-binance-th-สินทรัพย์ดิจิทัลกลางกระแส-หุ้นเทคฯ-ai/ar-AA27eut6",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-07-05T05:05:00+00:00"
         }
     ]
 }
