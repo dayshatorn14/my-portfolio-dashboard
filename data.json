@@ -1,203 +1,169 @@
 {
-    "last_updated": "2026-07-08T12:49:59.299878+07:00",
+    "last_updated": "2026-07-08T17:15:13.225233+07:00",
     "summary": {
-        "total_value_thb": 31388.502521504266,
-        "total_profit_thb": 2406.0866108083937,
-        "total_profit_percent": 8.301884212214466
+        "total_value_thb": 31155.28692265999,
+        "total_profit_thb": 2167.016136303795,
+        "total_profit_percent": 7.475492940833631
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 154.0,
-            "total_value_thb": 15400.0,
-            "profit_thb": 1800.0,
-            "profit_percent": 13.23529411764706
+            "current_price_thb": 152.5,
+            "total_value_thb": 15250.0,
+            "profit_thb": 1650.0,
+            "profit_percent": 12.132352941176471
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4600000381469727,
-            "total_value_thb": 2920.0000762939453,
-            "profit_thb": 100.00007629394531,
-            "profit_percent": 3.5461019962391953
+            "current_price_thb": 1.4299999475479126,
+            "total_value_thb": 2859.999895095825,
+            "profit_thb": 39.999895095825195,
+            "profit_percent": 1.418435996305858
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.399999618530273,
-            "total_value_thb": 695.9999847412109,
-            "profit_thb": 86.79998474121089,
-            "profit_percent": 14.248191848524439
+            "current_price_thb": 16.899999618530273,
+            "total_value_thb": 675.9999847412109,
+            "profit_thb": 66.79998474121089,
+            "profit_percent": 10.965197757913803
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.656566196833403,
-            "total_value_thb": 10356.236605251568,
-            "profit_thb": 356.2370542915687,
-            "profit_percent": 3.562370702880381
+            "current_price_thb": 11.691507408219746,
+            "total_value_thb": 10387.280005707646,
+            "profit_thb": 387.2804547476462,
+            "profit_percent": 3.8728047213808856
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4139.7001953125,
-            "cost_per_unit_thb": 133781.94244766235,
-            "current_price_thb": 138100.40104229748,
-            "total_value_thb": 2016.2658552175433,
-            "profit_thb": 63.04949548167292,
-            "profit_percent": 3.227983175924196
+            "current_price_usd": 4057.199951171875,
+            "cost_per_unit_thb": 134182.96132850647,
+            "current_price_thb": 135753.90665173344,
+            "total_value_thb": 1982.0070371153083,
+            "profit_thb": 22.935801719113897,
+            "profit_percent": 1.1707487356617463
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>เป้าหมายดัชนีและมุมมองเชิงบวก:</b> โบรกเกอร์ชั้นนำอย่าง CGSI ได้ปรับเพิ่มเป้าหมายดัชนีหุ้นไทยสิ้นปีนี้ไปที่ 1,630 จุด สะท้อนความเชื่อมั่นและการฟื้นตัวของเศรษฐกิจไทย</li><li><b>ความผันผวนในเดือนกรกฎาคม:</b> มีคำเตือนเกี่ยวกับตลาดหุ้นที่อาจผันผวนสูงในระยะสั้น พร้อมคำแนะนำให้ชะลอการลงทุนในหุ้นกลุ่มอิเล็กทรอนิกส์ของไทยเนื่องจากความกังวลเรื่องหุ้นเทคโนโลยีโลกปรับฐาน</li><li><b>เงินเฟ้อชะลอตัวและทิศทางดอกเบี้ย:</b> อัตราเงินเฟ้อไทยในเดือน มิ.ย. ชะลอตัวลงตามราคาน้ำมัน ซึ่งช่วยลดแรงกดดันต่อการขึ้นอัตราดอกเบี้ย</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>มาตรการควบคุมในประเทศจีน:</b> ธนาคารในประเทศจีนได้มีการระงับการซื้อขายทองคำรายบุคคล ซึ่งอาจส่งผลกระทบต่อสภาพคล่องและปริมาณความต้องการซื้อในฝั่งเอเชียระยะสั้น</li><li><b>ความเสี่ยงแฝงและการเก็งกำไร:</b> แม้ราคาทองคำในตลาดโลกและในประเทศเวียดนามจะยังทรงตัวในระดับสูง แต่เริ่มมีสัญญาณความเสี่ยงและปัจจัยกดดันรอบด้านที่ต้องระมัดระวังในการเก็งกำไร</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรปัจจุบันอยู่ที่ 13.24% ควรถือครองต่อเพื่อรับปันผลและรับอานิสงส์จากการเติบโตของธุรกิจ Wealth Management ตามแนวโน้มอุตสาหกรรม"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "กำไรอยู่ที่ 3.55% แนะนำถือรับปันผลเด่น และรอจังหวะดัชนีหุ้นไทยฟื้นตัวตามเป้าหมายปลายปี"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "ด้วยกำไรที่แข็งแกร่งถึง 14.25% และเป็นหุ้นกลุ่มปลอดภัย (Defensive) จึงเหมาะสำหรับถือครองลดความผันผวนในเดือนกรกฎาคม"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "กำไร 3.56% ถือเพื่อการกระจายความเสี่ยงระยะยาว แม้ว่าหุ้นกลุ่มเทคโนโลยีโลกจะมีความเสี่ยงจากการปรับฐานระยะสั้น"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "กำไรสะสม 3.23% แนะนำถือครองเพื่อป้องกันความเสี่ยงของพอร์ต (Hedging) แม้ระยะสั้นทองคำจะมีปัจจัยเสี่ยงจากนโยบายการเงินของจีน"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "KTB",
-                "name": "ธนาคารกรุงไทย จำกัด (มหาชน)",
-                "reason": "เปิดตัว 24 DR ใหม่เชิงรุก เสริมแกร่งรายได้ค่าธรรมเนียมและสอดรับกับเทรนด์ธุรกิจ Wealth ยุคใหม่",
-                "tag": "Value"
-            },
-            {
-                "symbol": "BDMS",
-                "name": "บริษัท กรุงเทพดุสิตเวชการ จำกัด (มหาชน)",
-                "reason": "เป็นหุ้นปลอดภัยขนาดใหญ่ที่มีพื้นฐานแกร่ง เหมาะเป็นหลุมหลบภัยชั้นดีในช่วงที่ตลาดหุ้นเดือนกรกฎาคมมีความผันผวนสูง",
-                "tag": "Defensive"
-            }
-        ]
+        "market_analysis": "Error: Expecting ',' delimiter: line 39 column 1 (char 2645)",
+        "recommendations": {},
+        "daily_picks": []
     },
     "global_watchlist": [
         {
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิป AI ระดับโลกที่มีส่วนแบ่งการตลาดสูงสุด ความต้องการชิป GPU สำหรับ Data Center ยังเติบโตอย่างแข็งแกร่ง",
+            "reason": "ผู้นำด้านชิปประมวลผล AI ของโลกที่ยังคงเติบโตอย่างแข็งแกร่งตามความต้องการของ Data Center ทั่วโลก",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านซอฟต์แวร์ระดับโลกและระบบคลาวด์ Azure ที่ได้ประโยชน์โดยตรงจากการนำ Generative AI เข้ามาสร้างมูลค่าเพิ่ม",
+            "reason": "โครงสร้างพื้นฐานด้าน Cloud และการผสาน AI เข้ากับซอฟต์แวร์ระดับองค์กรที่สร้างรายได้อย่างสม่ำเสมอ",
             "category": "Tech"
         },
         {
             "symbol": "AAPL",
             "name": "Apple Inc.",
             "exchange": "NASDAQ",
-            "reason": "มีกระแสเงินสดแข็งแกร่ง และเตรียมเปิดตัว Apple Intelligence ซึ่งจะกระตุ้นยอดขายและการอัปเกรด iPhone ทั่วโลก",
+            "reason": "กระแสเงินสดแข็งแกร่งและการเปิดตัว Apple Intelligence ที่จะช่วยกระตุ้นยอดขายอุปกรณ์รอบใหม่",
             "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลกที่เป็นกระดูกสันหลังของอุตสาหกรรม AI มีอำนาจการต่อรองราคาที่สูงมาก",
-            "category": "Semiconductors"
         },
         {
             "symbol": "LLY",
             "name": "Eli Lilly and Company",
             "exchange": "NYSE",
-            "reason": "ยาลดน้ำหนักและยารักษาโรคเบาหวาน (Mounjaro/Zepbound) มียอดขายเติบโตอย่างมหาศาลและยังมีอุปสงค์ล้นตลาด",
+            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวานที่มีความต้องการสูงทั่วโลก มีสิทธิบัตรและคูเมืองทางการค้าที่แข็งแกร่ง",
             "category": "Healthcare"
         },
         {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
+            "symbol": "JPM",
+            "name": "JPMorgan Chase & Co.",
             "exchange": "NYSE",
-            "reason": "ผู้พัฒนาเคมีภัณฑ์ยาและยาลดความอ้วนชั้นนำของยุโรป (Wegovy) ครองตลาดร่วมกับ Eli Lilly และขยายฐานการผลิตต่อเนื่อง",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ธุรกิจคลาวด์ AWS เริ่มกลับมาเติบโตเร่งตัวขึ้น ประกอบกับการปรับปรุงประสิทธิภาพการกระจายสินค้าช่วยเพิ่มอัตรากำไร",
-            "category": "E-Commerce/Cloud"
-        },
-        {
-            "symbol": "BRK.B",
-            "name": "Berkshire Hathaway Inc.",
-            "exchange": "NYSE",
-            "reason": "หุ้นปลอดภัยที่มีการกระจายความเสี่ยงในหลากหลายธุรกิจ ถือครองเงินสดในปริมาณสูงมาก เหมาะสำหรับช่วงตลาดผันผวน",
-            "category": "Conglomerate"
+            "reason": "ยักษ์ใหญ่ทางการเงินที่ได้ประโยชน์จากแนวโน้มการเติบโตของธุรกิจบริหารความมั่งคั่ง (Wealth Management) และดอกเบี้ยสูง",
+            "category": "Financial"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูงระบบ EUV รายเดียวในโลก ได้รับประโยชน์ระยะยาวจากการย้ายฐานผลิตเซมิคอนดักเตอร์ทั่วโลก",
-            "category": "Semiconductors"
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผูกขาดเทคโนโลยีเครื่องผลิตชิปขั้นสูง (EUV) ที่เป็นหัวใจสำคัญของห่วงโซ่อุปทานเซมิคอนดักเตอร์โลก",
+            "category": "Tech"
         },
         {
-            "symbol": "700",
+            "symbol": "MC.PA",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "แบรนด์หรูระดับโลกที่มีอำนาจในการตั้งราคา (Pricing Power) สูง ช่วยต้านทานภาวะเงินเฟ้อได้อย่างดีเยี่ยม",
+            "category": "Consumer Cyclical"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Company",
+            "exchange": "NYSE",
+            "reason": "ผู้รับจ้างผลิตชิปอันดับหนึ่งของโลก ได้รับอานิสงส์โดยตรงจากกระแสความต้องการชิป AI ขั้นสูง",
+            "category": "Tech"
+        },
+        {
+            "symbol": "0700.HK",
             "name": "Tencent Holdings Limited",
             "exchange": "HKEX",
-            "reason": "ยักษ์ใหญ่เทคโนโลยีจีนที่มีมูลค่าพื้นฐานน่าดึงดูด ธุรกิจเกมและการโฆษณาฟื้นตัวได้ดีภายใต้มาตรการกระตุ้นเศรษฐกิจ",
-            "category": "Tech/China"
+            "reason": "หุ้นเทคโนโลยีระดับท็อปของเอเชียที่มีมูลค่า (Valuation) น่าดึงดูด และการฟื้นตัวของธุรกิจเกมและโฆษณาออนไลน์",
+            "category": "Tech"
         },
         {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "TSE",
-            "reason": "ค่ายรถยนต์ยักษ์ใหญ่ที่ได้ประโยชน์จากความต้องการรถยนต์ Hybrid ที่พุ่งสูงขึ้นทั่วโลกแทนที่ EV และค่าเงินเยนที่อ่อนตัวลง",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "ADVANC",
-            "name": "Advanced Info Service PCL",
+            "symbol": "BDMS",
+            "name": "Bangkok Dusit Medical Services PCL",
             "exchange": "SET",
-            "reason": "หุ้นไทยที่จ่ายเงินปันผลสม่ำเสมอและมีความผันผวนต่ำ เหมาะเป็นแหล่งพักเงินท่ามกลางความผันผวนของตลาดหุ้นไทยในเดือน ก.ค.",
-            "category": "Telecom"
+            "reason": "หุ้นโรงพยาบาลขนาดใหญ่ของไทยที่มีความปลอดภัยสูง (Defensive) เหมาะสำหรับการพักเงินในช่วงตลาดหุ้นไทยผันผวน",
+            "category": "Healthcare"
         },
         {
-            "symbol": "GLD",
-            "name": "SPDR Gold Shares",
-            "exchange": "NYSE Arca",
-            "reason": "ETF ทองคำเพื่อป้องกันความเสี่ยงจากอัตราเงินเฟ้อและความตึงเครียดทางภูมิรัฐศาสตร์ทั่วโลกที่มีแนวโน้มยืดเยื้อ",
-            "category": "Commodity"
+            "symbol": "CPALL",
+            "name": "CP ALL PCL",
+            "exchange": "SET",
+            "reason": "ได้รับประโยชน์โดยตรงจากการบริโภคในประเทศที่ฟื้นตัวและการท่องเที่ยวไทยที่ขยายตัวอย่างต่อเนื่อง",
+            "category": "Consumer Defensive"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
             "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลอันดับหนึ่งที่ได้แรงหนุนจากการอนุมัติ Spot ETF และการเป็นเครื่องมือป้องกันความเสี่ยงการเสื่อมค่าของเงินตรา",
-            "category": "Cryptocurrency"
+            "reason": "สินทรัพย์ทางเลือกและทองคำดิจิทัล ได้รับความสนใจเพิ่มขึ้นท่ามกลางข้อจำกัดการซื้อขายทองคำในบางประเทศ",
+            "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
             "exchange": "Crypto",
-            "reason": "แพลตฟอร์ม Smart Contract ชั้นนำที่เตรียมรับเม็ดเงินไหลเข้าหลังจากการอนุมัติและเริ่มซื้อขาย Spot ETF ในสหรัฐฯ",
-            "category": "Cryptocurrency"
+            "reason": "รับปัจจัยบวกจากแนวโน้มการอนุมัติ Spot ETF และการเป็นเครือข่ายบล็อกเชนหลักสำหรับ Smart Contracts",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การเติบโตที่แข็งแกร่งของธุรกิจ AWS Cloud และประสิทธิภาพของระบบโลจิสติกส์ E-commerce ที่ดีขึ้น",
+            "category": "Tech"
+        },
+        {
+            "symbol": "XOM",
+            "name": "Exxon Mobil Corporation",
+            "exchange": "NYSE",
+            "reason": "หุ้นพลังงานคุณภาพสูงเพื่อป้องกันความเสี่ยงด้านเงินเฟ้อและความตึงเครียดทางภูมิรัฐศาสตร์โลก",
+            "category": "Energy"
         }
     ],
     "news": [
