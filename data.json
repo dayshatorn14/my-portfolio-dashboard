@@ -1,28 +1,28 @@
 {
-    "last_updated": "2026-07-09T17:53:18.404948+07:00",
+    "last_updated": "2026-07-10T13:45:20.753907+07:00",
     "summary": {
-        "total_value_thb": 31500.70763518271,
-        "total_profit_thb": 2512.4368488265136,
-        "total_profit_percent": 8.667080790514186
+        "total_value_thb": 31604.41744189358,
+        "total_profit_thb": 2626.099988829774,
+        "total_profit_percent": 9.062292843893609
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 155.0,
-            "total_value_thb": 15500.0,
-            "profit_thb": 1900.0,
-            "profit_percent": 13.970588235294118
+            "current_price_thb": 156.0,
+            "total_value_thb": 15600.0,
+            "profit_thb": 2000.0,
+            "profit_percent": 14.705882352941178
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4700000286102295,
-            "total_value_thb": 2940.000057220459,
-            "profit_thb": 120.00005722045898,
-            "profit_percent": 4.255321178030461
+            "current_price_thb": 1.4600000381469727,
+            "total_value_thb": 2920.0000762939453,
+            "profit_thb": 100.00007629394531,
+            "profit_percent": 3.5461019962391953
         },
         {
             "symbol": "OSP",
@@ -37,170 +37,76 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.660063257427577,
-            "total_value_thb": 10359.343556846456,
-            "profit_thb": 359.3440058864562,
-            "profit_percent": 3.5934402202244016
+            "current_price_thb": 11.693590710229708,
+            "total_value_thb": 10389.13090829517,
+            "profit_thb": 389.13135733517083,
+            "profit_percent": 3.8913137480872613
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4113.2001953125,
-            "cost_per_unit_thb": 134182.96132850647,
-            "current_price_thb": 137627.674769409,
-            "total_value_thb": 2009.3640516333714,
-            "profit_thb": 50.29281623717702,
-            "profit_percent": 2.5671764930490655
+            "current_price_usd": 4121.7001953125,
+            "cost_per_unit_thb": 133501.22617149353,
+            "current_price_thb": 137211.40327548236,
+            "total_value_thb": 2003.2864878220423,
+            "profit_thb": 54.16858571823673,
+            "profit_percent": 2.7791333535939087
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>ตลาดหุ้นไทยฟื้นตัวอย่างแข็งแกร่งปิดบวกกว่า 32 จุดหลังปัจจัยลบเริ่มคลี่คลาย ประกอบกับ CGSI ปรับเป้าดัชนีปลายปีขึ้นเป็น 1,630 จุด สร้างจิตวิทยาเชิงบวก</li><li>มีความกังวลการปรับฐานของหุ้นกลุ่มเทคโนโลยีโลก ส่งผลให้มีคำแนะนำชะลอการลงทุนในกลุ่มอิเล็กทรอนิกส์ไทยชั่วคราว</li><li>ความผันผวนในเดือน ก.ค. ยังคงมีอยู่ ทำให้นักลงทุนหันมาให้ความสำคัญกับการเลือกหุ้นพื้นฐานดีรายตัวและการบริหารความมั่งคั่ง (Wealth)</li></ul> <h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>ความตึงเครียดทางภูมิรัฐศาสตร์ในช่องแคบฮอร์มุซระหว่างอิหร่านและสหรัฐฯ ที่เสี่ยงลากยาว เป็นปัจจัยหนุนแรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัย</li><li>อัตราเงินเฟ้อไทยชะลอตัวลงจากปัจจัยราคาน้ำมัน ทว่าความเสี่ยงด้านภูมิรัฐศาสตร์โลกยังคงเป็นตัวขับเคลื่อนหลักให้ราคาทองคำทรงตัวในระดับสูง</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>การฟื้นตัวของดัชนีหุ้นไทย:</b> ตลาดหุ้นปิดบวกแรงกว่า 32 จุดจากการคลี่คลายของปัจจัยลบ และการปรับเพิ่มเป้าดัชนีสิ้นปีของ CGSI สู่ระดับ 1,630 จุด ช่วยกระตุ้นความเชื่อมั่นผู้ลงทุน</li><li><b>การขับเคลื่อนของนวัตกรรมและกองทุน:</b> ธนาคารกรุงไทยรุกตลาด Wealth ด้วยการเปิดตัว 24 DR ใหม่ ประกอบกับการปลดล็อกบทบาทของ NIA เพื่อร่วมลงทุนในกลุ่ม Deep Tech จะช่วยหนุนกลุ่มหุ้นเทคโนโลยีและสถาบันการเงิน</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ความตึงเครียดทางภูมิรัฐศาสตร์:</b> ความขัดแย้งบริเวณช่องแคบฮอร์มุซระหว่างอิหร่านและสหรัฐฯ มีแนวโน้มยืดเยื้อ ซึ่งเป็นปัจจัยเร่งให้เกิดแรงซื้อสินทรัพย์ปลอดภัยอย่างทองคำ</li><li><b>แรงกดดันด้านเงินเฟ้อ:</b> อัตราเงินเฟ้อไทยชะลอตัวลงจากปัจจัยราคาน้ำมัน แต่อัตราเงินเฟ้อโลกที่ยังมีความผันผวนยังคงเป็นแรงหนุนราคาทองคำในระยะยาว</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรปัจจุบัน 13.97% แนะนำถือต่อเพื่อรับปันผลและรับประโยชน์จากทิศทางตลาดหุ้นไทยที่ฟื้นตัวขึ้น"
+                "reason": "พอร์ตมีกำไรอยู่ถึง 14.7% และธนาคารได้รับอานิสงส์เชิงบวกโดยตรงจากกระแสความต้องการลงทุนในธุรกิจ Wealth ที่กำลังเติบโต"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "กำไร 4.25% แนะนำถือครองเพื่อรอการฟื้นตัวของกลุ่มอสังหาริมทรัพย์ตามภาพรวมเศรษฐกิจที่ดีขึ้น"
+                "reason": "ราคาหุ้นยังทรงตัวและมีกำไรเล็กน้อย แนะนำให้ถือครองเพื่อรอทิศทางเศรษฐกิจและนโยบายกระตุ้นอสังหาริมทรัพย์ที่ชัดเจนขึ้น"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "กำไร 13.59% แนะนำถือต่อในฐานะหุ้นกลุ่มสินค้าอุปโภคบริโภคที่มีความต้านทานแรงผันผวนของตลาดได้ดี"
+                "reason": "กำไรเติบโตดีที่ 13.59% ควรถือครองต่อไปเนื่องจากเป็นหุ้นปลอดภัย (Defensive) ที่ได้ประโยชน์จากการฟื้นตัวของกำลังซื้อในประเทศ"
             },
             "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "กำไร 3.59% แนะนำถือเพื่อสะสมมูลค่าระยะยาว แม้ระยะสั้นอาจเผชิญแรงกดดันจากการปรับฐานของหุ้นเทคโนโลยีโลก"
+                "action": "BUY",
+                "reason": "ดัชนี S&P 500 ยังมีแนวโน้มเติบโตต่อเนื่องตามกระแสเทคโนโลยีและ AI ระดับโลก เหมาะแก่การสะสมเพิ่มเพื่อกระจายความเสี่ยง"
             },
             "MTS-GOLD": {
                 "action": "BUY",
-                "reason": "แนะนำซื้อเพิ่มเพื่อใช้เป็นสินทรัพย์ปลอดภัยป้องกันความเสี่ยงจากความขัดแย้งในช่องแคบฮอร์มุซ"
+                "reason": "แนะนำซื้อสะสมเพิ่มเพื่อป้องกันความเสี่ยงจากวิกฤตภูมิรัฐศาสตร์ในตะวันออกกลางที่อาจทวีความรุนแรงขึ้น"
             }
         },
         "daily_picks": [
             {
                 "symbol": "KTB",
                 "name": "ธนาคารกรุงไทย จำกัด (มหาชน)",
-                "reason": "โดดเด่นจากการเปิดตัว 24 DR ใหม่ ตอบรับกระแสการเติบโตของธุรกิจ Wealth และการใช้เงินต่อเงินในยุคดอกเบี้ยสูง",
+                "reason": "โดดเด่นจากการเปิดตัว 24 DR ใหม่ ตอบรับกระแสการเติบโตของธุรกิจ Wealth และการใช้เงินต่อเงินของนักลงทุนรุ่นใหม่",
                 "tag": "Value"
             },
             {
-                "symbol": "PTTEP",
-                "name": "บริษัท ปตท. สำรวจและผลิตปิโตรเลียม จำกัด (มหาชน)",
-                "reason": "ได้รับอานิสงส์โดยตรงจากความกังวลเรื่องอุปทานน้ำมันตึงตัวจากความขัดแย้งบริเวณช่องแคบฮอร์มุซ",
-                "tag": "Dividend"
+                "symbol": "HANA",
+                "name": "บริษัท ฮานา ไมโครอิเล็คโทรนิคส จำกัด (มหาชน)",
+                "reason": "ได้รับประโยชน์โดยตรงจากโอกาสที่ประเทศไทยจะก้าวขึ้นเป็นผู้ชนะในห่วงโซ่อุปทานชิ้นส่วนสำหรับเทคโนโลยี AI ระดับโลก",
+                "tag": "Tech"
             }
         ]
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิป AI โลก แม้กลุ่มเทคฯ มีการปรับฐาน แต่ความต้องการใช้งานเซมิคอนดักเตอร์ประสิทธิภาพสูงยังคงแข็งแกร่ง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "กระแสเงินสดแข็งแกร่ง มีการรวม AI (Copilot) เข้ากับธุรกิจซอฟต์แวร์และคลาวด์ Azure อย่างเป็นรูปธรรม ช่วยต้านทานความผันผวนได้ดี",
-            "category": "Tech"
-        },
-        {
-            "symbol": "XOM",
-            "name": "Exxon Mobil Corporation",
-            "exchange": "NYSE",
-            "reason": "ได้รับอานิสงส์จากราคาน้ำมันดิบที่ทรงตัวในระดับสูงจากความตึงเครียดทางภูมิรัฐศาสตร์ในช่องแคบฮอร์มุซ",
-            "category": "Energy"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Binance / Coinbase",
-            "reason": "สินทรัพย์ดิจิทัลทางเลือกเพื่อป้องกันความเสี่ยงจากเงินเฟ้อและการอ่อนค่าของเงินสกุลหลัก ได้รับแรงหนุนจาก Spot ETF",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Binance / Coinbase",
-            "reason": "ผู้นำด้าน Smart Contract และ Web3 Infrastructure ได้รับการยอมรับจากสถาบันการเงินผ่านการอนุมัติ Spot ETF",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "NASDAQ / Euronext",
-            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูง (EUV) มีความสำคัญเชิงยุทธศาสตร์ต่ออุตสาหกรรมเทคโนโลยีระดับโลกในระยะยาว",
-            "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปสัญชาติไต้หวันที่มีส่วนแบ่งการตลาดสูงสุดในโลก ได้ประโยชน์จากอุปสงค์ชิป AI ที่เติบโตอย่างต่อเนื่อง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำนวัตกรรมยารักษาโรคอ้วนและเบาหวาน (Mounjaro) ซึ่งมีความต้องการในตลาดโลกสูงมากและคู่แข่งน้อยราย",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "JPM",
-            "name": "JPMorgan Chase & Co.",
-            "exchange": "NYSE",
-            "reason": "ธนาคารที่ใหญ่ที่สุดในสหรัฐฯ ได้รับประโยชน์จากดอกเบี้ยขาขึ้นและแนวโน้มการเติบโตของธุรกิจ Wealth Management ทั่วโลก",
-            "category": "Financial"
-        },
-        {
-            "symbol": "LMT",
-            "name": "Lockheed Martin Corporation",
-            "exchange": "NYSE",
-            "reason": "หุ้นกลุ่มป้องกันประเทศ (Defense) ที่มั่นคง ได้รับอานิสงส์โดยตรงจากความตึงเครียดทางภูมิรัฐศาสตร์ทั่วโลกที่ทวีความรุนแรงขึ้น",
-            "category": "Industrials"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE / NYSE Copenhagen",
-            "reason": "ผู้ผลิตยา Wegovy และ Ozempic ครองตลาดการควบคุมน้ำหนัก ยอดขายในตลาดยุโรปและสหรัฐฯ เติบโตก้าวกระโดด",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ยอดขายรถยนต์ไฮบริดเติบโตอย่างแข็งแกร่งท่ามกลางการชะลอตัวของรถยนต์ไฟฟ้าล้วน (EV) และได้อานิสงส์จากเงินเยนอ่อนค่า",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "AOT",
-            "name": "Airports of Thailand PCL",
-            "exchange": "SET",
-            "reason": "หุ้นไทยกลุ่มท่องเที่ยวที่แข็งแกร่ง ได้รับประโยชน์จากการฟื้นตัวของนักท่องเที่ยวต่างชาติและการผ่อนคลายมาตรการวีซ่า",
-            "category": "Tourism"
-        },
-        {
-            "symbol": "BDMS",
-            "name": "Bangkok Dusit Medical Services PCL",
-            "exchange": "SET",
-            "reason": "หุ้นโรงพยาบาลขนาดใหญ่ของไทย มีความปลอดภัยสูง (Defensive Stock) รองรับเทรนด์ Medical Tourism และสังคมผู้สูงอายุ",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "BABA",
-            "name": "Alibaba Group Holding Limited",
-            "exchange": "NYSE / HKEX",
-            "reason": "ราคาหุ้นอยู่ในระดับ Valuation ที่น่าดึงดูดใจ และมีการปรับโครงสร้างธุรกิจเน้นระบบคลาวด์และ AI เพื่อกลับมาเติบโตอีกครั้ง",
-            "category": "Tech"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "ไทยขึ้นแท่น ห่วงโซ่ AI โลก 'ผู้ชนะรอบแรก' หรือแค่ 'ทางผ่าน' ?",
+            "url": "https://www.bangkokbiznews.com/economics/1242473",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-07-10T06:43:00+00:00"
+        },
+        {
+            "title": "10 อันดับมหาเศรษฐีไทย 2569 \"เฉลิม อยู่วิทยา\" ครองแชมป์ปีที่ 3 มูลค่า ...",
+            "url": "https://www.komchadluek.net/news/economic/619666",
+            "source": "คมชัดลึก",
+            "date": "2026-07-10T00:00:00+00:00"
+        },
         {
             "title": "ตลาดหุ้นไทยปิดบวก 32.05 จุด ฟื้นตัวรับข่าวลบทยอยคลี่คลาย",
             "url": "https://www.dailynews.co.th/news/6014013/",
@@ -308,18 +214,6 @@
             "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUkFZZG5ldTdvMlhBRmNVczdhUlJ3TGZGN09mU243TUVYQzdVdnp4QUQ2WUhpZGtka2QyZ0lEMXJyVkljY3hSYXltOGs3bWp5ZkxaeUk4bXlTdXJIaGdEOXAyVWVVRWxLRFlENjFCS3lKNVhKaDY5Sm9LeHR2OXVVZ21kQVV4M0MwMDB0cXNudUxIUQ?oc=5",
             "source": "Vietnam.vn",
             "date": "2026-07-05T23:54:44.577245+00:00"
-        },
-        {
-            "title": "‘ศุภจี’ ชี้ ทองคำเป็นสินทรัพย์ยุทธศาสตร์ ท่ามกลางความผันผวนของเศรษฐกิจโลก - The Bangkok Insight",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMi1hN08yR3VpdlpSR3R0T09GMkRUazVlTm1lZHBWb082LXNOUGV2Y1JwS0dMbkhqUzI5ZWtqU2ZqbjZwTzZmWVFsTFZTeFFQQTVQSjY2M2c2MmEyaU5nbEEyY2dWUFhKLVJzTnNWb0I5blB3?oc=5",
-            "source": "The Bangkok Insight",
-            "date": "2026-07-05T23:54:43.867203+00:00"
-        },
-        {
-            "title": "Mid-Year Outlook 2026: Investing in a fragmented world order - bangkokbiznews",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wb3kzaF9aN2hmQmVsY0xkdkJuckxyZkQxR19yTHBCWXV0a1BtTmdDMl9OVDEtY2NxVEt2XzdkeUZfdkxvVTVtdFR1RGVUUHNrelA0R3Z5NGVxaFhRZGVHbElrSDA5UUpCb1NhTDM0UQ?oc=5",
-            "source": "bangkokbiznews",
-            "date": "2026-07-05T23:54:43.867198+00:00"
         }
     ]
 }
