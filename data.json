@@ -1,37 +1,37 @@
 {
-    "last_updated": "2026-07-22T12:48:26.292594+07:00",
+    "last_updated": "2026-07-22T17:23:55.813288+07:00",
     "summary": {
-        "total_value_thb": 31404.592687642224,
-        "total_profit_thb": 2397.586031153962,
-        "total_profit_percent": 8.265541010649825
+        "total_value_thb": 31331.688090224012,
+        "total_profit_thb": 2324.68143373575,
+        "total_profit_percent": 8.014206571762093
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.5,
-            "total_value_thb": 15150.0,
-            "profit_thb": 1550.0,
-            "profit_percent": 11.397058823529411
+            "current_price_thb": 151.0,
+            "total_value_thb": 15100.0,
+            "profit_thb": 1500.0,
+            "profit_percent": 11.029411764705882
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5099999904632568,
-            "total_value_thb": 3019.9999809265137,
-            "profit_thb": 199.99998092651367,
-            "profit_percent": 7.09219790519552
+            "current_price_thb": 1.5,
+            "total_value_thb": 3000.0,
+            "profit_thb": 180.0,
+            "profit_percent": 6.382978723404255
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.399999618530273,
-            "total_value_thb": 695.9999847412109,
-            "profit_thb": 86.79998474121089,
-            "profit_percent": 14.248191848524439
+            "current_price_thb": 17.5,
+            "total_value_thb": 700.0,
+            "profit_thb": 90.79999999999995,
+            "profit_percent": 14.904793171372283
         },
         {
             "symbol": "K-US500XUH",
@@ -46,50 +46,50 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4136.0,
+            "current_price_usd": 4122.0,
             "cost_per_unit_thb": 135466.2401046753,
-            "current_price_thb": 139714.07495117188,
-            "total_value_thb": 2039.8254942871094,
-            "profit_thb": 62.01838875885005,
-            "profit_percent": 3.1357147310018054
+            "current_price_thb": 139241.15496826172,
+            "total_value_thb": 2032.9208625366211,
+            "profit_thb": 55.113757008361745,
+            "profit_percent": 2.7866093136338095
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> หุ้นกลุ่มสหรัฐฯ และธีม AI มีแนวโน้มเติบโตต่อเนื่องในครึ่งปีหลัง รวมถึงกลุ่มโรงไฟฟ้าได้รับอานิสงส์จากแผน PDP ใหม่</li><li><b>ปัจจัยบวก:</b> การส่งเสริม BOI to IPO ช่วยดึงดูดเงินลงทุนเข้าสู่กลุ่มอุตสาหกรรมใหม่ในไทย</li><li><b>ปัจจัยกดดัน:</b> กลุ่มอสังหาริมทรัพย์ยังคงชะลอตัวและมีแนวโน้มฟื้นตัวช้าถึงปี 2569 จากภาวะดอกเบี้ยและหนี้ครัวเรือน</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยกดดัน:</b> ข่าวความคืบหน้าในการเจรจาหยุดยิงและค่าเงินบาทที่ทรงตัว อาจลดความต้องการถือครองทองคำในฐานะสินทรัพย์ปลอดภัยระยะสั้น</li><li><b>ปัจจัยหนุน:</b> ความผันผวนของเศรษฐกิจโลกและภาวะเศรษฐกิจไทยที่เปราะบางยังเป็นปัจจัยค้ำจุนราคาทองคำในระยะยาว</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>FETCO เผยต่างชาติปรับเพิ่มเป้าหมายหุ้นไทยชน 1,800 จุด จากกระแส Fund Flow ที่เริ่มไหลเข้าต่อเนื่อง</li><li>มาตรการ BOI to IPO หนุนการดึงดูดเงินลงทุนในอุตสาหกรรมใหม่</li><li>กลุ่มโรงไฟฟ้าได้รับปัจจัยบวกเชิงบวกจากความชัดเจนของแผน PDP</li><li>อย่างไรก็ตาม ตลาดบางกลุ่ม เช่น อสังหาริมทรัพย์ ยังคงเผชิญแรงกดดันจากภาวะดอกเบี้ยสูงและเศรษฐกิจเปราะบาง</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>สถานการณ์ความขัดแย้งเริ่มคลี่คลายจากการกลับมาเจรจาหยุดยิง ส่งผลให้แรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัยชะลอตัว</li><li>ค่าเงินบาททรงตัวประกอบกับทิศทางดอกเบี้ยโลกที่ยังทรงตัวในระดับสูง กดดันราคาทองคำให้เคลื่อนไหวในกรอบผันผวน</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรเติบโตได้ดีที่ 11.40% และได้รับผลดีจากปัจจัยรายได้ดอกเบี้ย จึงควรถือต่อเพื่อรับปันผล"
+                "reason": "กำไรแล้ว 11.03% และได้รับอานิสงส์จาก Fund Flow ต่างชาติที่ไหลเข้าหุ้นใหญ่ ถือต่อเพื่อรันเทรนด์"
             },
             "SIRI": {
                 "action": "SELL",
-                "reason": "ควรขายทำกำไร 7.09% เนื่องจากกลุ่มอสังหาริมทรัพย์มีแนวโน้มชะลอตัวยาวถึงปี 2569"
+                "reason": "ทยอยขายล็อกกำไร 6.38% เนื่องจากกลุ่มอสังหาริมทรัพย์ยังมีแนวโน้มซบเซาและฟื้นตัวช้ากว่าคาด"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "สร้างกำไรโดดเด่นถึง 14.25% ยังคงมีแรงส่งที่ดีตามการบริโภคในประเทศ"
+                "reason": "ทำผลงานได้ดีเยี่ยมด้วยกำไร 14.90% สินค้าอุปโภคบริโภคมีความผันผวนต่ำ ควรถือต่อรับปันผล"
             },
             "K-US500XUH": {
-                "action": "BUY",
-                "reason": "ได้ประโยชน์โดยตรงจากแนวโน้มหุ้นสหรัฐฯ และกระแส AI ที่แข็งแกร่งในครึ่งปีหลัง"
+                "action": "HOLD",
+                "reason": "สร้างกำไรต่อเนื่อง 4.99% ช่วยกระจายความเสี่ยงของพอร์ตไปยังตลาดหุ้นสหรัฐฯ ที่ยังมีความแข็งแกร่ง"
             },
             "MTS-GOLD": {
                 "action": "HOLD",
-                "reason": "ถือกระจายความเสี่ยงของพอร์ต แม้มีปัจจัยกดดันระยะสั้นจากข่าวเจรจาหยุดยิง"
+                "reason": "แม้ราคาทองคำจะเริ่มทรงตัว แต่ควรถือต่อเพื่อเป็นสินทรัพย์ป้องกันความเสี่ยง (Hedging) ของพอร์ต"
             }
         },
         "daily_picks": [
             {
-                "symbol": "GULF",
-                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
-                "reason": "ได้รับปัจจัยบวกโดยตรงจากข่าวโกลเบล็กชี้เป้าหุ้นโรงไฟฟ้ารับอานิสงส์แผน PDP ใหม่",
-                "tag": "Utilities"
+                "symbol": "SCGD",
+                "name": "บริษัท เอสซีจี เดคคอร์ จำกัด (มหาชน)",
+                "reason": "กำไรครึ่งปีแรกแข็งแกร่ง 500 ล้านบาท พร้อมแผนขยายฐานผลิตในเวียดนามและรุกตลาดนวัตกรรม Smart Toilet",
+                "tag": "Value / Expansion"
             },
             {
-                "symbol": "SHR",
-                "name": "บริษัท เอส โฮเทล แอนด์ รีสอร์ท จำกัด (มหาชน)",
-                "reason": "เตรียมออกหุ้นกู้ชุดใหม่ดอกเบี้ยสูงถึง 4.60% รองรับการฟื้นตัวของภาคท่องเที่ยว",
-                "tag": "Value"
+                "symbol": "GULF",
+                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
+                "reason": "ได้รับปัจจัยหนุนเชิงบวกเด่นชัดจากแผนพัฒนากำลังการผลิตไฟฟ้า (PDP) ฉบับใหม่ตามมุมมองโบรกเกอร์",
+                "tag": "Utilities / Growth"
             }
         ]
     },
@@ -98,109 +98,121 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิป AI ที่ได้อานิสงส์สูงสุดจากกระแสปัญญาประดิษฐ์และการขยายศูนย์ข้อมูลทั่วโลก",
+            "reason": "ผู้นำเทคโนโลยีชิป AI ระดับโลก ได้รับอานิสงส์สูงสุดจากการเติบโตของโครงสร้างพื้นฐาน AI",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "การเติบโตอย่างแข็งแกร่งของธุรกิจ Azure Cloud และการบูรณาการ AI เข้ากับผลิตภัณฑ์ซอฟต์แวร์",
-            "category": "Tech"
-        },
-        {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "แบรนด์แข็งแกร่งและกระแส Apple Intelligence ช่วยกระตุ้นรอบการเปลี่ยนอุปกรณ์ใหม่",
+            "reason": "ผู้นำด้าน Cloud และการบูรณาการ AI เข้ากับซอฟต์แวร์องค์กรอย่างแข็งแกร่ง",
             "category": "Tech"
         },
         {
             "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
             "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิประดับสูงรายใหญ่ที่สุดในโลก ผูกขาดการผลิตชิปประมวลผล AI สำคัญๆ",
-            "category": "Semiconductor"
+            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดของโลกที่เป็นกระดูกสันหลังของอุตสาหกรรม AI",
+            "category": "Tech"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
             "exchange": "NASDAQ",
-            "reason": "ผู้ผลิตเครื่องจักร EUV รายเดียวในโลก หัวใจสำคัญในการผลิตเซมิคอนดักเตอร์ขั้นสูง",
+            "reason": "ผู้ผลิตเครื่องจักรผลิตชิป EUV รายเดียวในโลก ผูกขาดเทคโนโลยีต้นน้ำยุค AI",
             "category": "Tech"
-        },
-        {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "TSE",
-            "reason": "หุ้นใหญ่ในตลาดญี่ปุ่นที่ได้รับประโยชน์จากการปฏิรูปโครงสร้างองค์กรตามแนวทางของ TSE",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "SAP",
-            "name": "SAP SE",
-            "exchange": "XETRA",
-            "reason": "ผู้นำซอฟต์แวร์องค์กรในยุโรปที่เร่งสร้างรายได้จากการนำ AI เข้ามาเพิ่มประสิทธิภาพระบบ Cloud",
-            "category": "Tech"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยาลดน้ำหนักและยารักษาโรคเบาหวานที่มีความต้องการสูงต่อเนื่องทั่วโลก",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "AVGO",
-            "name": "Broadcom Inc.",
-            "exchange": "NASDAQ",
-            "reason": "เติบโตโดดเด่นจากความต้องการชิปเชื่อมต่อโครงข่ายสำหรับระบบ AI และศูนย์ข้อมูล",
-            "category": "Semiconductor"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ธุรกิจ Cloud (AWS) ฟื้นตัวแข็งแกร่งพร้อมการเติบโตของอัตรากำไรในฝั่งอีคอมเมิร์ซ",
-            "category": "Consumer Discretionary"
         },
         {
             "symbol": "GULF",
             "name": "Gulf Energy Development PCL",
             "exchange": "SET",
-            "reason": "หุ้นพลังงานไทยที่จะได้อานิสงส์โดยตรงจากการอนุมัติแผนพัฒนากำลังการผลิตไฟฟ้า (PDP) ฉบับใหม่",
+            "reason": "หุ้นโรงไฟฟ้าไทยขนาดใหญ่ ได้ประโยชน์โดยตรงจากแผน PDP ฉบับใหม่และพลังงานสะอาด",
             "category": "Energy"
         },
         {
             "symbol": "GPSC",
             "name": "Global Power Synergy PCL",
             "exchange": "SET",
-            "reason": "หุ้นโรงไฟฟ้าพลังงานสะอาดขนาดใหญ่ที่ได้รับปัจจัยบวกจากแผน PDP และเทรนด์พลังงานยั่งยืน",
+            "reason": "ได้รับอานิสงส์จากแผน PDP และการขยายตัวของพลังงานหมุนเวียนในภูมิภาค",
             "category": "Energy"
+        },
+        {
+            "symbol": "SCGD",
+            "name": "SCG Decor PCL",
+            "exchange": "SET",
+            "reason": "กำไรครึ่งปีเติบโต เร่งขยายฐานผลิตในเวียดนามและลุยสินค้าแนวโน้มสูงอย่าง Smart Toilet",
+            "category": "Industrial"
+        },
+        {
+            "symbol": "8035.T",
+            "name": "Tokyo Electron Limited",
+            "exchange": "TSE",
+            "reason": "หุ้นเทคโนโลยีชิปชั้นนำของญี่ปุ่น รับอานิสงส์จากการปฏิรูปตลาดหุ้นญี่ปุ่นและกระแส AI",
+            "category": "Tech"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "กระแสเงินสดแข็งแกร่ง พร้อมการเปิดตัว Apple Intelligence หนุนรอบการเปลี่ยนเครื่องใหม่",
+            "category": "Tech"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การฟื้นตัวของธุรกิจ E-commerce และการเติบโตเร่งตัวของ AWS จากความต้องการ AI",
+            "category": "Tech"
+        },
+        {
+            "symbol": "MC.PA",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "ผู้นำสินค้าแบรนด์หรูระดับโลก มีพลังในการกำหนดราคาและฐานลูกค้ากำลังซื้อสูงแข็งแกร่ง",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "JPM",
+            "name": "JPMorgan Chase & Co.",
+            "exchange": "NYSE",
+            "reason": "สถาบันการเงินชั้นนำระดับโลกที่ทนทานต่อภาวะดอกเบี้ยสูงและเศรษฐกิจผันผวนได้ดีเยี่ยม",
+            "category": "Financials"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
-            "exchange": "Crypto Exchange",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับแรงหนุนจากสถาบันผ่าน Spot ETF และเป็นสินทรัพย์ป้องกันความเสี่ยงเงินเฟ้อ",
-            "category": "Crypto"
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับ Fund Flow สถาบันผ่าน Spot ETF และคุณสมบัติป้องกันเงินเฟ้อ",
+            "category": "Digital Asset"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
-            "exchange": "Crypto Exchange",
-            "reason": "แพลตฟอร์ม Smart Contract หลักที่มีโครงสร้างพื้นฐานรองรับการเงินดิจิทัลและกระแส Spot ETF",
-            "category": "Crypto"
+            "exchange": "Crypto",
+            "reason": "เครือข่าย Smart Contract หลักที่รองรับระบบนิเวศ DeFi และการเงินดิจิทัลยุคใหม่",
+            "category": "Digital Asset"
         },
         {
             "symbol": "GOOGL",
             "name": "Alphabet Inc.",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้าน Search Engine และพัฒนาการของ AI โมเดล Gemini ที่ช่วยหนุนธุรกิจโฆษณาและ Cloud",
+            "reason": "ผู้นำด้าน Search และ Digital Ads พร้อมการพัฒนาโมเดล Gemini ตอบโจทย์ยุค AI",
             "category": "Tech"
         }
     ],
     "news": [
+        {
+            "title": "FETCO เผยต่างชาติอัพเป้าหุ้นไทยชน 1,800 จุด Fund Flow ไหลเข้า",
+            "url": "https://mgronline.com/stockmarket/detail/9690000071621",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-07-22T09:10:00+00:00"
+        },
+        {
+            "title": "SCGD กำไรครึ่งปี 500 ล้าน เร่งเกม 2 ปี ขยายฐานผลิตเวียดนาม-ลุย Smart Toilet",
+            "url": "https://www.msn.com/th-th/news/other/scgd-กำไรครึ่งปี-500-ล้าน-เร่งเกม-2-ปี-ขยายฐานผลิตเวียดนาม-ลุย-smart-toilet/ar-AA28pWCv",
+            "source": "Thansettakij",
+            "date": "2026-07-22T07:57:00+00:00"
+        },
         {
             "title": "หุ้นอสังหาฯ ยังไม่ถึงเวลาฟื้น! ปี 2569 ยังเหนื่อย",
             "url": "https://www.thebangkokinsight.com/news/stock-finance/stock/1677179/",
@@ -308,18 +320,6 @@
             "url": "https://www.msn.com/th-th/news/other/finnomena-เปิดมุมมองครึ่งหลังปี-69-ชี้เป้า-3-ธีมน่าลงทุน-มองข้ามช็อตหุ้นไทยทะลุ-1-700-จุด/ar-AA27Xm8j",
             "source": "ไทยรัฐ",
             "date": "2026-07-15T09:59:41+00:00"
-        },
-        {
-            "title": "\"พาณิชย์\" ผนึก กอ.รมน. ล้างบาง \"นอมินี ธุรกิจไทย\" สั่งบี้สเตทเมนต์ ...",
-            "url": "https://www.thairath.co.th/news/governmentpolicy/2946381",
-            "source": "ไทยรัฐ",
-            "date": "2026-07-15T05:02:00+00:00"
-        },
-        {
-            "title": "พาณิชย์ จับมือ กอ.รมน. แก้ปัญหา 'นอมินี-ทุนเทา'ข้ามชาติ",
-            "url": "https://www.khaosod.co.th/economics/news_10323878",
-            "source": "ข่าวสด",
-            "date": "2026-07-15T03:35:00+00:00"
         }
     ]
 }
