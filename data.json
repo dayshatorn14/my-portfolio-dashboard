@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-07-23T12:52:06.818541+07:00",
+    "last_updated": "2026-07-23T17:21:16.428977+07:00",
     "summary": {
-        "total_value_thb": 31486.6522092508,
-        "total_profit_thb": 2479.6455527625367,
-        "total_profit_percent": 8.548436528206512
+        "total_value_thb": 31428.599527786857,
+        "total_profit_thb": 2421.0072497230503,
+        "total_profit_percent": 8.346115825524308
     },
     "assets": [
         {
@@ -19,77 +19,77 @@
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5099999904632568,
-            "total_value_thb": 3019.9999809265137,
-            "profit_thb": 199.99998092651367,
-            "profit_percent": 7.09219790519552
+            "current_price_thb": 1.4900000095367432,
+            "total_value_thb": 2980.0000190734863,
+            "profit_thb": 160.00001907348633,
+            "profit_percent": 5.6737595416129905
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.399999618530273,
-            "total_value_thb": 695.9999847412109,
-            "profit_thb": 86.79998474121089,
-            "profit_percent": 14.248191848524439
+            "current_price_thb": 17.299999237060547,
+            "total_value_thb": 691.9999694824219,
+            "profit_thb": 82.79996948242183,
+            "profit_percent": 13.591590525676597
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.80096323083717,
-            "total_value_thb": 10484.525659162298,
-            "profit_thb": 484.52610820229893,
-            "profit_percent": 4.845261299594603
+            "current_price_thb": 11.804457453636193,
+            "total_value_thb": 10487.630089527733,
+            "profit_thb": 487.6305385677333,
+            "profit_percent": 4.87630560464296
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4128.5,
-            "cost_per_unit_thb": 135466.2401046753,
-            "current_price_thb": 139460.72496032715,
-            "total_value_thb": 2036.1265844207765,
-            "profit_thb": 58.319478892517054,
-            "profit_percent": 2.948693971697523
+            "current_price_usd": 4092.5,
+            "cost_per_unit_thb": 135506.35117149353,
+            "current_price_thb": 138285.57874679565,
+            "total_value_thb": 2018.9694497032165,
+            "profit_thb": 40.576722599410914,
+            "profit_percent": 2.050994327036963
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> FETCO เผยต่างชาติตั้งเป้าหุ้นไทยชน 1,800 จุด จาก Fund Flow ไหลเข้าต่อเนื่อง รวมถึงหุ้นกลุ่มโรงไฟฟ้าได้รับอานิสงส์จากความชัดเจนของแผน PDP</li><li><b>ปัจจัยลบ:</b> ซีอีโอภาคธนาคารเตือนความเสี่ยงสงครามกดดันผลงานครึ่งปีหลัง และภาคอสังหาริมทรัพย์ยังชะลอตัวต่อเนื่องถึงปี 2569</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความเสี่ยงด้านภูมิรัฐศาสตร์และสงครามยังคงเป็นปัจจัยหนุนความต้องการสินทรัพย์ปลอดภัยในระยะกลางถึงยาว</li><li><b>ปัจจัยลบ:</b> การเริ่มเจรจาหยุดยิงและค่าเงินบาทที่กลับมาทรงตัว ช่วยชะลอความผันผวนของราคาทองคำในประเทศ</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>FETCO เผยต่างชาติอัพเป้าหุ้นไทยขึ้นสู่ 1,800 จุด จากแรงสนับสนุนของ Fund Flow ที่ไหลเข้าต่อเนื่อง</li><li>ภาครัฐเร่งผลักดันนโยบาย BOI to IPO ดึงดูดอุตสาหกรรมใหม่เข้าประเทศ เสริมโครงสร้างเศรษฐกิจระยะยาว</li><li>กลุ่มอสังหาริมทรัพย์ยังเผชิญแรงกดดันหนัก คาดว่ายังไม่ฟื้นตัวจนกว่าจะถึงปี 2569 จากภาวะดอกเบี้ยสูงและเศรษฐกิจเปราะบาง</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>ซีอีโอภาคธนาคารเตือนความเสี่ยงจากสถานการณ์สงครามและภูมิรัฐศาสตร์ในครึ่งปีหลัง เป็นปัจจัยหนุนความต้องการทองคำในฐานะสินทรัพย์ปลอดภัย</li><li>การกลับมาเจรจาหยุดยิงส่งผลให้เงินบาทและราคาทองคำเริ่มทรงตัว ชะลอการพุ่งขึ้นแรงในระยะสั้น</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "ผลตอบแทนอยู่ในเกณฑ์ดี +12.13% และรับอานิสงส์จาก Fund Flow ต่างชาติที่ไหลเข้ากลุ่มธนาคาร"
+                "reason": "ทำกำไรแล้ว 12.13% ได้รับอานิสงส์จาก Fund Flow ไหลเข้า แต่ควรระวังความเสี่ยงครึ่งปีหลังตามคำเตือนภาคธนาคาร"
             },
             "SIRI": {
                 "action": "SELL",
-                "reason": "แนะนำขายทำกำไร +7.09% หลังมีรายงานวิเคราะห์ว่ากลุ่มอสังหาริมทรัพย์ยังซบเซาและฟื้นตัวยากถึงปี 2569"
+                "reason": "ควรล็อกกำไร 5.67% เนื่องจากภาพรวมกลุ่มอสังหาริมทรัพย์มีแนวโน้มซบเซายาวนานไปจนถึงปี 2569"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "กำไรโดดเด่นสุดในพอร์ต +14.25% ถือเป็นหุ้น Defensive ที่ช่วยลดความผันผวนของพอร์ตได้ดี"
+                "reason": "ผลงานแข็งแกร่งทำกำไรได้ดีถึง 13.59% และเป็นหุ้นกลุ่มอุปโภคบริโภคที่ทนทานต่อภาวะเศรษฐกิจชะลอตัว"
             },
             "K-US500XUH": {
-                "action": "BUY",
-                "reason": "ทยอยสะสมเพิ่มเพื่อรับประโยชน์จากเทรนด์เทคโนโลยีและ AI ที่เป็นแรงขับเคลื่อนหลักของตลาดสหรัฐฯ"
+                "action": "HOLD",
+                "reason": "ได้รับแรงหนุนต่อเนื่องจากกระแสการลงทุนในกลุ่ม AI ที่ช่วยดันดัชนีหุ้นสหรัฐฯ ให้เติบโต"
             },
             "MTS-GOLD": {
                 "action": "HOLD",
-                "reason": "คงสัดส่วนไว้เพื่อเป็นสินทรัพย์ป้องกันความเสี่ยงจากสถานการณ์สงครามที่อาจบานปลายในครึ่งปีหลัง"
+                "reason": "ควรถือครองเพื่อป้องกันความเสี่ยงจากความตึงเครียดทางภูมิรัฐศาสตร์และสงครามที่มีแนวโน้มยืดเยื้อ"
             }
         },
         "daily_picks": [
             {
-                "symbol": "GULF",
-                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
-                "reason": "เด่นรับอานิสงส์แผน PDP ใหม่ และเป็นเป้าหมายหลักของ Fund Flow ต่างชาติ",
-                "tag": "Utilities"
+                "symbol": "PTT",
+                "name": "บริษัท ปตท. จำกัด (มหาชน)",
+                "reason": "ครองอันดับ 1 ของไทยและอันดับ 2 ใน Fortune Southeast Asia 500 สะท้อนความแข็งแกร่งและเป็นเป้าหมายของ Fund Flow",
+                "tag": "Value"
             },
             {
-                "symbol": "SHR",
-                "name": "บริษัท เอส โฮเทล แอนด์ รีสอร์ท จำกัด (มหาชน)",
-                "reason": "เตรียมออกหุ้นกู้ชุดใหม่เสริมความแข็งแกร่งทางการเงิน รองรับการเติบโตของภาคท่องเที่ยว",
-                "tag": "Tourism"
+                "symbol": "SCGD",
+                "name": "บริษัท เอสซีจี เดคคอร์ จำกัด (มหาชน)",
+                "reason": "โชว์กำไรครึ่งปีแรก 500 ล้านบาท พร้อมแผนขยายฐานผลิตในเวียดนามและรุกตลาด Smart Toilet หนุนการเติบโต",
+                "tag": "Growth"
             }
         ]
     },
@@ -98,106 +98,106 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำชิปประมวลผล AI ระดับโลกที่ได้รับอานิสงส์สูงสุดจากการลงทุนด้านเทคโนโลยีแห่งอนาคต",
+            "reason": "ผู้นำเทคโนโลยี AI และเซมิคอนดักเตอร์ระดับโลกที่มีอัตราการเติบโตของกำไรแข็งแกร่งที่สุด",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "โครงสร้างพื้นฐาน Cloud และการต่อยอดบริการ AI ระดับองค์กรที่มีกระแสเงินสดแข็งแกร่ง",
+            "reason": "โครงสร้างพื้นฐาน AI และ Cloud ควบคู่กับรายได้ประจำ (Subscription) ที่มั่นคงสูง",
             "category": "Tech"
         },
         {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "แบรนด์แข็งแกร่ง ตลาดขานรับฟีเจอร์ Apple Intelligence ช่วยหนุนยอดขายอุปกรณ์ใหม่",
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปขั้นสูงอันดับ 1 ของโลก เป็นกระดูกสันหลังของห่วงโซ่อุปทานเทคโนโลยีเปลี่ยนโลก",
+            "category": "Tech"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผูกขาดเทคโนโลยีเครื่องพิมพ์ชิป EUV จากยุโรปที่ไม่มีใครทดแทนได้",
             "category": "Tech"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
             "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ใช้ป้องกันความเสี่ยงจากความขัดแย้งทางภูมิรัฐศาสตร์และเงินเฟ้อ",
+            "reason": "สินทรัพย์ดิจิทัลที่ทำหน้าที่เป็น Safe Haven และป้องกันความเสี่ยงจากเงินเฟ้อและการเมืองโลก",
             "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
             "exchange": "Crypto",
-            "reason": "เครือข่าย Smart Contract หลักที่ได้รับความนิยมในการพัฒนา Tokenization และ DeFi",
+            "reason": "แพลตฟอร์มหลักของ Smart Contracts ที่ได้อานิสงส์จากการเติบโตของ Tokenization และสถาบันการเงิน",
             "category": "Crypto"
         },
         {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "symbol": "LMT",
+            "name": "Lockheed Martin Corporation",
             "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดของโลก ซึ่งเป็นหัวใจสำคัญของห่วงโซ่อุปทาน AI",
-            "category": "Tech"
+            "reason": "หุ้นกลุ่มป้องกันประเทศที่ได้ประโยชน์โดยตรงจากความเสี่ยงด้านภูมิรัฐศาสตร์และสงครามโลกที่เพิ่มขึ้น",
+            "category": "Defense"
         },
         {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext",
-            "reason": "ผู้ผูกขาดเทคโนโลยีเครื่องพิมพ์ชิป EUV จากยุโรปที่มีความสำคัญระดับยุทธศาสตร์โลก",
-            "category": "Tech"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ธุรกิจ AWS เติบโตสอดรับกระแส AI พร้อมประสิทธิภาพการทำกำไรที่ดีขึ้นในฝั่งค้าส่ง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยาลดน้ำหนักและเบาหวานที่มีความต้องการสูงและมีอัตราเติบโตโดดเด่น",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "GULF",
-            "name": "Gulf Energy Development PCL",
+            "symbol": "PTT",
+            "name": "PTT Public Company Limited",
             "exchange": "SET",
-            "reason": "ได้รับอานิสงส์โดยตรงจากแผน PDP ฉบับใหม่ของไทยและการขยายตัวของ Data Center",
+            "reason": "ยักษ์ใหญ่พลังงานอันดับ 2 ของอาเซียน (Fortune 500) มีกระแสเงินสดดีและอัตราเงินปันผลสูง",
             "category": "Energy"
-        },
-        {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "TYO",
-            "reason": "หุ้นชั้นนำของญี่ปุ่นที่ได้ประโยชน์จากการปฏิรูปตลาดหุ้น TSE และยอดขายรถยนต์ไฮบริด",
-            "category": "Auto"
         },
         {
             "symbol": "XOM",
             "name": "Exxon Mobil Corporation",
             "exchange": "NYSE",
-            "reason": "หุ้นพลังงานคุณภาพสูงที่ช่วยป้องกันความเสี่ยงจากราคาพลังงานและสงครามภูมิรัฐศาสตร์",
+            "reason": "บริษัทพลังงานระดับโลกที่ช่วยกระจายความเสี่ยงในภาวะที่ราคาพลังงานผันผวนจากความตึงเครียดในต่างประเทศ",
             "category": "Energy"
         },
         {
-            "symbol": "BDMS",
-            "name": "Bangkok Dusit Medical Services PCL",
-            "exchange": "SET",
-            "reason": "หุ้นสุขภาพไทยพื้นฐานดี ตอบรับเมกะเทรนด์ทางการแพทย์และ Fund Flow ที่ไหลเข้า",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "BABA",
-            "name": "Alibaba Group Holding Ltd.",
-            "exchange": "HKEX",
-            "reason": "หุ้นเทคโนโลยีจีนระดับราคาเหมาะสม มีโอกาสฟื้นตัวสูงตามมาตรการกระตุ้นเศรษฐกิจ",
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ได้ประโยชน์จากทั้งการฟื้นตัวของ E-Commerce และการเติบโตอย่างรวดเร็วของ AWS ในฝั่ง AI",
             "category": "Tech"
         },
         {
-            "symbol": "JPM",
-            "name": "JPMorgan Chase & Co.",
-            "exchange": "NYSE",
-            "reason": "สถาบันการเงินระดับโลกที่มีงบการเงินแข็งแกร่งและทนทานต่อภาวะดอกเบี้ยทรงตัวสูง",
-            "category": "Finance"
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำด้าน Search engine และโฆษณาดิจิทัล มี Valuation ที่น่าดึงดูดเมื่อเทียบกับศักยภาพ AI",
+            "category": "Tech"
+        },
+        {
+            "symbol": "MC",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "ผู้นำสินค้าแบรนด์หรูจากยุโรป มีพลังในการกำหนดราคา (Pricing Power) และกลุ่มลูกค้ามั่งคั่งที่ไม่กระทบตามเศรษฐกิจ",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "7203",
+            "name": "Toyota Motor Corporation",
+            "exchange": "TSE",
+            "reason": "หุ้นเด่นจากตลาดหุ้นญี่ปุ่น รับอานิสงส์การปฏิรูปองค์กร ความต้องการรถยนต์ Hybrid และ Fund Flow ไหลเข้าโตเกียว",
+            "category": "Automotive"
+        },
+        {
+            "symbol": "BDMS",
+            "name": "Bangkok Dusit Medical Services",
+            "exchange": "SET",
+            "reason": "หุ้นเชิงรับ (Defensive) คุณภาพสูงในไทย ได้ประโยชน์จาก Medical Tourism และโครงสร้างประชากรสูงวัย",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ฐานผู้ใช้งานเหนียวแน่นพร้อมปัจจัยหนุนจากการอัปเกรดอุปกรณ์รอบใหม่ด้วย Apple Intelligence",
+            "category": "Tech"
         }
     ],
     "news": [
@@ -206,6 +206,18 @@
             "url": "https://www.msn.com/th-th/news/other/ซีอีโอแบงก์-เตือนครึ่งหลัง-ความเสี่ยง-สงคราม-กดดัน/ar-AA28u4rV",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-07-23T05:51:00+00:00"
+        },
+        {
+            "title": "ปตท. ครองเบอร์ 1 ไทย ปีที่ 3 ผู้นำพลังงานติด Fortune Southeast Asia 500 ขึ้นแท่นอันดับ 2 อาเซียน",
+            "url": "https://www.msn.com/th-th/money/other/ปตท-ครองเบอร์-1-ไทย-ปีที่-3-ผู้นำพลังงานติด-fortune-southeast-asia-500-ขึ้นแท่นอันดับ-2-อาเซียน/ar-AA28uWTA",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-07-23T03:48:52+00:00"
+        },
+        {
+            "title": "'วายุภักษ์' ปรับพอร์ตล็อก'กำไร' แจงขาย 'บางจาก' ไม่เกี่ยวเงิน ...",
+            "url": "https://www.bangkokbiznews.com/finance/stock/1244373",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-07-23T02:45:00+00:00"
         },
         {
             "title": "ทลายอาณาจักร 'ทุนจีนนอมินี' ยึดบ้านหรูใจกลางกรุง 33 หลัง มูลค่า ...",
@@ -308,18 +320,6 @@
             "url": "https://www.thansettakij.com/blogs/columnist/speak-every-district/664152",
             "source": "ฐานเศรษฐกิจ",
             "date": "2026-07-16T23:00:00+00:00"
-        },
-        {
-            "title": "อินไซด์วงนายกฯ ถก 40 บิ๊กธุรกิจยุโรป ยก Direct PPA หวังมัดใจนักลงทุน",
-            "url": "https://www.msn.com/th-th/news/other/อินไซด์วงนายกฯ-ถก-40-บิ๊กธุรกิจยุโรป-ยก-direct-ppa-หวังมัดใจนักลงทุน/ar-AA281MJH",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-07-16T07:45:00+00:00"
-        },
-        {
-            "title": "อนุทิน เปิดทำเนียบรับ 40 บริษัทยุโรป พร้อมแก้กฎหมาย 7,000 ฉบับรับ ...",
-            "url": "https://www.thansettakij.com/economy/664112",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-07-16T00:00:00+00:00"
         }
     ]
 }
