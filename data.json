@@ -1,94 +1,94 @@
 {
-    "last_updated": "2026-07-24T12:49:23.992345+07:00",
+    "last_updated": "2026-07-24T17:14:58.848563+07:00",
     "summary": {
-        "total_value_thb": 31417.275967930407,
-        "total_profit_thb": 2412.6111276967604,
-        "total_profit_percent": 8.318010709608757
+        "total_value_thb": 31502.706055074766,
+        "total_profit_thb": 2502.7252940487306,
+        "total_profit_percent": 8.63009294617264
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 154.5,
-            "total_value_thb": 15450.0,
-            "profit_thb": 1850.0,
-            "profit_percent": 13.602941176470587
+            "current_price_thb": 155.0,
+            "total_value_thb": 15500.0,
+            "profit_thb": 1900.0,
+            "profit_percent": 13.970588235294118
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4800000190734863,
-            "total_value_thb": 2960.0000381469727,
-            "profit_thb": 140.00003814697266,
-            "profit_percent": 4.964540359821725
+            "current_price_thb": 1.5,
+            "total_value_thb": 3000.0,
+            "profit_thb": 180.0,
+            "profit_percent": 6.382978723404255
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.0,
-            "total_value_thb": 680.0,
-            "profit_thb": 70.79999999999995,
-            "profit_percent": 11.621799080761647
+            "current_price_thb": 17.200000762939453,
+            "total_value_thb": 688.0000305175781,
+            "profit_thb": 78.80003051757808,
+            "profit_percent": 12.935001726457331
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.640855741391485,
-            "total_value_thb": 10342.278704529745,
-            "profit_thb": 342.2791535697452,
-            "profit_percent": 3.42279168939449
+            "current_price_thb": 11.613253793317217,
+            "total_value_thb": 10317.755847609784,
+            "profit_thb": 317.7562966497844,
+            "profit_percent": 3.1775631091831382
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4029.60009765625,
-            "cost_per_unit_thb": 135305.84173107147,
-            "current_price_thb": 135958.71405847184,
-            "total_value_thb": 1984.9972252536888,
-            "profit_thb": 9.531935980045319,
-            "profit_percent": 0.4825159941711811
+            "current_price_usd": 4063.5,
+            "cost_per_unit_thb": 134985.0143880844,
+            "current_price_thb": 136777.4093799591,
+            "total_value_thb": 1996.950176947403,
+            "profit_thb": 26.16896688137058,
+            "profit_percent": 1.3278473910604094
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยลบ:</b> ตลาดหุ้นไทยครึ่งปีหลังเผชิญแรงกดดันจากเศรษฐกิจชะลอตัว ความเสี่ยงสงคราม นโยบายภาษี และกลุ่มอสังหาริมทรัพย์ที่คาดว่าจะยังไม่ฟื้นตัวจนถึงปี 2569</li><li><b>ปัจจัยบวก:</b> FETCO เผยต่างชาติปรับเพิ่มเป้าหุ้นไทยแตะ 1,800 จุด จาก Fund Flow ที่เริ่มไหลเข้า และมาตรการ BOI to IPO ช่วยดึงดูดเงินลงทุนอุตสาหกรรมใหม่</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> สภาวะความเสี่ยงสงครามและเศรษฐกิจโลกเปราะบาง หนุนความต้องการถือครองทองคำในฐานะสินทรัพย์ปลอดภัย (Safe Haven)</li><li><b>ปัจจัยผันผวน:</b> อัตราดอกเบี้ยที่ยังทรงตัวอยู่ในระดับสูงอาจกดดันการพุ่งขึ้นของราคาทองคำในระยะสั้น</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> FETCO เผยต่างชาติปรับเพิ่มเป้าหุ้นไทยรับ Fund Flow ไหลเข้า รวมถึงมาตรการ BOI to IPO ของรัฐที่ช่วยดึงดูดการลงทุนใหม่</li><li><b>ปัจจัยลบ:</b> สภาวะเศรษฐกิจชะลอตัว ความเสี่ยงสงคราม แรงกดดันจากภาษีทรัมป์ และตลาดยังได้รับผลกระทบจากหุ้นกลุ่มอสังหาฯ ที่มีแนวโน้มซบเซายาวถึงปี 2569</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความเสี่ยงด้านภูมิรัฐศาสตร์และสงครามในครึ่งปีหลัง เป็นแรงหนุนสำคัญให้ทองคำในฐานะสินทรัพย์ปลอดภัย</li><li><b>ปัจจัยลบ:</b> อัตราดอกเบี้ยที่ยังคงอยู่ในระดับสูงอาจกดดันการปรับขึ้นของราคาทองคำในระยะสั้น</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "สร้างกำไรแล้ว 13.60% และกลุ่มธนาคารยังคงได้ประโยชน์จากสภาวะดอกเบี้ยทรงตัวสูงในครึ่งปีหลัง"
+                "reason": "รักษากำไรที่ 13.97% ไว้ก่อน เนื่องจากยังมีแรงหนุนจาก Fund Flow ต่างชาติ แม้ต้องระวังความเสี่ยงด้านเศรษฐกิจชะลอตัว"
             },
             "SIRI": {
                 "action": "SELL",
-                "reason": "ควรกกพอร์ตและล็อกกำไร 4.96% ออกมา เนื่องจากมีข่าวเตือนว่ากลุ่มอสังหาริมทรัพย์ยังไม่ฟื้นตัวจนถึงปี 2569"
+                "reason": "แนะนำขายล็อกกำไร 6.38% ออกมา เนื่องจากวิเคราะห์ระบุว่ากลุ่มอสังหาฯ ยังซบเซาและยังไม่ถึงเวลาฟื้นตัวจนถึงปี 2569"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "พอร์ตมีกำไรสะสม 11.62% ถือเป็นเกราะป้องกันความผันผวนของตลาดได้ดีในระยะสั้น"
+                "reason": "ผลตอบแทนอยู่ในเกณฑ์ดีที่ 12.94% ควรถือต่อและวางจุด Trailing Stop เพื่อล็อกกำไร"
             },
             "K-US500XUH": {
                 "action": "HOLD",
-                "reason": "ช่วยกระจายความเสี่ยงเชิงภูมิศาสตร์ออกจากตลาดไทย ไปยังหุ้นสหรัฐฯ ที่มีแนวโน้มการเติบโตด้าน AI"
+                "reason": "ถือต่อเพื่อกระจายความเสี่ยงไปยังตลาดสหรัฐฯ ที่ยังมีปัจจัยหนุนจากกระแส AI ในระยะยาว"
             },
             "MTS-GOLD": {
                 "action": "BUY",
-                "reason": "สะสมเพิ่มเพื่อใช้เป็นสินทรัพย์ปลอดภัย รับมือกับความเสี่ยงสงครามและความผันผวนในครึ่งปีหลัง"
+                "reason": "ควรทยอยสะสมเพิ่มเพื่อใช้เป็นสินทรัพย์ป้องกันความเสี่ยงจากสภาวะสงครามและความผันผวนในครึ่งปีหลัง"
             }
         },
         "daily_picks": [
             {
                 "symbol": "PTT",
                 "name": "บริษัท ปตท. จำกัด (มหาชน)",
-                "reason": "ครองอันดับ 1 ในไทยและอันดับ 2 ในอาเซียนจาก Fortune Southeast Asia 500 สะท้อนความแข็งแกร่งของธุรกิจพลังงาน",
+                "reason": "ตอกย้ำความเป็นผู้นำพลังงานอันดับ 1 ของไทย และอันดับ 2 ในอาเซียน จากการจัดอันดับ Fortune Southeast Asia 500",
                 "tag": "Value"
             },
             {
                 "symbol": "SCGD",
-                "name": "บริษัท เอสซีจี เดคอร์ จำกัด (มหาชน)",
-                "reason": "ทำกำไรครึ่งปีแรกได้ถึง 500 ล้านบาท พร้อมเร่งขยายฐานการผลิตในเวียดนามและรุกตลาด Smart Toilet",
+                "name": "บริษัท เอสซีจี เดคคอร์ จำกัด (มหาชน)",
+                "reason": "กำไรครึ่งปีแรกแข็งแกร่ง 500 ล้านบาท พร้อมแผนขยายฐานผลิตในเวียดนามและรุกตลาด Smart Toilet หนุนการเติบโต",
                 "tag": "Growth"
             }
         ]
@@ -96,120 +96,120 @@
     "global_watchlist": [
         {
             "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
+            "name": "Nvidia Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำเทคโนโลยีชิป AI โกลบอล ได้รับอานิสงส์หลักจากเทรนด์ AI ที่ขยายตัวต่อเนื่องทั่วโลก",
+            "reason": "ผู้นำเทคโนโลยีชิป AI ระดับโลกที่มีความต้องการเติบโตอย่างต่อเนื่องและไร้คู่แข่งทัดเทียม",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "ธุรกิจคลาวด์และ AI เติบโตแข็งแกร่ง กระแสเงินสดสูง มีความผันผวนต่ำในภาวะเศรษฐกิจชะลอตัว",
-            "category": "Tech"
-        },
-        {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "หุ้นเกราะป้องกันความเสี่ยง (Safe Haven Tech) พร้อมฐานลูกค้าแน่นหนาและงบการเงินแข็งแกร่ง",
+            "reason": "แข็งแกร่งด้วยระบบ Cloud และการนำ AI เข้ามาต่อยอดในผลิตภัณฑ์องค์กรได้อย่างมีประสิทธิภาพ",
             "category": "Tech"
         },
         {
             "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
             "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปอันดับ 1 ของโลก หัวใจสำคัญของอุตสาหกรรม AI และเทคโนโลยีขั้นสูง",
-            "category": "Semiconductor"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูงจากยุโรป ได้รับปัจจัยหนุนจากอุตสาหกรรมเทคโนโลยี AI",
-            "category": "Semiconductor"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "หุ้นกลุ่มการแพทย์ Defensive Growth ความต้องการยาลดน้ำหนักสูงสุด และทนทานต่อภาวะสงคราม/เศรษฐกิจชะลอ",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "LMT",
-            "name": "Lockheed Martin Corporation",
-            "exchange": "NYSE",
-            "reason": "หุ้นกลุ่มความมั่นคง ป้องกันความเสี่ยงจากความตึงเครียดทางภูมิรัฐศาสตร์และสงครามโลกที่ทวีความรุนแรง",
-            "category": "Defense"
-        },
-        {
-            "symbol": "PTT.BK",
-            "name": "PTT Public Company Limited",
-            "exchange": "SET",
-            "reason": "ผู้นำพลังงานอันดับ 2 ของอาเซียน เงินปันผลสูง มีความมั่นคงสูงท่ามกลางตลาดหุ้นไทยที่ผันผวน",
-            "category": "Energy"
-        },
-        {
-            "symbol": "0700.HK",
-            "name": "Tencent Holdings Limited",
-            "exchange": "HKEX",
-            "reason": "ยักษ์ใหญ่เทคโนโลยีเอเชีย ราคาอยู่ในระดับน่าดึงดูด รับอานิสงส์เงินทุนไหลเข้าอุตสาหกรรมใหม่",
+            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลก เป็นผูกขาดคอขวดสำคัญของอุตสาหกรรมเทคโนโลยี",
             "category": "Tech"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE",
-            "reason": "หุ้นเฮลท์แคร์ชั้นนำจากยุโรป โดดเด่นด้านนวัตกรรมรักษาโรคเบาหวานและอ้วน ป้องกันความเสี่ยงเงินเฟ้อ",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "JPM",
-            "name": "JPMorgan Chase & Co.",
-            "exchange": "NYSE",
-            "reason": "ธนาคารระดับโลกที่ได้ประโยชน์จากอัตราดอกเบี้ยที่ยังคงอยู่ในระดับสูง งบการเงินแข็งแกร่งที่สุดในกลุ่ม",
-            "category": "Finance"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การเติบโตของ AWS คลาวด์ และประสิทธิภาพด้านโลจิสติกส์ รับมือการแข่งขันและภาษีทรัมป์ได้ดี",
-            "category": "Consumer Discretionary"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
             "exchange": "Crypto",
-            "reason": "สินทรัพย์ทางเลือกดิจิทัล (Digital Gold) กระจายความเสี่ยงจากสงครามและระบบธนาคารเปราะบาง",
-            "category": "Cryptocurrency"
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ใช้ป้องกันความเสี่ยงจากเงินเฟ้อและความผันผวนทางภูมิรัฐศาสตร์",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "ผู้นำตลาดยารักษาโรคเบาหวานและยาลดน้ำหนักที่มีความต้องการในตลาดโลกสูงมหาศาล",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้ผลิตเครื่องพิมพ์สเกลระดับนาโนสำหรับผลิตชิปขั้นสูงเพียงรายเดียวในโลก",
+            "category": "Tech"
+        },
+        {
+            "symbol": "PTT",
+            "name": "PTT Public Company Limited",
+            "exchange": "SET",
+            "reason": "ยักษ์ใหญ่พลังงานอันดับ 1 ของไทยและอันดับ 2 ในอาเซียน มีรากฐานมั่นคงและปันผลสม่ำเสมอ",
+            "category": "Energy"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
             "exchange": "Crypto",
-            "reason": "โครงสร้างพื้นฐาน Smart Contract หลัก มีการยอมรับจากสถาบันการเงินผ่าน Spot ETF",
-            "category": "Cryptocurrency"
+            "reason": "โครงสร้างพื้นฐานหลักของ Smart Contracts และสถาบันการเงินเริ่มเข้ามาร่วมลงทุน",
+            "category": "Crypto"
         },
         {
-            "symbol": "SCGD.BK",
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การเติบโตของธุรกิจ AWS Cloud และการนำ AI มาเพิ่มประสิทธิภาพระบบโลจิสติกส์",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ครองส่วนแบ่ง Search Engine และมีโมเดล AI Gemini ที่พร้อมต่อยอดในทุกบริการ",
+            "category": "Tech"
+        },
+        {
+            "symbol": "META",
+            "name": "Meta Platforms, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "กระแสเงินสดแข็งแกร่ง การใช้อัลกอริทึม AI เพิ่มรายได้จากโฆษณาได้อย่างมีประสิทธิภาพ",
+            "category": "Tech"
+        },
+        {
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "exchange": "NYSE",
+            "reason": "โดดเด่นด้านนวัตกรรมทางการแพทย์และยาลดน้ำหนักที่เป็นนวัตกรรมเปลี่ยนโลก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "700",
+            "name": "Tencent Holdings Limited",
+            "exchange": "HKEX",
+            "reason": "ยักษ์ใหญ่เทคโนโลยีเอเชียที่ได้ประโยชน์จากการฟื้นตัวของเศรษฐกิจจีนและธุรกิจเกม-การเงิน",
+            "category": "Tech"
+        },
+        {
+            "symbol": "LMT",
+            "name": "Lockheed Martin Corporation",
+            "exchange": "NYSE",
+            "reason": "หุ้นกลุ่มความมั่นคงและการป้องกันประเทศที่ได้รับอานิสงส์จากความตึงเครียดทางสงครามทั่วโลก",
+            "category": "Defense"
+        },
+        {
+            "symbol": "SCGD",
             "name": "SCG Decor PCL",
             "exchange": "SET",
-            "reason": "ผลประกอบการครึ่งปีเติบโตดี เร่งขยายฐานการผลิตในเวียดนาม รองรับเศรษฐกิจภูมิภาคโตแรง",
-            "category": "Industrial"
+            "reason": "ผลการดำเนินงานครึ่งปีแรกแข็งแกร่ง มุ่งขยายตลาดนวัตกรรม Smart Toilet และการเติบโตในเวียดนาม",
+            "category": "Industrials"
         }
     ],
     "news": [
         {
-            "title": "โบรกชี้หุ้นไทยครึ่งปีหลังเจอศึกหนัก เศรษฐกิจชะลอ-สงคราม-ภาษีทรัมป์ ฉุดตลาดผันผวน",
-            "url": "https://www.msn.com/th-th/news/other/โบรกชี้หุ้นไทยครึ่งปีหลังเจอศึกหนัก-เศรษฐกิจชะลอ-สงคราม-ภาษีทรัมป์-ฉุดตลาดผันผวน/ar-AA28z0Ar",
+            "title": "หุ้น STPI ดิ่ง 9.70% โบรกชี้รับข่าวเพิ่มทุน หลังราคาขายต่ำกว่ากระดาน",
+            "url": "https://www.bangkokbiznews.com/finance/stock/1244580",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-07-24T05:48:00+00:00"
         },
         {
-            "title": "หุ้น STPI ดิ่ง 9.70% โบรกชี้รับข่าวเพิ่มทุน หลังราคาขายต่ำกว่ากระดาน",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1244580",
+            "title": "โบรกชี้หุ้นไทยครึ่งปีหลังเจอศึกหนัก เศรษฐกิจชะลอ-สงคราม-ภาษีทรัมป์ ฉุดตลาดผันผวน",
+            "url": "https://www.msn.com/th-th/news/other/โบรกชี้หุ้นไทยครึ่งปีหลังเจอศึกหนัก-เศรษฐกิจชะลอ-สงคราม-ภาษีทรัมป์-ฉุดตลาดผันผวน/ar-AA28z0Ar",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-07-24T05:48:00+00:00"
         },
