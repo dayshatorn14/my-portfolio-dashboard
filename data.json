@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-08-05T17:32:31.490306+07:00",
+    "last_updated": "2026-08-06T12:47:29.189597+07:00",
     "summary": {
-        "total_value_thb": 31777.14999617726,
-        "total_profit_thb": 2804.687642122968,
-        "total_profit_percent": 9.680529075674132
+        "total_value_thb": 31766.56009066882,
+        "total_profit_thb": 2804.636691482461,
+        "total_profit_percent": 9.683875800739301
     },
     "assets": [
         {
@@ -19,76 +19,76 @@
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5299999713897705,
-            "total_value_thb": 3059.999942779541,
-            "profit_thb": 239.99994277954102,
-            "profit_percent": 8.51063626877805
+            "current_price_thb": 1.5399999618530273,
+            "total_value_thb": 3079.9999237060547,
+            "profit_thb": 259.9999237060547,
+            "profit_percent": 9.219855450569316
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.399999618530273,
-            "total_value_thb": 695.9999847412109,
-            "profit_thb": 86.79998474121089,
-            "profit_percent": 14.248191848524439
+            "current_price_thb": 17.600000381469727,
+            "total_value_thb": 704.0000152587891,
+            "profit_thb": 94.80001525878902,
+            "profit_percent": 15.561394494220126
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.96326177385015,
-            "total_value_thb": 10628.719247887135,
-            "profit_thb": 628.7196969271354,
-            "profit_percent": 6.28719725159166
+            "current_price_thb": 11.876420790154198,
+            "total_value_thb": 10551.56567118181,
+            "profit_thb": 551.5661202218107,
+            "profit_percent": 5.515661449893369
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4214.89990234375,
-            "cost_per_unit_thb": 133100.1919927597,
-            "current_price_thb": 139892.5219705049,
-            "total_value_thb": 2042.4308207693714,
-            "profit_thb": 99.16801767507968,
-            "profit_percent": 5.103170683716721
+            "current_price_usd": 4317.89990234375,
+            "cost_per_unit_thb": 132378.34576892853,
+            "current_price_thb": 142533.86852891557,
+            "total_value_thb": 2080.994480522167,
+            "profit_thb": 148.27063229581063,
+            "profit_percent": 7.671589111495533
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ดัชนีความเชื่อมั่นนักลงทุนสูง (FETCO):</b> FETCO เผยดัชนีความเชื่อมั่นอยู่ในเกณฑ์ 'ร้อนแรง' โดยมองเป้าหมาย SET ปีนี้ที่ 1,700 จุด จาก Fund Flow ไหลเข้าต่อเนื่อง โดยเฉพาะหุ้นกลุ่มธนาคารที่โดดเด่น</li><li><b>แรงกดดันในกลุ่มพลังงาน:</b> ราคาน้ำมันดิบปรับตัวลดลงกว่า 7% ส่งผลกระทบเชิงลบต่อหุ้นกลุ่มพลังงานในระยะสั้น</li><li><b>ปัจจัยกดดันเฉพาะตัว:</b> หุ้น TRUE ปรับตัวลดลงจากความกังวลกรณี China Mobile อาจขายหุ้น กดดันจิตวิทยาการลงทุน</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>การรีบาวด์ของราคาทองคำ:</b> ราคาทองคำปรับตัวสูงขึ้น ส่งผลให้ค่าเงินบาทเปิดตลาดในทิศทางอ่อนค่า หนุนมูลค่าสินทรัพย์ทองคำในรูปเงินบาท</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>ดัชนีความเชื่อมั่นนักลงทุน (FETCO) อยู่ในเกณฑ์ร้อนแรง รับแรงหนุนจาก Fund Flow ไหลเข้าต่อเนื่อง โดยมีเป้าหมาย SET ที่ 1,700 จุด และเน้นย้ำหุ้นกลุ่มธนาคารเป็นกลุ่มโดดเด่น</li><li>ราคาน้ำมันดิบปรับตัวลดลงแรง 7% กดดันหุ้นกลุ่มพลังงาน แต่ส่งผลบวกต่อกลุ่มผู้บริโภคและต้นทุนการขนส่ง</li><li>ความกังวลกรณี China Mobile อาจขายหุ้น TRUE กดดันราคาหุ้นกลุ่มสื่อสารและบรรยากาศการลงทุนระยะสั้น</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>ราคาทองคำมีสัญญาณฟื้นตัว (Rebound) ส่งผลให้ค่าเงินบาทเปิดตลาดในทิศทางอ่อนค่า</li><li>สถานการณ์ในตะวันออกกลางเริ่มทรงตัว ทำให้นักลงทุนสลับเก็งกำไรในทองคำตามทิศทางค่าเงินและอัตราดอกเบี้ยโลก</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "ได้รับปัจจัยบวกจาก FETCO ที่ยกให้กลุ่มแบงก์เป็นหุ้นโดดเด่น และพอร์ตกุมกำไรแล้วกว่า 12.86%"
+                "reason": "พอร์ตมีกำไร 12.87% สอดคล้องกับบทวิเคราะห์ FETCO ที่ยกให้หุ้นกลุ่มธนาคารมีความโดดเด่นและรับอานิสงส์จาก Fund Flow"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "ผลงานในพอร์ตยังมีกำไร 8.51% แนะนำถือต่อเพื่อรับปันผลและรอรอบการฟื้นตัวของตลาด"
+                "reason": "ยังมีกำไร 9.22% แนะนำถือเพื่อรับปันผลและรอแนวโน้มตลาดหุ้นไทยฟื้นตัวดันราคาเป้าหมาย"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "สร้างกำไรสูงสุดในพอร์ตที่ 14.25% และได้แรงหนุนจากหุ้นกลุ่มอุปโภคบริโภคที่ฟื้นตัว"
+                "reason": "ทำกำไรสูงสุดในพอร์ตที่ 15.56% และได้ประโยชน์เชิงบวกจากต้นทุนพลังงาน/การขนส่งที่ลดลงตามราคาน้ำมัน"
             },
             "K-US500XUH": {
                 "action": "HOLD",
-                "reason": "สร้างผลตอบแทนเป็นบวกอย่างสม่ำเสมอ 6.29% ช่วยกระจายความเสี่ยงในตลาดหุ้นสหรัฐฯ"
+                "reason": "สร้างผลตอบแทนเป็นบวก 5.52% ช่วยกระจายความเสี่ยงสินทรัพย์ต่างประเทศในพอร์ตได้อย่างเหมาะสม"
             },
             "MTS-GOLD": {
-                "action": "BUY",
-                "reason": "ราคาทองคำเริ่มมีสัญญาณรีบาวด์แรง ผสานกับแนวโน้มเงินบาทอ่อนค่าช่วยหนุนผลตอบแทน"
+                "action": "HOLD",
+                "reason": "ทองคำเริ่มรีบาวด์หนุนกำไรในพอร์ต 7.67% ควรถือไว้เพื่อป้องกันความเสี่ยงจากความผันผวนของค่าเงินบาท"
             }
         },
         "daily_picks": [
             {
                 "symbol": "CBG",
                 "name": "บริษัท คาราบาวกรุ๊ป จำกัด (มหาชน)",
-                "reason": "ติดโผ 5 หุ้นเด่นจาก บล.โกลเบล็ก ได้รับอานิสงส์จากการฟื้นตัวของการบริโภคภายในประเทศ",
+                "reason": "ได้รับแนะนำเป็นหุ้นเด่นประจำเดือนจาก บล.โกลเบล็ก และได้ประโยชน์โดยตรงจากต้นทุนพลังงาน/ขนส่งที่ลดลง",
                 "tag": "Consumer Goods"
             },
             {
                 "symbol": "STA",
-                "name": "บริษัท ศรีตรังแอโกรอินดัสตรี จำกัด (มหาชน)",
-                "reason": "เป็นหุ้นเด่นแนะนำโดย บล.โกลเบล็ก ที่มีปัจจัยหนุนเฉพาะตัวในกลุ่มสินค้าโภคภัณฑ์",
+                "name": "บริษัท ศรีตรังแอโกรอินดัสทรี จำกัด (มหาชน)",
+                "reason": "ติดโผหุ้นเด่นน่าลงทุนในบทวิเคราะห์ รับแรงหนุนทิศทางตลาดหุ้นไทยที่มีแนวโน้ม Sideway Up",
                 "tag": "Commodity"
             }
         ]
@@ -98,109 +98,115 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิปประมวลผล AI ของโลกที่มีอัตราการเติบโตของรายได้ระดับสูงต่อเนื่อง",
+            "reason": "ผู้นำเทคโนโลยีชิป AI ระดับโลกที่มีอัตราการเติบโตของรายได้และกำไรสูงอย่างต่อเนื่อง",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้าน Cloud และการบูรณาการเทคโนโลยี AI เข้ากับซอฟต์แวร์ระดับองค์กร",
+            "reason": "โครงสร้างธุรกิจแข็งแกร่งจาก Cloud และการบูรณาการ AI เข้ากับผลิตภัณฑ์องค์กร",
             "category": "Tech"
         },
         {
             "symbol": "AAPL",
             "name": "Apple Inc.",
             "exchange": "NASDAQ",
-            "reason": "งบการเงินและกระแสเงินสดแข็งแกร่ง พร้อมการเปิดตัว Apple Intelligence",
+            "reason": "ฐานลูกค้าเหนียวแน่น กระแสเงินสดสูง และการเปิดตัวระบบ Apple Intelligence",
             "category": "Tech"
         },
         {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto Market",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับแรงหนุนจาก Spot ETF และเป็นสินทรัพย์ป้องกันความเสี่ยง",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto Market",
-            "reason": "เครือข่าย Smart Contract หลักที่ได้ประโยชน์จากการไหลเข้าของ Fund Flow ฝั่ง Crypto",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "TSMC",
+            "symbol": "TSM",
             "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE / TWSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดของโลกที่เป็นกระดูกสันหลังของอุตสาหกรรมเทคโนโลยี",
-            "category": "Tech"
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลก ซึ่งเป็นกระดูกสันหลังของอุตสาหกรรม AI",
+            "category": "Semiconductor"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผลิตเครื่องจักรผลิตชิป EUV เพียงรายเดียวในโลก มีอำนาจการต่อรองราคาสูง",
+            "exchange": "Euronext / NASDAQ",
+            "reason": "ผูกขาดตลาดเครื่องจักร EUV สำหรับผลิตชิปเซ็ตขั้นสูงจากฝั่งยุโรป",
             "category": "Tech"
         },
         {
-            "symbol": "KBANK",
-            "name": "Kasikornbank PCL",
-            "exchange": "SET",
-            "reason": "หุ้นกลุ่มแบงก์เด่นรับแรงหนุนดัชนีเชื่อมั่น FETCO และ Fund Flow ไหลเข้าตลาดไทย",
-            "category": "Finance"
-        },
-        {
-            "symbol": "BBL",
-            "name": "Bangkok Bank PCL",
-            "exchange": "SET",
-            "reason": "งบดุลแข็งแกร่ง ปันผลสูง ได้รับความสนใจจากนักลงทุนสถาบันตามมุมมอง FETCO",
-            "category": "Finance"
-        },
-        {
-            "symbol": "CBG",
-            "name": "Carabao Group PCL",
-            "exchange": "SET",
-            "reason": "หุ้นเด่นจากการวิเคราะห์ของ บล.โกลเบล็ก ลุ้นปรับตัวขึ้นตามทิศทาง Sideway Up",
-            "category": "Consumer"
-        },
-        {
-            "symbol": "STA",
-            "name": "Sri Trang Agro-Industry PCL",
-            "exchange": "SET",
-            "reason": "ได้รับอานิสงส์จากแนวโน้มค่าเงินบาทอ่อนค่าและการฟื้นตัวของอุตสาหกรรมยาง",
-            "category": "Commodity"
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "exchange": "NYSE",
+            "reason": "ผู้นำตลาดยาลดน้ำหนักและเบาหวาน (GLP-1) ที่มีความต้องการสูงทั่วโลก",
+            "category": "Healthcare"
         },
         {
             "symbol": "AMZN",
             "name": "Amazon.com Inc.",
             "exchange": "NASDAQ",
-            "reason": "การฟื้นตัวของธุรกิจ E-Commerce และการเติบโตระดับสูงของ AWS Cloud",
-            "category": "Tech"
+            "reason": "ธุรกิจ AWS เติบโตแข็งแกร่งพร้อมประสิทธิภาพการทำกำไรจาก E-commerce ที่เพิ่มขึ้น",
+            "category": "Consumer Cyclical"
         },
         {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำตลาด Search และการพัฒนาโมเดล AI Gemini ที่ครอบคลุม Ecosystem",
-            "category": "Tech"
-        },
-        {
-            "symbol": "MC",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "ผู้นำสินค้าลักชัวรีระดับโลก กระแสเงินสดมั่นคงและมีแบรนด์ที่ทรงอิทธิพล",
-            "category": "Consumer"
-        },
-        {
-            "symbol": "SOL",
-            "name": "Solana",
-            "exchange": "Crypto Market",
-            "reason": "บล็อกเชนประสิทธิภาพสูงที่มีการใช้งาน DeFi และ Transaction โตต่อเนื่อง",
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับแรงหนุนจาก Spot ETF และการยอมรับจากนักลงทุนสถาบัน",
             "category": "Crypto"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "เครือข่าย Smart Contract หลักที่มีการใช้งานจริงใน DeFi และการพัฒนาบล็อกเชน",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "BBL",
+            "name": "Bangkok Bank PCL",
+            "exchange": "SET",
+            "reason": "หุ้นกลุ่มธนาคารไทยโดดเด่น ได้อานิสงส์จาก Fund Flow ไหลเข้าและสินเชื่อธุรกิจขนาดใหญ่",
+            "category": "Financials"
+        },
+        {
+            "symbol": "CBG",
+            "name": "Carabao Group PCL",
+            "exchange": "SET",
+            "reason": "หุ้นเด่นฝั่งไทยที่มีลุ้น Sideway Up จากการฟื้นตัวของตลาดต่างประเทศและต้นทุนที่ลดลง",
+            "category": "Consumer Staples"
+        },
+        {
+            "symbol": "SAP",
+            "name": "SAP SE",
+            "exchange": "XETRA",
+            "reason": "ยักษ์ใหญ่ซอฟต์แวร์องค์กรจากยุโรปที่ประสบความสำเร็จในการเปลี่ยนผ่านสู่ระบบ Cloud",
+            "category": "Tech"
+        },
+        {
+            "symbol": "LVMH",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext",
+            "reason": "ผู้นำสินค้าแบรนด์หรูระดับโลก มีอำนาจในการกำหนดราคาและกระจายความเสี่ยงดีเยี่ยม",
+            "category": "Consumer Cyclical"
+        },
+        {
+            "symbol": "BABA",
+            "name": "Alibaba Group Holding Ltd.",
+            "exchange": "NYSE / HKEX",
+            "reason": "หุ้นเทคโนโลยีจีนราคาถูกที่มีปัจจัยหนุนจากมาตรการกระตุ้นเศรษฐกิจและการฟื้นตัวของ Cloud",
+            "category": "Tech"
+        },
+        {
+            "symbol": "XOM",
+            "name": "Exxon Mobil Corporation",
+            "exchange": "NYSE",
+            "reason": "หุ้นพลังงานระดับโลกที่งบการเงินแข็งแกร่ง ปันผลสูง ช่วยป้องกันความเสี่ยงจากเงินเฟ้อ",
+            "category": "Energy"
         }
     ],
     "news": [
+        {
+            "title": "'กรุงไทย' เตือนเบี้ยวหนี้ยาก 'ผยง' ยันระบบตรวจสอบได้ 'คลิกซ์ ...",
+            "url": "https://www.bangkokbiznews.com/finance/1246224",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-06T05:47:00+00:00"
+        },
         {
             "title": "ปิดทาง SpaceX ถือหุ้น 100% ในไทย พาณิชย์ห่วงเรื่องอธิปไตย เชื่อไม่กระทบเจรจาสหรัฐ",
             "url": "https://www.msn.com/th-th/news/other/ปิดทาง-spacex-ถือหุ้น-100-ในไทย-พาณิชย์ห่วงเรื่องอธิปไตย-เชื่อไม่กระทบเจรจาสหรัฐ/ar-AA29q7Kh",
@@ -314,12 +320,6 @@
             "url": "https://www.dailynews.co.th/news/6069413/",
             "source": "เดลินิวส์",
             "date": "2026-07-30T21:58:00+00:00"
-        },
-        {
-            "title": "สื่อจีนเตือนแรง!! ภัยมิจฉาชีพแอบอ้างชื่อสื่อ รีดไถบิทคอยน์ ...",
-            "url": "https://mgronline.com/stockmarket/detail/9690000074796",
-            "source": "ผู้จัดการออนไลน์",
-            "date": "2026-07-30T09:31:00+00:00"
         }
     ]
 }
