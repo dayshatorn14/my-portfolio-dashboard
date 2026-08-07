@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-08-07T11:52:53.133217+07:00",
+    "last_updated": "2026-08-07T15:57:38.016177+07:00",
     "summary": {
-        "total_value_thb": 31777.254291946352,
-        "total_profit_thb": 2809.47579375048,
-        "total_profit_percent": 9.698623572137075
+        "total_value_thb": 31716.45041239175,
+        "total_profit_thb": 2753.3559934034893,
+        "total_profit_percent": 9.506428952558272
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 153.5,
-            "total_value_thb": 15350.0,
-            "profit_thb": 1750.0,
-            "profit_percent": 12.867647058823529
+            "current_price_thb": 153.0,
+            "total_value_thb": 15300.0,
+            "profit_thb": 1700.0,
+            "profit_percent": 12.5
         },
         {
             "symbol": "SIRI",
@@ -28,68 +28,68 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.799999237060547,
-            "total_value_thb": 711.9999694824219,
-            "profit_thb": 102.79996948242183,
-            "profit_percent": 16.874584616287233
+            "current_price_thb": 17.700000762939453,
+            "total_value_thb": 708.0000305175781,
+            "profit_thb": 98.80003051757808,
+            "profit_percent": 16.21799581706797
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.893453943302662,
-            "total_value_thb": 10566.698718183843,
-            "profit_thb": 566.6991672238437,
-            "profit_percent": 5.666991926709042
+            "current_price_thb": 11.864716459899194,
+            "total_value_thb": 10541.166998761475,
+            "profit_thb": 541.1674478014756,
+            "profit_percent": 5.411674721020598
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4320.5,
-            "cost_per_unit_thb": 132779.37994766235,
-            "current_price_thb": 143051.75763702393,
-            "total_value_thb": 2088.5556615005494,
-            "profit_thb": 149.976714264679,
-            "profit_percent": 7.7364254098871665
+            "current_price_usd": 4369.7998046875,
+            "cost_per_unit_thb": 132458.5526046753,
+            "current_price_thb": 144334.48221459985,
+            "total_value_thb": 2107.2834403331576,
+            "profit_thb": 173.3885723048984,
+            "profit_percent": 8.965770330715037
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> FETCO มองดัชนีหุ้นไทยมีโอกาสฟื้นตัวสู่ 1,700 จุด ขณะที่ บล.โกลเบล็ก คาดการณ์ทิศทาง Sideway Up จากสถานการณ์ในตะวันออกกลางที่เริ่มคลี่คลาย</li><li><b>ปัจจัยลบ:</b> กระแส Fund Flow ต่างชาติขายสุทธิหุ้นไทยกว่า 7 พันล้านบาทในต้นเดือน ส.ค. ประกอบกับแรงกดดันทางจิตวิทยาจากความกังวลกรณี China Mobile ขายหุ้น TRUE</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ราคาทองคำมีสัญญาณรีบาวด์สูงขึ้น ส่งผลให้ค่าเงินบาทเปิดตลาดในทิศทางอ่อนค่า</li><li><b>ปัจจัยลบ:</b> ความตึงเครียดทางภูมิรัฐศาสตร์ที่เริ่มทรงตัว อาจลดความต้องการถือครองสินทรัพย์ปลอดภัยในระยะสั้น</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงขายต่างชาติ:</b> Fund Flow เปลี่ยนทิศ โดยต้นเดือน ส.ค. ต่างชาติขายสุทธิหุ้นไทยกว่า 7 พันล้านบาท สร้างแรงกดดันต่อดัชนีในระยะสั้น</li><li><b>แรงเก็งกำไรผลประกอบการ Q2:</b> ตลาดให้ความสนใจหุ้นที่มีแนวโน้มกำไรเติบโตดีใน Q2 และต่อเนื่องถึงครึ่งปีหลัง</li><li><b>ประเด็นนโยบายและเทคโนโลยี:</b> กระทรวงพาณิชย์ปิดทาง SpaceX ถือหุ้น 100% ในไทย หวั่นกระทบอธิปไตย ขณะที่หุ้นใหญ่บางตัวอย่าง TRUE ถูกกดดันจากข่าว China Mobile</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>สินทรัพย์ป้องกันความเสี่ยง:</b> ตลาดหุ้นไทยและภูมิภาคมีความผันผวนจาก Fund Flow ไหลออก ส่งผลให้ทองคำยังคงเป็นสินทรัพย์ปลอดภัยที่น่าถือครอง</li><li><b>ความไม่แน่นอนทางเศรษฐกิจโลก:</b> การเจรจาการค้าและนโยบายดอกเบี้ยในต่างประเทศช่วยหนุนราคาทองคำในระยะยาว</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรเติบโตดี 12.87% และตลาดหุ้นไทยมีลุ้นฟื้นตัว จึงแนะนำถือเพื่อรับปันผลและรอรับอัพไซด์เพิ่มเติม"
+                "reason": "ผลตอบแทนยังเป็นบวก 12.5% และกลุ่มธนาคารยังมีเสถียรภาพสูง แม้ต้องเฝ้าระวังเรื่องการติดตามหนี้เสีย"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "คงบวก 8.51% แม้ฟันด์โฟลว์ผันผวน แต่ราคาหุ้นยังมีเสถียรภาพและให้ผลตอบแทนเป็นบวก"
+                "reason": "มีกำไรสะสม 8.51% ถือเพื่อรับเงินปันผลต่อเนื่อง แม้ภาคอสังหาริมทรัพย์จะฟื้นตัวอย่างระมัดระวัง"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "สร้างกำไรสูงสุดในพอร์ตถึง 16.87% แนะนำถือต่อเพื่อรันเทรนด์ตามการฟื้นตัวของกลุ่มสินค้าบริโภค"
+                "reason": "ทำผลงานได้ดีที่สุดในพอร์ต (+16.22%) ถือต่อเพื่อรันกำไรตามทิศทางกลุ่มเครื่องดื่มที่ฟื้นตัว"
             },
             "K-US500XUH": {
                 "action": "BUY",
-                "reason": "แนะนำทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงไปยังตลาดสหรัฐฯ ในช่วงตลาดหุ้นไทยเผชิญแรงขายจากต่างชาติ"
+                "reason": "ทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงจากตลาดหุ้นไทยที่มี Fund Flow ไหลออก ไปยังหุ้นใหญ่สหรัฐฯ"
             },
             "MTS-GOLD": {
                 "action": "HOLD",
-                "reason": "ราคาทองคำเริ่มรีบาวด์และเงินบาทมีทิศทางอ่อนค่า ช่วยป้องกันความเสี่ยงของพอร์ตโดยรวมได้ดี"
+                "reason": "ถือครองไว้เป็นหลักประกันความเสี่ยงของพอร์ตในช่วงที่ตลาดหุ้นไทยมีความผันผวน"
             }
         },
         "daily_picks": [
             {
                 "symbol": "CBG",
                 "name": "บริษัท คาราบาวกรุ๊ป จำกัด (มหาชน)",
-                "reason": "ติดอันดับหุ้นเด่นเดือน ส.ค. จากโกลเบล็ก ลุ้นแนวโน้ม Sideway Up ตามการฟื้นตัวของการบริโภค",
-                "tag": "Value"
+                "reason": "ถูกจัดเป็นหนึ่งในหุ้นเด่นเดือน ส.ค. จากบทวิเคราะห์ และรับอานิสงส์การฟื้นตัวของกลุ่มเครื่องดื่มชูกำลัง",
+                "tag": "Growth / Consumer"
             },
             {
-                "symbol": "STA",
-                "name": "บริษัท ศรีตรังแอโกรอินดัสทรี จำกัด (มหาชน)",
-                "reason": "ได้รับปัจจัยหนุนจากทิศทางค่าเงินบาทที่เปิดอ่อนค่าและเป็นหุ้นเด่นประจำเดือนตามคำแนะนำโบรกเกอร์",
-                "tag": "Commodity"
+                "symbol": "GULF",
+                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
+                "reason": "มีปัจจัยบวกจากการรุกธุรกิจใหม่ 'กัลฟ์ สเปซ เทคโนโลยี' สู่ผู้นำเทคโนโลยีอวกาศและดาวเทียม",
+                "tag": "Tech / Mega Trend"
             }
         ]
     },
@@ -98,109 +98,121 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิปประมวลผล AI ระดับโลกที่มีแรงหนุนจากความต้องการโครงสร้างพื้นฐานเทคโนโลยีที่เติบโตต่อเนื่อง",
+            "reason": "ผู้นำด้านชิป AI ระดับโลก ได้รับอานิสงส์จากการเติบโตของโครงสร้างพื้นฐาน AI อย่างต่อเนื่อง",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้าน Cloud และ Enterprise Software ที่บูรณาการ Generative AI เข้ากับผลิตภัณฑ์ได้อย่างมีประสิทธิภาพ",
-            "category": "Tech"
-        },
-        {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ฐานผู้ใช้และระบบนิเวศแข็งแกร่ง พร้อมแรงส่งจาก Apple Intelligence ที่ช่วยกระตุ้นรอบการเปลี่ยนอุปกรณ์ใหม่",
-            "category": "Tech"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การฟื้นตัวอย่างแข็งแกร่งของ AWS และประสิทธิภาพการทำกำไรในธุรกิจอีคอมเมิร์ซที่เพิ่มสูงขึ้น",
-            "category": "Consumer Discretionary / Tech"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ครองส่วนแบ่งการตลาด Search และโฆษณาดิจิทัล พร้อมการต่อยอดโมเดล Gemini ในระบบคลาวด์",
+            "reason": "ผู้นำด้าน Enterprise Cloud และการบูรณาการ Copilot AI เข้ากับซอฟต์แวร์ระดับโลก",
             "category": "Tech"
         },
         {
             "symbol": "TSM",
             "name": "Taiwan Semiconductor Manufacturing Co.",
             "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงอันดับหนึ่งของโลก ได้รับประโยชน์โดยตรงจากความต้องการชิป AI และสมาร์ตโฟน",
-            "category": "Tech"
+            "reason": "ผู้ผลิตชิปรายใหญ่ที่สุดในโลก ควบคุมห่วงโซ่อุปทานชิปขั้นสูงสำหรับ AI และสมาร์ทโฟน",
+            "category": "Semiconductor"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูง (EUV) ที่เป็นหัวใจสำคัญของอุตสาหกรรมเซมิคอนดักเตอร์ระดับโลก",
+            "exchange": "NASDAQ",
+            "reason": "ผู้ผูกขาดการผลิตเครื่องพิมพ์ลายวงจรผืนผ้าลิโธกราฟี (EUV) ที่จำเป็นสำหรับการผลิตชิปขั้นสูง",
             "category": "Tech"
-        },
-        {
-            "symbol": "NOVO-B",
-            "name": "Novo Nordisk A/S",
-            "exchange": "OMX Copenhagen",
-            "reason": "ผู้นำตลาดยาลดน้ำหนักและรักษาเบาหวาน (Wegovy/Ozempic) ที่มีความต้องการในตลาดโลกสูงอย่างต่อเนื่อง",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "MC.PA",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "แบรนด์สินค้าหรูอันดับหนึ่งของโลก มีอำนาจในการกำหนดราคาและทนทานต่อภาวะเศรษฐกิจชะลอตัว",
-            "category": "Consumer Discretionary"
-        },
-        {
-            "symbol": "7203.T",
-            "name": "Toyota Motor Corporation",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ผู้นำอุตสาหกรรมยานยนต์ที่ได้รับอานิสงส์อย่างมากจากความต้องการรถยนต์ไฮบริดที่พุ่งสูงขึ้นทั่วโลก",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "BABA",
-            "name": "Alibaba Group Holding Limited",
-            "exchange": "NYSE",
-            "reason": "มูลค่าหุ้นอยู่ในระดับต่ำเกินจริงเมื่อเทียบกับพื้นฐาน พร้อมโอกาสฟื้นตัวตามมาตรการกระตุ้นเศรษฐกิจจีน",
-            "category": "Tech / E-commerce"
-        },
-        {
-            "symbol": "CBG",
-            "name": "Carabao Group PCL",
-            "exchange": "SET",
-            "reason": "หุ้นเติบโตโดดเด่นในไทยตามมุมมองโบรกเกอร์ รับอานิสงส์การขยายตลาดต่างประเทศและต้นทุนวัตถุดิบลดลง",
-            "category": "Consumer Staples"
-        },
-        {
-            "symbol": "STA",
-            "name": "Sri Trang Agro-Industry PCL",
-            "exchange": "SET",
-            "reason": "หุ้นเด่นในตลาดไทยที่ได้รับปัจจัยหนุนจากทิศทางราคายางพาราและอุปสงค์ในอุตสาหกรรมยานยนต์ฟื้นตัว",
-            "category": "Agribusiness"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
-            "exchange": "Crypto Market",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่รับเงินทุนสถาบันผ่าน Spot ETF และมีคุณสมบัติเป็น Digital Gold ในช่วงตลาดผันผวน",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลอันดับหนึ่ง ได้รับแรงหนุนจากกระแสเงินทุนสถาบันผ่าน Spot ETF",
             "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
-            "exchange": "Crypto Market",
-            "reason": "รากฐานสำคัญของระบบ Smart Contract และ DeFi ที่ได้รับการยอมรับผ่านการอนุมัติ Spot ETF",
+            "exchange": "Crypto",
+            "reason": "โครงสร้างพื้นฐาน Smart Contract หลักของระบบนิเวศ DeFi และ Web3",
             "category": "Crypto"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การเติบโตแข็งแกร่งของ AWS Cloud ร่วมกับการเพิ่มประสิทธิภาพกำไรในธุรกิจ E-commerce",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "รายได้โฆษณาฟื้นตัวร่วมกับนวัตกรรม Gemini AI และเติบโตในธุรกิจ Google Cloud",
+            "category": "Tech"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวาน (Wegovy/Ozempic) ที่มีความต้องการเติบโตสูงทั่วโลก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "LMT",
+            "name": "Lockheed Martin Corporation",
+            "exchange": "NYSE",
+            "reason": "หุ้นกลุ่มความมั่นคงและเทคโนโลยีอวกาศ ได้ประโยชน์จากงบกลาโหมและเทรนด์ดาวเทียมทั่วโลก",
+            "category": "Aerospace & Defense"
+        },
+        {
+            "symbol": "GULF",
+            "name": "Gulf Energy Development PCL",
+            "exchange": "SET",
+            "reason": "ขยายอาณาจักรสู่เทคโนโลยีอวกาศและดิจิทัล (กัลฟ์ สเปซ เทคโนโลยี / ไทยคม) สร้าง New S-Curve",
+            "category": "Energy & Tech"
+        },
+        {
+            "symbol": "ADVANC",
+            "name": "Advanced Info Service PCL",
+            "exchange": "SET",
+            "reason": "หุ้นสื่อสารมั่นคง จ่ายปันผลสม่ำเสมอ ได้รับอานิสงส์จากการย้ายการลงทุนในกลุ่มโทรคมนาคมไทย",
+            "category": "Telecom"
+        },
+        {
+            "symbol": "META",
+            "name": "Meta Platforms Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ฟื้นตัวแข็งแกร่งจากการใช้ AI เพิ่มประสิทธิภาพโฆษณาบน Facebook และ Instagram",
+            "category": "Tech"
+        },
+        {
+            "symbol": "BRK.B",
+            "name": "Berkshire Hathaway Inc.",
+            "exchange": "NYSE",
+            "reason": "หุ้นกระจายความเสี่ยงคุณภาพสูง มีกระแสเงินสดและเงินสดสำรองสูง ทนทานต่อความผันผวนของ Fund Flow",
+            "category": "Financials"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "กระแส Apple Intelligence ช่วยกระตุ้นรอบการเปลี่ยนเครื่อง iPhone รุ่นใหม่ทั่วโลก",
+            "category": "Tech"
         }
     ],
     "news": [
+        {
+            "title": "\"ไทยคม\" สู่ \"กัลฟ์ สเปซ เทคโนโลยี\" มุ่งผู้นำด้านเทคโนโลยีอวกาศ",
+            "url": "https://www.posttoday.com/business/stockholder/746603",
+            "source": "โพสต์ทูเดย์",
+            "date": "2026-08-07T07:45:00+00:00"
+        },
+        {
+            "title": "เกาะงบโค้งสุดท้าย Q2/69 หาหุ้นโตแรงต่อเนื่องครึ่งปีหลัง | SET Afternoon | 7-8-69",
+            "url": "https://www.bangkokbiznews.com/corporate-moves/finance/stock/1246350",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-07T01:00:00+00:00"
+        },
         {
             "title": "เปิดอาณาจักรธุรกิจ \"โทน บางแค\"เซียนพระอินฟลูฯ ชื่อดัง ก่อนผจญ ...",
             "url": "https://www.dailynews.co.th/news/6086386/",
@@ -308,18 +320,6 @@
             "url": "https://www.msn.com/th-th/news/other/ภาษีสหรัฐ-กระทบหุ้นไทยจำกัด-โบรกชู-กลุ่มอาหาร-เด่น-อานิสงส์บาทอ่อน/ar-AA296mS9",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-07-31T06:30:00+00:00"
-        },
-        {
-            "title": "'ภาษีสหรัฐ' กระทบหุ้นไทยจำกัด โบรกเกอร์ชู 'กลุ่มอาหาร' เด่น ...",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1245395",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-07-31T06:10:00+00:00"
-        },
-        {
-            "title": "\"พชร\" ชี้ เคยเตือนเรื่องปัญหามาตรา 301 ของสหรัฐแล้ว แนะ 4 ข้อ แก้ปมปัญหา",
-            "url": "https://www.msn.com/th-th/news/other/พชร-ชี้-เคยเตือนเรื่องปัญหามาตรา-301-ของสหรัฐแล้ว-แนะ-4-ข้อ-แก้ปมปัญหา/ar-AA296wfS",
-            "source": "Thansettakij",
-            "date": "2026-07-31T02:48:00+00:00"
         }
     ]
 }
