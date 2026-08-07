@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-08-06T17:36:26.509639+07:00",
+    "last_updated": "2026-08-07T11:52:53.133217+07:00",
     "summary": {
-        "total_value_thb": 31810.097460617286,
-        "total_profit_thb": 2847.0030416290247,
-        "total_profit_percent": 9.829761283250605
+        "total_value_thb": 31777.254291946352,
+        "total_profit_thb": 2809.47579375048,
+        "total_profit_percent": 9.698623572137075
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 154.0,
-            "total_value_thb": 15400.0,
-            "profit_thb": 1800.0,
-            "profit_percent": 13.23529411764706
+            "current_price_thb": 153.5,
+            "total_value_thb": 15350.0,
+            "profit_thb": 1750.0,
+            "profit_percent": 12.867647058823529
         },
         {
             "symbol": "SIRI",
@@ -28,68 +28,68 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.600000381469727,
-            "total_value_thb": 704.0000152587891,
-            "profit_thb": 94.80001525878902,
-            "profit_percent": 15.561394494220126
+            "current_price_thb": 17.799999237060547,
+            "total_value_thb": 711.9999694824219,
+            "profit_thb": 102.79996948242183,
+            "profit_percent": 16.874584616287233
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.883616605497275,
-            "total_value_thb": 10557.958768857596,
-            "profit_thb": 557.9592178975963,
-            "profit_percent": 5.579592429521981
+            "current_price_thb": 11.893453943302662,
+            "total_value_thb": 10566.698718183843,
+            "profit_thb": 566.6991672238437,
+            "profit_percent": 5.666991926709042
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4330.10009765625,
-            "cost_per_unit_thb": 132458.5526046753,
-            "current_price_thb": 143023.20093981922,
-            "total_value_thb": 2088.1387337213605,
-            "profit_thb": 154.24386569310127,
-            "profit_percent": 7.975814416962783
+            "current_price_usd": 4320.5,
+            "cost_per_unit_thb": 132779.37994766235,
+            "current_price_thb": 143051.75763702393,
+            "total_value_thb": 2088.5556615005494,
+            "profit_thb": 149.976714264679,
+            "profit_percent": 7.7364254098871665
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยหนุน:</b> FETCO เผยดัชนีความเชื่อมั่นนักลงทุนอยู่ในเกณฑ์ร้อนแรง และบล.โกลเบล็กประเมิน SET มีโอกาส Sideway Up จากแรงฟื้นตัวหลังสถานการณ์ในตะวันออกกลางเริ่มคลี่คลาย</li><li><b>ปัจจัยกดดัน:</b> Fund Flow ต่างชาติเปลี่ยนทิศโดยขายสุทธิหุ้นไทยกว่า 7 พันล้านบาทช่วงต้นเดือน ส.ค. ประกอบกับแรงขายกดดันในหุ้นกลุ่มสื่อสาร (TRUE) และประเด็นจำกัดสัดส่วนการถือหุ้นของต่างชาติ</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยหนุน:</b> ราคาทองคำเริ่มมีแรงรีบาวด์หนุนให้ค่าเงินบาทเปิดตลาดอ่อนค่าลง สะท้อนความต้องการสินทรัพย์ปลอดภัยสลับกลับเข้ามา</li><li><b>ปัจจัยกดดัน:</b> การฟื้นตัวของตลาดหุ้นและความผ่อนคลายในสถานการณ์ภูมิรัฐศาสตร์อาจลดความร้อนแรงของราคาทองคำในระยะสั้น</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> FETCO มองดัชนีหุ้นไทยมีโอกาสฟื้นตัวสู่ 1,700 จุด ขณะที่ บล.โกลเบล็ก คาดการณ์ทิศทาง Sideway Up จากสถานการณ์ในตะวันออกกลางที่เริ่มคลี่คลาย</li><li><b>ปัจจัยลบ:</b> กระแส Fund Flow ต่างชาติขายสุทธิหุ้นไทยกว่า 7 พันล้านบาทในต้นเดือน ส.ค. ประกอบกับแรงกดดันทางจิตวิทยาจากความกังวลกรณี China Mobile ขายหุ้น TRUE</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ราคาทองคำมีสัญญาณรีบาวด์สูงขึ้น ส่งผลให้ค่าเงินบาทเปิดตลาดในทิศทางอ่อนค่า</li><li><b>ปัจจัยลบ:</b> ความตึงเครียดทางภูมิรัฐศาสตร์ที่เริ่มทรงตัว อาจลดความต้องการถือครองสินทรัพย์ปลอดภัยในระยะสั้น</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรคงเหลือในระดับดี 13.24% แนะนำถือต่อเพื่อรับปันผล แม้กลุ่มธนาคารจะเข้มงวดเรื่องหนี้เสียมากขึ้น"
+                "reason": "กำไรเติบโตดี 12.87% และตลาดหุ้นไทยมีลุ้นฟื้นตัว จึงแนะนำถือเพื่อรับปันผลและรอรับอัพไซด์เพิ่มเติม"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "ราคาหุ้นทรงตัวและมีกำไร 8.51% แนะนำถือรับปันผลในระยะกลางถึงยาว"
+                "reason": "คงบวก 8.51% แม้ฟันด์โฟลว์ผันผวน แต่ราคาหุ้นยังมีเสถียรภาพและให้ผลตอบแทนเป็นบวก"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "ผลตอบแทนโดดเด่นสูงสุดในพอร์ต (+15.56%) แนะนำถือ Let Profit Run ตามการฟื้นตัวของกลุ่มเครื่องดื่ม"
+                "reason": "สร้างกำไรสูงสุดในพอร์ตถึง 16.87% แนะนำถือต่อเพื่อรันเทรนด์ตามการฟื้นตัวของกลุ่มสินค้าบริโภค"
             },
             "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "ถือเพื่อกระจายความเสี่ยงต่างประเทศในดัชนี S&P500 ที่ยังมีปัจจัยพื้นฐานแข็งแกร่ง"
+                "action": "BUY",
+                "reason": "แนะนำทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงไปยังตลาดสหรัฐฯ ในช่วงตลาดหุ้นไทยเผชิญแรงขายจากต่างชาติ"
             },
             "MTS-GOLD": {
                 "action": "HOLD",
-                "reason": "ถือครองเพื่อป้องกันความเสี่ยงจากเงินบาทอ่อนค่าและรับแรงรีบาวด์ของราคาทองคำ"
+                "reason": "ราคาทองคำเริ่มรีบาวด์และเงินบาทมีทิศทางอ่อนค่า ช่วยป้องกันความเสี่ยงของพอร์ตโดยรวมได้ดี"
             }
         },
         "daily_picks": [
             {
                 "symbol": "CBG",
                 "name": "บริษัท คาราบาวกรุ๊ป จำกัด (มหาชน)",
-                "reason": "ติดอันดับหุ้นเด่นเดือน ส.ค. จาก บล.โกลเบล็ก ได้รับอานิสงส์จากการฟื้นตัวของการบริโภคในประเทศ",
-                "tag": "Consumer Growth"
+                "reason": "ติดอันดับหุ้นเด่นเดือน ส.ค. จากโกลเบล็ก ลุ้นแนวโน้ม Sideway Up ตามการฟื้นตัวของการบริโภค",
+                "tag": "Value"
             },
             {
                 "symbol": "STA",
                 "name": "บริษัท ศรีตรังแอโกรอินดัสทรี จำกัด (มหาชน)",
-                "reason": "หุ้นเด่นแนะนำประจำเดือนจากบทวิเคราะห์โบรกเกอร์ รับปัจจัยหนุนตามรอบสินค้าโภคภัณฑ์",
-                "tag": "Commodity Value"
+                "reason": "ได้รับปัจจัยหนุนจากทิศทางค่าเงินบาทที่เปิดอ่อนค่าและเป็นหุ้นเด่นประจำเดือนตามคำแนะนำโบรกเกอร์",
+                "tag": "Commodity"
             }
         ]
     },
@@ -98,109 +98,115 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำฮาร์ดแวร์และโครงสร้างพื้นฐาน AI ระดับโลกที่มีอัตราการเติบโตของกำไรสูงสุด",
+            "reason": "ผู้นำด้านชิปประมวลผล AI ระดับโลกที่มีแรงหนุนจากความต้องการโครงสร้างพื้นฐานเทคโนโลยีที่เติบโตต่อเนื่อง",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "แกร่งด้วยรายได้จากบริการ Azure Cloud และการนำ AI มาต่อยอดในซอฟต์แวร์องค์กร",
-            "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลก ไร้คู่แข่งที่ทัดเทียมในฝั่งอุปทาน AI",
+            "reason": "ผู้นำด้าน Cloud และ Enterprise Software ที่บูรณาการ Generative AI เข้ากับผลิตภัณฑ์ได้อย่างมีประสิทธิภาพ",
             "category": "Tech"
         },
         {
             "symbol": "AAPL",
             "name": "Apple Inc.",
             "exchange": "NASDAQ",
-            "reason": "กระแสเงินสดแข็งแกร่ง มีฐานผู้ใช้หนาแน่นและเตรียมเปิดตัวคุณสมบัติ Apple Intelligence",
+            "reason": "ฐานผู้ใช้และระบบนิเวศแข็งแกร่ง พร้อมแรงส่งจาก Apple Intelligence ที่ช่วยกระตุ้นรอบการเปลี่ยนอุปกรณ์ใหม่",
             "category": "Tech"
         },
         {
             "symbol": "AMZN",
             "name": "Amazon.com, Inc.",
             "exchange": "NASDAQ",
-            "reason": "ธุรกิจ AWS ฟื้นตัวโดดเด่นและประสิทธิภาพการทำกำไรของ e-Commerce ปรับตัวดีขึ้น",
-            "category": "Consumer Discretionary"
+            "reason": "การฟื้นตัวอย่างแข็งแกร่งของ AWS และประสิทธิภาพการทำกำไรในธุรกิจอีคอมเมิร์ซที่เพิ่มสูงขึ้น",
+            "category": "Consumer Discretionary / Tech"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ครองส่วนแบ่งการตลาด Search และโฆษณาดิจิทัล พร้อมการต่อยอดโมเดล Gemini ในระบบคลาวด์",
+            "category": "Tech"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปขั้นสูงอันดับหนึ่งของโลก ได้รับประโยชน์โดยตรงจากความต้องการชิป AI และสมาร์ตโฟน",
+            "category": "Tech"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
             "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเครื่องพิมพ์ลายวงจรชิปขั้นสูง (EUV) กุญแจสำคัญของอุตสาหกรรมเซมิคอนดักเตอร์",
+            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูง (EUV) ที่เป็นหัวใจสำคัญของอุตสาหกรรมเซมิคอนดักเตอร์ระดับโลก",
             "category": "Tech"
+        },
+        {
+            "symbol": "NOVO-B",
+            "name": "Novo Nordisk A/S",
+            "exchange": "OMX Copenhagen",
+            "reason": "ผู้นำตลาดยาลดน้ำหนักและรักษาเบาหวาน (Wegovy/Ozempic) ที่มีความต้องการในตลาดโลกสูงอย่างต่อเนื่อง",
+            "category": "Healthcare"
         },
         {
             "symbol": "MC.PA",
             "name": "LVMH Moët Hennessy Louis Vuitton",
             "exchange": "Euronext Paris",
-            "reason": "ผู้นำสินค้าแบรนด์หรูระดับโลก มีอำนาจในการกำหนดราคาและฐานลูกค้ามั่งคั่งสูง",
+            "reason": "แบรนด์สินค้าหรูอันดับหนึ่งของโลก มีอำนาจในการกำหนดราคาและทนทานต่อภาวะเศรษฐกิจชะลอตัว",
             "category": "Consumer Discretionary"
         },
         {
-            "symbol": "9988.HK",
-            "name": "Alibaba Group Holding Ltd.",
-            "exchange": "HKEX",
-            "reason": "ระดับราคาหุ้นอยู่ในโซนถูกมาก (Undervalued) รับอานิสงส์การฟื้นตัวของเศรษฐกิจจีน",
-            "category": "Tech"
+            "symbol": "7203.T",
+            "name": "Toyota Motor Corporation",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "ผู้นำอุตสาหกรรมยานยนต์ที่ได้รับอานิสงส์อย่างมากจากความต้องการรถยนต์ไฮบริดที่พุ่งสูงขึ้นทั่วโลก",
+            "category": "Automotive"
         },
         {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
+            "symbol": "BABA",
+            "name": "Alibaba Group Holding Limited",
             "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยาลดน้ำหนักและรักษาโรคเบาหวานที่มีความต้องการในตลาดสูงมหาศาล",
-            "category": "Healthcare"
+            "reason": "มูลค่าหุ้นอยู่ในระดับต่ำเกินจริงเมื่อเทียบกับพื้นฐาน พร้อมโอกาสฟื้นตัวตามมาตรการกระตุ้นเศรษฐกิจจีน",
+            "category": "Tech / E-commerce"
         },
         {
             "symbol": "CBG",
             "name": "Carabao Group PCL",
             "exchange": "SET",
-            "reason": "หุ้นเด่นในตลาดไทยตามบทวิเคราะห์ ได้รับอานิสงส์จากการขยายตัวของตลาดต่างประเทศ",
+            "reason": "หุ้นเติบโตโดดเด่นในไทยตามมุมมองโบรกเกอร์ รับอานิสงส์การขยายตลาดต่างประเทศและต้นทุนวัตถุดิบลดลง",
             "category": "Consumer Staples"
         },
         {
             "symbol": "STA",
             "name": "Sri Trang Agro-Industry PCL",
             "exchange": "SET",
-            "reason": "ความต้องการสินค้าโภคภัณฑ์ฟื้นตัวและทิศทางราคายางพาราปรับตัวดีขึ้น",
-            "category": "Commodities"
-        },
-        {
-            "symbol": "TRUE",
-            "name": "True Corporation PCL",
-            "exchange": "SET",
-            "reason": "ราคาปรับตัวลดลงจากปัจจัยจิตวิทยาชั่วคราว เป็นโอกาสสะสมหุ้นโทรคมนาคมผูกขาดในไทย",
-            "category": "Telecommunication"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "รายได้จากโฆษณาฟื้นตัวต่อเนื่อง พร้อมการพัฒนาด้าน AI Cloud ที่เติบโตแรง",
-            "category": "Tech"
+            "reason": "หุ้นเด่นในตลาดไทยที่ได้รับปัจจัยหนุนจากทิศทางราคายางพาราและอุปสงค์ในอุตสาหกรรมยานยนต์ฟื้นตัว",
+            "category": "Agribusiness"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับเงินทุนไหลเข้าจากสถาบันผ่าน Spot ETF อย่างต่อเนื่อง",
-            "category": "Cryptocurrency"
+            "exchange": "Crypto Market",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่รับเงินทุนสถาบันผ่าน Spot ETF และมีคุณสมบัติเป็น Digital Gold ในช่วงตลาดผันผวน",
+            "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "ศูนย์กลางของ Smart Contracts และระบบนิเวศ DeFi พร้อมแรงหนุนจาก ETF",
-            "category": "Cryptocurrency"
+            "exchange": "Crypto Market",
+            "reason": "รากฐานสำคัญของระบบ Smart Contract และ DeFi ที่ได้รับการยอมรับผ่านการอนุมัติ Spot ETF",
+            "category": "Crypto"
         }
     ],
     "news": [
+        {
+            "title": "เปิดอาณาจักรธุรกิจ \"โทน บางแค\"เซียนพระอินฟลูฯ ชื่อดัง ก่อนผจญ ...",
+            "url": "https://www.dailynews.co.th/news/6086386/",
+            "source": "เดลินิวส์",
+            "date": "2026-08-06T15:59:00+00:00"
+        },
         {
             "title": "สื่อนอกระบุ 'ไทย' ไม่เปิดทางต่างชาติถือหุ้น 100% ธุรกิจ LEO ชี้เป็น ...",
             "url": "https://www.thebangkokinsight.com/news/world-news/1682660/",
@@ -314,12 +320,6 @@
             "url": "https://www.msn.com/th-th/news/other/พชร-ชี้-เคยเตือนเรื่องปัญหามาตรา-301-ของสหรัฐแล้ว-แนะ-4-ข้อ-แก้ปมปัญหา/ar-AA296wfS",
             "source": "Thansettakij",
             "date": "2026-07-31T02:48:00+00:00"
-        },
-        {
-            "title": "ดีเดย์ 1 ส.ค. พาณิชย์เพิ่มเกณฑ์สกัด\"นอมินี\" เช็กเส้นทางเงิน ...",
-            "url": "https://www.dailynews.co.th/news/6069960/",
-            "source": "เดลินิวส์",
-            "date": "2026-07-31T00:19:00+00:00"
         }
     ]
 }
