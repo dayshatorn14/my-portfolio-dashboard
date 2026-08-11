@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-08-10T16:17:50.697952+07:00",
+    "last_updated": "2026-08-11T11:17:48.797091+07:00",
     "summary": {
-        "total_value_thb": 31719.152338118616,
-        "total_profit_thb": 2759.5707551868727,
-        "total_profit_percent": 9.529042217976361
+        "total_value_thb": 31749.130470087213,
+        "total_profit_thb": 2786.036051098952,
+        "total_profit_percent": 9.619262399229074
     },
     "assets": [
         {
@@ -19,77 +19,77 @@
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5299999713897705,
-            "total_value_thb": 3059.999942779541,
-            "profit_thb": 239.99994277954102,
-            "profit_percent": 8.51063626877805
+            "current_price_thb": 1.5199999809265137,
+            "total_value_thb": 3039.9999618530273,
+            "profit_thb": 219.99996185302734,
+            "profit_percent": 7.801417086986786
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.600000381469727,
-            "total_value_thb": 704.0000152587891,
-            "profit_thb": 94.80001525878902,
-            "profit_percent": 15.561394494220126
+            "current_price_thb": 17.399999618530273,
+            "total_value_thb": 695.9999847412109,
+            "profit_thb": 86.79998474121089,
+            "profit_percent": 14.248191848524439
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.91372054140723,
-            "total_value_thb": 10584.704508363413,
-            "profit_thb": 584.7049574034136,
-            "profit_percent": 5.847049836590061
+            "current_price_thb": 11.93555449071614,
+            "total_value_thb": 10604.102806391486,
+            "profit_thb": 604.1032554314861,
+            "profit_percent": 6.041032825581399
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4405.10009765625,
-            "cost_per_unit_thb": 132217.9473953247,
-            "current_price_thb": 145236.15559704602,
-            "total_value_thb": 2120.4478717168718,
-            "profit_thb": 190.06583974513092,
-            "profit_percent": 9.8460220100056
+            "current_price_usd": 4477.10009765625,
+            "cost_per_unit_thb": 132458.5526046753,
+            "current_price_thb": 147878.61076037586,
+            "total_value_thb": 2159.0277171014877,
+            "profit_thb": 225.1328490732285,
+            "profit_percent": 11.641421299326739
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยลบ:</b> กระแสเงินทุนต่างชาติ (Fund Flow) เริ่มเปลี่ยนทิศทาง โดยต่างชาติขายสุทธิหุ้นไทยกว่า 7,000 ล้านบาทในต้นเดือน ส.ค. ประกอบกับการคุมเข้มเกณฑ์การลงทุน Data Center กดดันกลุ่มรับเหมาก่อสร้าง</li><li><b>ปัจจัยบวก:</b> ตลาดได้รับแรงหนุนจากการเก็งกำไรผลประกอบการ Q2/69 ที่คาดว่าจะเติบโตแรงต่อเนื่องในครึ่งปีหลัง และแผนการดันดัชนีผ่านโครงการ SET JUMP+ รวมถึงการปรับโครงสร้างธุรกิจกลุ่มเทคโนโลยีอย่างไทยคม</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความผันผวนของตลาดหุ้นและ Fund Flow ที่ไหลออกจากสินทรัพย์เสี่ยง ส่งผลให้ทองคำยังคงเป็นสินทรัพย์ปลอดภัย (Safe Haven) ที่ได้รับความสนใจอย่างต่อเนื่อง</li><li><b>ปัจจัยชะลอตัว:</b> ราคาแกว่งตัวในระดับสูง อาจเผชิญแรงขายทำกำไรระยะสั้น (Profit-taking) จากนักลงทุน</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> แนวโน้ม SET ขาขึ้นในครึ่งปีหลังตามดัชนี JUMP+ และการเก็งกำไรผลประกอบการ Q2 ที่เติบโตแรง</li><li><b>ปัจจัยลบ:</b> กระแสเงินทุนต่างชาติ (Fund Flow) ชะลอตัวและขายสุทธิกว่า 7 พันล้านบาทในเดือน ส.ค. รวมถึงมาตรการคุมเข้มกฎระเบียบลงทุน Data Center และนอมินี</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความผันผวนของตลาดหุ้นไทยและแรงขายของนักลงทุนต่างชาติ หนุนให้ทองคำยังคงเป็นสินทรัพย์ปลอดภัย (Safe Haven) ที่น่าสะสม</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "ทำกำไรได้แล้ว 12.13% แนะนำถือต่อเพื่อรับปันผลและรออานิสงส์การฟื้นตัวของเศรษฐกิจครึ่งปีหลัง"
+                "reason": "ผลตอบแทนอยู่ในระดับดี (+12.13%) ได้รับอานิสงส์จากกลุ่มธนาคารที่แข็งแกร่งและแนวโน้ม SET ขาขึ้น"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "คงบวกที่ 8.51% แนะนำถือเพื่อสะสมปันผล แม้กลุ่มอสังหาริมทรัพย์จะยังมีความท้าทายด้านกำลังซื้อ"
+                "reason": "ยังมีกำไร (+7.80%) แม้กลุ่มอสังหาฯ ได้รับแรงกดดัน แต่ปันผลยังช่วยประคองพอร์ตได้"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "สร้างผลตอบแทนสูงสุดในพอร์ตที่ 15.56% ควรถือต่อเพื่อรอดูงบ Q2 ที่มีแนวโน้มเติบโตโดดเด่น"
+                "reason": "ทำผลงานได้ดีที่สุดในพอร์ต (+14.25%) ควรถือต่อเพื่อรับเทรนด์การบริโภคฟื้นตัวในครึ่งปีหลัง"
             },
             "K-US500XUH": {
                 "action": "BUY",
-                "reason": "แนะนำสะสมเพิ่มเพื่อกระจายความเสี่ยงจากตลาดหุ้นไทย และรับโอกาสการเติบโตของหุ้นเทคโนโลยีสหรัฐฯ"
+                "reason": "ตลาดหุ้นสหรัฐฯ ยังคงมีโครงสร้างแข็งแกร่ง สามารถสะสมเพิ่มเพื่อกระจายความเสี่ยงต่างประเทศ"
             },
             "MTS-GOLD": {
                 "action": "HOLD",
-                "reason": "กำไรใกล้แตะ 10% ควรถือครองไว้เป็นสินทรัพย์ป้องกันความเสี่ยงจากสภาวะตลาดผันผวน"
+                "reason": "กำไรเติบโตดี (+11.64%) ถือเพื่อกระจายความเสี่ยงจากความผันผวนของ Fund Flow"
             }
         },
         "daily_picks": [
             {
-                "symbol": "THCOM",
-                "name": "บริษัท ไทยคม จำกัด (มหาชน)",
-                "reason": "ก้าวสู่ 'กัลฟ์ สเปซ เทคโนโลยี' มุ่งสู่การเป็นผู้นำด้านเทคโนโลยีอวกาศ หนุนการเติบโต New S-Curve ในอนาคต",
-                "tag": "Tech / Growth"
-            },
-            {
                 "symbol": "PTG",
                 "name": "บริษัท พีทีจี เอ็นเนอร์ยี จำกัด (มหาชน)",
-                "reason": "โชว์ความแข็งแกร่งด้านธรรมาภิบาล คว้า 100 คะแนนเต็ม AGM Checklist ต่อเนื่องเป็นปีที่ 8 สะท้อนการบริหารจัดการที่โปร่งใส",
-                "tag": "Value / ESG"
+                "reason": "ธรรมาภิบาลโดดเด่น คว้า 100 คะแนนเต็ม AGM Checklist 8 ปีซ้อน พร้อมรับอานิสงส์การฟื้นตัวของการเดินทางครึ่งปีหลัง",
+                "tag": "Value"
+            },
+            {
+                "symbol": "GULF",
+                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
+                "reason": "การยกระดับสู่ กัลฟ์ สเปซ เทคโนโลยี หนุนศักยภาพการเป็นผู้นำด้านเทคโนโลยีอวกาศและโครงสร้างพื้นฐานดิจิทัล",
+                "tag": "Tech"
             }
         ]
     },
@@ -98,105 +98,105 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำเทคโนโลยีชิป AI ระดับโลกที่มีความต้องการเติบโตสูงต่อเนื่อง",
+            "reason": "ผู้นำโครงสร้างพื้นฐาน AI และเซมิคอนดักเตอร์ระดับโลกที่มีความต้องการสูงใน Data Center",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "โครงสร้างพื้นฐาน Cloud และการบูรณาการ AI เข้ากับซอฟต์แวร์องค์กรอย่างแข็งแกร่ง",
+            "reason": "ผู้นำระบบ Cloud และการนำ AI มาสร้างรายได้ในซอฟต์แวร์ระดับองค์กรอย่างแข็งแกร่ง",
             "category": "Tech"
         },
         {
             "symbol": "AAPL",
             "name": "Apple Inc.",
             "exchange": "NASDAQ",
-            "reason": "ฐานผู้ใช้แข็งแกร่ง และการเปิดตัว Apple Intelligence หนุนรอบการเปลี่ยนอุปกรณ์ใหม่",
+            "reason": "ระบบนิเวศแข็งแกร่งและวัฏจักรการอัปเกรดอุปกรณ์รองรับ Apple Intelligence",
             "category": "Tech"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การฟื้นตัวของธุรกิจอีคอมเมิร์ซและการเติบโตของ AWS จากกระแส AI",
-            "category": "Consumer Cyclical"
         },
         {
             "symbol": "GOOGL",
             "name": "Alphabet Inc.",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้าน Search, YouTube และ Google Cloud ที่ขับเคลื่อนด้วยการพัฒนา AI",
+            "reason": "การเติบโตของธุรกิจ Google Cloud และแรงหนุนจากเทคโนโลยี AI ในระบบค้นหาและโฆษณา",
+            "category": "Tech"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การเติบโตอย่างต่อเนื่องของ AWS และการเพิ่มประสิทธิภาพกำไรในธุรกิจอีคอมเมิร์ซ",
             "category": "Tech"
         },
         {
             "symbol": "TSM",
             "name": "Taiwan Semiconductor Manufacturing Co.",
             "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลกที่ไร้คู่แข่งทัดเทียม",
+            "reason": "ผู้ผลิตชิปรายใหญ่ที่สุดในโลก ผูกขาดการผลิตชิปขั้นสูงสำหรับ AI",
             "category": "Tech"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
             "exchange": "NASDAQ",
-            "reason": "ผู้ผูกขาดการผลิตเครื่องลีโธกราฟี EUV ที่จำเป็นต่อการผลิตชิปขั้นสูง",
+            "reason": "ผู้ผลิตเครื่องจักร photolithography ชั้นนำของโลกที่จำเป็นต่อการผลิตชิป AI",
             "category": "Tech"
         },
         {
-            "symbol": "META",
-            "name": "Meta Platforms, Inc.",
+            "symbol": "AVGO",
+            "name": "Broadcom Inc.",
             "exchange": "NASDAQ",
-            "reason": "รายได้โฆษณาฟื้นตัวแข็งแกร่ง และนำ AI มาช่วยเพิ่มประสิทธิภาพแพลตฟอร์ม",
+            "reason": "ผู้ให้บริการโซลูชันเครือข่ายและชิป AI แบบคัสตอมสำหรับ Data Center ขนาดใหญ่",
             "category": "Tech"
         },
         {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวานที่มีความต้องการสูงทั่วโลก",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "NOVO-B",
+            "symbol": "NVO",
             "name": "Novo Nordisk A/S",
-            "exchange": "CPH",
-            "reason": "ผู้ผลิตยา Wegovy และ Ozempic ที่มีส่วนแบ่งตลาดยาลดน้ำหนักระดับท็อปของโลก",
+            "exchange": "NYSE",
+            "reason": "ผู้นำยารักษาโรคเบาหวานและยาลดน้ำหนักที่มีความต้องการสูงทั่วโลก",
             "category": "Healthcare"
         },
         {
-            "symbol": "700",
-            "name": "Tencent Holdings Limited",
-            "exchange": "HKEX",
-            "reason": "ยักษ์ใหญ่เทคโนโลยีเอเชียที่มีกระแสเงินสดมั่นคงจากเกม สื่อ และการชำระเงินดิจิทัล",
-            "category": "Tech"
+            "symbol": "TSLA",
+            "name": "Tesla Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำยานยนต์ไฟฟ้า รถยนต์ขับเคลื่อนอัตโนมัติ และนวัตกรรม AI พลังงานสะอาด",
+            "category": "Automotive & Tech"
         },
         {
             "symbol": "GULF",
             "name": "Gulf Energy Development PCL",
             "exchange": "SET",
-            "reason": "การขยายสู่ธุรกิจ Data Center และโครงสร้างพื้นฐานดิจิทัล/อวกาศร่วมกับ THCOM",
-            "category": "Utilities & Tech"
+            "reason": "ขยายตัวสู่ธุรกิจดิจิทัล Data Center และเทคโนโลยีอวกาศร่วมกับ THCOM",
+            "category": "Energy & Tech"
+        },
+        {
+            "symbol": "BDMS",
+            "name": "Bangkok Dusit Medical Services",
+            "exchange": "SET",
+            "reason": "หุ้นการแพทย์ปัจจัยสี่ชั้นนำ ฟื้นตัวตามการท่องเที่ยวเชิงสุขภาพและสังคมสูงวัย",
+            "category": "Healthcare"
         },
         {
             "symbol": "BABA",
-            "name": "Alibaba Group Holding Limited",
+            "name": "Alibaba Group Holding Ltd",
             "exchange": "NYSE",
-            "reason": "มูลค่าหุ้นน่าดึงดูด พร้อมโอกาสฟื้นตัวของธุรกิจ Cloud และ e-Commerce ในเอเชีย",
-            "category": "Consumer Cyclical"
+            "reason": "หุ้นเทคโนโลยีเอเชียมูลค่าเหมาะสม รับประโยชน์จากการฟื้นตัวของ Cloud และอีคอมเมิร์ซ",
+            "category": "Tech"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
             "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับการยอมรับจากสถาบันการเงินผ่าน Spot ETF",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับแรงหนุนจากเงินทุนสถาบันผ่านกองทุน Spot ETF",
             "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
             "exchange": "Crypto",
-            "reason": "ผู้นำแพลตฟอร์ม Smart Contract ที่รองรับการเติบโตของ Tokenization และ DeFi",
+            "reason": "โครงสร้างพื้นฐาน Smart Contract หลักพร้อมแรงหนุนจากการอนุมัติ Spot ETF",
             "category": "Crypto"
         }
     ],
