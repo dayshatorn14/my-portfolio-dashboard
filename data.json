@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-08-11T15:52:41.639997+07:00",
+    "last_updated": "2026-08-12T11:45:47.926039+07:00",
     "summary": {
-        "total_value_thb": 31704.63473267255,
-        "total_profit_thb": 2735.685214674777,
-        "total_profit_percent": 9.443508515816756
+        "total_value_thb": 31631.684590891426,
+        "total_profit_thb": 2666.248132299359,
+        "total_profit_percent": 9.204929938172796
     },
     "assets": [
         {
@@ -19,188 +19,206 @@
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5099999904632568,
-            "total_value_thb": 3019.9999809265137,
-            "profit_thb": 199.99998092651367,
-            "profit_percent": 7.09219790519552
+            "current_price_thb": 1.5,
+            "total_value_thb": 3000.0,
+            "profit_thb": 180.0,
+            "profit_percent": 6.382978723404255
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.600000381469727,
-            "total_value_thb": 704.0000152587891,
-            "profit_thb": 94.80001525878902,
-            "profit_percent": 15.561394494220126
+            "current_price_thb": 17.399999618530273,
+            "total_value_thb": 695.9999847412109,
+            "profit_thb": 86.79998474121089,
+            "profit_percent": 14.248191848524439
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.971690815617732,
-            "total_value_thb": 10636.208001386802,
-            "profit_thb": 636.2084504268023,
-            "profit_percent": 6.362084789951079
+            "current_price_thb": 11.911392959036698,
+            "total_value_thb": 10582.636575720093,
+            "profit_thb": 582.6370247600935,
+            "profit_percent": 5.826370509228276
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4433.39990234375,
-            "cost_per_unit_thb": 132859.58678340912,
-            "current_price_thb": 146878.5435000304,
-            "total_value_thb": 2144.426735100444,
-            "profit_thb": 204.67676806267104,
-            "profit_percent": 10.551708804781505
+            "current_price_usd": 4459.2998046875,
+            "cost_per_unit_thb": 132618.96627616882,
+            "current_price_thb": 147469.04318014532,
+            "total_value_thb": 2153.048030430122,
+            "profit_thb": 216.81112279805689,
+            "profit_percent": 11.197551391746149
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แผนกระตุ้นตลาดทุน JUMP+:</b> ตลาดหลักทรัพย์ฯ เปิดแผนเติบโตเพื่อดัน SET สู่เป้าหมาย 2,000 จุด เสริมความเชื่อมั่นและแรงซื้อในกลุ่มหุ้นใหญ่ครึ่งปีหลัง</li><li><b>ผลประกอบการ Q2 และกลุ่มหุ้นเด่น:</b> ตลาดมุ่งเน้นการเก็งกำไรในหุ้นที่มีผลการดำเนินงานเติบโตแข็งแกร่งในโค้งสุดท้าย Q2/69</li><li><b>นโยบายภาครัฐและการจัดระเบียบ:</b> การคุมเข้มเกณฑ์ Data Center กดดันราคาหุ้นกลุ่มรับเหมา (เช่น STECON) ระยะสั้น ขณะที่การกวาดล้างนอมินีอาจกระทบกลุ่มอสังหาฯ และค้าปลีกเฉพาะกลุ่ม</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>สินทรัพย์ปลอดภัยและการกระจายความเสี่ยง:</b> ราคาทองคำโลกยังได้รับปัจจัยหนุนจากความผันผวนทางภูมิรัฐศาสตร์และความไม่แน่นอนของเศรษฐกิจโลก</li><li><b>การอ่อนค่าของเงินบาท:</b> ปัจจัยด้านอัตราแลกเปลี่ยนช่วยพยุงราคาทองคำในประเทศ ให้ยังคงสร้างผลตอบแทนได้ดีอย่างต่อเนื่อง</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>ตลาดหุ้นไทยได้รับปัจจัยบวกจากโครงการ SET JUMP+ และมุมมองเชิงบวกต่อแนวโน้ม SET ขาขึ้นในครึ่งปีหลัง</li><li>การเข้าซื้อกิจการ MaxValu ของ CRC และการยกระดับสู่เทคโนโลยีอวกาศของ GULF/THCOM ช่วยสร้างจิตวิทยาการลงทุนเชิงบวกในหุ้นรายตัว</li><li>ภาครัฐยกระดับเกณฑ์คุมเข้ม Data Center ส่งผลกดดันหุ้นกลุ่มรับเหมาก่อสร้าง เช่น STECON ในระยะสั้น</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>ราคาทองคำในตลาดโลกยังทรงตัวในระดับสูง ได้รับแรงหนุนจากความผันผวนทางเศรษฐกิจและความไม่แน่นอนทางภูมิรัฐศาสตร์</li><li>นักลงทุนยังคงถือครองทองคำเพื่อกระจายความเสี่ยงและป้องกันความเสี่ยงจากเงินเฟ้อระยะยาว</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรเติบโตดี 11.76% และได้รับอานิสงส์จากแนวโน้ม SET ขาขึ้นครึ่งปีหลังพร้อมเงินปันผลสูง"
+                "reason": "พอร์ตมีกำไร 11.76% และได้รับอานิสงส์เชิงบวกจากแนวโน้มตลาดหุ้นไทยที่มีทิศทางฟื้นตัวในครึ่งปีหลัง"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "ราคายังคงบวก 7.09% แม้มีความกังวลเรื่องการปราบปรามนอมินีในธุรกิจอสังหาฯ แต่ปันผลยังคงจูงใจ"
+                "reason": "ผลตอบแทนยังเป็นบวก 6.38% แนะนำถือต่อเพื่อรับปันผลและรออานิสงส์จากบรรยากาศตลาดหุ้นโดยรวม"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "ทำผลงานได้ดีที่สุดในพอร์ต (+15.56%) จากการฟื้นตัวของการบริโภคในประเทศ ลุ้นงบ Q2 โตต่อเนื่อง"
+                "reason": "ทำผลตอบแทนได้ดีถึง 14.25% หุ้นกลุ่มการบริโภคได้รับแรงหนุนจากแรงซื้อในประเทศที่ฟื้นตัว"
             },
             "K-US500XUH": {
                 "action": "BUY",
-                "reason": "ทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงเข้าสู่ตลาดหุ้นสหรัฐฯ ที่ยังมีปัจจัยหนุนจากกลุ่มเทคโนโลยี"
+                "reason": "แนะนำทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงไปยังตลาดหุ้นสหรัฐฯ ที่ยังมีปัจจัยพื้นฐานแข็งแกร่ง"
             },
             "MTS-GOLD": {
                 "action": "HOLD",
-                "reason": "กำไรแล้ว 10.55% แนะนำถือต่อเพื่อเป็นสินทรัพย์ป้องกันความเสี่ยงจากความผันผวนของตลาด"
+                "reason": "สร้างกำไรได้ 11.20% ควรถือครองไว้เพื่อเป็นสินทรัพย์ปลอดภัยและกระจายความเสี่ยงของพอร์ต"
             }
         },
         "daily_picks": [
             {
-                "symbol": "GULF",
-                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
-                "reason": "รับปัจจัยบวกจากการรุกธุรกิจ 'กัลฟ์ สเปซ เทคโนโลยี' และขยายสู่โครงสร้างพื้นฐานดิจิทัลและอวกาศ",
-                "tag": "Tech & Growth"
+                "symbol": "CRC",
+                "name": "บริษัท เซ็นทรัล รีเทล คอร์ปอเรชั่น จำกัด (มหาชน)",
+                "reason": "ข่าวรุกเข้าซื้อกิจการ MaxValu ช่วยขยายเครือข่ายค้าปลีกและเพิ่มศักยภาพการเติบโตของรายได้",
+                "tag": "Commerce"
             },
             {
-                "symbol": "PTG",
-                "name": "บริษัท พีทีจี เอ็นเนอร์ยี จำกัด (มหาชน)",
-                "reason": "คว้า 100 คะแนนเต็ม AGM Checklist 8 ปีซ้อน สะท้อน CG ที่แข็งแกร่ง พร้อมลุ้นผลประกอบการครึ่งปีหลังฟื้นตัว",
-                "tag": "ESG & Value"
+                "symbol": "GULF",
+                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
+                "reason": "การปรับโครงสร้างไทยคมสู่ 'กัลฟ์ สเปซ เทคโนโลยี' เสริมความแข็งแกร่งด้านเทคโนโลยีและธุรกิจแห่งอนาคต",
+                "tag": "Tech / Energy"
             }
         ]
     },
     "global_watchlist": [
         {
             "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
+            "name": "Nvidia Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำฮาร์ดแวร์ชิป AI และโครงสร้างพื้นฐาน Data Center ที่เติบโตอย่างก้าวกระโดดทั่วโลก",
-            "category": "Semiconductor"
+            "reason": "ผู้นำเทคโนโลยีชิป AI และการเติบโตของศูนย์ข้อมูล (Data Center) ทั่วโลก",
+            "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้าน Cloud Services และการบูรณาการ Generative AI เข้ากับซอฟต์แวร์องค์กร",
-            "category": "Tech/Cloud"
+            "reason": "ผู้นำด้านโครงสร้างพื้นฐาน Cloud และโซลูชัน AI สำหรับองค์กรที่มีการเติบโตต่อเนื่อง",
+            "category": "Tech"
         },
         {
             "symbol": "TSM",
             "name": "Taiwan Semiconductor Manufacturing Co.",
             "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดของโลกที่เป็นกระดูกสันหลังของเทคโนโลยี AI",
-            "category": "Semiconductor"
+            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในเอเชีย ซึ่งเป็นหัวใจสำคัญของห่วงโซ่อุปทาน AI โลก",
+            "category": "Tech"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
-            "exchange": "NASDAQ",
-            "reason": "ผูกขาดเทคโนโลยีเครื่องผลิตชิป EUV ในยุโรป ซึ่งจำเป็นต่อการผลิตชิปรุ่นถัดไป",
-            "category": "Semiconductor"
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผูกขาดเทคโนโลยีเครื่องผลิตชิป EUV ในยุโรป รองรับการขยายโรงงานเซมิคอนดักเตอร์ทั่วโลก",
+            "category": "Tech"
         },
         {
             "symbol": "AMZN",
             "name": "Amazon.com Inc.",
             "exchange": "NASDAQ",
-            "reason": "การเติบโตแข็งแกร่งของ AWS Cloud และระบบ AI โครงสร้างพื้นฐาน Data Center",
-            "category": "Tech/E-commerce"
+            "reason": "การเติบโตของ AWS ในการรับรอง Data Center และการฟื้นตัวของธุรกิจค้าปลีกดิจิทัล",
+            "category": "Tech"
         },
         {
             "symbol": "GOOGL",
             "name": "Alphabet Inc.",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้าน Search engine, Google Cloud และโมเดล AI อย่าง Gemini",
+            "reason": "ผู้นำด้าน Search Engine, YouTube และการพัฒนานวัตกรรม AI ระดับโลก",
             "category": "Tech"
         },
         {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ฐานผู้ใช้และระบบนิเวศแข็งแกร่ง พร้อมการเปิดตัว Apple Intelligence ช่วยกระตุ้นรอบการอัปเกรด",
-            "category": "Tech/Consumer"
+            "symbol": "NOVO-B",
+            "name": "Novo Nordisk A/S",
+            "exchange": "OMX Copenhagen",
+            "reason": "บริษัทยายักษ์ใหญ่ของยุโรป ผู้นำตลาดยาลดน้ำหนักและเบาหวานที่มีความต้องการสูงทั่วโลก",
+            "category": "Healthcare"
         },
         {
-            "symbol": "VRT",
-            "name": "Vertiv Holdings Co",
-            "exchange": "NYSE",
-            "reason": "ผู้นำระบบจัดการพลังงานและการระบายความร้อนสำหรับ Data Center ที่ได้ประโยชน์โดยตรงจากกระแส AI",
-            "category": "Industrial/Tech"
+            "symbol": "MC",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "แบรนด์หรูชั้นนำระดับโลก ได้รับประโยชน์จากกำลังซื้อในเอเชียและตลาดเกิดใหม่",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "7203",
+            "name": "Toyota Motor Corporation",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "หุ้นดาวเด่นแห่งเอเชีย ผู้นำตลาดยานยนต์ไฮบริดที่มีผลประกอบการแข็งแกร่งหลังผ่านพฤติกรรมผู้บริโภคยุคใหม่",
+            "category": "Automotive"
+        },
+        {
+            "symbol": "CRC",
+            "name": "Central Retail Corporation PCL",
+            "exchange": "SET",
+            "reason": "เกมรุกค้าปลีกควบรวม MaxValu ขยายเครือข่ายหน้าร้าน รองรับการฟื้นตัวของการบริโภคในประเทศ",
+            "category": "Retail"
         },
         {
             "symbol": "GULF",
             "name": "Gulf Energy Development PCL",
             "exchange": "SET",
-            "reason": "การขยายธุรกิจสู่ Data Center และเทคโนโลยีอวกาศร่วมกับไทยคม รับเทรนด์โครงสร้างพื้นฐานยุคใหม่",
-            "category": "Energy/Infrastructure"
+            "reason": "ยกระดับสู่โครงสร้างพื้นฐานดิจิทัล เทคโนโลยีอวกาศ (THCOM) และการลงทุน Data Center",
+            "category": "Energy & Tech"
         },
         {
-            "symbol": "ADVANC",
-            "name": "Advanced Info Service PCL",
+            "symbol": "DELTA",
+            "name": "Delta Electronics (Thailand) PCL",
             "exchange": "SET",
-            "reason": "ผู้นำโครงข่ายดิจิทัลในไทยที่ได้รับอานิสงส์จากการเติบโตของ Data Center และบริการ Cloud",
-            "category": "Telecom"
+            "reason": "รับอานิสงส์ตรงจากการขยายตัวของ Data Center และระบบจัดการพลังงาน EV ระดับโลก",
+            "category": "Tech"
         },
         {
-            "symbol": "SAP",
-            "name": "SAP SE",
-            "exchange": "XETRA",
-            "reason": "ผู้นำ Enterprise Software ในยุโรปที่มีการเปลี่ยนผ่านสู่ Cloud และบิวต์อิน AI เติบโตต่อเนื่อง",
-            "category": "Software"
-        },
-        {
-            "symbol": "MC.PA",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "แบรนด์สินค้าหรูระดับโลกที่มีอำนาจกำหนดราคาและฐานลูกค้ามั่งคั่งต้านทานความผันผวนทางเศรษฐกิจ",
-            "category": "Consumer Discretionary"
-        },
-        {
-            "symbol": "700",
-            "name": "Tencent Holdings Ltd.",
-            "exchange": "HKEX",
-            "reason": "ยักษ์ใหญ่เทคโนโลยีเอเชียที่ฟื้นตัวในธุรกิจเกม Cloud และการลงทุนในโมเดล AI",
-            "category": "Tech/Digital Media"
+            "symbol": "PTG",
+            "name": "PTG Energy PCL",
+            "exchange": "SET",
+            "reason": "ธรรมาภิบาลโดดเด่น (คะแนน AGM เต็ม 8 ปีติด) และการขยายระบบนิเวศ Non-Oil แข็งแกร่ง",
+            "category": "Energy"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับการยอมรับจากสถาบันการเงินผ่าน Spot ETF และเป็น Store of Value",
-            "category": "Cryptocurrency"
+            "exchange": "Crypto Exchange",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับอานิสงส์จากเงินทุนสถาบันผ่าน ETF และนโยบายการเงินผ่อนคลาย",
+            "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "เครือข่าย Smart Contract หลักของการเงินดิจิทัลที่ได้อานิสงส์จากการอนุมัติ Spot ETF",
-            "category": "Cryptocurrency"
+            "exchange": "Crypto Exchange",
+            "reason": "เครือข่าย Smart Contract หลักของโลกที่รองรับการเติบโตของ DeFi และ Tokenization",
+            "category": "Crypto"
         }
     ],
     "news": [
+        {
+            "title": "สี่ดาวเด่นแห่งเอเชียยังส่องแสงหลังพายุ",
+            "url": "https://www.bangkokbiznews.com/opinion/1246945",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-11T17:50:00+00:00"
+        },
+        {
+            "title": "ผ่าดีล CRC ฮุบ MaxValu สยายเกมรุกค้าปลีก ดีลนี้คุ้มแค่ไหน ราคาหุ้นไปต่อหรือพอแล้ว?",
+            "url": "https://www.msn.com/th-th/news/other/ผ่าดีล-crc-ฮุบ-maxvalu-สยายเกมรุกค้าปลีก-ดีลนี้คุ้มแค่ไหน-ราคาหุ้นไปต่อหรือพอแล้ว/ar-AA29QeMx",
+            "source": "ไทยรัฐ",
+            "date": "2026-08-11T17:31:00+00:00"
+        },
+        {
+            "title": "ลุยค้น 15 จุดหัวหิน ทลายเครือข่ายนอมินี ออกหมายจับต่างชาติ 45 ราย ...",
+            "url": "https://www.thaipbs.or.th/news/content/509318",
+            "source": "Thai PBS",
+            "date": "2026-08-11T09:02:00+00:00"
+        },
         {
             "title": "ประวัติ เจ๊ปอง อัญชะลี ไพรีรัก นักข่าวการเมืองอาวุโส สู่ ผอ. ...",
             "url": "https://thethaiger.com/th/news/1596614/",
@@ -302,24 +320,6 @@
             "url": "https://www.ryt9.com/s/iq/12834830",
             "source": "RYT9",
             "date": "2026-08-05T03:05:00+00:00"
-        },
-        {
-            "title": "หุ้น TRUE ราคาดิ่ง 3 วันติด โบรกเกอร์ชี้กังวล China Mobile ขายหุ้น กดดัน ...",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1246083",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-05T01:00:00+00:00"
-        },
-        {
-            "title": "บล.โกลเบล็ก มองหุ้นไทย ส.ค. 69 ลุ้น Sideway Up ชี้ช่องลงทุน 5 หุ้นเด่น CBG-STA-BBGI ...",
-            "url": "https://www.ryt9.com/s/iq/12834694",
-            "source": "RYT9",
-            "date": "2026-08-04T21:20:00+00:00"
-        },
-        {
-            "title": "หุ้นไทยคัมแบ็ก! FETCO ชี้เป้าปีนี้ 1,700 จุด Fund Flow ไหลเข้าต่อเนื่อง ...",
-            "url": "https://www.ryt9.com/s/iq/12834460",
-            "source": "RYT9",
-            "date": "2026-08-04T10:36:00+00:00"
         }
     ]
 }
