@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-08-13T11:50:56.192064+07:00",
+    "last_updated": "2026-08-13T16:10:16.887068+07:00",
     "summary": {
-        "total_value_thb": 31694.7854160225,
-        "total_profit_thb": 2729.348957430433,
-        "total_profit_percent": 9.422778632499499
+        "total_value_thb": 31802.521874235103,
+        "total_profit_thb": 2834.1579778128726,
+        "total_profit_percent": 9.783631509002511
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.5,
-            "total_value_thb": 15150.0,
-            "profit_thb": 1550.0,
-            "profit_percent": 11.397058823529411
+            "current_price_thb": 152.5,
+            "total_value_thb": 15250.0,
+            "profit_thb": 1650.0,
+            "profit_percent": 12.132352941176471
         },
         {
             "symbol": "SIRI",
@@ -37,59 +37,59 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.941547554587906,
-            "total_value_thb": 10609.427323611939,
-            "profit_thb": 609.4277726519394,
-            "profit_percent": 6.094278000176854
+            "current_price_thb": 11.959602234737936,
+            "total_value_thb": 10625.46794280532,
+            "profit_thb": 625.4683918453211,
+            "profit_percent": 6.254684199313551
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4455.7998046875,
-            "cost_per_unit_thb": 132618.96627616882,
-            "current_price_thb": 147353.29818121344,
-            "total_value_thb": 2151.358153445716,
-            "profit_thb": 215.12124581365129,
-            "profit_percent": 11.110275037404147
+            "current_price_usd": 4431.89990234375,
+            "cost_per_unit_thb": 132819.47571659088,
+            "current_price_thb": 146784.5200318452,
+            "total_value_thb": 2143.0539924649397,
+            "profit_thb": 203.88964700271276,
+            "profit_percent": 10.514304652920629
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li>มุมมองเชิงบวกจาก บล.บัวหลวง และโครงการ SET JUMP+ ให้เป้าหมาย SET Index สิ้นปีแตะ 1,700 - 2,000 จุด สร้างจิตวิทยาการลงทุนที่ดี</li><li>การรุกขยายธุรกิจค้าปลีกของ CRC (ซื้อ MaxValu) และนโยบายดัน Wellness Economy แสนล้าน ช่วยกระตุ้นหุ้นกลุ่มพาณิชย์และการบริโภค</li><li>มาตรการคุมเข้มการลงทุน Data Center ของภาครัฐ อาจกดดันหุ้นกลุ่มรับเหมาก่อสร้างและโครงสร้างพื้นฐานระยะสั้น</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li>แรงซื้อสินทรัพย์เสี่ยงที่เพิ่มขึ้นจากทิศทางตลาดหุ้นขาขึ้น อาจชะลอแรงส่งของราคาทองคำในระยะสั้น</li><li>ความไม่แน่นอนทางเศรษฐกิจโลกและการกระจายความเสี่ยงพอร์ตยังคงเป็นปัจจัยหนุนทองคำในระยะยาว</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> มุมมองเชิงบวกจาก บล.บัวหลวง ที่ให้เป้าหมาย SET สิ้นปีแตะ 1,700 จุด ร่วมกับแผน SET JUMP+ และเงินบาทแข็งค่าจากความคาดหวังว่าเฟดจะชะลอการขึ้นดอกเบี้ย หนุนกระแสเงินทุนไหลเข้า</li><li><b>ปัจจัยลบ/ความเสี่ยง:</b> ผลประกอบการกลุ่มพลังงานชะลอตัวจากขาดทุนสต๊อกน้ำมัน (เช่น กรณีไทยออยล์) รวมถึงการปราบปรามเครือข่ายนอมินีต่างชาติที่อาจกระทบ sentiment ในบางกลุ่มธุรกิจ</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> การลดความคาดหวังเรื่องเฟดขึ้นดอกเบี้ยและแนวโน้มการผ่อนคลายนโยบายการเงินของสหรัฐฯ ช่วยหนุนราคาทองคำตลาดโลก</li><li><b>ปัจจัยกดดันในประเทศ:</b> ค่าเงินบาทที่เปิดแข็งค่าขึ้นอาจกดดันให้ราคาทองคำในรูปเงินบาทปรับตัวขึ้นได้จำกัดในระยะสั้น</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรสะสม 11.40% และได้รับปัจจัยหนุนจากทิศทางตลาดหุ้นไทยที่มีแนวโน้มฟื้นตัวสู่เป้าหมาย 1,700 จุด"
+                "reason": "ผลตอบแทนบวก 12.13% ได้รับอานิสงส์จากทิศทางตลาดหุ้นไทยขาขึ้นและเงินทุนไหลเข้า แนะนำถือเพื่อรันเทรนด์และรับเงินปันผล"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "พอร์ทยังคงมีกำไร 9.22% ควรถือต่อเพื่อรับปันผลและรับอานิสงส์จากบรรยากาศการลงทุนที่เป็นบวก"
+                "reason": "กำไรแล้ว 9.22% ได้รับประโยชน์จากแนวโน้มดอกเบี้ยผ่านจุดสูงสุด ถือเพื่อรอรับเงินปันผลสูง"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "ทำผลงานได้ดีที่สุดในพอร์ตด้วยกำไร 15.56% และได้ปัจจัยหนุนจากกระแสขับเคลื่อน Wellness Economy"
+                "reason": "ทำผลงานได้ดีที่สุดในพอร์ตด้วยกำไร 15.56% ตามการฟื้นตัวของการบริโภค แนะนำถือต่อเพื่อรับรันเทรนด์"
             },
             "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "บวกต่อเนื่อง 6.09% ถือครองเพื่อกระจายความเสี่ยงในหุ้นสหรัฐฯ ตามการเติบโตของเศรษฐกิจโลก"
+                "action": "BUY",
+                "reason": "บวก 6.25% ตลาดหุ้นสหรัฐฯ มีปัจจัยหนุนจากคาดการณ์เฟดชะลอขึ้นดอกเบี้ย เป็นโอกาสสะสมเพิ่มเพื่อกระจายความเสี่ยง"
             },
             "MTS-GOLD": {
                 "action": "HOLD",
-                "reason": "กำไร 11.11% ควรถือไว้เป็นสินทรัพย์ปลอดภัยป้องกันความเสี่ยงจากความผันผวนทางเศรษฐกิจ"
+                "reason": "กำไร 10.51% ราคาทองคำโลกยังมีแรงหนุน ถือครองเพื่อเป็นสินทรัพย์ป้องกันความเสี่ยงพอร์ต"
             }
         },
         "daily_picks": [
             {
                 "symbol": "CRC",
                 "name": "บริษัท เซ็นทรัล รีเทล คอร์ปอเรชั่น จำกัด (มหาชน)",
-                "reason": "ข่าวการเข้าซื้อกิจการ MaxValu เสริมความแข็งแกร่งในธุรกิจค้าปลีกและเพิ่มโอกาสเติบโตในระยะยาว",
-                "tag": "Value"
+                "reason": "เข้าซื้อ MaxValu สยายรุกตลาดค้าปลีก เสริมศักยภาพการแข่งขันและเพิ่มการเติบโตของรายได้ในระยะยาว",
+                "tag": "Commerce"
             },
             {
-                "symbol": "PTG",
-                "name": "บริษัท พีทีจี เอ็นเนอร์ยี จำกัด (มหาชน)",
-                "reason": "คว้าคะแนนเต็ม 100 ใน AGM Checklist ต่อเนื่อง 8 ปี สะท้อนถึงการมีธรรมาภิบาลและการบริหารจัดการที่ดีเยี่ยม",
-                "tag": "Dividend"
+                "symbol": "BDMS",
+                "name": "บริษัท กรุงเทพดุสิตเวชการ จำกัด (มหาชน)",
+                "reason": "ได้รับอานิสงส์โดยตรงจากข้อเสนอผลักดันกลไก Wellness Economy ดันไทยสู่ศูนย์กลางสุขภาพมูลค่าแสนล้าน",
+                "tag": "Healthcare"
             }
         ]
     },
@@ -98,109 +98,127 @@
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิปประมวลผล AI และโครงสร้างพื้นฐาน Data Center ที่เติบโตอย่างรวดเร็วทั่วโลก",
+            "reason": "ผู้นำด้านชิปประมวลผล AI และศูนย์ข้อมูลระดับโลกที่มีอัตราการเติบโตสูงมาก",
             "category": "Tech"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "แข็งแกร่งในธุรกิจ Cloud และการนำเทคโนโลยี AI มาปรับใช้กับผลิตภัณฑ์องค์กรอย่างแพร่หลาย",
-            "category": "Tech"
-        },
-        {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "อีโคซิสเต็มแข็งแกร่ง พร้อมแรงหนุนจากฟีเจอร์ Apple Intelligence กระตุ้นยอดขายอัปเกรดอุปกรณ์",
-            "category": "Tech"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "เติบโตจากทั้งบริการ AWS Data Center และโครงข่าย E-commerce ที่ครอบคลุมทั่วโลก",
+            "reason": "ผู้นำด้านคลาวด์และปัญญาประดิษฐ์ (AI) ที่มีโครงสร้างรายได้มั่นคง",
             "category": "Tech"
         },
         {
             "symbol": "TSM",
             "name": "Taiwan Semiconductor Manufacturing Co.",
             "exchange": "NYSE",
-            "reason": "ยักษ์ใหญ่รับจ้างผลิตชิปอันดับหนึ่งของโลก ได้อานิสงส์โดยตรงจากความต้องการชิป AI ขั้นสูง",
+            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดของโลก ซึ่งเป็นหัวใจสำคัญของเทคโนโลยี AI",
             "category": "Tech"
         },
         {
             "symbol": "ASML",
             "name": "ASML Holding N.V.",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำเทคโนโลยีผูกขาดเครื่องพิมพ์ชิป EUV หัวใจสำคัญในห่วงโซ่อุปทานเซมิคอนดักเตอร์โลก",
+            "reason": "ผูกขาดเทคโนโลยีเครื่องพิมพ์ชิป EUV ที่จำเป็นต่ออุตสาหกรรมเซมิคอนดักเตอร์",
             "category": "Tech"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำนวัตกรรมยาลดน้ำหนักและเบาหวาน สอดรับกับเทรนด์การเติบโตของ Wellness Economy โลก",
-            "category": "Healthcare"
         },
         {
             "symbol": "NVO",
             "name": "Novo Nordisk A/S",
             "exchange": "NYSE",
-            "reason": "ผู้ผลิตยาลดน้ำหนักชั้นนำระดับโลก มีความต้องการบริโภคเติบโตอย่างก้าวกระโดด",
+            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวาน สอดรับเทรนด์ Wellness Economy ระดับโลก",
             "category": "Healthcare"
+        },
+        {
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "exchange": "NYSE",
+            "reason": "การเติบโตสูงจากยาลดน้ำหนักและความแข็งแกร่งในพอร์ตยารักษาโรค",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "แบรนด์ทรงพลังพร้อมฐานลูกค้าทั่วโลก และการเปิดตัวระบบ Apple Intelligence",
+            "category": "Tech"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "โดดเด่นทั้งธุรกิจอีคอมเมิร์ซและ AWS คลาวด์ที่ได้รับอานิสงส์จากความต้องการ AI",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "MC.PA",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "ผู้นำสินค้าแบรนด์เนมหรูหราระดับโลก มีอำนาจในการกำหนดราคาและฐานลูกค้าระดับบน",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "7203.T",
+            "name": "Toyota Motor Corporation",
+            "exchange": "TSE",
+            "reason": "ดาวเด่นแห่งเอเชียที่มีความแข็งแกร่งในตลาดรถยนต์ไฮบริดและยอดขายทั่วโลก",
+            "category": "Automotive"
+        },
+        {
+            "symbol": "CRC.BK",
+            "name": "Central Retail Corporation PCL",
+            "exchange": "SET",
+            "reason": "ขยายเกมรุกค้าปลีกต่อเนื่องด้วยดีลควบรวมกิจการ เสริมความแข็งแกร่งในเอเชียตะวันออกเฉียงใต้",
+            "category": "Retail"
+        },
+        {
+            "symbol": "PTT.BK",
+            "name": "PTT Public Company Limited",
+            "exchange": "SET",
+            "reason": "หุ้นพลังงานหลักของไทยที่มีการกระจายความเสี่ยงสู่ธุรกิจใหม่อย่าง Wellness และ EV",
+            "category": "Energy"
+        },
+        {
+            "symbol": "9988.HK",
+            "name": "Alibaba Group Holding Ltd.",
+            "exchange": "HKEX",
+            "reason": "หุ้นเทคโนโลยีระดับท็อปของจีนที่มีระดับราคาประเมินมูลค่า (Valuation) น่าสนใจ",
+            "category": "Tech"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
             "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับการยอมรับจากเงินทุนสถาบันผ่าน Spot ETF และช่วยกระจายความเสี่ยง",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับแรงหนุนจาก Spot ETF และแนวโน้มการลดดอกเบี้ยของเฟด",
             "category": "Crypto"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
             "exchange": "Crypto",
-            "reason": "แพลตฟอร์ม Smart Contract อันดับหนึ่ง ขับเคลื่อนการเติบโตของ DeFi และ Tokenization",
+            "reason": "โครงสร้างพื้นฐานหลักของระบบ Smart Contracts และ DeFi ที่มีแนวโน้มเติบโตระยะยาว",
             "category": "Crypto"
-        },
-        {
-            "symbol": "TM",
-            "name": "Toyota Motor Corporation",
-            "exchange": "NYSE",
-            "reason": "หุ้นดาวเด่นแห่งเอเชียที่มีความแข็งแกร่งในตลาดรถยนต์ Hybrid และกระแสเงินสดมั่นคง",
-            "category": "Consumer Discretionary"
-        },
-        {
-            "symbol": "RELIANCE",
-            "name": "Reliance Industries Limited",
-            "exchange": "NSE",
-            "reason": "กลุ่มบริษัทข้ามชาติยักษ์ใหญ่ของอินเดีย หนึ่งในดาวเด่นเอเชียที่ขับเคลื่อนเศรษฐกิจเกิดใหม่",
-            "category": "Energy/Conglomerate"
-        },
-        {
-            "symbol": "BDMS",
-            "name": "Bangkok Dusit Medical Services",
-            "exchange": "SET",
-            "reason": "รับอานิสงส์เต็มจากนโยบายผลักดัน Wellness Economy แสนล้านบาทและการท่องเที่ยวเชิงการแพทย์ของไทย",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "CRC",
-            "name": "Central Retail Corporation",
-            "exchange": "SET",
-            "reason": "สยายเกมรุกค้าปลีกผ่านการทำ M&A (ดีล MaxValu) เสริมความแข็งแกร่งและส่วนแบ่งตลาดในไทย",
-            "category": "Retail"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านการค้นหาและโฆษณาดิจิทัล พร้อมการลงทุนต่อยอดโครงสร้างพื้นฐาน AI และ Cloud",
-            "category": "Tech"
         }
     ],
     "news": [
+        {
+            "title": "ไทยออยล์ เผยไตรมาส 2/69 กำไรวูบเหลือ 8,284 ล้านบาท หลังขาดทุนสต๊อก ...",
+            "url": "https://www.thebangkokinsight.com/news/stock-finance/stock/1684931/",
+            "source": "The Bangkok Insight",
+            "date": "2026-08-13T06:01:00+00:00"
+        },
+        {
+            "title": "หุ้นไทย 2,000 จุด ความฝันที่ต้องมีเครื่องยนต์สองตัว",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทย-2-000-จุด-ความฝันที่ต้องมีเครื่องยนต์สองตัว/ar-AA29Zg4n",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-08-13T02:17:39+00:00"
+        },
+        {
+            "title": "ค่าเงินบาทเปิดเช้านี้ 13 ส.ค.69 'แข็งค่า' ลดคาดหวังเฟดขึ้นดอกเบี้ย",
+            "url": "https://www.bangkokbiznews.com/finance/investment/1247200",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-13T01:42:00+00:00"
+        },
         {
             "title": "หุ้นไทย 2,000 จุด ความฝันที่ต้องมีเครื่องยนต์สองตัว",
             "url": "https://www.prachachat.net/columns/news-2050666",
@@ -302,24 +320,6 @@
             "url": "https://www.bangkokbiznews.com/corporate-moves/finance/stock/1246350",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-08-07T01:00:00+00:00"
-        },
-        {
-            "title": "เปิดอาณาจักรธุรกิจ \"โทน บางแค\"เซียนพระอินฟลูฯ ชื่อดัง ก่อนผจญ ...",
-            "url": "https://www.dailynews.co.th/news/6086386/",
-            "source": "เดลินิวส์",
-            "date": "2026-08-06T15:59:00+00:00"
-        },
-        {
-            "title": "สื่อนอกระบุ 'ไทย' ไม่เปิดทางต่างชาติถือหุ้น 100% ธุรกิจ LEO ชี้เป็น ...",
-            "url": "https://www.thebangkokinsight.com/news/world-news/1682660/",
-            "source": "The Bangkok Insight",
-            "date": "2026-08-06T06:47:00+00:00"
-        },
-        {
-            "title": "'กรุงไทย' เตือนเบี้ยวหนี้ยาก 'ผยง' ยันระบบตรวจสอบได้ 'คลิกซ์ ...",
-            "url": "https://www.bangkokbiznews.com/finance/1246224",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-06T05:47:00+00:00"
         }
     ]
 }
