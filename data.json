@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-08-17T15:40:14.842008+07:00",
+    "last_updated": "2026-08-18T10:42:20.270041+07:00",
     "summary": {
-        "total_value_thb": 31751.712056408556,
-        "total_profit_thb": 2793.887114854264,
-        "total_profit_percent": 9.648124886773019
+        "total_value_thb": 31745.50680892805,
+        "total_profit_thb": 2782.997788166147,
+        "total_profit_percent": 9.608966495862436
     },
     "assets": [
         {
@@ -19,48 +19,206 @@
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5299999713897705,
-            "total_value_thb": 3059.999942779541,
-            "profit_thb": 239.99994277954102,
-            "profit_percent": 8.51063626877805
+            "current_price_thb": 1.5399999618530273,
+            "total_value_thb": 3079.9999237060547,
+            "profit_thb": 259.9999237060547,
+            "profit_percent": 9.219855450569316
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 18.200000762939453,
-            "total_value_thb": 728.0000305175781,
-            "profit_thb": 118.80003051757808,
-            "profit_percent": 19.500989907678605
+            "current_price_thb": 18.100000381469727,
+            "total_value_thb": 724.0000152587891,
+            "profit_thb": 114.80001525878902,
+            "profit_percent": 18.844388584830764
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.953602642801547,
-            "total_value_thb": 10620.13762574805,
-            "profit_thb": 620.1380747880503,
-            "profit_percent": 6.201381026347317
+            "current_price_thb": 11.925028655860974,
+            "total_value_thb": 10594.751164202253,
+            "profit_thb": 594.7516132422534,
+            "profit_percent": 5.94751639948981
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4457.2001953125,
-            "cost_per_unit_thb": 132097.6294927597,
-            "current_price_thb": 146820.16831256077,
-            "total_value_thb": 2143.5744573633874,
-            "profit_thb": 214.94906676909568,
-            "profit_percent": 11.145195319805506
+            "current_price_usd": 4453.0,
+            "cost_per_unit_thb": 132418.45683574677,
+            "current_price_thb": 147038.06203842163,
+            "total_value_thb": 2146.7557057609556,
+            "profit_thb": 213.44623595905273,
+            "profit_percent": 11.04045882426281
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 45.308938289s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 45\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> กระแสเม็ดเงินลงทุนด้าน AI และการยกระดับฐานการผลิตของญี่ปุ่นในไทยกว่า 59% ช่วยหนุนกลุ่มนิคมอุตสาหกรรมและเทคโนโลยี พร้อมลุ้นมาตรการกระตุ้นกำลังซื้อภาครัฐใน Q4 หนุนกลุ่มค้าปลีก-อุปโภคบริโภค</li><li><b>ปัจจัยลบ/ความเสี่ยง:</b> ภาครัฐเดินหน้าตรวจสอบการถือครองอสังหาริมทรัพย์และนอมินีต่างชาติเข้มงวด อาจส่งผลกระทบเชิงจิตวิทยาต่อบรรยากาศการซื้อขายในกลุ่มอสังหาฯ และท่องเที่ยวบางพื้นที่</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยเฉพาะหน้า:</b> การคุมเพดานซื้อขายทองคำแท่งด้วยเงินสดไม่เกิน 10 ล้านบาท เพื่อสกัดฟอกเงิน อาจสร้างแรงชะลอตัวด้านสภาพคล่องฝั่ง Physical Gold ในประเทศระยะสั้น แต่ภาพรวมราคายังเคลื่อนไหวตามแนวโน้มมหภาคและอัตราแลกเปลี่ยนเป็นหลัก</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรเติบโต +11.76% และมีเสถียรภาพสูง รับอานิสงส์จากการปรับพอร์ต Wealth Solution และสินเชื่อธุรกิจยกระดับการลงทุน"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "รักษากำไร +9.22% ไว้ได้ดี แต่ควรติดตามความเข้มงวดการตรวจสอบนอมินีและที่ดินต่างชาติที่อาจกดดัน sentiment ภาคอสังหาฯ"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "ผลตอบแทนโดดเด่น +18.84% ยังถือต่อเพื่อรับประโยชน์จากมาตรการกระตุ้นกำลังซื้อของภาครัฐช่วงปลายปี"
+            },
+            "K-US500XUH": {
+                "action": "BUY",
+                "reason": "สะสมเพิ่มต่อเนื่องตามกระแสการเติบโตของนวัตกรรม AI ระดับโลกที่ยังคงเป็นแรงขับเคลื่อนหลักของดัชนี S&P 500"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "กำไร +11.04% คงสถานะเป็นสินทรัพย์กระจายความเสี่ยง แม้จะมีเกณฑ์กำกับเงินสดในประเทศแต่ปัจจัยโลกยังแข็งแกร่ง"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "WHA",
+                "name": "ดับบลิวเอชเอ คอร์ปอเรชั่น",
+                "reason": "รับอานิสงส์ตรงจากการลงทุน Data Center/AI และการยกระดับฐานการผลิตของกลุ่มทุนญี่ปุ่น",
+                "tag": "Industrial & Tech"
+            },
+            {
+                "symbol": "CPALL",
+                "name": "ซีพี ออลล์",
+                "reason": "ได้ประโยชน์ชัดเจนจากมาตรการกระตุ้นกำลังซื้อภาครัฐในไตรมาสสุดท้ายและฟื้นตัวของการบริโภค",
+                "tag": "Consumer & Retail"
+            }
+        ]
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำผูกขาดด้านชิปประมวลผล AI และ Data Center ที่เติบโตตามความต้องการโครงสร้างพื้นฐาน AI ทั่วโลก",
+            "category": "Technology"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำระบบคลาวด์และซอฟต์แวร์ระดับองค์กรที่ผสาน AI อย่างสมบูรณ์แบบ พร้อมกระแสเงินสดแข็งแกร่ง",
+            "category": "Technology"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้รับจ้างผลิตชิปขั้นสูงอันดับ 1 ของโลก เป็นหัวใจสำคัญของซัพพลายเชน AI และเทคโนโลยีระดับโลก",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผูกขาดเครื่องพิมพ์ชิป EUV รายเดียวในโลก ได้รับประโยชน์โดยตรงจากการขยายกำลังการผลิตเซมิคอนดักเตอร์",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การเปิดตัว Apple Intelligence ช่วยผลักดันรอบการอัปเกรดอุปกรณ์ใหม่และมีฐานลูกค้าภักดีสูง",
+            "category": "Technology"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "AWS เติบโตแข็งแกร่งด้วยบริการ AI ควบคู่กับอัตรากำไรของธุรกิจอีคอมเมิร์ซและการโฆษณาที่สูงขึ้น",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำด้านเสิร์ชเอนจินและเทคโนโลยี AI เชิงลึก พร้อมมูลค่าหุ้น (Valuation) ที่ยังน่าดึงดูด",
+            "category": "Communication Services"
+        },
+        {
+            "symbol": "8035.T",
+            "name": "Tokyo Electron Limited",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "ผู้ผลิตอุปกรณ์เซมิคอนดักเตอร์ชั้นนำของญี่ปุ่น ได้รับอานิสงส์จากการยกระดับฐานการผลิตและซัพพลายเชนในเอเชีย",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "7203.T",
+            "name": "Toyota Motor Corporation",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "ผู้นำรถยนต์ไฮบริดระดับโลกที่มียอดขายแข็งแกร่งและเดินหน้ายกระดับเทคโนโลยีการผลิตอัตโนมัติ",
+            "category": "Automotive"
+        },
+        {
+            "symbol": "NOVO-B.CO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "Nasdaq Copenhagen",
+            "reason": "ผู้นำตลาดยารักษาโรคเบาหวานและลดน้ำหนัก (GLP-1) ที่มีความต้องการสูงทั่วโลกและมีคูกีดกันทางการค้าสูง",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "MC.PA",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "แบรนด์หรูระดับพรีเมียมที่มีอำนาจกำหนดราคาสูง ได้ประโยชน์จากการขยายตัวของกลุ่มความมั่งคั่งระดับสูงทั่วโลก",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "9988.HK",
+            "name": "Alibaba Group Holding Limited",
+            "exchange": "Hong Kong Stock Exchange",
+            "reason": "หุ้นเทคโนโลยีเอเชียราคาถูก (Undervalued) พร้อมแรงหนุนจากการฟื้นตัวของคลาวด์และอีคอมเมิร์ซ",
+            "category": "Technology"
+        },
+        {
+            "symbol": "DELTA.BK",
+            "name": "Delta Electronics (Thailand) PCL",
+            "exchange": "Stock Exchange of Thailand",
+            "reason": "ได้รับประโยชน์สูงสุดจากเม็ดเงินลงทุน AI และ Data Center ที่ไหลเข้าสู่ประเทศไทยและเอเชียตะวันออกเฉียงใต้",
+            "category": "Electronics"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลทางเลือกหลัก (Digital Gold) ที่ได้รับความนิยมในการจัดพอร์ต Multi-Asset ท่ามกลางความเสี่ยงเงินเฟ้อ",
+            "category": "Cryptocurrency"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "โครงสร้างพื้นฐานหลักสำหรับ Smart Contract และการแปลงสินทรัพย์ในโลกจริงเป็นโทเคน (Real World Asset Tokenization)",
+            "category": "Cryptocurrency"
+        }
+    ],
     "news": [
+        {
+            "title": "ลุยตรวจนิติบุคคล 36,277 ราย กรมพัฒน์ฯ แฉต่างชาติ ถือครองโฉนดที่ดิน ...",
+            "url": "https://www.thaipbs.or.th/news/content/509526",
+            "source": "Thai PBS",
+            "date": "2026-08-17T18:31:00+00:00"
+        },
+        {
+            "title": "ชีพจรโลกธุรกิจ : 18 สิงหาคม 2569",
+            "url": "https://www.naewna.com/n/business-world/8093/",
+            "source": "แนวหน้า",
+            "date": "2026-08-17T16:27:00+00:00"
+        },
+        {
+            "title": "คุมเพดานซื้อขาย \"ทองแท่ง\" เงินสดไม่เกิน 10 ล้าน สกัดทุนเทาฟอกเงิน",
+            "url": "https://www.thaipbs.or.th/news/content/509530",
+            "source": "Thai PBS",
+            "date": "2026-08-17T16:04:00+00:00"
+        },
         {
             "title": "รัฐบาล ยันญี่ปุ่นลงทุนไทยไม่แผ่ว ชีโอกาสผู้ประกอบการ ลุยต่อยอดซัพพลายเชน",
             "url": "https://www.msn.com/th-th/news/other/รัฐบาล-ยันญี่ปุ่นลงทุนไทยไม่แผ่ว-ชี้โอกาสผู้ประกอบการ-ลุยต่อยอดซัพพลายเชน/ar-AA2afonh",
@@ -162,24 +320,6 @@
             "url": "https://www.msn.com/th-th/news/other/ผ่าดีล-crc-ฮุบ-maxvalu-สยายเกมรุกค้าปลีก-ดีลนี้คุ้มแค่ไหน-ราคาหุ้นไปต่อหรือพอแล้ว/ar-AA29QeMx",
             "source": "ไทยรัฐ",
             "date": "2026-08-11T17:31:00+00:00"
-        },
-        {
-            "title": "บล.บัวหลวง ชี้หุ้นไทยขาขึ้นยาว ให้เป้าหมายสิ้นปีแตะ 1,700 จุด รับ ...",
-            "url": "https://www.msn.com/th-th/money/economy/บล-บัวหลวง-ชี้หุ้นไทยขาขึ้นยาว-ให้เป้าหมายสิ้นปีแตะ-1-700-จุด-รับเงินทุนต่างชาติทะลัก/ar-AA29Ve3s",
-            "source": "MSN",
-            "date": "2026-08-11T12:35:00+00:00"
-        },
-        {
-            "title": "ลุยค้น 15 จุดหัวหิน ทลายเครือข่ายนอมินี ออกหมายจับต่างชาติ 45 ราย ...",
-            "url": "https://www.thaipbs.or.th/news/content/509318",
-            "source": "Thai PBS",
-            "date": "2026-08-11T09:02:00+00:00"
-        },
-        {
-            "title": "ประวัติ เจ๊ปอง อัญชะลี ไพรีรัก นักข่าวการเมืองอาวุโส สู่ ผอ. ...",
-            "url": "https://thethaiger.com/th/news/1596614/",
-            "source": "The Thaiger",
-            "date": "2026-08-10T20:13:00+00:00"
         }
     ]
 }
