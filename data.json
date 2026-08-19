@@ -1,206 +1,78 @@
 {
-    "last_updated": "2026-08-18T15:36:32.930759+07:00",
+    "last_updated": "2026-08-19T10:45:02.858540+07:00",
     "summary": {
-        "total_value_thb": 31632.07145996866,
-        "total_profit_thb": 2666.0493798010502,
-        "total_profit_percent": 9.204057679795923
+        "total_value_thb": 31477.11944076071,
+        "total_profit_thb": 2509.3409425648388,
+        "total_profit_percent": 8.662524614102256
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.0,
-            "total_value_thb": 15100.0,
-            "profit_thb": 1500.0,
-            "profit_percent": 11.029411764705882
+            "current_price_thb": 150.5,
+            "total_value_thb": 15050.0,
+            "profit_thb": 1450.0,
+            "profit_percent": 10.661764705882353
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5299999713897705,
-            "total_value_thb": 3059.999942779541,
-            "profit_thb": 239.99994277954102,
-            "profit_percent": 8.51063626877805
+            "current_price_thb": 1.5199999809265137,
+            "total_value_thb": 3039.9999618530273,
+            "profit_thb": 219.99996185302734,
+            "profit_percent": 7.801417086986786
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.799999237060547,
-            "total_value_thb": 711.9999694824219,
-            "profit_thb": 102.79996948242183,
-            "profit_percent": 16.874584616287233
+            "current_price_thb": 17.600000381469727,
+            "total_value_thb": 704.0000152587891,
+            "profit_thb": 94.80001525878902,
+            "profit_percent": 15.561394494220126
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.946697889233686,
-            "total_value_thb": 10614.003120916845,
-            "profit_thb": 614.0035699568452,
-            "profit_percent": 6.140035975280629
+            "current_price_thb": 11.87573961758571,
+            "total_value_thb": 10550.960485729323,
+            "profit_thb": 550.960934769324,
+            "profit_percent": 5.50960959509675
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4443.5,
-            "cost_per_unit_thb": 132659.07734298706,
-            "current_price_thb": 146990.9881362915,
-            "total_value_thb": 2146.068426789856,
-            "profit_thb": 209.24589758224488,
-            "profit_percent": 10.803565862477402
+            "current_price_usd": 4410.7001953125,
+            "cost_per_unit_thb": 132779.37994766235,
+            "current_price_thb": 146038.28615887463,
+            "total_value_thb": 2132.1589779195697,
+            "profit_thb": 193.5800306836993,
+            "profit_percent": 9.985666612118948
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> ความเชื่อมั่นจากกลุ่มทุนญี่ปุ่นที่เข้าสู่รอบยกระดับฐานการผลิตและขยายห่วงโซ่อุปทาน (Supply Chain) ในไทย เป็นแรงหนุนสำคัญต่อกลุ่มนิคมอุตสาหกรรมและโครงสร้างพื้นฐาน</li><li><b>ปัจจัยลบ/เฝ้าระวัง:</b> การกวดขันตรวจสอบทุนเทาและนอมินีต่างด้าวอย่างเข้มงวดในธุรกิจที่ดิน อสังหาริมทรัพย์ และการท่องเที่ยว อาจกระทบ Sentiment กลุ่มอสังหาริมทรัพย์และโรงแรมระยะสั้น</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยเฉพาะหน้า:</b> การคุมเพดานซื้อขายทองแท่งด้วยเงินสดไม่เกิน 10 ล้านบาทเพื่อป้องกันการฟอกเงิน อาจสร้างแรงสะดุดต่อสภาพคล่องในตลาดเงินสดท้องถิ่น แต่ภาพรวมในฐานะสินทรัพย์ปลอดภัยระดับโลกยังคงแข็งแกร่ง</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "พอร์ตมีกำไร 11.03% และธุรกิจมีเสถียรภาพพร้อมอัตราปันผลที่น่าจูงใจ เหมาะแก่การถือครองรับกระแสเงินสด"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "กำไร 8.51% ยังรักษาระดับได้ดี แนะนำถือต่อเพื่อรับเงินปันผลแม้มีแรงกดดันจากการตรวจสอบนอมินีในภาคอสังหาฯ"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "ผลงานโดดเด่นด้วยกำไร 16.87% แนะนำถือ Let Profit Run ตามการฟื้นตัวของยอดขายสินค้าอุปโภคบริโภค"
-            },
-            "K-US500XUH": {
-                "action": "BUY",
-                "reason": "พอร์ตมีกำไร 6.14% ควรทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงสู่ตลาดสหรัฐฯ ตามหลักการจัดพอร์ต Multi-Asset"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "กำไร 10.80% ควรถือครองเป็นสินทรัพย์ป้องกันความเสี่ยงของพอร์ตต่อเนื่องจากแนวโน้มเศรษฐกิจโลก"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "WHA",
-                "name": "บริษัท ดับบลิวเอชเอ คอร์ปอเรชั่น จำกัด (มหาชน)",
-                "reason": "ได้รับอานิสงส์โดยตรงจากการที่รัฐบาลเผยทุนญี่ปุ่นเตรียมยกระดับฐานการผลิตและลงทุนขยายห่วงโซ่อุปทานในไทย",
-                "tag": "Growth"
-            },
-            {
-                "symbol": "AMATA",
-                "name": "บริษัท อมตะ คอร์ปอเรชัน จำกัด (มหาชน)",
-                "reason": "ความต้องการที่ดินนิคมอุตสาหกรรมเพิ่มขึ้นจากการขยายคลัสเตอร์การผลิตใหม่ของนักลงทุนต่างชาติ",
-                "tag": "Value"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\nPlease retry in 57.264652609s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำเทคโนโลยีชิป AI ระดับโลกที่ขับเคลื่อนการยกระดับอุตสาหกรรมและการผลิตอัจฉริยะทั่วโลก",
-            "category": "Technology"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Company",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุด ได้รับประโยชน์จากการกระจายฐานการผลิตไปญี่ปุ่นและชาติตะวันตก",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "โครงสร้างพื้นฐานคลาวด์และ AI สำหรับองค์กร พร้อมระบบความปลอดภัยไซเบอร์ชั้นนำ",
-            "category": "Technology"
-        },
-        {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ผู้นำยานยนต์ที่กำลังยกระดับสายการผลิตสู่เทคโนโลยีไฮบริดและ EV พร้อมเครือข่ายซัพพลายเชนที่แข็งแกร่งในเอเชีย",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "8267",
-            "name": "Aeon Co., Ltd.",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ยักษ์ใหญ่ค้าปลีกญี่ปุ่นที่มีการขยายสาขาและเครือข่ายครอบคลุมทั่วเอเชีย ได้ประโยชน์จากการบริโภคที่ฟื้นตัว",
-            "category": "Consumer Defensive"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิป EUV หัวใจสำคัญของการตั้งฐานการผลิตเซมิคอนดักเตอร์รอบใหม่ทั่วโลก",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำระบบคลาวด์ AWS และโลจิสติกส์ระดับโลก รองรับการขยายตัวของการค้าข้ามพรมแดน",
-            "category": "Consumer Cyclical"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลทางเลือกเพื่อการกระจายความเสี่ยง (Multi-Asset) และรักษามูลค่าท่ามกลางการควบคุมเงินทุนระหว่างประเทศ",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "GLD",
-            "name": "SPDR Gold Shares",
-            "exchange": "NYSE Arca",
-            "reason": "สินทรัพย์ปลอดภัยชั้นนำ รับอานิสงส์จากความตึงเครียดทางภูมิรัฐศาสตร์และมาตรการตรวจสอบกระแสเงินสด",
-            "category": "Commodities"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "มีโครงสร้างพื้นฐานดาต้าเซ็นเตอร์ เครือข่ายโทรคมนาคม และบริการคลาวด์ที่ตอบโจทย์เทคโนโลยีโลกอนาคต",
-            "category": "Communication Services"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำด้านนวัตกรรมยารักษาโรคอ้วนและเบาหวานที่มีอัตราการเติบโตของรายได้สูงและทนทานต่อสภาวะเศรษฐกิจ",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "แพลตฟอร์มหลักสำหรับการแปลงสินทรัพย์ในโลกจริงเป็นโทเคน (RWA) และระบบการเงินไร้พรมแดน",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "MC",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "แบรนด์สินค้าหรูระดับโลกที่ยังคงดึงดูดกำลังซื้อจากกลุ่มลูกค้าระดับบนและการท่องเที่ยวระหว่างประเทศ",
-            "category": "Consumer Cyclical"
-        },
-        {
-            "symbol": "9988",
-            "name": "Alibaba Group Holding Limited",
-            "exchange": "HKEX",
-            "reason": "ธุรกิจคลาวด์และอีคอมเมิร์ซที่ขยายฐานในเอเชียตะวันออกเฉียงใต้ มีมูลค่าพื้นฐานที่น่าสนใจ",
-            "category": "Consumer Cyclical"
-        },
-        {
-            "symbol": "NOVO-B",
-            "name": "Novo Nordisk A/S",
-            "exchange": "Nasdaq Copenhagen",
-            "reason": "ยักษ์ใหญ่ด้านเภสัชกรรมยุโรปที่มีความต้องการตลาดยาสูงต่อเนื่องทั่วโลก เสริมความมั่นคงให้พอร์ตลงทุน",
-            "category": "Healthcare"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "หุ้นไทยเปิดตลาดวันนี้ร่วง 10.08 จุด บอนด์ยีลด์พุ่ง-น้ำมันขึ้น กดดันสินทรัพย์เสี่ยง",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยเปิดตลาดวันนี้ร่วง-1008-จุด-บอนด์ยีลด์พุ่ง-น้ำมันขึ้น-กดดันสินทรัพย์เสี่ยง/ar-AA2aq8Gl",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-19T03:43:00+00:00"
+        },
+        {
+            "title": "เปิดแผน \"เมย์แบงก์\" รุก Private Fund ปั้นธุรกิจบริหารมั่งคั่ง สู่เป้า ...",
+            "url": "https://www.thairath.co.th/money/investment/fund/2953546",
+            "source": "ไทยรัฐ",
+            "date": "2026-08-18T15:54:00+00:00"
+        },
         {
             "title": "ผ่าปมไทยไม่ให้ 'Starlink' ถือหุ้น 100% บอร์ดอวกาศฯ หวั่นนอมินีครอบงำธุรกิจ",
             "url": "https://www.msn.com/th-th/news/other/ผ่าปมไทยไม่ให้-starlink-ถือหุ้น-100-บอร์ดอวกาศฯ-หวั่นนอมินีครอบงำธุรกิจ/ar-AA2alBie",
@@ -308,18 +180,6 @@
             "url": "https://www.prachachat.net/columns/news-2050666",
             "source": "Prachachat Turakij",
             "date": "2026-08-13T00:00:00+00:00"
-        },
-        {
-            "title": "เปิด \"ช่องรอด\" เว็บพนัน-หนังเถื่อน กับโมเดลฟอกเงินไฮบริด",
-            "url": "https://www.nationtv.tv/news/current-issue/378981597",
-            "source": "เนชั่นทีวี",
-            "date": "2026-08-12T15:11:00+00:00"
-        },
-        {
-            "title": "เสนอ 3 กลไก 'Wellness Economy' ดันเวลเนสไทยสู่เป้าหมายมูลค่าแสนล้าน",
-            "url": "https://www.bangkokbiznews.com/health/well-being/1247178",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-12T08:19:00+00:00"
         }
     ]
 }
