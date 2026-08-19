@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-08-19T10:45:02.858540+07:00",
+    "last_updated": "2026-08-19T15:45:36.871687+07:00",
     "summary": {
-        "total_value_thb": 31477.11944076071,
-        "total_profit_thb": 2509.3409425648388,
-        "total_profit_percent": 8.662524614102256
+        "total_value_thb": 31500.44937454345,
+        "total_profit_thb": 2535.5983141777397,
+        "total_profit_percent": 8.754052658145191
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 150.5,
-            "total_value_thb": 15050.0,
-            "profit_thb": 1450.0,
-            "profit_percent": 10.661764705882353
+            "current_price_thb": 151.0,
+            "total_value_thb": 15100.0,
+            "profit_thb": 1500.0,
+            "profit_percent": 11.029411764705882
         },
         {
             "symbol": "SIRI",
@@ -28,36 +28,70 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.600000381469727,
-            "total_value_thb": 704.0000152587891,
-            "profit_thb": 94.80001525878902,
-            "profit_percent": 15.561394494220126
+            "current_price_thb": 17.399999618530273,
+            "total_value_thb": 695.9999847412109,
+            "profit_thb": 86.79998474121089,
+            "profit_percent": 14.248191848524439
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.87573961758571,
-            "total_value_thb": 10550.960485729323,
-            "profit_thb": 550.960934769324,
-            "profit_percent": 5.50960959509675
+            "current_price_thb": 11.857806125907569,
+            "total_value_thb": 10535.027536021751,
+            "profit_thb": 535.0279850617517,
+            "profit_percent": 5.3502800908664945
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4410.7001953125,
-            "cost_per_unit_thb": 132779.37994766235,
-            "current_price_thb": 146038.28615887463,
-            "total_value_thb": 2132.1589779195697,
-            "profit_thb": 193.5800306836993,
-            "profit_percent": 9.985666612118948
+            "current_price_usd": 4411.7001953125,
+            "cost_per_unit_thb": 132578.8705072403,
+            "current_price_thb": 145850.8145155795,
+            "total_value_thb": 2129.421891927461,
+            "profit_thb": 193.77038252175248,
+            "profit_percent": 10.010602713359527
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\nPlease retry in 57.264652609s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><strong>ปัจจัยลบ:</strong> อัตราผลตอบแทนพันธบัตร (Bond Yield) พุ่งขึ้นและความกังวลด้านสงครามดันราคาน้ำมันสูงขึ้น สร้างแรงกดดันต่อเงินเฟ้อและสินทรัพย์เสี่ยง ส่งผลให้ SET Index เผชิญแรงขาย</li><li><strong>ปัจจัยลบเฉพาะกลุ่ม:</strong> การเดินหน้าปราบปรามนอมินีต่างชาติและตรวจสอบการถือครองที่ดินอาจกดดันบรรยากาศการซื้อขายในกลุ่มอสังหาริมทรัพย์</li><li><strong>ปัจจัยบวก:</strong> เม็ดเงินลงทุนจากญี่ปุ่นยังคงขยายตัวและยกระดับซัพพลายเชนในไทย รวมถึงงาน Thailand Focus 2026 ช่วยเสริมความเชื่อมั่นนักลงทุนระยะยาว</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><strong>ปัจจัยบวก:</strong> ความเสี่ยงด้านภูมิรัฐศาสตร์และราคาน้ำมันที่ดีดตัวหนุนเงินเฟ้อ ผลักดันให้ทองคำยังเป็นสินทรัพย์หลบภัย (Safe Haven) ที่แข็งแกร่ง</li><li><strong>ปัจจัยเฝ้าระวัง:</strong> มาตรการคุมเพดานซื้อขายทองคำแท่งด้วยเงินสดไม่เกิน 10 ล้านบาท เพื่อสกัดทุนเทา อาจกระทบสภาพคล่องหน้าร้านทองในประเทศระยะสั้น แต่ไม่กระทบแนวโน้มราคาทองคำในตลาดโลก</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 11.03% มีความมั่นคงจากอัตราผลตอบแทนเงินปันผลสูง และได้ประโยชน์จากแนวโน้มอัตราดอกเบี้ย/บอนด์ยีลด์ที่ยังทรงตัวสูง"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "รักษาสถานะถือเพื่อรับปันผล โดยมีกำไรสะสม 7.80% แต่ต้องติดตามผลกระทบจากมาตรการตรวจสอบนอมินีและที่ดินต่างด้าว"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "กำไรโดดเด่น 14.25% ถือเป็นหุ้นกลุ่ม Defensive ที่ต้านทานความผันผวนของตลาดและแรงกดดันเงินเฟ้อได้ดี"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "ถือครองเพื่อกระจายความเสี่ยงระยะยาว แม้ระยะสั้นอาจเผชิญแรงกดดันจากบอนด์ยีลด์สหรัฐฯ ที่ดีดตัวขึ้น"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "ทำกำไรได้ 10.01% แนะนำถือต่อเนื่องเพื่อใช้เป็นเกราะป้องกันความเสี่ยงจากสงครามและเงินเฟ้อโลก"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "PTTEP",
+                "name": "บมจ. ปตท. สำรวจและผลิตปิโตรเลียม",
+                "reason": "ได้รับประโยชน์โดยตรงจากราคาน้ำมันดิบโลกที่ปรับตัวสูงขึ้นจากความตึงเครียดด้านสงครามและภูมิรัฐศาสตร์",
+                "tag": "Energy / Commodity"
+            },
+            {
+                "symbol": "WHA",
+                "name": "บมจ. ดับบลิวเอชเอ คอร์ปอเรชั่น",
+                "reason": "ได้อานิสงส์เชิงบวกจากกระแสทุนญี่ปุ่นที่ยกระดับฐานการผลิตและซัพพลายเชนในไทยอย่างต่อเนื่อง",
+                "tag": "Industrial / Growth"
+            }
+        ]
     },
     "global_watchlist": [],
     "news": [
@@ -68,10 +102,22 @@
             "date": "2026-08-19T03:43:00+00:00"
         },
         {
+            "title": "ตลท.จัด Thailand Focus 2026 ชู 78 บจ.ไทยเปิดแผนเติบโต ผนึกภาครัฐ-อาเซียนดึงทุน ...",
+            "url": "https://www.ryt9.com/s/iq/12838205",
+            "source": "RYT9",
+            "date": "2026-08-19T00:27:00+00:00"
+        },
+        {
             "title": "เปิดแผน \"เมย์แบงก์\" รุก Private Fund ปั้นธุรกิจบริหารมั่งคั่ง สู่เป้า ...",
             "url": "https://www.thairath.co.th/money/investment/fund/2953546",
             "source": "ไทยรัฐ",
             "date": "2026-08-18T15:54:00+00:00"
+        },
+        {
+            "title": "หุ้นไทยปิดร่วง 4.82 จุด ตลาดขาดปัจจัยหนุน จับตาสงคราม-ราคาน้ำมัน กดดันเงินเฟ้อ",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยปิดร่วง-482-จุด-ตลาดขาดปัจจัยหนุน-จับตาสงคราม-ราคาน้ำมัน-กดดันเงินเฟ้อ/ar-AA2amrYA",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-18T10:04:00+00:00"
         },
         {
             "title": "ผ่าปมไทยไม่ให้ 'Starlink' ถือหุ้น 100% บอร์ดอวกาศฯ หวั่นนอมินีครอบงำธุรกิจ",
@@ -168,18 +214,6 @@
             "url": "https://www.msn.com/th-th/news/other/หุ้นไทย-2-000-จุด-ความฝันที่ต้องมีเครื่องยนต์สองตัว/ar-AA29Zg4n",
             "source": "ประชาชาติธุรกิจ",
             "date": "2026-08-13T02:17:39+00:00"
-        },
-        {
-            "title": "ค่าเงินบาทเปิดเช้านี้ 13 ส.ค.69 'แข็งค่า' ลดคาดหวังเฟดขึ้นดอกเบี้ย",
-            "url": "https://www.bangkokbiznews.com/finance/investment/1247200",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-13T01:42:00+00:00"
-        },
-        {
-            "title": "หุ้นไทย 2,000 จุด ความฝันที่ต้องมีเครื่องยนต์สองตัว",
-            "url": "https://www.prachachat.net/columns/news-2050666",
-            "source": "Prachachat Turakij",
-            "date": "2026-08-13T00:00:00+00:00"
         }
     ]
 }
