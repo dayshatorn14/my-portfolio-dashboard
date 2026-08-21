@@ -1,66 +1,72 @@
 {
-    "last_updated": "2026-08-21T10:49:07.568726+07:00",
+    "last_updated": "2026-08-21T15:38:28.854464+07:00",
     "summary": {
-        "total_value_thb": 31581.406123735567,
-        "total_profit_thb": 2637.0475748793724,
-        "total_profit_percent": 9.110748025140055
+        "total_value_thb": 31588.12309036866,
+        "total_profit_thb": 2647.277377568982,
+        "total_profit_percent": 9.147201169723143
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.5,
-            "total_value_thb": 15250.0,
-            "profit_thb": 1650.0,
-            "profit_percent": 12.132352941176471
+            "current_price_thb": 153.0,
+            "total_value_thb": 15300.0,
+            "profit_thb": 1700.0,
+            "profit_percent": 12.5
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5399999618530273,
-            "total_value_thb": 3079.9999237060547,
-            "profit_thb": 259.9999237060547,
-            "profit_percent": 9.219855450569316
+            "current_price_thb": 1.5199999809265137,
+            "total_value_thb": 3039.9999618530273,
+            "profit_thb": 219.99996185302734,
+            "profit_percent": 7.801417086986786
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.5,
-            "total_value_thb": 700.0,
-            "profit_thb": 90.79999999999995,
-            "profit_percent": 14.904793171372283
+            "current_price_thb": 17.399999618530273,
+            "total_value_thb": 695.9999847412109,
+            "profit_thb": 86.79998474121089,
+            "profit_percent": 14.248191848524439
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.661661169176172,
-            "total_value_thb": 10360.763216106596,
-            "profit_thb": 360.7636651465964,
-            "profit_percent": 3.6076368134632877
+            "current_price_thb": 11.640271037140668,
+            "total_value_thb": 10341.759226026099,
+            "profit_thb": 341.7596750660996,
+            "profit_percent": 3.417596904124767
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4587.10009765625,
-            "cost_per_unit_thb": 131175.27382850647,
-            "current_price_thb": 150044.03999472037,
-            "total_value_thb": 2190.642983922917,
-            "profit_thb": 275.48398602672273,
-            "profit_percent": 14.384392435789529
+            "current_price_usd": 4636.89990234375,
+            "cost_per_unit_thb": 130934.66861915588,
+            "current_price_thb": 151394.7888868712,
+            "total_value_thb": 2210.363917748319,
+            "profit_thb": 298.7177559086433,
+            "profit_percent": 15.626205407237695
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 52.575064224s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 52\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 31.229195777s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 31\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "ทำไม 'บอนด์ยีลด์พุ่ง' หลังซื้อคืน เปิดโผหุ้นลุ้นเข้าดัชนี FTSE | SET Afternoon | 21-8-69",
+            "url": "https://www.msn.com/th-th/entertainment/music/ทำไม-บอนด์ยีลด์พุ่ง-หลังซื้อคืน-เปิดโผหุ้นลุ้นเข้าดัชนี-ftse-set-afternoon-21-8-69/ar-AA2aD7ik",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-21T08:00:00+00:00"
+        },
         {
             "title": "รัฐแก้เกม'นอมินี' ล็อกเป้าสแกนเข้ม ถือครองที่ดิน-คอนโด",
             "url": "https://www.thansettakij.com/economy/667028",
@@ -174,12 +180,6 @@
             "url": "https://www.innnews.co.th/news/news_1063441/",
             "source": "สำนักข่าว ไอ.เอ็น.เอ็น",
             "date": "2026-08-16T22:48:00+00:00"
-        },
-        {
-            "title": "ทุนจีนแห่ปักหมุดธุรกิจโรงแรม เปิดโมเดล กินรวบ-เลี่ยงกฎหมาย",
-            "url": "https://www.thairath.co.th/scoop/interview/2953243",
-            "source": "ไทยรัฐ",
-            "date": "2026-08-16T19:29:00+00:00"
         }
     ]
 }
