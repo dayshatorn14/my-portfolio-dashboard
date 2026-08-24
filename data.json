@@ -1,28 +1,28 @@
 {
-    "last_updated": "2026-08-21T15:38:28.854464+07:00",
+    "last_updated": "2026-08-24T10:53:41.989332+07:00",
     "summary": {
-        "total_value_thb": 31588.12309036866,
-        "total_profit_thb": 2647.277377568982,
-        "total_profit_percent": 9.147201169723143
+        "total_value_thb": 31481.598172654536,
+        "total_profit_thb": 2541.9234796567616,
+        "total_profit_percent": 8.783524716923663
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 153.0,
-            "total_value_thb": 15300.0,
-            "profit_thb": 1700.0,
-            "profit_percent": 12.5
+            "current_price_thb": 151.5,
+            "total_value_thb": 15150.0,
+            "profit_thb": 1550.0,
+            "profit_percent": 11.397058823529411
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5199999809265137,
-            "total_value_thb": 3039.9999618530273,
-            "profit_thb": 219.99996185302734,
-            "profit_percent": 7.801417086986786
+            "current_price_thb": 1.5099999904632568,
+            "total_value_thb": 3019.9999809265137,
+            "profit_thb": 199.99998092651367,
+            "profit_percent": 7.09219790519552
         },
         {
             "symbol": "OSP",
@@ -37,30 +37,188 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.640271037140668,
-            "total_value_thb": 10341.759226026099,
-            "profit_thb": 341.7596750660996,
-            "profit_percent": 3.417596904124767
+            "current_price_thb": 11.67822507848187,
+            "total_value_thb": 10375.47936501195,
+            "profit_thb": 375.4798140519506,
+            "profit_percent": 3.7547983091249697
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4636.89990234375,
-            "cost_per_unit_thb": 130934.66861915588,
-            "current_price_thb": 151394.7888868712,
-            "total_value_thb": 2210.363917748319,
-            "profit_thb": 298.7177559086433,
-            "profit_percent": 15.626205407237695
+            "current_price_usd": 4702.2001953125,
+            "cost_per_unit_thb": 130854.46178340912,
+            "current_price_thb": 153432.79739553854,
+            "total_value_thb": 2240.118841974863,
+            "profit_thb": 329.64369993708965,
+            "profit_percent": 17.254540123745407
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 31.229195777s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 31\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> งาน Thailand Focus เตรียมดึงดูดเม็ดเงินลงทุนต่างชาติเข้าสู่ 78 บจ. ชั้นนำ ประกอบกับกลุ่มโรงพยาบาล (BDMS, CHG) ได้รับแรงหนุนเชิงบวกจากข่าวด้านนวัตกรรมทางการแพทย์</li><li><b>ปัจจัยลบ/เฝ้าระวัง:</b> การพุ่งขึ้นของอัตราผลตอบแทนพันธบัตร (Bond Yield) อาจกดดัน Valuation ตลาดหุ้นระยะสั้น และมาตรการคุมเข้มนอมินีอสังหาริมทรัพย์อาจกระทบ Sentiment กลุ่มที่อยู่อาศัย</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความผันผวนของตลาดการเงินโลกและการปรับสมดุลพอร์ตของสถาบันยังคงหนุนแรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัย</li><li><b>ปัจจัยลบ/เฝ้าระวัง:</b> การขยับขึ้นของบอนด์ยีลด์อาจเพิ่มต้นทุนค่าเสียโอกาสในการถือครองทองคำระยะสั้น</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "รักษากำไร 11.40% และถือเพื่อรับเงินปันผล พร้อมรับอานิสงส์เม็ดเงินสถาบันจากงาน Thailand Focus"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "กำไร 7.09% ยังคงถือต่อได้ แต่ควรเฝ้าระวังผลกระทบเชิง Sentiment จากมาตรการสแกนนอมินีอสังหาฯ"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "ผลตอบแทนเติบโตดีที่ 14.25% ทิศทางกำไรแข็งแกร่งตามการฟื้นตัวของการบริโภค แนะนำถือทำกำไรต่อเนื่อง"
+            },
+            "K-US500XUH": {
+                "action": "BUY",
+                "reason": "ทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงและเกาะกระแสการเติบโตของเศรษฐกิจและเทคโนโลยีสหรัฐฯ"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "กำไรสูงถึง 17.25% แนะนำถือต่อเพื่อเป็นสินทรัพย์ป้องกันความเสี่ยงจากความผันผวนของตลาดการเงิน"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "BDMS",
+                "name": "บริษัท กรุงเทพดุสิตเวชการ จำกัด (มหาชน)",
+                "reason": "รับข่าวบวกความคืบหน้าวัคซีนมะเร็ง และเป็นหุ้นเป้าหมายหลักของกองทุนต่างชาติในงาน Thailand Focus",
+                "tag": "Healthcare / Defensive"
+            },
+            {
+                "symbol": "PTT",
+                "name": "บริษัท ปตท. จำกัด (มหาชน)",
+                "reason": "เสาหลักพลังงานชาติที่มีพื้นฐานแกร่งและจ่ายปันผลสม่ำเสมอ เตรียมดึงดูดกระแสเงินลงทุนจากเวที Thailand Focus",
+                "tag": "Value / Dividend"
+            }
+        ]
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำระดับโลกด้านชิปประมวลผล AI และ Data Center ที่เติบโตตามความต้องการโครงสร้างพื้นฐาน AI ต่อเนื่อง",
+            "category": "Tech"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำระบบคลาวด์ Azure และการนำ AI เชิงพาณิชย์มาประยุกต์ใช้ในองค์กรทั่วโลกอย่างมีประสิทธิภาพ",
+            "category": "Tech"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตเซมิคอนดักเตอร์ขั้นสูงอันดับหนึ่งของโลก มีบทบาทสำคัญต่อห่วงโซ่อุปทานเทคโนโลยีระดับโลก",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้ผูกขาดเทคโนโลยีเครื่องผลิตชิป EUV ระดับสูงจากยุโรปที่มีความสำคัญเชิงยุทธศาสตร์ทางเทคโนโลยี",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "ผู้นำตลาดยารักษาโรคเบาหวานและยาลดน้ำหนักกลุ่ม GLP-1 จากยุโรปที่มีความต้องการสูงทั่วโลก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "exchange": "NYSE",
+            "reason": "บริษัทยาชีวเวชภัณฑ์ชั้นนำที่มีการเติบโตแข็งแกร่งจากนวัตกรรมยารักษาโรคเบาหวานและยาลดน้ำหนัก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ความแข็งแกร่งของ AWS ร่วมกับธุรกิจอีคอมเมิร์ซและประสิทธิภาพต้นทุนที่เพิ่มขึ้นอย่างต่อเนื่อง",
+            "category": "Tech"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำด้าน Search, Digital Advertising และโมเดล AI รวมถึงการเติบโตต่อเนื่องของ Google Cloud",
+            "category": "Tech"
+        },
+        {
+            "symbol": "MC.PA",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "ผู้นำสินค้าหรูหราระดับโลกที่มีอำนาจกำหนดราคาสูงและฐานลูกค้าระดับบนที่มีกำลังซื้อแข็งแกร่ง",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "BDMS",
+            "name": "Bangkok Dusit Medical Services PCL",
+            "exchange": "SET",
+            "reason": "เครือข่ายโรงพยาบาลชั้นนำในเอเชียตะวันออกเฉียงใต้ ได้รับประโยชน์จาก Medical Tourism และนวัตกรรมการแพทย์",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "PTT",
+            "name": "PTT Public Company Limited",
+            "exchange": "SET",
+            "reason": "เสาหลักด้านพลังงานที่มีฐานะการเงินมั่นคง จ่ายเงินปันผลสม่ำเสมอ และเร่งขับเคลื่อนพลังงานสะอาดในเอเชีย",
+            "category": "Energy"
+        },
+        {
+            "symbol": "9988.HK",
+            "name": "Alibaba Group Holding Limited",
+            "exchange": "HKEX",
+            "reason": "มูลค่าหุ้นยังน่าสนใจและมีแนวโน้มฟื้นตัวตามเศรษฐกิจจีนและการปรับโครงสร้างธุรกิจคลาวด์และ AI",
+            "category": "Tech"
+        },
+        {
+            "symbol": "PLTR",
+            "name": "Palantir Technologies Inc.",
+            "exchange": "NYSE",
+            "reason": "ผู้นำแพลตฟอร์มวิเคราะห์ข้อมูลและ AI สำหรับองค์กรและภาครัฐที่มีการขยายตัวของอัตรากำไรอย่างรวดเร็ว",
+            "category": "Tech"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลที่มีการยอมรับระดับสถาบันผ่าน Spot ETF และทำหน้าที่เป็นทองคำดิจิทัลในการกระจายความเสี่ยง",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "โครงสร้างพื้นฐานหลักของระบบการเงินไร้ศูนย์กลาง (DeFi) และ Smart Contracts ระดับโลกที่มีระบบนิเวศแข็งแกร่งที่สุด",
+            "category": "Crypto"
+        }
+    ],
     "news": [
+        {
+            "title": "มุมมองนักบริหาร : 24 สิงหาคม 2569",
+            "url": "https://www.naewna.com/n/business-world/20810/",
+            "source": "แนวหน้า",
+            "date": "2026-08-23T23:10:00+00:00"
+        },
+        {
+            "title": "หุ้นเด่น : 24 สิงหาคม 2569",
+            "url": "https://www.naewna.com/n/todays-columns/business-columns/20834/",
+            "source": "แนวหน้า",
+            "date": "2026-08-23T19:00:00+00:00"
+        },
+        {
+            "title": "ไอศกรีม Hawell's แบรนด์ไทยในตำนาน ที่แท้เจ้าของคือคนนี้นี่เอง",
+            "url": "https://www.sanook.com/money/955883/",
+            "source": "Sanook.com",
+            "date": "2026-08-23T09:12:00+00:00"
+        },
         {
             "title": "ทำไม 'บอนด์ยีลด์พุ่ง' หลังซื้อคืน เปิดโผหุ้นลุ้นเข้าดัชนี FTSE | SET Afternoon | 21-8-69",
             "url": "https://www.msn.com/th-th/entertainment/music/ทำไม-บอนด์ยีลด์พุ่ง-หลังซื้อคืน-เปิดโผหุ้นลุ้นเข้าดัชนี-ftse-set-afternoon-21-8-69/ar-AA2aD7ik",
@@ -162,24 +320,6 @@
             "url": "https://www.naewna.com/n/business-world/8093/",
             "source": "แนวหน้า",
             "date": "2026-08-17T16:27:00+00:00"
-        },
-        {
-            "title": "คุมเพดานซื้อขาย \"ทองแท่ง\" เงินสดไม่เกิน 10 ล้าน สกัดทุนเทาฟอกเงิน",
-            "url": "https://www.thaipbs.or.th/news/content/509530",
-            "source": "Thai PBS",
-            "date": "2026-08-17T16:04:00+00:00"
-        },
-        {
-            "title": "รัฐบาล ยันญี่ปุ่นลงทุนไทยไม่แผ่ว ชีโอกาสผู้ประกอบการ ลุยต่อยอดซัพพลายเชน",
-            "url": "https://www.msn.com/th-th/news/other/รัฐบาล-ยันญี่ปุ่นลงทุนไทยไม่แผ่ว-ชี้โอกาสผู้ประกอบการ-ลุยต่อยอดซัพพลายเชน/ar-AA2afonh",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-08-17T03:00:00+00:00"
-        },
-        {
-            "title": "รบ.ชี้ฐานผลิตญี่ปุ่นในไทยเข้าสู่รอบยกระดับ 59%",
-            "url": "https://www.innnews.co.th/news/news_1063441/",
-            "source": "สำนักข่าว ไอ.เอ็น.เอ็น",
-            "date": "2026-08-16T22:48:00+00:00"
         }
     ]
 }
