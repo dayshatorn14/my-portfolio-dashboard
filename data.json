@@ -1,66 +1,84 @@
 {
-    "last_updated": "2026-08-24T16:04:50.108414+07:00",
+    "last_updated": "2026-08-25T10:46:51.543320+07:00",
     "summary": {
-        "total_value_thb": 31490.71808125032,
-        "total_profit_thb": 2548.7015719979318,
-        "total_profit_percent": 8.806233564213278
+        "total_value_thb": 31611.90275835895,
+        "total_profit_thb": 2666.9585879272054,
+        "total_profit_percent": 9.213901302499645
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.5,
-            "total_value_thb": 15150.0,
-            "profit_thb": 1550.0,
-            "profit_percent": 11.397058823529411
+            "current_price_thb": 152.5,
+            "total_value_thb": 15250.0,
+            "profit_thb": 1650.0,
+            "profit_percent": 12.132352941176471
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.5099999904632568,
-            "total_value_thb": 3019.9999809265137,
-            "profit_thb": 199.99998092651367,
-            "profit_percent": 7.09219790519552
+            "current_price_thb": 1.5199999809265137,
+            "total_value_thb": 3039.9999618530273,
+            "profit_thb": 219.99996185302734,
+            "profit_percent": 7.801417086986786
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.399999618530273,
-            "total_value_thb": 695.9999847412109,
-            "profit_thb": 86.79998474121089,
-            "profit_percent": 14.248191848524439
+            "current_price_thb": 17.600000381469727,
+            "total_value_thb": 704.0000152587891,
+            "profit_thb": 94.80001525878902,
+            "profit_percent": 15.561394494220126
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.692539976756171,
-            "total_value_thb": 10388.197387713099,
-            "profit_thb": 388.1978367530992,
-            "profit_percent": 3.8819785418473565
+            "current_price_thb": 11.677252142567848,
+            "total_value_thb": 10374.61496340712,
+            "profit_thb": 374.61541244712134,
+            "profit_percent": 3.7461542926885265
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4688.89990234375,
-            "cost_per_unit_thb": 131014.86015701294,
-            "current_price_thb": 153186.35122393817,
-            "total_value_thb": 2236.5207278694975,
-            "profit_thb": 323.70376957710846,
-            "profit_percent": 16.922882671747402
+            "current_price_usd": 4695.89990234375,
+            "cost_per_unit_thb": 131215.3848953247,
+            "current_price_thb": 153649.8505369872,
+            "total_value_thb": 2243.287817840013,
+            "profit_thb": 327.5431983682722,
+            "profit_percent": 17.097435380431396
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 504 Deadline expired before operation could complete.",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 8.570296866s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 8\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "แฟ้ม 10 คดี \"มหากิจศิริ-เนสท์เล่\" สมรภูมิศาลไทย กับบรรทัดฐานที่รออยู่",
+            "url": "https://www.msn.com/th-th/news/other/แฟ้ม-10-คดี-มหากิจศิริ-เนสท์เล่-สมรภูมิศาลไทย-กับบรรทัดฐานที่รออยู่/ar-AA2aRkQl",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-08-25T03:46:00+00:00"
+        },
+        {
+            "title": "ภาวะตลาดเงินบาท: เปิด 32.69/70 แกว่งกรอบแคบ รอปัจจัยใหม่ ตลาดจับตา ...",
+            "url": "https://www.ryt9.com/s/iq/12839387",
+            "source": "RYT9",
+            "date": "2026-08-24T19:26:00+00:00"
+        },
+        {
+            "title": "'ราช กรุ๊ป' ทุ่มหมื่นล้านบาทลงทุนในไทย-อินโดนีเซีย",
+            "url": "https://www.naewna.com/n/business-world/23218/",
+            "source": "แนวหน้า",
+            "date": "2026-08-24T17:30:00+00:00"
+        },
         {
             "title": "2 แบรนด์ชารุ่นใหม่ \"ฉันจะกินชาเย็นทุกวัน-เจี้ยนชา\" เปิดเกมชิง ...",
             "url": "https://www.thansettakij.com/business/marketing/667244",
@@ -162,24 +180,6 @@
             "url": "https://www.thairath.co.th/money/investment/fund/2953546",
             "source": "ไทยรัฐ",
             "date": "2026-08-18T15:54:00+00:00"
-        },
-        {
-            "title": "หุ้นไทยปิดร่วง 4.82 จุด ตลาดขาดปัจจัยหนุน จับตาสงคราม-ราคาน้ำมัน กดดันเงินเฟ้อ",
-            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยปิดร่วง-482-จุด-ตลาดขาดปัจจัยหนุน-จับตาสงคราม-ราคาน้ำมัน-กดดันเงินเฟ้อ/ar-AA2amrYA",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-18T10:04:00+00:00"
-        },
-        {
-            "title": "ผ่าปมไทยไม่ให้ 'Starlink' ถือหุ้น 100% บอร์ดอวกาศฯ หวั่นนอมินีครอบงำธุรกิจ",
-            "url": "https://www.msn.com/th-th/news/other/ผ่าปมไทยไม่ให้-starlink-ถือหุ้น-100-บอร์ดอวกาศฯ-หวั่นนอมินีครอบงำธุรกิจ/ar-AA2alBie",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-18T07:00:00+00:00"
-        },
-        {
-            "title": "มหกรรมล้างบางทุนเทา 7 เฟส ถอนโคนระบบ 'นอมินีต่างด้าว'?",
-            "url": "https://www.msn.com/th-th/news/other/มหกรรมล้างบางทุนเทา-7-เฟส-ถอนโคนระบบ-นอมินีต่างด้าว/ar-AA2algR3",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-18T04:31:00+00:00"
         }
     ]
 }
