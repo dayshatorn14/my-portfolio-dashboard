@@ -1,100 +1,84 @@
 {
-    "last_updated": "2026-08-27T21:04:06.121659+07:00",
+    "last_updated": "2026-08-28T21:57:27.518781+07:00",
     "summary": {
-        "total_value_thb": 31563.50544286264,
-        "total_profit_thb": 2610.364357166767,
-        "total_profit_percent": 9.015824395151386
+        "total_value_thb": 31550.087750797713,
+        "total_profit_thb": 2586.993331809452,
+        "total_profit_percent": 8.932033623152552
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.0,
-            "total_value_thb": 15200.0,
-            "profit_thb": 1600.0,
-            "profit_percent": 11.76470588235294
+            "current_price_thb": 151.0,
+            "total_value_thb": 15100.0,
+            "profit_thb": 1500.0,
+            "profit_percent": 11.029411764705882
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4800000190734863,
-            "total_value_thb": 2960.0000381469727,
-            "profit_thb": 140.00003814697266,
-            "profit_percent": 4.964540359821725
+            "current_price_thb": 1.4700000286102295,
+            "total_value_thb": 2940.000057220459,
+            "profit_thb": 120.00005722045898,
+            "profit_percent": 4.255321178030461
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.100000381469727,
-            "total_value_thb": 684.0000152587891,
-            "profit_thb": 74.80001525878902,
-            "profit_percent": 12.278400403609488
+            "current_price_thb": 16.600000381469727,
+            "total_value_thb": 664.0000152587891,
+            "profit_thb": 54.80001525878902,
+            "profit_percent": 8.995406312998853
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.816339941811098,
-            "total_value_thb": 10498.187045746268,
-            "profit_thb": 498.18749478626887,
-            "profit_percent": 4.981875171568811
+            "current_price_thb": 11.953534576626264,
+            "total_value_thb": 10620.077152586044,
+            "profit_thb": 620.0776016260443,
+            "profit_percent": 6.200776294700102
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4630.10009765625,
-            "cost_per_unit_thb": 131776.81744766235,
-            "current_price_thb": 152145.0920349732,
-            "total_value_thb": 2221.3183437106086,
-            "profit_thb": 297.3768089747382,
-            "profit_percent": 15.456644789134083
+            "current_price_usd": 4616.0,
+            "cost_per_unit_thb": 132458.5526046753,
+            "current_price_thb": 152466.47436523438,
+            "total_value_thb": 2226.0105257324217,
+            "profit_thb": 292.11565770416246,
+            "profit_percent": 15.105043326475897
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> ความคาดหวังเงินทุนไหลเข้าจากงาน Thailand Focus หนุนหุ้นกลุ่มบิ๊กแคป และแนวโน้มบอนด์ยีลด์ที่ปรับตัวลดลงช่วยผ่อนคลายแรงกดดันต่อตลาดหุ้นโลกและไทย</li><li><b>ปัจจัยลบ/ความผันผวน:</b> ตลาดหุ้นไทยเผชิญแรงขายทำกำไรระยะสั้นในกลุ่มธนาคารและการเงิน ประกอบกับนักลงทุนทั่วโลกชะลอการลงทุนเพื่อรอฟังถ้อยแถลงของธนาคารกลางสหรัฐฯ (Fed)</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความผันผวนของตลาดหุ้นโลกและการปรับฐานของสินทรัพย์เสี่ยง กระตุ้นให้นักลงทุนกระจายความเสี่ยงเข้าสู่ทองคำในฐานะสินทรัพย์ปลอดภัย (Safe Haven)</li><li><b>ปัจจัยลบ/ความผันผวน:</b> อัตราแลกเปลี่ยนค่าเงินบาทที่เคลื่อนไหวในกรอบแคบ 32.69-32.70 บาท/ดอลลาร์ ส่งผลให้ผลตอบแทนทองคำในรูปเงินบาทขึ้นอยู่กับราคาทองคำตลาดโลกเป็นหลัก</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรสะสม 11.76% แม้เผชิญแรงขายทำกำไรกลุ่มธนาคารระยะสั้น แต่มีผลตอบแทนเงินปันผลรองรับความเสี่ยงได้ดี"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "มีกำไร 4.96% ได้รับจิตวิทยาเชิงบวกจากแนวโน้มดอกเบี้ยขาลง แต่ยังต้องรอการฟื้นตัวของกำลังซื้อภาคอสังหาฯ"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "กำไร 12.28% อยู่ในเกณฑ์ดี ผลการดำเนินงานกลุ่มสินค้าอุปโภคบริโภคมีเสถียรภาพ เหมาะถือรอเป้าหมายทำกำไรถัดไป"
-            },
-            "K-US500XUH": {
-                "action": "BUY",
-                "reason": "ตลาดหุ้นสหรัฐฯ อยู่ในช่วงพักฐานและบอนด์ยีลด์เริ่มชะลอตัว เป็นจังหวะดีในการทยอยสะสมเพิ่มรับการเติบโตระยะยาว"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "กำไรสูงถึง 15.46% ควรถือครองต่อเพื่อเป็นเกราะป้องกันความผันผวนของตลาดหุ้นโลกและรอแรงหนุนจากการลดดอกเบี้ยของเฟด"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "DELTA",
-                "name": "บริษัท เดลต้า อีเลคโทรนิคส์ (ประเทศไทย) จำกัด (มหาชน)",
-                "reason": "หุ้นเทคโนโลยีชั้นนำที่ได้รับความสนใจสูงจากกระแส Fund Flow ต่างชาติในงาน Thailand Focus",
-                "tag": "Tech"
-            },
-            {
-                "symbol": "GULF",
-                "name": "บริษัท กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์ จำกัด (มหาชน)",
-                "reason": "หุ้นสาธารณูปโภคและพลังงานโครงสร้างพื้นฐานขนาดใหญ่ ได้รับคัดเลือกเป็นหุ้นเด่นรับเงินทุนไหลเข้า",
-                "tag": "Growth"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\nPlease retry in 41.512679812s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 41\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "TOP10 บจ. ไทยกำไรไตรมาส 2/69 มากสุด! หนุนกำไรรวมพุ่ง 22% ตลท. ชี้ สัญญาณ ...",
+            "url": "https://www.thairath.co.th/money/investment/stocks/2955817",
+            "source": "ไทยรัฐ",
+            "date": "2026-08-28T12:55:00+00:00"
+        },
+        {
+            "title": "'เฟทโก้' ชูยุทธศาสตร์ 'การออม' แก้วิกฤติโครงสร้างเศรษฐกิจ",
+            "url": "https://www.msn.com/th-th/news/other/เฟทโก้-ชูยุทธศาสตร์-การออม-แก้วิกฤติโครงสร้างเศรษฐกิจ/ar-AA2b42MH",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-08-28T05:46:00+00:00"
+        },
+        {
+            "title": "ตลาดหุ้นไทยปิดลบ 12.48 จุด กลุ่มอิเล็กทรอนิกส์ร่วงหนัก",
+            "url": "https://www.dailynews.co.th/news/6146690/",
+            "source": "เดลินิวส์",
+            "date": "2026-08-28T03:07:00+00:00"
+        },
         {
             "title": "หุ้นไทยวันนี้ปิดร่วง 1.22% แรงขายแบงก์-ไฟแนนซ์ กดดัชนี จับตาถ้อยแถลงเฟด",
             "url": "https://www.msn.com/th-th/news/other/หุ้นไทยวันนี้ปิดร่วง-122-แรงขายแบงก์-ไฟแนนซ์-กดดัชนี-จับตาถ้อยแถลงเฟด/ar-AA2b1YHC",
@@ -196,24 +180,6 @@
             "url": "https://www.naewna.com/n/todays-columns/business-columns/20834/",
             "source": "แนวหน้า",
             "date": "2026-08-23T19:00:00+00:00"
-        },
-        {
-            "title": "ไอศกรีม Hawell's แบรนด์ไทยในตำนาน ที่แท้เจ้าของคือคนนี้นี่เอง",
-            "url": "https://www.sanook.com/money/955883/",
-            "source": "Sanook.com",
-            "date": "2026-08-23T09:12:00+00:00"
-        },
-        {
-            "title": "ทำไม 'บอนด์ยีลด์พุ่ง' หลังซื้อคืน เปิดโผหุ้นลุ้นเข้าดัชนี FTSE | SET Afternoon | 21-8-69",
-            "url": "https://www.msn.com/th-th/entertainment/music/ทำไม-บอนด์ยีลด์พุ่ง-หลังซื้อคืน-เปิดโผหุ้นลุ้นเข้าดัชนี-ftse-set-afternoon-21-8-69/ar-AA2aD7ik",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-21T08:00:00+00:00"
-        },
-        {
-            "title": "รัฐแก้เกม'นอมินี' ล็อกเป้าสแกนเข้ม ถือครองที่ดิน-คอนโด",
-            "url": "https://www.thansettakij.com/economy/667028",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-08-21T03:48:00+00:00"
         }
     ]
 }
