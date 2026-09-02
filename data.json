@@ -1,66 +1,84 @@
 {
-    "last_updated": "2026-09-01T15:18:02.967852+07:00",
+    "last_updated": "2026-09-02T14:57:22.854120+07:00",
     "summary": {
-        "total_value_thb": 31506.913566154333,
-        "total_profit_thb": 2532.6945707225896,
-        "total_profit_percent": 8.741200482822022
+        "total_value_thb": 31299.891034988133,
+        "total_profit_thb": 2322.74460172623,
+        "total_profit_percent": 8.015781012377495
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.0,
-            "total_value_thb": 15200.0,
-            "profit_thb": 1600.0,
-            "profit_percent": 11.76470588235294
+            "current_price_thb": 151.5,
+            "total_value_thb": 15150.0,
+            "profit_thb": 1550.0,
+            "profit_percent": 11.397058823529411
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4600000381469727,
-            "total_value_thb": 2920.0000762939453,
-            "profit_thb": 100.00007629394531,
-            "profit_percent": 3.5461019962391953
+            "current_price_thb": 1.4299999475479126,
+            "total_value_thb": 2859.999895095825,
+            "profit_thb": 39.999895095825195,
+            "profit_percent": 1.418435996305858
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.100000381469727,
-            "total_value_thb": 644.0000152587891,
-            "profit_thb": 34.80001525878902,
-            "profit_percent": 5.712412222388216
+            "current_price_thb": 16.0,
+            "total_value_thb": 640.0,
+            "profit_thb": 30.799999999999955,
+            "profit_percent": 5.055810899540373
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.911485164991868,
-            "total_value_thb": 10582.718495787463,
-            "profit_thb": 582.7189448274639,
-            "profit_percent": 5.827189709938766
+            "current_price_thb": 11.845987130401884,
+            "total_value_thb": 10524.52698964931,
+            "profit_thb": 524.5274386893107,
+            "profit_percent": 5.245274622426919
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4453.89990234375,
-            "cost_per_unit_thb": 133220.5098953247,
-            "current_price_thb": 147958.5601927489,
-            "total_value_thb": 2160.194978814134,
-            "profit_thb": 215.17553434239335,
-            "profit_percent": 11.062898880213206
+            "current_price_usd": 4375.5,
+            "cost_per_unit_thb": 133421.01933574677,
+            "current_price_thb": 145572.88700294495,
+            "total_value_thb": 2125.3641502429964,
+            "profit_thb": 177.41726794109354,
+            "profit_percent": 9.107910978118577
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 57.17929921s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+        "market_analysis": "Error: 504 Deadline Exceeded",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "SCC-PTTGC-IVL เมื่ออยู่สูงสุดในรอบปี ตัวไหนดี...ตัวไหนเด่น?",
+            "url": "https://www.thansettakij.com/columnist/speak-every-district/667975",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-09-02T07:37:00+00:00"
+        },
+        {
+            "title": "เปิดลิสต์ '10 หุ้นไทย' ต่างชาติเข้าซื้อสูงสุด ตั้งแต่ต้นปี 2569",
+            "url": "https://www.thebangkokinsight.com/news/stock-finance/stock/1691739/",
+            "source": "The Bangkok Insight",
+            "date": "2026-09-02T07:05:00+00:00"
+        },
+        {
+            "title": "'ทิสโก้' ชี้หุ้นไทย ก.ย.ผันผวน จับตาปัจจัยเสี่ยงใน-ต่างประเทศ ...",
+            "url": "https://www.naewna.com/n/business-world/38981/",
+            "source": "แนวหน้า",
+            "date": "2026-09-01T23:36:00+00:00"
+        },
         {
             "title": "หุ้นพลังงานเดือด! IVL-BCP พุ่งนำ 3.48% รับน้ำมันเบรนท์ทะลุ 90 ดอลลาร์ จับตาสหรัฐฯ-อิหร่านปะทุ",
             "url": "https://www.msn.com/th-th/news/other/หุ้นพลังงานเดือด-ivl-bcp-พุ่งนำ-348-รับน้ำมันเบรนท์ทะลุ-90-ดอลลาร์-จับตาสหรัฐฯ-อิหร่านปะทุ/ar-AA2bjo3j",
@@ -162,24 +180,6 @@
             "url": "https://www.khaosod.co.th/economics/news_10373654",
             "source": "ข่าวสด",
             "date": "2026-08-25T06:45:00+00:00"
-        },
-        {
-            "title": "หุ้นโลกพักฐาน รับยีลด์-น้ำมันพุ่ง แนะทยอยสะสมเทคฯ-ทองคำ",
-            "url": "https://www.thaipbs.or.th/news/content/509857",
-            "source": "Thai PBS",
-            "date": "2026-08-25T04:39:00+00:00"
-        },
-        {
-            "title": "แฟ้ม 10 คดี \"มหากิจศิริ-เนสท์เล่\" สมรภูมิศาลไทย กับบรรทัดฐานที่รออยู่",
-            "url": "https://www.msn.com/th-th/news/other/แฟ้ม-10-คดี-มหากิจศิริ-เนสท์เล่-สมรภูมิศาลไทย-กับบรรทัดฐานที่รออยู่/ar-AA2aRkQl",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-08-25T03:46:00+00:00"
-        },
-        {
-            "title": "'หุ้นแบงก์' วิ่งคึก ดักซื้อรับปันผล | SET Afternoon | 25-8-69",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1248971",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-25T01:00:00+00:00"
         }
     ]
 }
