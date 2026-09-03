@@ -1,66 +1,118 @@
 {
-    "last_updated": "2026-09-02T19:32:46.712785+07:00",
+    "last_updated": "2026-09-03T14:47:58.887788+07:00",
     "summary": {
-        "total_value_thb": 31304.471660625826,
-        "total_profit_thb": 2330.838286769631,
-        "total_profit_percent": 8.044687584377382
+        "total_value_thb": 31391.933249878384,
+        "total_profit_thb": 2431.180647144738,
+        "total_profit_percent": 8.394742638405244
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.5,
-            "total_value_thb": 15150.0,
-            "profit_thb": 1550.0,
-            "profit_percent": 11.397058823529411
+            "current_price_thb": 152.0,
+            "total_value_thb": 15200.0,
+            "profit_thb": 1600.0,
+            "profit_percent": 11.76470588235294
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.440000057220459,
-            "total_value_thb": 2880.000114440918,
-            "profit_thb": 60.00011444091797,
-            "profit_percent": 2.127663632656666
+            "current_price_thb": 1.4500000476837158,
+            "total_value_thb": 2900.0000953674316,
+            "profit_thb": 80.00009536743164,
+            "profit_percent": 2.8368828144479306
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.100000381469727,
-            "total_value_thb": 644.0000152587891,
-            "profit_thb": 34.80001525878902,
-            "profit_percent": 5.712412222388216
+            "current_price_thb": 16.399999618530273,
+            "total_value_thb": 655.9999847412109,
+            "profit_thb": 46.79998474121089,
+            "profit_percent": 7.682203667303167
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.824623274494694,
-            "total_value_thb": 10505.546344505678,
-            "profit_thb": 505.54679354567816,
-            "profit_percent": 5.055468162467524
+            "current_price_thb": 11.799394915578404,
+            "total_value_thb": 10483.13229480292,
+            "profit_thb": 483.1327438429198,
+            "profit_percent": 4.831327655375135
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4382.5,
-            "cost_per_unit_thb": 133180.39882850647,
-            "current_price_thb": 145542.82098770142,
-            "total_value_thb": 2124.9251864204407,
-            "profit_thb": 180.49136352424625,
-            "profit_percent": 9.28246368680257
+            "current_price_usd": 4469.60009765625,
+            "cost_per_unit_thb": 132298.15423107147,
+            "current_price_thb": 147452.11472375505,
+            "total_value_thb": 2152.800874966824,
+            "profit_thb": 221.24782319318024,
+            "profit_percent": 11.454400540022444
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 13.443763599s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.7-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 13\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> หุ้นกลุ่มพลังงานและโรงกลั่น (PTTEP, IVL, BCP) ได้รับแรงหนุนจากราคาน้ำมันดิบเบรนท์ที่พุ่งทะลุ 90 ดอลลาร์ ขณะที่หุ้นกลุ่มค้าปลีก (BJC, CPALL) ฟื้นตัวเด่นรับกำลังซื้อและการบริโภคในประเทศ รวมถึงกระแสการลงทุน Data Center ในไทยช่วยหนุนความเชื่อมั่นระยะยาว</li><li><b>ปัจจัยลบ/ความเสี่ยง:</b> ความตึงเครียดทางภูมิรัฐศาสตร์ระหว่างสหรัฐฯ-อิหร่านที่อาจยืดเยื้อ ส่งผลให้ตลาดหุ้นทั่วโลกและ SET มีความผันผวนสูงจากความกังวลด้านต้นทุนพลังงานและเงินเฟ้อ</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความเสี่ยงสงครามและความตึงเครียดในตะวันออกกลางหนุนแรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัย (Safe Haven) อย่างต่อเนื่อง</li><li><b>ปัจจัยลบ/ความเสี่ยง:</b> ราคาน้ำมันที่พุ่งสูงขึ้นอาจกดดันให้อัตราเงินเฟ้อสหรัฐฯ ชะลอตัวลงช้ากว่าคาด ซึ่งอาจส่งผลให้ธนาคารกลางสหรัฐฯ คงอัตราดอกเบี้ยในระดับสูงนานขึ้นและจำกัด Upside ของทองคำ</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 11.76% อยู่ในระดับที่ดี แนะนำถือต่อเพื่อรับเงินปันผลและอานิสงส์จากเงินทุนต่างชาติรวมถึงการเติบโตของธุรกิจ Wealth"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "ราคาขยับขึ้นเล็กน้อย (+2.84%) แนะนำถือต่อเพื่อรอรอบรับอัตราผลตอบแทนเงินปันผลระดับสูง แม้ตลาดยังคงรอความชัดเจนของกำลังซื้ออสังหาฯ"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "กำไรเติบโตต่อเนื่องที่ 7.68% สอดรับกับสัญญาณฟื้นตัวของการบริโภคและสินค้าอุปโภคบริโภคในประเทศ จึงแนะนำถือเกาะรอบแนวโน้มขาขึ้น"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "พอร์ตสหรัฐฯ มีกำไร 4.83% แนะนำถือกระจายความเสี่ยงระดับโลกตามทิศทางอุตสาหกรรมเทคโนโลยี แม้ในระยะสั้นจะมีความผันผวนจากปัจจัยมหภาค"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "ทำกำไรได้เด่นถึง 11.45% แนะนำถือต่อเป็นเกราะป้องกันความเสี่ยงจากสถานการณ์ความตึงเครียดสหรัฐฯ-อิหร่านที่กำลังปะทุ"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "PTTEP",
+                "name": "บมจ.ปตท. สำรวจและผลิตปิโตรเลียม (กลุ่มพลังงาน)",
+                "reason": "ได้ประโยชน์โดยตรงจากราคาน้ำมันดิบเบรนท์ที่ปรับตัวทะลุ 90 ดอลลาร์จากความตึงเครียดระหว่างสหรัฐฯ และอิหร่าน",
+                "tag": "Commodity"
+            },
+            {
+                "symbol": "CPALL",
+                "name": "บมจ.ซีพี ออลล์ (กลุ่มพาณิชย์/ค้าปลีก)",
+                "reason": "รับอานิสงส์การฟื้นตัวของการบริโภคภายในประเทศและภาคท่องเที่ยว พร้อมลุ้นอัตราการจ่ายเงินปันผลที่เพิ่มขึ้น",
+                "tag": "Value & Dividend"
+            }
+        ]
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "มองมุมต่าง: ตลาดหุ้นไทยในวันที่ธุรกิจ Wealth เติบโตจากการพาเงิน ...",
+            "url": "https://www.ryt9.com/s/iq/12841664",
+            "source": "RYT9",
+            "date": "2026-09-03T07:47:00+00:00"
+        },
+        {
+            "title": "คุมเข้ม Data Center กระทบจำกัด! โบรกเสิร์ฟ 6 หุ้นอานิสงส์เด่นน่าสะสม",
+            "url": "https://www.posttoday.com/business/stockholder/748061",
+            "source": "โพสต์ทูเดย์",
+            "date": "2026-09-03T07:47:00+00:00"
+        },
+        {
+            "title": "หุ้นค้าปลีกกอดคอบวก BJC นำกลุ่ม 7.84% รับการบริโภคฟื้น โบรกชู CPALL ลุ้นปันผลเพิ่ม",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นค้าปลีกกอดคอบวก-bjc-นำกลุ่ม-784-รับการบริโภคฟื้น-โบรกชู-cpall-ลุ้นปันผลเพิ่ม/ar-AA2bsum9",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-09-03T07:47:00+00:00"
+        },
         {
             "title": "SCC-PTTGC-IVL เมื่ออยู่สูงสุดในรอบปี ตัวไหนดี...ตัวไหนเด่น?",
             "url": "https://www.thansettakij.com/columnist/speak-every-district/667975",
@@ -162,24 +214,6 @@
             "url": "https://www.thairath.co.th/money/investment/stocks/2955394",
             "source": "ไทยรัฐ",
             "date": "2026-08-26T01:20:00+00:00"
-        },
-        {
-            "title": "'บอนด์ยีลด์ร่วง' วางใจได้หรือยัง? Thailand Focus ปลุกหุ้นไทย | SET Afternoon | 26-8-69",
-            "url": "https://www.bangkokbiznews.com/corporate-moves/finance/stock/1249111",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-08-26T01:00:00+00:00"
-        },
-        {
-            "title": "SET ฟื้นตัว หลังราคาน้ำมันร่วง-แรงหนุนงาน Thailand Focus 2026",
-            "url": "https://www.posttoday.com/business/stockholder/747581",
-            "source": "โพสต์ทูเดย์",
-            "date": "2026-08-25T23:59:00+00:00"
-        },
-        {
-            "title": "'ราช กรุ๊ป' ทุ่ม 1 หมื่นล้าน รุกไฟฟ้าไทย-อินโดฯ ดัน EBITDA 1.5 หมื่นล้าน",
-            "url": "https://www.thansettakij.com/social-biz/667308",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-08-25T08:38:00+00:00"
         }
     ]
 }
