@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-09-07T14:56:46.012335+07:00",
+    "last_updated": "2026-09-07T20:58:37.293562+07:00",
     "summary": {
-        "total_value_thb": 31481.19599000141,
-        "total_profit_thb": 2529.2259241074426,
-        "total_profit_percent": 8.735937203413055
+        "total_value_thb": 31438.90091412919,
+        "total_profit_thb": 2485.759828433318,
+        "total_profit_percent": 8.585458210133176
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.5,
-            "total_value_thb": 15250.0,
-            "profit_thb": 1650.0,
-            "profit_percent": 12.132352941176471
+            "current_price_thb": 152.0,
+            "total_value_thb": 15200.0,
+            "profit_thb": 1600.0,
+            "profit_percent": 11.76470588235294
         },
         {
             "symbol": "SIRI",
@@ -37,175 +37,47 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.823813963058573,
-            "total_value_thb": 10504.827314511915,
-            "profit_thb": 504.82776355191527,
-            "profit_percent": 5.048277862207022
+            "current_price_thb": 11.831014988962192,
+            "total_value_thb": 10511.225041492497,
+            "profit_thb": 511.22549053249713,
+            "profit_percent": 5.112255134885676
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
             "current_price_usd": 4476.60009765625,
-            "cost_per_unit_thb": 131696.6106119156,
-            "current_price_thb": 147011.54789010622,
-            "total_value_thb": 2146.368599195551,
-            "profit_thb": 223.59808426158315,
-            "profit_percent": 11.62895324870644
+            "cost_per_unit_thb": 131776.81744766235,
+            "current_price_thb": 147101.08194128424,
+            "total_value_thb": 2147.67579634275,
+            "profit_thb": 223.7342616068795,
+            "profit_percent": 11.628953248706438
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> FETCO มองดัชนีหุ้นไทยเข้าสู่รอบขาขึ้น มีโอกาสทดสอบ 1,700 จุด จากเม็ดเงินต่างชาติที่คาดว่าจะไหลเข้าสุทธิแตะ 1 แสนล้านบาท ประกอบกับนโยบายภาครัฐเร่งดึงดูดการลงทุนเพื่อผลักดัน GDP โต 5% และ ตลท. ผ่อนคลายเกณฑ์ดึงดูดหุ้น New Economy หนุนกระแสเงินทุนระยะยาว</li><li><b>ปัจจัยจับตา:</b> ตลาดโลกยังรอติดตามตัวเลขการจ้างงานนอกภาคเกษตร (NFP) และเงินเฟ้อสหรัฐฯ ซึ่งอาจส่งผลต่อการแกว่งตัวของ S&P 500 และกระแส Fund Flow ทั่วโลก</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยหนุน/ชะลอตัว:</b> ทองคำยังคงอยู่ในทิศทางบวกจากบทบาทสินทรัพย์ปลอดภัยและการกระจายความเสี่ยง อย่างไรก็ดี การรอตัวเลขเศรษฐกิจสหรัฐฯ อาจส่งผลต่อค่าเงินดอลลาร์และบอนด์ยีลด์ ทำให้ราคาทองคำอาจมีการพักฐานระยะสั้นในกรอบบน</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรสะสมสูงถึง 12.13% และได้รับแรงหนุนจากกระแส Fund Flow ต่างชาติที่ไหลเข้าหุ้นกลุ่มธนาคารขนาดใหญ่ จึงควรถือเพื่อรับเงินปันผลและอัปไซด์ต่อ"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ราคาขยับบวก 3.55% ยังคงถือรอรับประโยชน์จากมาตรการกระตุ้นเศรษฐกิจและการลงทุนใหม่ของภาครัฐ"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "บวก 8.34% ฟื้นตัวตามการบริโภคในประเทศและแนวโน้มการเติบโตของเศรษฐกิจที่ฟื้นตัวต่อเนื่อง"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "กำไร 5.05% ถือเพื่อกระจายความเสี่ยงระดับโลกและรอประเมินตัวเลขเงินเฟ้อและการจ้างงานสหรัฐฯ"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "กำไร 11.63% ถือต่อเป็นสินทรัพย์ปลอดภัยและเป็นเกราะป้องกันความผันผวนของค่าเงินและตลาดโลก"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "BDMS",
-                "name": "บมจ.กรุงเทพดุสิตเวชการ (กลุ่มการแพทย์)",
-                "reason": "โบรกเกอร์ชูเป็นหุ้นเด่นประจำวัน ได้อานิสงส์จากกระแสเงินทุนต่างชาติไหลเข้าและเป็นหุ้นปลอดภัยที่กำไรเติบโตสม่ำเสมอ",
-                "tag": "Value"
-            },
-            {
-                "symbol": "TU",
-                "name": "บมจ.ไทยยูเนี่ยน กรุ๊ป (กลุ่มอาหารและส่งออก)",
-                "reason": "ติดโผหุ้นเด่นวันนี้จากแนวโน้มผลการดำเนินงานฟื้นตัวและการเติบโตของยอดขายกลุ่มอาหารสัตว์เลี้ยงและอาหารทะเลแปรรูป",
-                "tag": "Value"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 29.234659676s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 29\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำชิปประมวลผล AI และโครงสร้างพื้นฐาน Data Center ระดับโลกที่ยังคงเติบโตสูงต่อเนื่อง",
-            "category": "Technology"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำระบบคลาวด์และซอฟต์แวร์ AI สำหรับองค์กร พร้อมกระแสเงินสดและงบการเงินที่แข็งแกร่ง",
-            "category": "Technology"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลก ผูกขาดการผลิตชิป AI และสมาร์ตโฟนชั้นนำ",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับแรงหนุนจากกระแสเงินทุนสถาบันผ่าน Spot ETF และบทบาท Digital Gold",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "แพลตฟอร์ม Smart Contract ชั้นนำ เป็นแกนหลักของระบบนิเวศ DeFi และการแปลงสินทรัพย์เป็นโทเคน (RWA)",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเครื่องพิมพ์ชิประบบ EUV รายเดียวในโลก หัวใจสำคัญของห่วงโซ่อุปทานเซมิคอนดักเตอร์",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การเติบโตอย่างมั่นคงของ AWS และธุรกิจโฆษณา พร้อมการนำ AI เข้ามาเสริมประสิทธิภาพอีคอมเมิร์ซ",
-            "category": "Technology"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำนวัตกรรมยารักษาโรคอ้วนและเบาหวาน (GLP-1) ที่มีความต้องการในตลาดโลกมหาศาล",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE",
-            "reason": "บริษัทยาชั้นนำของยุโรป ครองส่วนแบ่งการตลาดยาลดน้ำหนักและโรคเรื้อรังระดับโลก",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "0700.HK",
-            "name": "Tencent Holdings Limited",
-            "exchange": "HKEX",
-            "reason": "ยักษ์ใหญ่เทคโนโลยีจีนที่เริ่มฟื้นตัวจากนโยบายรัฐ พร้อมแรงขับเคลื่อนจากเกมและบริการคลาวด์",
-            "category": "Technology"
-        },
-        {
-            "symbol": "DELTA",
-            "name": "Delta Electronics (Thailand) PCL",
-            "exchange": "SET",
-            "reason": "ได้รับอานิสงส์โดยตรงจากการลงทุน Data Center ทั่วโลกและระบบชาร์จพลังงานยานยนต์ไฟฟ้า",
-            "category": "Electronics"
-        },
-        {
-            "symbol": "BDMS",
-            "name": "Bangkok Dusit Medical Services PCL",
-            "exchange": "SET",
-            "reason": "เครือข่ายโรงพยาบาลเอกชนชั้นนำในเอเชีย ได้รับประโยชน์จากการท่องเที่ยวเชิงการแพทย์และสังคมสูงวัย",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "PTT",
-            "name": "PTT Public Company Limited",
-            "exchange": "SET",
-            "reason": "ผู้นำด้านพลังงานที่มีกลยุทธ์โครงสร้างพื้นฐานก๊าซธรรมชาติและเทคโนโลยี CCS รองรับเป้าหมาย Net Zero",
-            "category": "Energy"
-        },
-        {
-            "symbol": "AVGO",
-            "name": "Broadcom Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ชิปเครือข่ายแบบ Custom AI ASIC เติบโตอย่างมีนัยสำคัญตามความต้องการของศูนย์ข้อมูลขนาดใหญ่",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "SOL",
-            "name": "Solana",
-            "exchange": "Crypto",
-            "reason": "บล็อกเชน Layer 1 ความเร็วสูง ค่าธรรมเนียมต่ำ ที่มีกิจกรรมการทำธุรกรรมและแอปพลิเคชันเติบโตรวดเร็ว",
-            "category": "Cryptocurrency"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "รัฐบาลโต้ \"สนธิ\" ลดใบอนุญาตซ้ำซ้อน ไม่ใช่ \"ยกอธิปไตยทางเศรษฐกิจให้ต่างด้าว\"",
+            "url": "https://www.msn.com/th-th/news/other/รัฐบาลโต้-สนธิ-ลดใบอนุญาตซ้ำซ้อน-ไม่ใช่-ยกอธิปไตยทางเศรษฐกิจให้ต่างด้าว/ar-AA2bIOHs",
+            "source": "PPTVHD36",
+            "date": "2026-09-07T08:22:00+00:00"
+        },
         {
             "title": "FETCO ชี้หุ้นไทยขาขึ้น ลุ้น 1,700 จุด ต่างชาติจ่อซื้อสุทธิแตะ 1 แสนล้าน",
             "url": "https://www.prachachat.net/finance/news-2063034",
             "source": "ประชาชาติธุรกิจ",
             "date": "2026-09-07T07:19:00+00:00"
+        },
+        {
+            "title": "พาณิชย์โต้เฟคนิวส์ ปัดปล่อยผี 7 ธุรกิจบริการต่างด้าวลงทุน ย้ำ ...",
+            "url": "https://www.dailynews.co.th/news/6170352/",
+            "source": "เดลินิวส์",
+            "date": "2026-09-07T02:16:00+00:00"
         },
         {
             "title": "รองโฆษกรัฐบาลโต้ สนธิ ลดใบอนุญาตซ้ำซ้อน ไม่ใช่ ยกอธิปไตยทาง ...",
@@ -308,18 +180,6 @@
             "url": "https://www.msn.com/th-th/news/other/หุ้นพลังงานเดือด-ivl-bcp-พุ่งนำ-348-รับน้ำมันเบรนท์ทะลุ-90-ดอลลาร์-จับตาสหรัฐฯ-อิหร่านปะทุ/ar-AA2bjo3j",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-09-01T08:16:00+00:00"
-        },
-        {
-            "title": "FVC คว้า AGM Checklist 2569 \"ดีเยี่ยม\" ตอกย้ำธรรมาภิบาล เสริมฐานธุรกิจแกร่ง",
-            "url": "https://www.ryt9.com/s/prg/12841037",
-            "source": "RYT9",
-            "date": "2026-08-31T21:55:00+00:00"
-        },
-        {
-            "title": "บลจ.กสิกรไทย ส่ง K-GNEXTRMF ต่อยอดเงินเกษียณจากธุรกิจแห่งอนาคต",
-            "url": "https://www.ryt9.com/s/prg/12841007",
-            "source": "RYT9",
-            "date": "2026-08-31T21:23:00+00:00"
         }
     ]
 }
