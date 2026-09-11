@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-09-11T14:49:45.746719+07:00",
+    "last_updated": "2026-09-11T19:37:23.347458+07:00",
     "summary": {
-        "total_value_thb": 30937.22401249176,
-        "total_profit_thb": 1972.958573701595,
-        "total_profit_percent": 6.811698980839079
+        "total_value_thb": 30922.173220447592,
+        "total_profit_thb": 1959.0788014593309,
+        "total_profit_percent": 6.764052117908213
     },
     "assets": [
         {
@@ -37,169 +37,29 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.708920687291291,
-            "total_value_thb": 10402.75077429361,
-            "profit_thb": 402.75122333361105,
-            "profit_percent": 4.0275124141875285
+            "current_price_thb": 11.701834945110646,
+            "total_value_thb": 10396.455470744739,
+            "profit_thb": 396.4559197847393,
+            "profit_percent": 3.9645593758719677
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4386.2001953125,
-            "cost_per_unit_thb": 132538.75944042206,
-            "current_price_thb": 144963.91310867295,
-            "total_value_thb": 2116.473131386625,
-            "profit_thb": 181.40724355646307,
-            "profit_percent": 9.374732131724961
+            "current_price_usd": 4370.7001953125,
+            "cost_per_unit_thb": 132458.5526046753,
+            "current_price_thb": 144364.2221158445,
+            "total_value_thb": 2107.7176428913294,
+            "profit_thb": 173.8227748630702,
+            "profit_percent": 8.988222562496102
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> ตลาดหลักทรัพย์ฯ ปลดล็อกเกณฑ์ IPO ดึง 10 อุตสาหกรรมใหม่และ FDI หนุนความเชื่อมั่นระยะยาว อีกทั้ง บลจ. เริ่มแนะกระจายความเสี่ยงจากหุ้นเทคสหรัฐฯ ที่กระจุกตัวเข้ามายังตลาดหุ้นไทยที่มี Valuation จูงใจ</li><li><b>ปัจจัยลบ/ความไม่แน่นอน:</b> ความกังวลฉากทัศน์การชุมนุมทางการเมืองในประเทศ และความผันผวนของกลุ่มพลังงานจากกรณีเวเนซุเอลาจ่อถอนตัวจาก OPEC รวมถึงความชัดเจนของดีลพันธมิตรโรงกลั่น PTT</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยหนุน:</b> ได้รับแรงหนุนในฐานะสินทรัพย์ปลอดภัยจากความเสี่ยงทางภูมิรัฐศาสตร์ตลาดน้ำมัน และความไม่แน่นอนของการเมืองไทย</li><li><b>ปัจจัยกดดัน:</b> แรงขายทำกำไรทางเทคนิคหลังราคาทรงตัวในระดับสูง และความผันผวนของค่าเงินบาทที่อาจกระทบต่อผลตอบแทนเมื่อแปลงเป็นสกุลเงินบาท</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรปัจจุบัน 9.19% ฐานะการเงินแข็งแกร่งและปันผลสูง เหมาะถือต่อเพื่อรับเงินปันผลท่ามกลางความผันผวนของตลาด"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "กำไร 3.55% สัดส่วนปันผลเด่น ควรถือรอการฟื้นตัวของกำลังซื้อในประเทศและมาตรการกระตุ้นเศรษฐกิจเพิ่มเติม"
-            },
-            "OSP": {
-                "action": "BUY",
-                "reason": "กำไร 6.37% มีสัดส่วนในพอร์ตน้อยมากเพียง 648 บาท เหมาะสะสมเพิ่มรับอานิสงส์การฟื้นตัวของการบริโภคและท่องเที่ยว"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "กำไร 4.03% แม้เริ่มมีความเสี่ยงความกระจุกตัวในหุ้นเทคสหรัฐฯ ตามบทวิเคราะห์ แต่ยังเป็นสัดส่วนกระจายความเสี่ยงหลักของพอร์ต"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "กำไร 9.37% ทำหน้าที่เป็นเกราะป้องกันความเสี่ยงภูมิรัฐศาสตร์และความผันผวนของตลาดหุ้นได้เป็นอย่างดี"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "PTT",
-                "name": "บริษัท ปตท. จำกัด (มหาชน)",
-                "reason": "มีปัจจัยบวกจากการเจรจาพันธมิตรต่างชาติร่วมทุนโรงกลั่น และเป็นเป้าหมายหลักในการรองรับเม็ดเงินหมุนเวียนจากกลุ่มพลังงานโลก",
-                "tag": "Value"
-            },
-            {
-                "symbol": "SJWD",
-                "name": "บริษัท เอสซีเจดับเบิ้ลยูดี โลจิสติกส์ จำกัด (มหาชน)",
-                "reason": "เตรียมออกหุ้นกู้ขยายธุรกิจ รองรับการเติบโตของนิคมฯ และกระแส FDI ที่จะเข้ามาตามการปลดล็อกอุตสาหกรรมใหม่ของ ตลท.",
-                "tag": "Growth"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 36.759473019s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 36\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำผูกขาดชิปประมวลผล AI และ Data Center ที่เติบโตตามความต้องการประมวลผลทั่วโลก",
-            "category": "Technology"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำระบบคลาวด์ Azure และการบูรณาการ Generative AI เข้าสู่ซอฟต์แวร์ระดับองค์กร",
-            "category": "Technology"
-        },
-        {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "กระแสเงินสดแข็งแกร่ง ฐานผู้ใช้งานเหนียวแน่น และการเปิดตัว Apple Intelligence",
-            "category": "Technology"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การเติบโตของ AWS และการฟื้นตัวของอัตรากำไรจากธุรกิจอีคอมเมิร์ซและโฆษณา",
-            "category": "Consumer Discretionary"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้รับจ้างผลิตชิปขั้นสูงเบอร์ 1 ของโลก เป็นกระดูกสันหลังของอุตสาหกรรมเทคโนโลยี",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเทคโนโลยีเครื่องผลิตชิป EUV ระดับสูงทั่วโลก มีคูเมืองทางธุรกิจสูงมาก",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยารักษาโรคเบาหวานและยาลดน้ำหนัก (GLP-1) ที่มีอุปสงค์ทั่วโลกเติบโตมหาศาล",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "0700.HK",
-            "name": "Tencent Holdings Limited",
-            "exchange": "HKEX",
-            "reason": "ผู้นำแพลตฟอร์มดิจิทัลและเกมระดับโลก Valuation ยังอยู่ในโซนน่าดึงดูดเมื่อเทียบกับบิ๊กเทคสหรัฐฯ",
-            "category": "Communication Services"
-        },
-        {
-            "symbol": "BRK.B",
-            "name": "Berkshire Hathaway Inc.",
-            "exchange": "NYSE",
-            "reason": "สินทรัพย์ปลอดภัยชั้นเลิศ ถือครองเงินสดมหาศาล พร้อมเข้าซื้อกิจการช่วงตลาดผันผวน",
-            "category": "Financials"
-        },
-        {
-            "symbol": "XOM",
-            "name": "Exxon Mobil Corporation",
-            "exchange": "NYSE",
-            "reason": "กระจายความเสี่ยงจากความไม่แน่นอนของอุปทานน้ำมันโลกและนโยบาย OPEC ปันผลสม่ำเสมอ",
-            "category": "Energy"
-        },
-        {
-            "symbol": "PTT.BK",
-            "name": "PTT Public Company Limited",
-            "exchange": "SET",
-            "reason": "หุ้นพลังงานหลักของไทย คาดหวังการปลดล็อกมูลค่าจากการเจรจาพันธมิตรโรงกลั่นและปันผลสูง",
-            "category": "Energy"
-        },
-        {
-            "symbol": "MC.PA",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "ผู้นำสินค้าแบรนด์หรูระดับโลก มี Pricing Power สูง รองรับการฟื้นตัวของการบริโภคระดับบน",
-            "category": "Consumer Discretionary"
-        },
-        {
-            "symbol": "JNJ",
-            "name": "Johnson & Johnson",
-            "exchange": "NYSE",
-            "reason": "หุ้นปลอดภัยเชิงรับ (Defensive) ที่กระแสเงินสดมั่นคง ทนทานต่อแรงกระแทกทางเศรษฐกิจ",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "ทองคำดิจิทัล สินทรัพย์ทางเลือกป้องกันความเสี่ยงเงินเฟ้อและได้รับการยอมรับผ่าน Spot ETF ทั่วโลก",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "โครงสร้างพื้นฐานหลักของระบบการเงินไร้ศูนย์กลาง (DeFi) และ Web3 มี Spot ETF หนุนเม็ดเงินสถาบัน",
-            "category": "Cryptocurrency"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
         {
             "title": "EVEANDBOY จ่อเข้าตลาดหุ้นฯ ยื่น IPO หลังรายได้ทะลุ 5 พันล้าน",
