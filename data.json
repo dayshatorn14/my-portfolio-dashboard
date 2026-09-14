@@ -1,66 +1,118 @@
 {
-    "last_updated": "2026-09-11T19:37:23.347458+07:00",
+    "last_updated": "2026-09-14T15:36:40.949586+07:00",
     "summary": {
-        "total_value_thb": 30922.173220447592,
-        "total_profit_thb": 1959.0788014593309,
-        "total_profit_percent": 6.764052117908213
+        "total_value_thb": 31249.064416327685,
+        "total_profit_thb": 2274.2600226695868,
+        "total_profit_percent": 7.849095344254916
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 148.5,
-            "total_value_thb": 14850.0,
-            "profit_thb": 1250.0,
-            "profit_percent": 9.191176470588236
+            "current_price_thb": 150.5,
+            "total_value_thb": 15050.0,
+            "profit_thb": 1450.0,
+            "profit_percent": 10.661764705882353
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4600000381469727,
-            "total_value_thb": 2920.0000762939453,
-            "profit_thb": 100.00007629394531,
-            "profit_percent": 3.5461019962391953
+            "current_price_thb": 1.4500000476837158,
+            "total_value_thb": 2900.0000953674316,
+            "profit_thb": 80.00009536743164,
+            "profit_percent": 2.8368828144479306
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.200000762939453,
-            "total_value_thb": 648.0000305175781,
-            "profit_thb": 38.80003051757808,
-            "profit_percent": 6.369013545236061
+            "current_price_thb": 16.0,
+            "total_value_thb": 640.0,
+            "profit_thb": 30.799999999999955,
+            "profit_percent": 5.055810899540373
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.701834945110646,
-            "total_value_thb": 10396.455470744739,
-            "profit_thb": 396.4559197847393,
-            "profit_percent": 3.9645593758719677
+            "current_price_thb": 11.871474972218786,
+            "total_value_thb": 10547.171576052875,
+            "profit_thb": 547.1720250928756,
+            "profit_percent": 5.471720496630894
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4370.7001953125,
-            "cost_per_unit_thb": 132458.5526046753,
-            "current_price_thb": 144364.2221158445,
-            "total_value_thb": 2107.7176428913294,
-            "profit_thb": 173.8227748630702,
-            "profit_percent": 8.988222562496102
+            "current_price_usd": 4353.0,
+            "cost_per_unit_thb": 133260.60566425323,
+            "current_price_thb": 144650.18800735474,
+            "total_value_thb": 2111.892744907379,
+            "profit_thb": 166.2879022092818,
+            "profit_percent": 8.546848700205716
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 36.759473019s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 36\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงกดดันจากทิศทางดอกเบี้ยและเงินเฟ้อ:</b> ตลาดหุ้นเผชิญความผันผวนจากความกังวลว่าเฟดอาจตรึงหรือขึ้นอัตราดอกเบี้ย ประกอบกับราคาน้ำมันที่ปรับตัวขึ้นเป็นแรงกดดันเงินเฟ้อรอบใหม่</li><li><b>ความเสี่ยงการกระจุกตัวในหุ้นเทคฯ สหรัฐฯ:</b> มีคำเตือนเรื่อง Valuation ที่ตึงตัวในกลุ่มเทคฯ ทำให้เริ่มมีกระแสเงินทุนพิจารณากระจายความเสี่ยงกลับเข้าสู่ตลาดเกิดใหม่และหุ้น Value/ปันผลสูง</li><li><b>ปัจจัยบวกเฉพาะกลุ่มในไทย:</b> มีแรงหนุนจากหุ้นกลุ่มพลังงานตามราคาน้ำมัน และนโยบายกระตุ้นการท่องเที่ยวรวมถึงการส่งเสริมอุตสาหกรรมเป้าหมายเข้าจดทะเบียนในตลาดหลักทรัพย์</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>บทบาทสินทรัพย์ป้องกันเงินเฟ้อ (Hedge Against Inflation):</b> ราคาน้ำมันดิบที่พุ่งขึ้นและความไม่แน่นอนของภูมิรัฐศาสตร์ (เช่น ประเด็นโอเปก) เป็นแรงหนุนสำคัญให้ทองคำทรงตัวระดับสูง</li><li><b>ความเสี่ยงเศรษฐกิจชะลอตัวและแรงหนุน Safe-Haven:</b> แม้ดอกเบี้ยเฟดที่อาจทรงตัวระดับสูงจะเป็นแรงต้าน แต่แรงซื้อในฐานะสินทรัพย์ปลอดภัยยามตลาดหุ้นผันผวนยังคงช่วยพยุงราคา</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 10.66% และได้ประโยชน์จากแนวโน้มดอกเบี้ยทรงตัวระดับสูง แนะนำถือเพื่อรับเงินปันผลต่อเนื่อง"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "กำไร 2.84% กลุ่มอสังหาฯ ยังมีแรงกดดันจากดอกเบี้ย แต่ระดับราคายังปลอดภัยและมีอัตราจ่ายปันผลรองรับ"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "กำไร 5.06% หุ้นกลุ่ม Defensive ป้องกันความเสี่ยงเงินเฟ้อและกำลังซื้อชะลอตัวได้ดีในช่วงตลาดผันผวน"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "กำไร 5.47% แม้มีคำเตือนเรื่องความเสี่ยงกระจุกตัวในเทคฯ สหรัฐฯ แต่โครงสร้างกำไรบริษัทยังแข็งแกร่ง แนะนำถือและติดตามจุดทำกำไร"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "กำไร 8.55% ทองคำยังเป็นเครื่องมือบริหารความเสี่ยงจากเงินเฟ้อและราคาน้ำมันพุ่ง จึงควรถือต่อเพื่อกระจายความเสี่ยงพอร์ต"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "PTT",
+                "name": "บริษัท ปตท. จำกัด (มหาชน)",
+                "reason": "ได้รับอานิสงส์โดยตรงจากราคาน้ำมันดิบตลาดโลกที่พุ่งสูงขึ้น และความคืบหน้าการเจรจาดีลพันธมิตรโรงกลั่นช่วยเสริมเสถียรภาพธุรกิจ",
+                "tag": "Value"
+            },
+            {
+                "symbol": "ICHI",
+                "name": "บริษัท อิชิตัน กรุ๊ป จำกัด (มหาชน)",
+                "reason": "ประกาศ New Growth Engine ร่วมทุนจัดตั้งธุรกิจปุ๋ย สร้างแหล่งรายได้ใหม่ช่วยลดการพึ่งพาเฉพาะตลาดเครื่องดื่ม",
+                "tag": "Growth"
+            }
+        ]
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "สัปดาห์ระทึก! เฟดจ่อขึ้นดอกเบี้ย ผวา AI ยึดโลก | SET Afternoon | 14-9-69",
+            "url": "https://www.msn.com/th-th/news/other/สัปดาห์ระทึก-เฟดจ่อขึ้นดอกเบี้ย-ผวา-ai-ยึดโลก-set-afternoon-14-9-69/ar-AA2cag0C",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-09-14T07:34:00+00:00"
+        },
+        {
+            "title": "\"โกลเบล็ก\" มองหุ้นไทยแกว่งตัวผันผวน เซ่นน้ำมันพุ่ง-เงินเฟ้อ ...",
+            "url": "https://www.ryt9.com/s/prg/12843788",
+            "source": "RYT9",
+            "date": "2026-09-14T00:23:00+00:00"
+        },
+        {
+            "title": "อิชิตัน ปักธง New Growth Engine! ผนึกกลุ่มเอกยงวงศ์ ตั้ง \"ตัน เฟอร์ทิไล ...",
+            "url": "https://www.sanook.com/money/957015/",
+            "source": "Sanook.com",
+            "date": "2026-09-13T13:40:00+00:00"
+        },
         {
             "title": "EVEANDBOY จ่อเข้าตลาดหุ้นฯ ยื่น IPO หลังรายได้ทะลุ 5 พันล้าน",
             "url": "https://www.thansettakij.com/business/marketing/668680",
@@ -162,24 +214,6 @@
             "url": "https://www.msn.com/th-th/news/other/รัฐบาลโต้-สนธิ-ลดใบอนุญาตซ้ำซ้อน-ไม่ใช่-ยกอธิปไตยทางเศรษฐกิจให้ต่างด้าว/ar-AA2bIOHs",
             "source": "PPTVHD36",
             "date": "2026-09-07T08:22:00+00:00"
-        },
-        {
-            "title": "FETCO ชี้หุ้นไทยขาขึ้น ลุ้น 1,700 จุด ต่างชาติจ่อซื้อสุทธิแตะ 1 แสนล้าน",
-            "url": "https://www.prachachat.net/finance/news-2063034",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-09-07T07:19:00+00:00"
-        },
-        {
-            "title": "พาณิชย์โต้เฟคนิวส์ ปัดปล่อยผี 7 ธุรกิจบริการต่างด้าวลงทุน ย้ำ ...",
-            "url": "https://www.dailynews.co.th/news/6170352/",
-            "source": "เดลินิวส์",
-            "date": "2026-09-07T02:16:00+00:00"
-        },
-        {
-            "title": "รองโฆษกรัฐบาลโต้ สนธิ ลดใบอนุญาตซ้ำซ้อน ไม่ใช่ ยกอธิปไตยทาง ...",
-            "url": "https://www.naewna.com/n/politics/47191/",
-            "source": "แนวหน้า",
-            "date": "2026-09-07T00:39:00+00:00"
         }
     ]
 }
