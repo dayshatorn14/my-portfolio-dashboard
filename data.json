@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-09-16T15:17:09.995153+07:00",
+    "last_updated": "2026-09-17T15:28:26.208628+07:00",
     "summary": {
-        "total_value_thb": 31192.272700129855,
-        "total_profit_thb": 2216.2972866698547,
-        "total_profit_percent": 7.648740913965348
+        "total_value_thb": 31235.66163271342,
+        "total_profit_thb": 2253.2457220175493,
+        "total_profit_percent": 7.774526902658918
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.0,
-            "total_value_thb": 15100.0,
-            "profit_thb": 1500.0,
-            "profit_percent": 11.029411764705882
+            "current_price_thb": 151.5,
+            "total_value_thb": 15150.0,
+            "profit_thb": 1550.0,
+            "profit_percent": 11.397058823529411
         },
         {
             "symbol": "SIRI",
@@ -37,30 +37,48 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.738784682730103,
-            "total_value_thb": 10429.283339503638,
-            "profit_thb": 429.28378854363837,
-            "profit_percent": 4.292838078201985
+            "current_price_thb": 11.72718082203542,
+            "total_value_thb": 10418.973928922574,
+            "profit_thb": 418.9743779625751,
+            "profit_percent": 4.1897439677620145
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4365.0,
-            "cost_per_unit_thb": 133340.8125,
-            "current_price_thb": 145136.25,
-            "total_value_thb": 2118.98925,
-            "profit_thb": 172.21338749999995,
-            "profit_percent": 8.846081915092572
+            "current_price_usd": 4358.2001953125,
+            "cost_per_unit_thb": 133781.94244766235,
+            "current_price_thb": 145389.5611756593,
+            "total_value_thb": 2122.687593164626,
+            "profit_thb": 169.47123342875557,
+            "profit_percent": 8.676521296988975
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 16.259773282s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 16\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 33.959240578s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "SET ไซด์เวย์อัพ หลังเฟดคลายกังวล เปิดจังหวะสะสม AOT-BEM-GPSC-ADVANC",
+            "url": "https://www.posttoday.com/business/stockholder/748843",
+            "source": "โพสต์ทูเดย์",
+            "date": "2026-09-17T08:22:00+00:00"
+        },
+        {
+            "title": "BGRIM ชู Data Center เสริมแกร่ง โครงการแรก 96 MW ยอดจองเต็ม",
+            "url": "https://www.msn.com/th-th/news/other/bgrim-ชู-data-center-เสริมแกร่ง-โครงการแรก-96-mw-ยอดจองเต็ม/ar-AA2cpo0Q",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-09-17T07:20:00+00:00"
+        },
+        {
+            "title": "กนอ.ผนึก\"GULF1-GPSC\" ตั้ง\"รีเนอร์จี\" ลุย'โซลาร์ฟาร์ม'มาบตาพุดหนุนไฟฟ้าสีเขียว",
+            "url": "https://www.msn.com/th-th/news/other/กนอผนึก-gulf1-gpsc-ตั้ง-รีเนอร์จี-ลุยโซลาร์ฟาร์มมาบตาพุดหนุนไฟฟ้าสีเขียว/ar-AA2cp8IE",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-09-17T04:10:00+00:00"
+        },
         {
             "title": "หุ้นไทยเช้านี้ร่วง 4.24 จุด นักลงทุนรอจับตาผลประชุมเฟดคืนนี้",
             "url": "https://www.bangkokbiznews.com/finance/stock/1252096",
@@ -162,24 +180,6 @@
             "url": "https://www.msn.com/th-th/news/other/ปลดล็อกตลาดหุ้นไทยดึง-ipo-ลดเงื่อนไข-เปิดช่องพิเศษ-10-อุตฯใหม่/ar-AA2bPClE",
             "source": "ประชาชาติธุรกิจ",
             "date": "2026-09-09T00:02:00+00:00"
-        },
-        {
-            "title": "SME D Bank สถานะสุดแกร่ง 'ฟิทช์ เรทติ้งส์' คงเครดิตสูงสุดในประเทศ 14 ...",
-            "url": "https://www.naewna.com/n/business-world/51588/",
-            "source": "แนวหน้า",
-            "date": "2026-09-08T23:11:00+00:00"
-        },
-        {
-            "title": "ชุมนุมการเมืองกระทบ SET แค่ไหน? เปิด 2 ฉากทัศน์ 'จบไว-ลากยาว' ชี้ทิศ ...",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1251017",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-08T16:59:00+00:00"
-        },
-        {
-            "title": "ตลท. เปิดเกม 3 ประสาน ปลดล็อก IPO ดึง New Economy-FDI ปั้นไทยสู่ Capital Market Hub",
-            "url": "https://www.posttoday.com/business/stockholder/748336",
-            "source": "โพสต์ทูเดย์",
-            "date": "2026-09-08T07:49:00+00:00"
         }
     ]
 }
