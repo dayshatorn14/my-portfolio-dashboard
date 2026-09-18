@@ -1,28 +1,28 @@
 {
-    "last_updated": "2026-09-18T15:02:31.880297+07:00",
+    "last_updated": "2026-09-18T19:58:03.837140+07:00",
     "summary": {
-        "total_value_thb": 31368.057827333854,
-        "total_profit_thb": 2392.0824138738535,
-        "total_profit_percent": 8.255399101293676
+        "total_value_thb": 31516.965351291143,
+        "total_profit_thb": 2534.5494405952704,
+        "total_profit_percent": 8.745128247434689
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.5,
-            "total_value_thb": 15150.0,
-            "profit_thb": 1550.0,
-            "profit_percent": 11.397058823529411
+            "current_price_thb": 152.5,
+            "total_value_thb": 15250.0,
+            "profit_thb": 1650.0,
+            "profit_percent": 12.132352941176471
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4600000381469727,
-            "total_value_thb": 2920.0000762939453,
-            "profit_thb": 100.00007629394531,
-            "profit_percent": 3.5461019962391953
+            "current_price_thb": 1.4700000286102295,
+            "total_value_thb": 2940.000057220459,
+            "profit_thb": 120.00005722045898,
+            "profit_percent": 4.255321178030461
         },
         {
             "symbol": "OSP",
@@ -37,69 +37,47 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.81922140955536,
-            "total_value_thb": 10500.747075966667,
-            "profit_thb": 500.7475250066673,
-            "profit_percent": 5.007475474922352
+            "current_price_thb": 11.858322810124724,
+            "total_value_thb": 10535.486582357757,
+            "profit_thb": 535.4870313977572,
+            "profit_percent": 5.354870554432679
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4435.7001953125,
-            "cost_per_unit_thb": 133340.8125,
-            "current_price_thb": 147487.03149414062,
-            "total_value_thb": 2153.310659814453,
-            "profit_thb": 206.53479731445304,
-            "profit_percent": 10.609069143133217
+            "current_price_usd": 4409.10009765625,
+            "cost_per_unit_thb": 133781.94244766235,
+            "current_price_thb": 147087.58194891363,
+            "total_value_thb": 2147.478696454139,
+            "profit_thb": 194.26233671826867,
+            "profit_percent": 9.945766414967894
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> กระแสการลงทุนโครงสร้างพื้นฐานด้าน AI และ Data Center รวมถึงพลังงานสะอาด (Green Energy) มีโมเมนตัมต่อเนื่อง และมีแรงหนุนเชิงนโยบายจาก BOI ผลักดันบริษัทคุณภาพเข้าสู่ตลาด</li><li><b>ปัจจัยลบ:</b> ความกังวลต่อทิศทางนโยบายการเงินและการประชุมเฟด รวมถึงราคาน้ำมันดิบในตลาดโลกที่ปรับตัวสูงขึ้น สร้างแรงกดดันต่อต้นทุนของผู้ประกอบการและกดดันดัชนี SET ให้แกว่งตัวผันผวน</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความเสี่ยงด้านภูมิรัฐศาสตร์ ความไม่แน่นอนของทิศทางเศรษฐกิจโลก และแรงกดดันเงินเฟ้อจากราคาพลังงานที่ปรับตัวขึ้น หนุนแรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัย (Safe Haven)</li><li><b>ปัจจัยลบ:</b> อัตราผลตอบแทนพันธบัตรและค่าเงินดอลลาร์ที่อาจแข็งค่าขึ้นชั่วคราว หากเฟดคงท่าทีเข้มงวดด้านดอกเบี้ย</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรสะสมสูงถึง 11.40% และได้รับอานิสงส์จากอัตราดอกเบี้ยที่ทรงตัวในระดับสูง จึงควรถือเพื่อรับเงินปันผล"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "มีกำไรเล็กน้อย 3.55% ยังคงถือรับเงินปันผลได้แม้ตลาดอสังหาริมทรัพย์จะเผชิญแรงกดดันด้านต้นทุนและกำลังซื้อ"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "กำไร 5.71% และเป็นหุ้น Defensive ที่ช่วยลดความผันผวนของพอร์ตจากแรงกดดันต้นทุนพลังงาน"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "กำไรต่อเนื่อง 5.01% ได้แรงหนุนระยะยาวจากธีม AI และนวัตกรรมของกลุ่ม Big Tech ในสหรัฐฯ"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "กำไรเด่น 10.61% และทำหน้าที่เป็นสินทรัพย์กระจายความเสี่ยงได้ดีในช่วงตลาดผันผวน"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "GPSC",
-                "name": "บมจ.โกลบอล เพาเวอร์ ซินเนอร์ยี่",
-                "reason": "ร่วมมือพัฒนาโครงการโซลาร์ฟาร์มมาบตาพุดและได้รับอานิสงส์โดยตรงจากความต้องการไฟฟ้าพลังงานสะอาดของกลุ่ม Data Center",
-                "tag": "Green Energy"
-            },
-            {
-                "symbol": "BGRIM",
-                "name": "บมจ.บี.กริม เพาเวอร์",
-                "reason": "โครงการ Data Center ขนาด 96 MW ยอดจองเต็ม หนุนการเติบโตของรายได้ระยะยาวรับกระแสการขยายตัวของเทคโนโลยี AI",
-                "tag": "Tech / Infrastructure"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 18.33246715s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 18\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "กสิกรไทย โกยความเชื่อมั่นต่างชาติ ออกหุ้นกู้ 800 ล้านดอลลาร์ ยอดจองล้น 3 เท่า",
+            "url": "https://www.msn.com/th-th/news/other/กสิกรไทย-โกยความเชื่อมั่นต่างชาติ-ออกหุ้นกู้-800-ล้านดอลลาร์-ยอดจองล้น-3-เท่า/ar-AA2cuyux",
+            "source": "ข่าวสด",
+            "date": "2026-09-18T09:43:44+00:00"
+        },
         {
             "title": "ตลาดหุ้นไทยยังมี Hidden Gems? เปิดมุมมอง \"ของดี\" ที่นักลงทุนอาจยังมองไม่เห็น",
             "url": "https://www.msn.com/th-th/news/other/ตลาดหุ้นไทยยังมี-hidden-gems-เปิดมุมมอง-ของดี-ที่นักลงทุนอาจยังมองไม่เห็น/ar-AA2ctyaD",
             "source": "ไทยรัฐ",
             "date": "2026-09-18T05:10:23+00:00"
+        },
+        {
+            "title": "ธนาคารไทยเครดิต ผงาดติดอันดับธนาคารผลงานยอดเยี่ยมที่สุดใน ...",
+            "url": "https://www.ryt9.com/s/prg/12844996",
+            "source": "RYT9",
+            "date": "2026-09-18T02:07:00+00:00"
         },
         {
             "title": "FCCT ชวน \"ยศชนัน-กอบศักดิ์-ท๊อป จิรายุส\" ถกทิศทางไทยรับมือ AI",
@@ -202,18 +180,6 @@
             "url": "https://www.ryt9.com/s/prg/12843135",
             "source": "RYT9",
             "date": "2026-09-10T07:51:00+00:00"
-        },
-        {
-            "title": "กมธ.ท่องเที่ยว เข้มปราบธุรกิจนอมินีเมืองท่องเที่ยว",
-            "url": "https://www.dailynews.co.th/news/6179671/",
-            "source": "เดลินิวส์",
-            "date": "2026-09-10T04:05:00+00:00"
-        },
-        {
-            "title": "จับตาดีลโรงกลั่น PTT พันธมิตรต่างชาติรุมเจรจา-ยังไม่มีข้อสรุป ...",
-            "url": "https://www.thansettakij.com/finance/668595",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-09-10T03:00:00+00:00"
         }
     ]
 }
