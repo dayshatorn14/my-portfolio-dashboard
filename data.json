@@ -1,28 +1,28 @@
 {
-    "last_updated": "2026-09-18T19:58:03.837140+07:00",
+    "last_updated": "2026-09-21T15:34:47.907747+07:00",
     "summary": {
-        "total_value_thb": 31516.965351291143,
-        "total_profit_thb": 2534.5494405952704,
-        "total_profit_percent": 8.745128247434689
+        "total_value_thb": 31804.585027829216,
+        "total_profit_thb": 2829.19501259557,
+        "total_profit_percent": 9.764130909396343
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.5,
-            "total_value_thb": 15250.0,
-            "profit_thb": 1650.0,
-            "profit_percent": 12.132352941176471
+            "current_price_thb": 156.0,
+            "total_value_thb": 15600.0,
+            "profit_thb": 2000.0,
+            "profit_percent": 14.705882352941178
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4700000286102295,
-            "total_value_thb": 2940.000057220459,
-            "profit_thb": 120.00005722045898,
-            "profit_percent": 4.255321178030461
+            "current_price_thb": 1.4600000381469727,
+            "total_value_thb": 2920.0000762939453,
+            "profit_thb": 100.00007629394531,
+            "profit_percent": 3.5461019962391953
         },
         {
             "symbol": "OSP",
@@ -37,30 +37,188 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.858322810124724,
-            "total_value_thb": 10535.486582357757,
-            "profit_thb": 535.4870313977572,
-            "profit_percent": 5.354870554432679
+            "current_price_thb": 11.828656511992753,
+            "total_value_thb": 10509.12966064782,
+            "profit_thb": 509.13010968782146,
+            "profit_percent": 5.09130132549801
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4409.10009765625,
-            "cost_per_unit_thb": 133781.94244766235,
-            "current_price_thb": 147087.58194891363,
-            "total_value_thb": 2147.478696454139,
-            "profit_thb": 194.26233671826867,
-            "profit_percent": 9.945766414967894
+            "current_price_usd": 4392.0,
+            "cost_per_unit_thb": 133300.71673107147,
+            "current_price_thb": 145990.08737182617,
+            "total_value_thb": 2131.455275628662,
+            "profit_thb": 185.26481135501854,
+            "profit_percent": 9.519356648587989
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 18.33246715s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 18\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><strong>ฟิทช์ปรับเพิ่มมุมมองไทย:</strong> ช่วยฟื้นความเชื่อมั่นของนักลงทุนต่างชาติ หนุนกลุ่มธนาคารและหุ้นบิ๊กแคปให้มีแรงซื้อเก็งกำไรต่อเนื่อง</li><li><strong>ธีม AI และ Data Center หนุนหุ้นรายตัว:</strong> การเติบโตของเทคโนโลยีและหุ้นพลังงานสะอาด (เช่น BGRIM, GPSC) มีโมเมนตัมเชิงบวกชัดเจน</li><li><strong>รอผลการประชุมเฟด:</strong> ตลาดในระยะสั้นยังเผชิญความผันผวนจากการชะลอการลงทุนเพื่อติดตามทิศทางอัตราดอกเบี้ยสหรัฐฯ</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><strong>ความต้องการถือสินทรัพย์ปลอดภัย (Safe Haven):</strong> แรงซื้อทองคำยังคงแข็งแกร่งเพื่อบริหารความเสี่ยงก่อนทราบผลการประชุมเฟด</li><li><strong>ทิศทางค่าเงินดอลลาร์:</strong> การคาดการณ์แนวโน้มนโยบายการเงินที่ผ่อนคลายในระยะข้างหน้าเป็นปัจจัยบวกช่วยพยุงราคาทองคำไม่ให้ปรับฐานลึก</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสมเด่นที่ 14.71% พร้อมรับแรงส่งจากความเชื่อมั่นกลุ่มธนาคารหลังฟิทช์ปรับเพิ่มมุมมองไทย แนะนำถือ Run Trend รับปันผล"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "กำไรระดับ 3.55% ภาคอสังหาริมทรัพย์ฟื้นตัวอย่างค่อยเป็นค่อยไป เหมาะแก่การถือเพื่อรับผลตอบแทนจากเงินปันผล"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "กำไร 5.71% หุ้นกลุ่ม Defensive ปลอดภัยจากความผันผวนของตลาด แนะนำถือรอการเติบโตของการบริโภคในประเทศ"
+            },
+            "K-US500XUH": {
+                "action": "BUY",
+                "reason": "กำไร 5.09% แนวโน้มเฟดคลายความกังวลและกระแสหุ้นเทคโนโลยี/ชิปยังเป็นแรงส่งเชิงบวกต่อตลาดหุ้นสหรัฐฯ ในระยะยาว"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "กำไร 9.52% ปฏิบัติหน้าที่สินทรัพย์ป้องกันความเสี่ยงได้ดี แนะนำถือต่อเพื่อกระจายความเสี่ยงก่อนทราบผลดอกเบี้ยเฟด"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "BGRIM",
+                "name": "บริษัท บี.กริม เพาเวอร์ จำกัด (มหาชน)",
+                "reason": "รับประโยชน์โดยตรงจากเมกะเทรนด์ AI หลังเปิดตัวโครงการ Data Center 96 MW ซึ่งมียอดจองเต็มกำลังการผลิต",
+                "tag": "Growth"
+            },
+            {
+                "symbol": "GPSC",
+                "name": "บริษัท โกลบอล เพาเวอร์ ซินเนอร์ยี่ จำกัด (มหาชน)",
+                "reason": "จับมือพันธมิตรจัดตั้ง 'รีเนอร์จี' ลุยโครงการโซลาร์ฟาร์มรองรับพลังงานสะอาด และเป็นหนึ่งในหุ้นเด่นรับอานิสงส์ดอกเบี้ยขาลง",
+                "tag": "Clean Energy"
+            }
+        ]
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำระดับโลกด้านชิปประมวลผล AI และ Data Center ที่มีความต้องการเติบโตสูงอย่างต่อเนื่อง",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การเปิดตัวสมาร์ตโฟนรุ่นใหม่พร้อม Apple Intelligence หนุนรอบการอัปเกรดอุปกรณ์ครั้งใหญ่ทั่วโลก",
+            "category": "Consumer Electronics"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "การเติบโตแข็งแกร่งของระบบคลาวด์ Azure และการผสาน generative AI เข้ากับผลิตภัณฑ์ระดับองค์กร",
+            "category": "Cloud & AI Software"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปขั้นสูงผูกขาดตลาดโลกที่ได้รับอานิสงส์โดยตรงจากการเติบโตของเซมิคอนดักเตอร์และ AI",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผลิตเครื่องพิมพ์ลายวงจร EUV เพียงรายเดียวในโลก ซึ่งจำเป็นอย่างยิ่งต่อการผลิตชิป AI รุ่นใหม่",
+            "category": "Semiconductor Equipment"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "AWS เติบโตเด่นจากการเร่งสร้างโครงสร้างพื้นฐาน AI ควบคู่กับการขยายตัวของอัตรากำไรอีคอมเมิร์ซ",
+            "category": "E-Commerce & Cloud"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "รายได้โฆษณาฟื้นตัวชัดเจนและโมเดล Gemini หนุนการเติบโตของ Google Cloud อย่างแข็งแกร่ง",
+            "category": "Internet & Cloud"
+        },
+        {
+            "symbol": "SAP",
+            "name": "SAP SE",
+            "exchange": "XETRA",
+            "reason": "ผู้นำซอฟต์แวร์องค์กรจากยุโรปที่เปลี่ยนผ่านสู่ระบบคลาวด์และ AI ช่วยผลักดันรายได้ประจำต่อเนื่อง",
+            "category": "Enterprise Software"
+        },
+        {
+            "symbol": "7203",
+            "name": "Toyota Motor Corporation",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "ยอดขายรถยนต์ไฮบริดทั่วโลกเติบโตสูงและสร้างกระแสเงินสดแข็งแกร่งท่ามกลางกระแสการชะลอตัวของ EV",
+            "category": "Automotive"
+        },
+        {
+            "symbol": "MC",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "แบรนด์สินค้าหรูระดับโลกที่มีอำนาจกำหนดราคาและกระจายความเสี่ยงครอบคลุมตลาดทั่วโลก",
+            "category": "Consumer Luxury"
+        },
+        {
+            "symbol": "DELTA",
+            "name": "Delta Electronics (Thailand) PCL",
+            "exchange": "SET",
+            "reason": "ผู้ผลิตชิ้นส่วนพาวเวอร์ซัพพลายและโซลูชันพลังงานสำหรับ Data Center และ AI ระดับภูมิภาค",
+            "category": "Electronic Components"
+        },
+        {
+            "symbol": "GULF",
+            "name": "Gulf Energy Development PCL",
+            "exchange": "SET",
+            "reason": "รุกธุรกิจโรงไฟฟ้าพลังงานสะอาด พลังงานแสงอาทิตย์ และโครงสร้างพื้นฐาน Data Center อย่างครบวงจร",
+            "category": "Utilities & Energy"
+        },
+        {
+            "symbol": "BGRIM",
+            "name": "B.Grimm Power PCL",
+            "exchange": "SET",
+            "reason": "ความต้องการพลังงานสีเขียวรองรับ Data Center ขนาดใหญ่ที่มีสัญญาจองพื้นที่เต็ม เสริมเสถียรภาพรายได้",
+            "category": "Utilities & Clean Energy"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto Exchanges",
+            "reason": "สินทรัพย์ดิจิทัลชั้นนำที่ได้รับเงินทุนสถาบันไหลเข้าต่อเนื่องผ่าน Spot ETF และภาพรวมดอกเบี้ยขาลง",
+            "category": "Cryptocurrency"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto Exchanges",
+            "reason": "แพลตฟอร์ม Smart Contract หลักของโลกที่ได้รับแรงหนุนจากกระแส Tokenization และ Spot ETF",
+            "category": "Cryptocurrency"
+        }
+    ],
     "news": [
+        {
+            "title": "หุ้นไทยวันนี้เปิดฟื้นแตะ 1,591 จุด รับข่าวฟิทช์เพิ่มมุมมองไทย ...",
+            "url": "https://www.thansettakij.com/finance/stockmarket/669426",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-09-21T04:57:00+00:00"
+        },
+        {
+            "title": "'หุ้นชิป' บวกแรงยกแผง ตัวไหนน่าซื้อ? | SET Afternoon | 21-9-69",
+            "url": "https://www.bangkokbiznews.com/finance/stock/1252812",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-09-21T00:22:00+00:00"
+        },
+        {
+            "title": "'โกลเบล็ก' ชี้ตลาดหุ้นไทยผันผวน แนะ 5 หุ้นเด่นรับกระแส iPhone ใหม่",
+            "url": "https://www.naewna.com/n/business-world/71095/",
+            "source": "แนวหน้า",
+            "date": "2026-09-20T21:01:00+00:00"
+        },
         {
             "title": "กสิกรไทย โกยความเชื่อมั่นต่างชาติ ออกหุ้นกู้ 800 ล้านดอลลาร์ ยอดจองล้น 3 เท่า",
             "url": "https://www.msn.com/th-th/news/other/กสิกรไทย-โกยความเชื่อมั่นต่างชาติ-ออกหุ้นกู้-800-ล้านดอลลาร์-ยอดจองล้น-3-เท่า/ar-AA2cuyux",
@@ -162,24 +320,6 @@
             "url": "https://www.thansettakij.com/business/marketing/668680",
             "source": "ฐานเศรษฐกิจ",
             "date": "2026-09-11T07:47:00+00:00"
-        },
-        {
-            "title": "เวเนฯ จ่อถอน OPEC เกมน้ำมันเปลี่ยน หุ้นพลังงานไทยกระทบแค่ไหน?",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1251353",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-11T06:00:00+00:00"
-        },
-        {
-            "title": "ไทยเที่ยวไทย พลัส...แจกจริงหรือแจกฝัน?",
-            "url": "https://www.thansettakij.com/blogs/columnist/speak-every-district/668652",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-09-10T16:00:00+00:00"
-        },
-        {
-            "title": "SJWD พร้อมเปิดจองซื้อหุ้นกู้และหุ้นกู้ดิจิทัล 2 ชุด ปลายเดือน ก.ย. ...",
-            "url": "https://www.ryt9.com/s/prg/12843135",
-            "source": "RYT9",
-            "date": "2026-09-10T07:51:00+00:00"
         }
     ]
 }
