@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-09-22T15:15:09.761546+07:00",
+    "last_updated": "2026-09-23T15:17:07.761732+07:00",
     "summary": {
-        "total_value_thb": 31996.350721882693,
-        "total_profit_thb": 3019.789910196334,
-        "total_profit_percent": 10.421491804432641
+        "total_value_thb": 32016.517909300972,
+        "total_profit_thb": 3041.1278940673255,
+        "total_profit_percent": 10.495554649888991
     },
     "assets": [
         {
@@ -28,39 +28,57 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.0,
-            "total_value_thb": 640.0,
-            "profit_thb": 30.799999999999955,
-            "profit_percent": 5.055810899540373
+            "current_price_thb": 16.5,
+            "total_value_thb": 660.0,
+            "profit_thb": 50.799999999999955,
+            "profit_percent": 8.33880499015101
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.020522680717514,
-            "total_value_thb": 10679.592505906361,
-            "profit_thb": 679.5929549463617,
-            "profit_percent": 6.795929854628052
+            "current_price_thb": 12.012522670991306,
+            "total_value_thb": 10672.484924465145,
+            "profit_thb": 672.4853735051456,
+            "profit_percent": 6.724854037024302
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4338.5,
-            "cost_per_unit_thb": 133380.90826892853,
-            "current_price_thb": 144298.5027179718,
-            "total_value_thb": 2106.7581396823884,
-            "profit_thb": 159.39687895603197,
-            "profit_percent": 8.185275232217451
+            "current_price_usd": 4356.10009765625,
+            "cost_per_unit_thb": 133300.71673107147,
+            "current_price_thb": 144796.77455766313,
+            "total_value_thb": 2114.0329085418816,
+            "profit_thb": 167.84244426823807,
+            "profit_percent": 8.624153049217623
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 50.376733934s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 50\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 4.2273465s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 4\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "พายุเศรษฐกิจถล่มไทย ดอกเบี้ย-น้ำมันซ้ำเติม รัฐแจก 1,000 บาท ยื้อ ...",
+            "url": "https://www.thansettakij.com/columnist/than-society/669608",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-09-23T07:08:00+00:00"
+        },
+        {
+            "title": "ลุ้น 'กลุ่มค้าปลีก' กำลังซื้อฟื้น โบรกมอง'ไทยช่วยไทย พลัส' เฟส 2 หนุน 'จำกัด'",
+            "url": "https://www.msn.com/th-th/news/other/ลุ้น-กลุ่มค้าปลีก-กำลังซื้อฟื้น-โบรกมอง-ไทยช่วยไทย-พลัส-เฟส-2-หนุน-จำกัด/ar-AA2cMI8I",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-09-23T05:34:00+00:00"
+        },
+        {
+            "title": "หุ้นไทยเปิดสถิติปี 69 ฟื้นแรง ต่างชาติพลิกซื้อสุทธิ 5.1 หมื่นล้าน สวนทางสถาบันเทขาย",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยเปิดสถิติปี-69-ฟื้นแรง-ต่างชาติพลิกซื้อสุทธิ-51-หมื่นล้าน-สวนทางสถาบันเทขาย/ar-AA2cK4ni",
+            "source": "Thansettakij",
+            "date": "2026-09-22T09:40:00+00:00"
+        },
         {
             "title": "โรดโชว์! นายกฯ จับมือ สภาธุรกิจตลาดทุน-ตลาดหลักทรัพย์ฯดึงลงทุนทั่วโลก",
             "url": "https://www.msn.com/th-th/travel/asia-travel/โรดโชว์-นายกฯ-จับมือ-สภาธุรกิจตลาดทุน-ตลาดหลักทรัพย์ฯดึงลงทุนทั่วโลก/ar-AA2cIOsm",
@@ -162,24 +180,6 @@
             "url": "https://www.msn.com/th-th/news/other/ดรนิเวศน์-ถอดเกม-vi-หุ้นไทยนิ่ง-เศรษฐกิจโตช้า-ai-เขย่าธุรกิจ-แล้ว-นักลงทุน-เอายังไงต่อดี/ar-AA2ceMnN",
             "source": "Thairath",
             "date": "2026-09-15T06:40:55+00:00"
-        },
-        {
-            "title": "CJ MORE ปักธงเข้าตลาดหุ้นปี 72 แน่ NASDAQ-ฮ่องกง-สิงคโปร์รุมจีบ ขอลุยขยาย ...",
-            "url": "https://www.ryt9.com/s/iq/12844109",
-            "source": "RYT9",
-            "date": "2026-09-15T00:17:00+00:00"
-        },
-        {
-            "title": "น้ำมันโลกพุ่งกด 'หุ้นไทย' โบรกเตือน 5 กลุ่มเสี่ยงถูกกระทบต้นทุน",
-            "url": "https://www.msn.com/th-th/news/other/น้ำมันโลกพุ่งกด-หุ้นไทย-โบรกเตือน-5-กลุ่มเสี่ยงถูกกระทบต้นทุน/ar-AA2cdrk8",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-14T23:00:00+00:00"
-        },
-        {
-            "title": "สัปดาห์ระทึก! เฟดจ่อขึ้นดอกเบี้ย ผวา AI ยึดโลก | SET Afternoon | 14-9-69",
-            "url": "https://www.msn.com/th-th/news/other/สัปดาห์ระทึก-เฟดจ่อขึ้นดอกเบี้ย-ผวา-ai-ยึดโลก-set-afternoon-14-9-69/ar-AA2cag0C",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-14T07:34:00+00:00"
         }
     ]
 }
