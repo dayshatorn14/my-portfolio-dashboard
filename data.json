@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-09-23T15:17:07.761732+07:00",
+    "last_updated": "2026-09-24T15:08:10.212484+07:00",
     "summary": {
-        "total_value_thb": 32016.517909300972,
-        "total_profit_thb": 3041.1278940673255,
-        "total_profit_percent": 10.495554649888991
+        "total_value_thb": 31864.969677227284,
+        "total_profit_thb": 2881.9683683050534,
+        "total_profit_percent": 9.943650547391233
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 156.5,
-            "total_value_thb": 15650.0,
-            "profit_thb": 2050.0,
-            "profit_percent": 15.073529411764705
+            "current_price_thb": 155.5,
+            "total_value_thb": 15550.0,
+            "profit_thb": 1950.0,
+            "profit_percent": 14.338235294117647
         },
         {
             "symbol": "SIRI",
@@ -28,39 +28,51 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.5,
-            "total_value_thb": 660.0,
-            "profit_thb": 50.799999999999955,
-            "profit_percent": 8.33880499015101
+            "current_price_thb": 16.399999618530273,
+            "total_value_thb": 655.9999847412109,
+            "profit_thb": 46.79998474121089,
+            "profit_percent": 7.682203667303167
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.012522670991306,
-            "total_value_thb": 10672.484924465145,
-            "profit_thb": 672.4853735051456,
-            "profit_percent": 6.724854037024302
+            "current_price_thb": 11.972565849485248,
+            "total_value_thb": 10636.98542225128,
+            "profit_thb": 636.985871291281,
+            "profit_percent": 6.369858998944959
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4356.10009765625,
-            "cost_per_unit_thb": 133300.71673107147,
-            "current_price_thb": 144796.77455766313,
-            "total_value_thb": 2114.0329085418816,
-            "profit_thb": 167.84244426823807,
-            "profit_percent": 8.624153049217623
+            "current_price_usd": 4314.39990234375,
+            "cost_per_unit_thb": 133822.03821659088,
+            "current_price_thb": 143971.52013293467,
+            "total_value_thb": 2101.984193940846,
+            "profit_thb": 148.1824359786192,
+            "profit_percent": 7.584312757153534
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 4.2273465s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 4\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 50.218560905s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 50\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "เปิดคลัง 10 ยักษ์ใหญ่คุมตลาดหุ้นไทย: ใครเป็นใคร ทำเงินจากไหน ใน ...",
+            "url": "https://www.thairath.co.th/money/investment/stocks/2961658",
+            "source": "ไทยรัฐ",
+            "date": "2026-09-23T21:48:00+00:00"
+        },
+        {
+            "title": "\"ธุรกิจครอบครัว'กระดูกสันหลังเศรษฐกิจ กางสูตร 6C สู่ความยั่งยืน",
+            "url": "https://www.msn.com/th-th/news/other/ธุรกิจครอบครัว-กระดูกสันหลังเศรษฐกิจ-กางสูตร-6c-สู่ความยั่งยืน/ar-AA2cP1o8",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-09-23T08:37:00+00:00"
+        },
         {
             "title": "พายุเศรษฐกิจถล่มไทย ดอกเบี้ย-น้ำมันซ้ำเติม รัฐแจก 1,000 บาท ยื้อ ...",
             "url": "https://www.thansettakij.com/columnist/than-society/669608",
@@ -168,18 +180,6 @@
             "url": "https://www.bangkokbiznews.com/finance/stock/1252096",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-09-16T08:16:00+00:00"
-        },
-        {
-            "title": "'สคร.' ปัดควบรวม 'ไทยพีบีเอส-อสมท.' ไม่เป็นความจริง หลักการ ...",
-            "url": "https://www.bangkokbiznews.com/economics/1252154",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-16T01:00:00+00:00"
-        },
-        {
-            "title": "ดร.นิเวศน์ ถอดเกม VI หุ้นไทยนิ่ง เศรษฐกิจโตช้า AI เขย่าธุรกิจ แล้ว \"นักลงทุน\" เอายังไงต่อดี ?",
-            "url": "https://www.msn.com/th-th/news/other/ดรนิเวศน์-ถอดเกม-vi-หุ้นไทยนิ่ง-เศรษฐกิจโตช้า-ai-เขย่าธุรกิจ-แล้ว-นักลงทุน-เอายังไงต่อดี/ar-AA2ceMnN",
-            "source": "Thairath",
-            "date": "2026-09-15T06:40:55+00:00"
         }
     ]
 }
