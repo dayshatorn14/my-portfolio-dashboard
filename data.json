@@ -1,66 +1,84 @@
 {
-    "last_updated": "2026-09-29T16:33:43.267396+07:00",
+    "last_updated": "2026-09-30T16:19:00.503711+07:00",
     "summary": {
-        "total_value_thb": 31616.870734262626,
-        "total_profit_thb": 2622.1594506705587,
-        "total_profit_percent": 9.043578413399905
+        "total_value_thb": 31232.47980157874,
+        "total_profit_thb": 2238.939537788574,
+        "total_profit_percent": 7.722201281451547
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 153.5,
-            "total_value_thb": 15350.0,
-            "profit_thb": 1750.0,
-            "profit_percent": 12.867647058823529
+            "current_price_thb": 150.0,
+            "total_value_thb": 15000.0,
+            "profit_thb": 1400.0,
+            "profit_percent": 10.294117647058822
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4500000476837158,
-            "total_value_thb": 2900.0000953674316,
-            "profit_thb": 80.00009536743164,
-            "profit_percent": 2.8368828144479306
+            "current_price_thb": 1.440000057220459,
+            "total_value_thb": 2880.000114440918,
+            "profit_thb": 60.00011444091797,
+            "profit_percent": 2.127663632656666
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.299999237060547,
-            "total_value_thb": 651.9999694824219,
-            "profit_thb": 42.79996948242183,
-            "profit_percent": 7.025602344455323
+            "current_price_thb": 16.0,
+            "total_value_thb": 640.0,
+            "profit_thb": 30.799999999999955,
+            "profit_percent": 5.055810899540373
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.008714378568515,
-            "total_value_thb": 10669.10146001031,
-            "profit_thb": 669.1019090503105,
-            "profit_percent": 6.69101939095664
+            "current_price_thb": 11.979552737546827,
+            "total_value_thb": 10643.192899194171,
+            "profit_thb": 643.1933482341719,
+            "profit_percent": 6.431933771161273
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4174.0,
-            "cost_per_unit_thb": 134624.09127616882,
-            "current_price_thb": 140121.1787261963,
-            "total_value_thb": 2045.7692094024658,
-            "profit_thb": 80.2574767704009,
-            "profit_percent": 4.083286578143501
+            "current_price_usd": 4224.5,
+            "cost_per_unit_thb": 134543.88444042206,
+            "current_price_thb": 141731.97177696228,
+            "total_value_thb": 2069.2867879436494,
+            "profit_thb": 104.94607511348727,
+            "profit_percent": 5.342559690792346
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 16.974085881s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 16\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 59.673147306s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 59\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "หุ้นไทยเช้านี้ดิ่ง 23.02 จุด แรงขายกลุ่มแบงก์ฉุดตลาด โบรกชี้กำไร ...",
+            "url": "https://www.bangkokbiznews.com/finance/stock/1254271",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-09-30T09:02:00+00:00"
+        },
+        {
+            "title": "'บีทีเอส กรุ๊ปฯ' ปิดการขายหุ้นกู้มูลค่ารวม 15,000 ล้านบาท",
+            "url": "https://www.naewna.com/n/business-world/89439/",
+            "source": "แนวหน้า",
+            "date": "2026-09-30T01:55:00+00:00"
+        },
+        {
+            "title": "\"ชัยยศ\" ชี้ Fund Flow ยังไหลออก รับแรงกดดันยีลด์สูง ชู CK-DELTA เด่น",
+            "url": "https://www.kaohoon.com/news/867831",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-09-30T00:00:00+00:00"
+        },
         {
             "title": "น้ำท่วมกรุงกดดันเศรษฐกิจไตรมาส 4/69 รายได้สะดุด-ท่องเที่ยวเสี่ยงชะลอ",
             "url": "https://www.msn.com/th-th/news/other/น้ำท่วมกรุงกดดันเศรษฐกิจไตรมาส-469-รายได้สะดุด-ท่องเที่ยวเสี่ยงชะลอ/ar-AA2dawwm",
@@ -162,24 +180,6 @@
             "url": "https://www.dailynews.co.th/news/6208604/",
             "source": "เดลินิวส์",
             "date": "2026-09-21T17:01:00+00:00"
-        },
-        {
-            "title": "หุ้นไทยวันนี้เปิดฟื้นแตะ 1,591 จุด รับข่าวฟิทช์เพิ่มมุมมองไทย ...",
-            "url": "https://www.thansettakij.com/finance/stockmarket/669426",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-09-21T04:57:00+00:00"
-        },
-        {
-            "title": "'หุ้นชิป' บวกแรงยกแผง ตัวไหนน่าซื้อ? | SET Afternoon | 21-9-69",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1252812",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-21T00:22:00+00:00"
-        },
-        {
-            "title": "'โกลเบล็ก' ชี้ตลาดหุ้นไทยผันผวน แนะ 5 หุ้นเด่นรับกระแส iPhone ใหม่",
-            "url": "https://www.naewna.com/n/business-world/71095/",
-            "source": "แนวหน้า",
-            "date": "2026-09-20T21:01:00+00:00"
         }
     ]
 }
