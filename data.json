@@ -1,28 +1,28 @@
 {
-    "last_updated": "2026-09-30T16:19:00.503711+07:00",
+    "last_updated": "2026-10-01T16:49:41.695876+07:00",
     "summary": {
-        "total_value_thb": 31232.47980157874,
-        "total_profit_thb": 2238.939537788574,
-        "total_profit_percent": 7.722201281451547
+        "total_value_thb": 31145.101346105977,
+        "total_profit_thb": 2145.1205850799415,
+        "total_profit_percent": 7.396972442005323
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 150.0,
-            "total_value_thb": 15000.0,
-            "profit_thb": 1400.0,
-            "profit_percent": 10.294117647058822
+            "current_price_thb": 149.5,
+            "total_value_thb": 14950.0,
+            "profit_thb": 1350.0,
+            "profit_percent": 9.926470588235293
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.440000057220459,
-            "total_value_thb": 2880.000114440918,
-            "profit_thb": 60.00011444091797,
-            "profit_percent": 2.127663632656666
+            "current_price_thb": 1.4199999570846558,
+            "total_value_thb": 2839.9999141693115,
+            "profit_thb": 19.999914169311523,
+            "profit_percent": 0.7092168145145931
         },
         {
             "symbol": "OSP",
@@ -37,30 +37,48 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.979552737546827,
-            "total_value_thb": 10643.192899194171,
-            "profit_thb": 643.1933482341719,
-            "profit_percent": 6.431933771161273
+            "current_price_thb": 11.9926784507474,
+            "total_value_thb": 10654.854394459795,
+            "profit_thb": 654.8548434997956,
+            "profit_percent": 6.548548729053989
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4224.5,
-            "cost_per_unit_thb": 134543.88444042206,
-            "current_price_thb": 141731.97177696228,
-            "total_value_thb": 2069.2867879436494,
-            "profit_thb": 104.94607511348727,
-            "profit_percent": 5.342559690792346
+            "current_price_usd": 4192.2998046875,
+            "cost_per_unit_thb": 134985.0143880844,
+            "current_price_thb": 141112.81078608707,
+            "total_value_thb": 2060.2470374768714,
+            "profit_thb": 89.46582741083898,
+            "profit_percent": 4.539612360513696
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 59.673147306s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 59\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 18.437668802s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 18\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "ต่างชาติถล่มขายหุ้นไทย 7 วันทะลุ 3 หมื่นล้าน \"เอเซีย พลัส\" เตือน ...",
+            "url": "https://mgronline.com/stockmarket/detail/9690000095724",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-10-01T09:46:00+00:00"
+        },
+        {
+            "title": "เดือนกันยาหุ้นไทยโดนเทยับเยิน ต่างชาติขาย 7 วัน 30,000 ล้านบาท",
+            "url": "https://www.msn.com/th-th/news/other/เดือนกันยาหุ้นไทยโดนเทยับเยิน-ต่างชาติขาย-7-วัน-30000-ล้านบาท/ar-AA2djKPp",
+            "source": "อมรินทร์ทีวี",
+            "date": "2026-10-01T06:21:00+00:00"
+        },
+        {
+            "title": "ต่างชาติถล่มขายหุ้นไทย 7 วันทะลุ 3 หมื่นล้าน 'บล.เอเซีย พลัส ...",
+            "url": "https://www.msn.com/th-th/money/general/ต่างชาติถล่มขายหุ้นไทย-7-วันทะลุ-3-หมื่นล้าน-บล-เอเซีย-พลัส-เตือนปัจจัยลบซ้อนรบกวนเศรษฐกิจไทย/ar-AA2djN1V",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-01T04:07:23+00:00"
+        },
         {
             "title": "หุ้นไทยเช้านี้ดิ่ง 23.02 จุด แรงขายกลุ่มแบงก์ฉุดตลาด โบรกชี้กำไร ...",
             "url": "https://www.bangkokbiznews.com/finance/stock/1254271",
@@ -162,24 +180,6 @@
             "url": "https://www.msn.com/th-th/news/other/หุ้นไทยเปิดสถิติปี-69-ฟื้นแรง-ต่างชาติพลิกซื้อสุทธิ-51-หมื่นล้าน-สวนทางสถาบันเทขาย/ar-AA2cK4ni",
             "source": "Thansettakij",
             "date": "2026-09-22T09:40:00+00:00"
-        },
-        {
-            "title": "โรดโชว์! นายกฯ จับมือ สภาธุรกิจตลาดทุน-ตลาดหลักทรัพย์ฯดึงลงทุนทั่วโลก",
-            "url": "https://www.msn.com/th-th/travel/asia-travel/โรดโชว์-นายกฯ-จับมือ-สภาธุรกิจตลาดทุน-ตลาดหลักทรัพย์ฯดึงลงทุนทั่วโลก/ar-AA2cIOsm",
-            "source": "AmarinTV",
-            "date": "2026-09-22T02:27:36+00:00"
-        },
-        {
-            "title": "\"อนุทิน\" ควง \"อัสสเดช-ไพบูลย์\" ลุยโรดโชว์โตเกียว-นิวยอร์ก ...",
-            "url": "https://www.kaohoon.com/news/local/865108",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-09-22T00:00:00+00:00"
-        },
-        {
-            "title": "ตลาดหุ้นไทยปิดบวก 13.88 จุด รับข่าวฟิทช์เรตติ้งส์ปรับมุมมองไทย",
-            "url": "https://www.dailynews.co.th/news/6208604/",
-            "source": "เดลินิวส์",
-            "date": "2026-09-21T17:01:00+00:00"
         }
     ]
 }
