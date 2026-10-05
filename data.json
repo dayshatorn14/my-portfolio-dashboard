@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-10-02T16:21:28.024371+07:00",
+    "last_updated": "2026-10-05T17:00:56.924260+07:00",
     "summary": {
-        "total_value_thb": 31098.37692396253,
-        "total_profit_thb": 2106.5930782006253,
-        "total_profit_percent": 7.266172683294797
+        "total_value_thb": 31171.80439605337,
+        "total_profit_thb": 2171.823635027333,
+        "total_profit_percent": 7.489051985669291
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 149.0,
-            "total_value_thb": 14900.0,
-            "profit_thb": 1300.0,
-            "profit_percent": 9.558823529411764
+            "current_price_thb": 148.5,
+            "total_value_thb": 14850.0,
+            "profit_thb": 1250.0,
+            "profit_percent": 9.191176470588236
         },
         {
             "symbol": "SIRI",
@@ -28,73 +28,57 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.100000381469727,
-            "total_value_thb": 644.0000152587891,
-            "profit_thb": 34.80001525878902,
-            "profit_percent": 5.712412222388216
+            "current_price_thb": 16.200000762939453,
+            "total_value_thb": 648.0000305175781,
+            "profit_thb": 38.80003051757808,
+            "profit_percent": 6.369013545236061
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.966657790637301,
-            "total_value_thb": 10631.736427455222,
-            "profit_thb": 631.7368764952225,
-            "profit_percent": 6.3173690486273655
+            "current_price_thb": 12.106208412932745,
+            "total_value_thb": 10755.719703361492,
+            "profit_thb": 755.7201524014927,
+            "profit_percent": 7.557201863363519
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4214.7001953125,
-            "cost_per_unit_thb": 134423.58183574677,
-            "current_price_thb": 141276.75247621164,
-            "total_value_thb": 2062.64058615269,
-            "profit_thb": 100.0562913507872,
-            "profit_percent": 5.098190768967026
+            "current_price_usd": 4187.89990234375,
+            "cost_per_unit_thb": 134985.0143880844,
+            "current_price_thb": 140964.7100738678,
+            "total_value_thb": 2058.08476707847,
+            "profit_thb": 87.30355701243775,
+            "profit_percent": 4.429895950221312
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><strong>แรงขายสุทธิต่างชาติ (Fund Flow):</strong> นักลงทุนต่างชาติเทขายหุ้นไทยต่อเนื่อง 7 วันทำการ มูลค่าทะลุ 30,000 ล้านบาท ส่งผลกระทบหนักโดยเฉพาะกลุ่มธนาคารพาณิชย์</li><li><strong>ผลกระทบอุทกภัย:</strong> ปัญหาน้ำท่วมสร้างความกังวลต่อการฟื้นตัวของเศรษฐกิจและภาคการท่องเที่ยวในไตรมาส 4/69 ฉุดรั้งความเชื่อมั่นการบริโภคในประเทศ</li><li><strong>นโยบายการเงินสหรัฐฯ:</strong> ตลาดรอจับตาตัวเลขการจ้างงานนอกภาคเกษตร (Non-Farm Payrolls) เพื่อประเมินทิศทางดอกเบี้ยของธนาคารกลางสหรัฐฯ (Fed)</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><strong>แรงหนุนจากสินทรัพย์ปลอดภัย:</strong> ความผันผวนของตลาดหุ้นทั่วโลกและแรงเทขายสินทรัพย์เสี่ยง ส่งผลให้มีเม็ดเงินไหลเข้าพักในทองคำ</li><li><strong>อัตราผลตอบแทนพันธบัตรและค่าเงิน:</strong> ความไม่แน่นอนของการตัดสินใจดอกเบี้ย Fed และอัตราผลตอบแทนพันธบัตรที่ทรงตัวในระดับสูง ส่งผลให้ราคาทองคำเคลื่อนไหวในกรอบสะสมพลังเพื่อรอสัญญาณเศรษฐกิจสหรัฐฯ</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "SELL",
-                "reason": "แนะนำขายทำกำไรบางส่วนเพื่อล็อกกำไร 9.5% หลังกลุ่มธนาคารเผชิญแรงเทขายหนักจาก Fund Flow ต่างชาติ"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ถือรอดูสถานการณ์และประเมินผลกระทบจากอุทกภัยต่อยอดโอนอสังหาริมทรัพย์ในไตรมาสที่ 4"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "คงสถานะถือครองเนื่องจากเป็นสินค้าอุปโภคบริโภคที่มีความผันผวนต่ำและทนทานต่อภาวะเศรษฐกิจชะลอตัว"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "ถือครองเพื่อกระจายความเสี่ยงจากตลาดหุ้นไทย และรอความชัดเจนของข้อมูลตลาดแรงงานสหรัฐฯ"
-            },
-            "MTS-GOLD": {
-                "action": "BUY",
-                "reason": "ทยอยสะสมเพิ่มเพื่อใช้เป็นสินทรัพย์ปลอดภัยป้องกันความเสี่ยงจากความผันผวนของตลาดทุนทั่วโลก"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "DELTA",
-                "name": "บมจ.เดลต้า อีเลคโทรนิคส์ (ประเทศไทย)",
-                "reason": "นักวิเคราะห์ชูเป็นหุ้นเด่นที่มีแรงหนุนจากเมกะเทรนด์เทคโนโลยี และช่วยกระจายความเสี่ยงจากผลกระทบน้ำท่วมในประเทศ",
-                "tag": "Tech"
-            },
-            {
-                "symbol": "CK",
-                "name": "บมจ.ช.การช่าง",
-                "reason": "หุ้นเด่นกลุ่มรับเหมาก่อสร้างที่คาดว่าจะได้รับอานิสงส์จากงานฟื้นฟูโครงสร้างพื้นฐานและโครงการประมูลภาครัฐปลายปี",
-                "tag": "Value"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 4.014401111s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 4\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "KGI ชี้หุ้นแบงก์ไทยดิ่งรับข่าวน้ำท่วม-NPL ชู KBANK-KTB -TTB-KKP เด่น",
+            "url": "https://hoonsmart.com/archives/442088",
+            "source": "HoonSmart",
+            "date": "2026-10-05T07:14:00+00:00"
+        },
+        {
+            "title": "นายกฯ แย้ม ศก.ไตรมาส 3 ดีขึ้น เชื่อเวที IMF-World Bank ช่วยดัน GDP ไทยปิดสวย",
+            "url": "https://www.msn.com/th-th/money/economy/นายกฯ-แย้ม-ศก-ไตรมาส-3-ดีขึ้น-เชื่อเวที-imf-world-bank-ช่วยดัน-gdp-ไทยปิดสวย/ar-AA2dAuzG",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-05T07:11:35+00:00"
+        },
+        {
+            "title": "ตลาดหลักทรัพย์ฯ คาด Fund Flow ต่างชาติไหลออกชั่วคราว",
+            "url": "https://www.msn.com/th-th/news/other/ตลาดหลักทรัพย์ฯ-คาด-fund-flow-ต่างชาติไหลออกชั่วคราว/ar-AA2dAeMP",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-05T06:34:08+00:00"
+        },
         {
             "title": "จับตาน้ำท่วมกระทบเที่ยวบิน ฉุดยอดต่างชาติเดินทาง Golden Week",
             "url": "https://www.msn.com/th-th/news/other/จับตาน้ำท่วมกระทบเที่ยวบิน-ฉุดยอดต่างชาติเดินทาง-golden-week/ar-AA2do5Hn",
@@ -196,24 +180,6 @@
             "url": "https://www.kaohoon.com/news/local/866395",
             "source": "ข่าวหุ้นธุรกิจออนไลน์",
             "date": "2026-09-25T00:00:00+00:00"
-        },
-        {
-            "title": "\"อนุทิน\" ลั่นระฆัง NYSE เชื่อมหุ้นไทย-สหรัฐฯ เปิดประตูธุรกิจไทย ...",
-            "url": "https://www.thairath.co.th/news/politic/2961846",
-            "source": "ไทยรัฐ",
-            "date": "2026-09-24T19:18:00+00:00"
-        },
-        {
-            "title": "เปิดคลัง 10 ยักษ์ใหญ่คุมตลาดหุ้นไทย: ใครเป็นใคร ทำเงินจากไหน ใน ...",
-            "url": "https://www.thairath.co.th/money/investment/stocks/2961658",
-            "source": "ไทยรัฐ",
-            "date": "2026-09-23T21:48:00+00:00"
-        },
-        {
-            "title": "\"ธุรกิจครอบครัว'กระดูกสันหลังเศรษฐกิจ กางสูตร 6C สู่ความยั่งยืน",
-            "url": "https://www.msn.com/th-th/news/other/ธุรกิจครอบครัว-กระดูกสันหลังเศรษฐกิจ-กางสูตร-6c-สู่ความยั่งยืน/ar-AA2cP1o8",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-09-23T08:37:00+00:00"
         }
     ]
 }
