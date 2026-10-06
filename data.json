@@ -1,66 +1,84 @@
 {
-    "last_updated": "2026-10-05T17:00:56.924260+07:00",
+    "last_updated": "2026-10-06T16:55:19.585018+07:00",
     "summary": {
-        "total_value_thb": 31171.80439605337,
-        "total_profit_thb": 2171.823635027333,
-        "total_profit_percent": 7.489051985669291
+        "total_value_thb": 31148.64637137126,
+        "total_profit_thb": 2152.7640679772885,
+        "total_profit_percent": 7.424378556417673
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 148.5,
-            "total_value_thb": 14850.0,
-            "profit_thb": 1250.0,
-            "profit_percent": 9.191176470588236
+            "current_price_thb": 148.0,
+            "total_value_thb": 14800.0,
+            "profit_thb": 1200.0,
+            "profit_percent": 8.823529411764707
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4299999475479126,
-            "total_value_thb": 2859.999895095825,
-            "profit_thb": 39.999895095825195,
-            "profit_percent": 1.418435996305858
+            "current_price_thb": 1.4199999570846558,
+            "total_value_thb": 2839.9999141693115,
+            "profit_thb": 19.999914169311523,
+            "profit_percent": 0.7092168145145931
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.200000762939453,
-            "total_value_thb": 648.0000305175781,
-            "profit_thb": 38.80003051757808,
-            "profit_percent": 6.369013545236061
+            "current_price_thb": 16.299999237060547,
+            "total_value_thb": 651.9999694824219,
+            "profit_thb": 42.79996948242183,
+            "profit_percent": 7.025602344455323
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.106208412932745,
-            "total_value_thb": 10755.719703361492,
-            "profit_thb": 755.7201524014927,
-            "profit_percent": 7.557201863363519
+            "current_price_thb": 12.161510304595586,
+            "total_value_thb": 10804.852480982912,
+            "profit_thb": 804.8529300229129,
+            "profit_percent": 8.048529661640305
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4187.89990234375,
-            "cost_per_unit_thb": 134985.0143880844,
-            "current_price_thb": 140964.7100738678,
-            "total_value_thb": 2058.08476707847,
-            "profit_thb": 87.30355701243775,
-            "profit_percent": 4.429895950221312
+            "current_price_usd": 4183.7998046875,
+            "cost_per_unit_thb": 134704.2981119156,
+            "current_price_thb": 140533.8360778503,
+            "total_value_thb": 2051.7940067366144,
+            "profit_thb": 85.11125430264678,
+            "profit_percent": 4.327655499968821
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 4.014401111s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 4\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 40.866798435s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 40\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "'ต่างชาติ' ทิ้งหุ้นไทย ลดเสี่ยงแรงกดดัน น้ำท่วม-ปัจจัยนอก",
+            "url": "https://www.msn.com/th-th/news/other/ต่างชาติทิ้งหุ้นไทย-ลดเสี่ยงแรงกดดัน-น้ำท่วม-ปัจจัยนอก/ar-AA2dEXMZ",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-10-06T09:45:00+00:00"
+        },
+        {
+            "title": "กลุ่ม ปตท. 48 ปี สร้างฐานพลังงานมั่นคง ขับเคลื่อนอนาคตโลกด้วย ...",
+            "url": "https://www.thebangkokinsight.com/news/business/1702017/",
+            "source": "The Bangkok Insight",
+            "date": "2026-10-06T07:29:00+00:00"
+        },
+        {
+            "title": "ปมกำกวม \"วีซ่าธุรกิจ\" ป่วนงาน IMF-World Bank 2026! จี้รัฐไทยแก้เกม ก่อนหลาย ...",
+            "url": "https://www.kaohoon.com/news/869474",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-10-06T00:00:00+00:00"
+        },
         {
             "title": "KGI ชี้หุ้นแบงก์ไทยดิ่งรับข่าวน้ำท่วม-NPL ชู KBANK-KTB -TTB-KKP เด่น",
             "url": "https://hoonsmart.com/archives/442088",
@@ -162,24 +180,6 @@
             "url": "https://www.kaohoon.com/column/866951",
             "source": "ข่าวหุ้นธุรกิจออนไลน์",
             "date": "2026-09-28T00:00:00+00:00"
-        },
-        {
-            "title": "SET หลุด 1,600 จุด หวั่นน้ำท่วมซ้ำเติมเศรษฐกิจ | SET Afternoon | 28-9-69",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1253906",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-27T23:10:00+00:00"
-        },
-        {
-            "title": "'นายกรัฐมนตรี' ลั่นระฆัง NYSE เชื่อมตลาดหุ้นไทย-สหรัฐ เปิดประตู ...",
-            "url": "https://www.thebangkokinsight.com/news/stock-finance/stock/1700129/",
-            "source": "The Bangkok Insight",
-            "date": "2026-09-25T00:00:00+00:00"
-        },
-        {
-            "title": "\"อนุทิน\" ปลื้มโรดโชว์สหรัฐ! นักลงทุนเชื่อมั่นไทย ลุยดึงทุนต่อ ...",
-            "url": "https://www.kaohoon.com/news/local/866395",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-09-25T00:00:00+00:00"
         }
     ]
 }
