@@ -1,28 +1,28 @@
 {
-    "last_updated": "2026-10-06T16:55:19.585018+07:00",
+    "last_updated": "2026-10-07T17:07:43.608887+07:00",
     "summary": {
-        "total_value_thb": 31148.64637137126,
-        "total_profit_thb": 2152.7640679772885,
-        "total_profit_percent": 7.424378556417673
+        "total_value_thb": 31134.52176736958,
+        "total_profit_thb": 2133.369986541642,
+        "total_profit_percent": 7.356156068090954
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 148.0,
-            "total_value_thb": 14800.0,
-            "profit_thb": 1200.0,
-            "profit_percent": 8.823529411764707
+            "current_price_thb": 146.5,
+            "total_value_thb": 14650.0,
+            "profit_thb": 1050.0,
+            "profit_percent": 7.720588235294118
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4199999570846558,
-            "total_value_thb": 2839.9999141693115,
-            "profit_thb": 19.999914169311523,
-            "profit_percent": 0.7092168145145931
+            "current_price_thb": 1.4500000476837158,
+            "total_value_thb": 2900.0000953674316,
+            "profit_thb": 80.00009536743164,
+            "profit_percent": 2.8368828144479306
         },
         {
             "symbol": "OSP",
@@ -37,30 +37,48 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.161510304595586,
-            "total_value_thb": 10804.852480982912,
-            "profit_thb": 804.8529300229129,
-            "profit_percent": 8.048529661640305
+            "current_price_thb": 12.261313523203263,
+            "total_value_thb": 10893.52231122396,
+            "profit_thb": 893.5227602639607,
+            "profit_percent": 8.935228003867085
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4183.7998046875,
-            "cost_per_unit_thb": 134704.2981119156,
-            "current_price_thb": 140533.8360778503,
-            "total_value_thb": 2051.7940067366144,
-            "profit_thb": 85.11125430264678,
-            "profit_percent": 4.327655499968821
+            "current_price_usd": 4146.60009765625,
+            "cost_per_unit_thb": 135065.22122383118,
+            "current_price_thb": 139657.49255450442,
+            "total_value_thb": 2038.9993912957646,
+            "profit_thb": 67.04716142782945,
+            "profit_percent": 3.4000398393179996
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 40.866798435s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 40\n}\n]",
+        "market_analysis": "Error: 504 Deadline Exceeded",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "รำลึก 100 ปี ศ.สังเวียน สมคิด ปลุกตลาดทุนไทย ดึงหุ้นอนาคต-รักษา trust",
+            "url": "https://www.msn.com/th-th/news/other/รำลึก-100-ปี-ศ-สังเวียน-สมคิด-ปลุกตลาดทุนไทย-ดึงหุ้นอนาคต-รักษา-trust/ar-AA2dJxPQ",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-07T06:32:26+00:00"
+        },
+        {
+            "title": "'มหากิจศิริ' ยื่นบอร์ดแข่งขันการค้า ร้อง 'เนสท์เล่' ทำธุรกิจ ...",
+            "url": "https://www.thansettakij.com/business/670873",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-10-07T02:21:00+00:00"
+        },
+        {
+            "title": "ไทยชู BOI IPO ดึงค่ายรถ-ทุนต่างชาติ เข้าตลาดหุ้นไทย \"เอกนิติ\" คาด 2 ...",
+            "url": "https://www.ejan.co/economics/2da23qf26zui",
+            "source": "อีจัน",
+            "date": "2026-10-07T01:55:00+00:00"
+        },
         {
             "title": "'ต่างชาติ' ทิ้งหุ้นไทย ลดเสี่ยงแรงกดดัน น้ำท่วม-ปัจจัยนอก",
             "url": "https://www.msn.com/th-th/news/other/ต่างชาติทิ้งหุ้นไทย-ลดเสี่ยงแรงกดดัน-น้ำท่วม-ปัจจัยนอก/ar-AA2dEXMZ",
@@ -162,24 +180,6 @@
             "url": "https://www.thansettakij.com/business/tourism/670182",
             "source": "ฐานเศรษฐกิจ",
             "date": "2026-09-29T05:49:00+00:00"
-        },
-        {
-            "title": "หุ้นไทยร่วงต่อ โบรกฯ ชี้เป็นโอกาสสะสม ส่องผลกระทบน้ำท่วมกรุง ...",
-            "url": "https://www.msn.com/th-th/money/general/หุ้นไทยร่วงต่อ-โบรกฯ-ชี้เป็นโอกาสสะสม-ส่องผลกระทบน้ำท่วมกรุงฯ-หุ้น-12-กลุ่ม-ใครรอด-ใครเสี่ยง/ar-AA2daAsp",
-            "source": "ไทยรัฐ",
-            "date": "2026-09-29T05:11:42+00:00"
-        },
-        {
-            "title": "น้ำท่วม กทม.ซ้ำเติมเศรษฐกิจ เสียหายหมื่นล้าน ภาคธุรกิจตั้งรับ ...",
-            "url": "https://www.bangkokbiznews.com/economics/1253812",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-09-28T00:00:00+00:00"
-        },
-        {
-            "title": "32nd Anniversary",
-            "url": "https://www.kaohoon.com/column/866951",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-09-28T00:00:00+00:00"
         }
     ]
 }
