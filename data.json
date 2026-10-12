@@ -1,206 +1,84 @@
 {
-    "last_updated": "2026-10-09T17:04:42.847649+07:00",
+    "last_updated": "2026-10-12T17:13:12.181972+07:00",
     "summary": {
-        "total_value_thb": 30795.781966197297,
-        "total_profit_thb": 1802.8271006334908,
-        "total_profit_percent": 6.218155786441716
+        "total_value_thb": 31068.70865189818,
+        "total_profit_thb": 2072.2409502778537,
+        "total_profit_percent": 7.146528920700422
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 144.5,
-            "total_value_thb": 14450.0,
-            "profit_thb": 850.0,
-            "profit_percent": 6.25
+            "current_price_thb": 146.5,
+            "total_value_thb": 14650.0,
+            "profit_thb": 1050.0,
+            "profit_percent": 7.720588235294118
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4299999475479126,
-            "total_value_thb": 2859.999895095825,
-            "profit_thb": 39.999895095825195,
-            "profit_percent": 1.418435996305858
+            "current_price_thb": 1.4199999570846558,
+            "total_value_thb": 2839.9999141693115,
+            "profit_thb": 19.999914169311523,
+            "profit_percent": 0.7092168145145931
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.200000762939453,
-            "total_value_thb": 648.0000305175781,
-            "profit_thb": 38.80003051757808,
-            "profit_percent": 6.369013545236061
+            "current_price_thb": 16.5,
+            "total_value_thb": 660.0,
+            "profit_thb": 50.799999999999955,
+            "profit_percent": 8.33880499015101
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.12811660268756,
-            "total_value_thb": 10775.183960061315,
-            "profit_thb": 775.1844091013154,
-            "profit_percent": 7.751844439101978
+            "current_price_thb": 12.223278589192521,
+            "total_value_thb": 10859.730303420893,
+            "profit_thb": 859.7307524608932,
+            "profit_percent": 8.597307910662447
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4212.10009765625,
-            "cost_per_unit_thb": 134503.78867149353,
-            "current_price_thb": 141273.84113168344,
-            "total_value_thb": 2062.598080522578,
-            "profit_thb": 98.84276591877256,
-            "profit_percent": 5.033354470575395
+            "current_price_usd": 4197.2001953125,
+            "cost_per_unit_thb": 134744.39388084412,
+            "current_price_thb": 141025.92015808076,
+            "total_value_thb": 2058.978434307979,
+            "profit_thb": 91.71028364765493,
+            "profit_percent": 4.661808997257028
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> ความเชื่อมั่นระยะยาวจากการที่ไทยเตรียมเป็นเจ้าภาพการประชุม IMF-World Bank ปี 2026 รวมถึงมาตรการสนับสนุนของภาครัฐและ BOI ในการดึงดูดทุนต่างชาติและการขยายตัวของกลุ่มนิคมอุตสาหกรรม (WHA)</li><li><b>ปัจจัยลบ:</b> นักลงทุนต่างชาติยังคงขายสุทธิหุ้นไทยเพื่อลดความเสี่ยงจากปัจจัยภายนอกและภัยธรรมชาติ ขณะที่ตลาดหุ้นโลกในระยะสั้นมีความผันผวนสูงจากทิศทางดอกเบี้ยเฟด ราคาน้ำมัน และการเลือกตั้งสหรัฐฯ</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยกดดัน:</b> อัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐฯ (Bond Yield) ที่ปรับตัวสูงขึ้นสร้างแรงกดดันต่อราคาทองคำในฐานะสินทรัพย์ที่ไม่ให้ผลตอบแทนในรูปดอกเบี้ย</li><li><b>ปัจจัยหนุน:</b> ตลาดยังจับตาตัวเลขเงินเฟ้อสหรัฐฯ และความผันผวนทางภูมิรัฐศาสตร์/เศรษฐกิจโลก ซึ่งยังคงเป็นแรงหนุนสินทรัพย์ปลอดภัยในระยะกลางถึงยาว</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรปัจจุบัน 6.25% พื้นฐานยังแข็งแกร่งและจ่ายปันผลสม่ำเสมอ แนะนำถือต่อเพื่อรับเงินปันผลและรอประเมินทิศทางฟันด์โฟลว์ต่างชาติ"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ราคาทรงตัวมีกำไรเล็กน้อย 1.42% อัตราผลตอบแทนเงินปันผลยังน่าจูงใจ จึงแนะนำถือรอการฟื้นตัวของภาคอสังหาริมทรัพย์"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "กำไร 6.37% การบริโภคในประเทศทยอยฟื้นตัว แนะนำถือต่อตามแนวโน้มการเติบโตของผลการดำเนินงาน"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "ทำกำไรได้ดีถึง 7.75% ควรถือต่อเพื่อกระจายความเสี่ยงในสินทรัพย์สหรัฐฯ แม้อาจมีความผันผวนระยะสั้นจากปัจจัยการเลือกตั้งและเฟด"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "ยังมีกำไร 5.03% แนะนำถือเป็นสินทรัพย์ปลอดภัยเพื่อกระจายความเสี่ยง แม้จะเผชิญแรงกดดันระยะสั้นจาก Bond Yield สหรัฐฯ"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "WHA",
-                "name": "WHA Corporation Public Company Limited",
-                "reason": "ได้รับอานิสงส์เชิงบวกจากการย้ายฐานทุนต่างชาติ และมาตรการดึงดูดการลงทุนระดับโลกในเวที IMF-World Bank 2026",
-                "tag": "Growth"
-            },
-            {
-                "symbol": "PTT",
-                "name": "PTT Public Company Limited",
-                "reason": "หุ้นมาร์เก็ตแคปขนาดใหญ่ที่มีฐานะการเงินและพลังงานมั่นคง พร้อมจ่ายเงินปันผลสูง ทนทานต่อแรงขายของต่างชาติได้ดี",
-                "tag": "Dividend"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 48.859470079s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 48\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำเทคโนโลยีชิปประมวลผล AI และ Data Center ระดับโลกที่มีความต้องการเติบโตสูงต่อเนื่อง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำ Cloud และ Enterprise AI ที่มีกระแสเงินสดแข็งแกร่งและคูเมืองทางธุรกิจทนทานต่อความผันผวน",
-            "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้รับจ้างผลิตชิปขั้นสูงอันดับหนึ่งของโลก มีบทบาทสำคัญอย่างยิ่งต่อห่วงโซ่อุปทานเทคโนโลยีโลก",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเครื่องจักรผลิตชิปขั้นสูง EUV ปัจจัยพื้นฐานแกร่งและจำเป็นต่อความมั่นคงทางเทคโนโลยี",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวาน GLP-1 ธุรกิจ Defensive ต้านทานสภาวะเศรษฐกิจผันผวนได้ดี",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การเติบโตของ AWS และประสิทธิภาพการทำกำไรจากระบบโลจิสติกส์ที่ฟื้นตัวเด่นชัด",
-            "category": "Tech"
-        },
-        {
-            "symbol": "XOM",
-            "name": "Exxon Mobil Corporation",
-            "exchange": "NYSE",
-            "reason": "ป้องกันความเสี่ยงจากความตึงเครียดด้านภูมิรัฐศาสตร์และทิศทางราคาน้ำมัน พร้อมจ่ายปันผลสม่ำเสมอ",
-            "category": "Energy"
-        },
-        {
-            "symbol": "LMT",
-            "name": "Lockheed Martin Corporation",
-            "exchange": "NYSE",
-            "reason": "หุ้นกลุ่มความมั่นคงและการป้องกันประเทศ ได้รับประโยชน์จากงบประมาณทางทหารทั่วโลกที่เพิ่มขึ้น",
-            "category": "Defense"
-        },
-        {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ผู้นำยานยนต์ที่ได้ประโยชน์จากกระแสความต้องการรถยนต์ไฮบริดที่แข็งแกร่งทั่วโลกและมูลค่าหุ้นน่าดึงดูด",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "9988",
-            "name": "Alibaba Group Holding Limited",
-            "exchange": "HKEX",
-            "reason": "โอกาสฟื้นตัวสูงตามมาตรการกระตุ้นเศรษฐกิจจีน ควบคู่กับการเติบโตของธุรกิจคลาวด์และ AI",
-            "category": "Tech"
-        },
-        {
-            "symbol": "WHA",
-            "name": "WHA Corporation PCL",
-            "exchange": "SET",
-            "reason": "รับอานิสงส์การย้ายฐานการผลิต FDI สู่ไทย และบทบาทเจ้าภาพ IMF-World Bank 2026 ดึงเม็ดเงินลงทุน",
-            "category": "Industrial Estate"
-        },
-        {
-            "symbol": "PTT",
-            "name": "PTT Public Company Limited",
-            "exchange": "SET",
-            "reason": "เสาหลักความมั่นคงทางพลังงาน ปันผลสูง กระแสเงินสดมั่นคง และกำลังขยายสู่ New S-Curve",
-            "category": "Energy"
-        },
-        {
-            "symbol": "MC",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "แบรนด์หรูระดับพรีเมียมที่มีอำนาจกำหนดราคาสูง ทนทานต่อแรงกดดันเงินเฟ้อและรอรับแรงซื้อจากเอเชีย",
-            "category": "Consumer Discretionary"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Global Crypto Exchanges",
-            "reason": "ทองคำดิจิทัล ป้องกันความเสี่ยงจากการขยายตัวของหนี้สาธารณะสหรัฐฯ และได้รับแรงหนุนจากสถาบันผ่าน ETF",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Global Crypto Exchanges",
-            "reason": "โครงสร้างพื้นฐานหลักของระบบ Smart Contracts และการแปลงสินทรัพย์ในโลกจริงเป็นโทเคน (RWA)",
-            "category": "Crypto"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "หุ้นไทยเปิดตลาดวันนี้ ร่วง 5.80 จุด กังวล \"ทรัมป์-รัสเซีย\" และ \"คดี Vicor ของ DELTA",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยเปิดตลาดวันนี้-ร่วง-580-จุด-กังวล-ทรัมป์-รัสเซีย-และ-คดี-vicor-ของ-delta/ar-AA2e2vWg",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-10-12T10:10:00+00:00"
+        },
+        {
+            "title": "Webull สะเทือนถึงไทย...ความโปร่งใสที่ต้องมีคำตอบ",
+            "url": "https://www.thansettakij.com/blogs/columnist/speak-every-district/671241",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-10-12T08:47:00+00:00"
+        },
+        {
+            "title": "SCB EIC คาดไทยคงดอกเบี้ยถึงปี '70 ชี้บาทปลายปีแตะ 33 บาท ชูหุ้น AI กำไร ...",
+            "url": "https://www.msn.com/th-th/news/other/scb-eic-คาดไทยคงดอกเบี้ยถึงปี-70-ชี้บาทปลายปีแตะ-33-บาท-ชูหุ้น-ai-กำไรโต-34/ar-AA2e2ZvN",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-12T07:27:33+00:00"
+        },
         {
             "title": "MFC ชี้หุ้นโลก Q4/69 ผันผวนสูง จับตาเฟด-น้ำมัน-เลือกตั้งสหรัฐฯ ชู ...",
             "url": "https://hoonsmart.com/archives/443028",
@@ -302,24 +180,6 @@
             "url": "https://www.bangkokbiznews.com/corporate-moves/finance/stock/1254641",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-10-01T21:33:00+00:00"
-        },
-        {
-            "title": "ปิโตรนาส",
-            "url": "https://mgronline.com/tags/ปิโตรนาส",
-            "source": "ผู้จัดการออนไลน์",
-            "date": "2026-10-01T17:00:00+00:00"
-        },
-        {
-            "title": "ต่างชาติถล่มขายหุ้นไทย 7 วันทะลุ 3 หมื่นล้าน \"เอเซีย พลัส\" เตือน ...",
-            "url": "https://mgronline.com/stockmarket/detail/9690000095724",
-            "source": "ผู้จัดการออนไลน์",
-            "date": "2026-10-01T09:46:00+00:00"
-        },
-        {
-            "title": "เดือนกันยาหุ้นไทยโดนเทยับเยิน ต่างชาติขาย 7 วัน 30,000 ล้านบาท",
-            "url": "https://www.msn.com/th-th/news/other/เดือนกันยาหุ้นไทยโดนเทยับเยิน-ต่างชาติขาย-7-วัน-30000-ล้านบาท/ar-AA2djKPp",
-            "source": "อมรินทร์ทีวี",
-            "date": "2026-10-01T06:21:00+00:00"
         }
     ]
 }
