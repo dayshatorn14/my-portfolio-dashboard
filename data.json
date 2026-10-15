@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-10-15T14:59:35.168165+07:00",
+    "last_updated": "2026-10-15T20:19:09.674023+07:00",
     "summary": {
-        "total_value_thb": 30914.727565110952,
-        "total_profit_thb": 1924.7001373773055,
-        "total_profit_percent": 6.639180118663905
+        "total_value_thb": 30909.320051010858,
+        "total_profit_thb": 1921.0492646546627,
+        "total_profit_percent": 6.62698813189932
     },
     "assets": [
         {
@@ -28,44 +28,96 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.200000762939453,
-            "total_value_thb": 648.0000305175781,
-            "profit_thb": 38.80003051757808,
-            "profit_percent": 6.369013545236061
+            "current_price_thb": 16.299999237060547,
+            "total_value_thb": 651.9999694824219,
+            "profit_thb": 42.79996948242183,
+            "profit_percent": 7.025602344455323
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.04491160108829,
-            "total_value_thb": 10701.260759287446,
-            "profit_thb": 701.2612083274471,
-            "profit_percent": 7.012612398168819
+            "current_price_thb": 12.034120959871476,
+            "total_value_thb": 10691.67385078655,
+            "profit_thb": 691.6742998265509,
+            "profit_percent": 6.91674330885495
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4162.89990234375,
-            "cost_per_unit_thb": 134303.27923107147,
-            "current_price_thb": 139415.52471678145,
-            "total_value_thb": 2035.4666608650093,
-            "profit_thb": 74.63878409136578,
-            "profit_percent": 3.8064934192070354
+            "current_price_usd": 4167.0,
+            "cost_per_unit_thb": 134182.96132850647,
+            "current_price_thb": 139427.81618499756,
+            "total_value_thb": 2035.6461163009644,
+            "profit_thb": 76.57488090477,
+            "profit_percent": 3.9087338694595153
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 26.096890256s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 26\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> IMF ปรับเพิ่มมุมมองเศรษฐกิจไทยช่วยพยุงจิตวิทยาการลงทุนระยะสั้น พร้อมแรงซื้อต่างชาติที่เก็งกำไรในกลุ่มอิงพลังงานและโลจิสติกส์</li><li><b>ปัจจัยลบ:</b> ความกังวลความขัดแย้งภูมิรัฐศาสตร์ (ทรัมป์-รัสเซีย), คดีสิทธิบัตร Vicor ของ DELTA ที่กดดันดัชนี, คำเตือนจาก IMF เรื่องความเสี่ยง AI ปรับฐาน และการขยายตัวของ GDP ไทยที่ยังโตชะลอตัว (2.1-2.2%) ท่ามกลางประเด็นวินัยการคลัง</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความตึงเครียดด้านภูมิรัฐศาสตร์ระดับโลก และความกังวลความเสี่ยงในตลาดหุ้น/สินทรัพย์เสี่ยง ส่งผลให้มีแรงซื้อสินทรัพย์ปลอดภัย (Safe Haven) ต่อเนื่อง</li><li><b>ปัจจัยลบ/ชะลอตัว:</b> อัตราผลตอบแทนพันธบัตรและค่าเงินดอลลาร์ที่ยังผันผวนตามทิศทางนโยบายการเงินโลก อาจจำกัดช่วงการปรับขึ้นระยะสั้น</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 7.72% และยังมีปัจจัยบวกจากการขยายเครือข่ายโลจิสติกส์และการจ่ายปันผลสูง ควรถือต่อเพื่อรับผลตอบแทน"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "กำไรบาง 2.13% ขณะที่เศรษฐกิจในประเทศฟื้นตัวช้าและกำลังซื้อยังเปราะบาง จึงควรถือรอดูความชัดเจนของมาตรการกระตุ้นอสังหาฯ"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "มีกำไร 7.03% เป็นหุ้นกลุ่มสินค้าจำเป็น (Defensive) ที่ช่วยป้องกันความเสี่ยงจากความผันผวนของตลาดได้ดี"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "กำไร 6.92% แต่เริ่มมีสัญญาณเตือนจาก IMF เรื่องความเสี่ยงหุ้นกลุ่ม AI ปรับฐาน จึงควรถือเพื่อประเมินสถานการณ์และไม่ควรเร่งไล่ราคา"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "กำไร 3.91% ทำหน้าที่เป็นสินทรัพย์กระจายความเสี่ยงได้ดีท่ามกลางความไม่แน่นอนทางภูมิรัฐศาสตร์ระหว่างประเทศ"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "PTTEP",
+                "name": "บมจ.ปตท. สำรวจและผลิตปิโตรเลียม",
+                "reason": "ได้รับอานิสงส์ตรงจากราคาน้ำมันและเป็นเป้าหมายเด่นของแรงซื้อต่างชาติตามการวิเคราะห์ของ บล.กรุงศรี",
+                "tag": "Energy / Value"
+            },
+            {
+                "symbol": "NETBAY",
+                "name": "บมจ.เน็ตเบย์",
+                "reason": "จับมือร่วมกับ SCB และ TACBA บุกแพลตฟอร์ม Logistics 2027 สอดรับกระแสดิจิทัลและการปรับดัชนีภาคเทคโนโลยีของภาครัฐ",
+                "tag": "Tech / Growth"
+            }
+        ]
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "อุ้มคนได้ แต่อย่าทิ้งวินัยคลัง IMF แนะรัฐไทยช่วยให้ตรงจุด อย่า ...",
+            "url": "https://www.msn.com/th-th/money/economy/อุ้มคนได้-แต่อย่าทิ้งวินัยคลัง-imf-แนะรัฐไทยช่วยให้ตรงจุด-อย่าหว่านแห/ar-AA2egNT3",
+            "source": "อมรินทร์ทีวี",
+            "date": "2026-10-15T09:03:45+00:00"
+        },
         {
             "title": "อุ้มคนได้ แต่อย่าทิ้งวินัยคลัง IMF แนะช่วยให้ตรงจุด สร้างกันชน ...",
             "url": "https://www.msn.com/th-th/money/economy/อุ้มคนได้-แต่อย่าทิ้งวินัยคลัง-imf-แนะช่วยให้ตรงจุด-สร้างกันชนรับวิกฤต/ar-AA2egNT3",
             "source": "อมรินทร์ทีวี",
             "date": "2026-10-15T07:03:55+00:00"
+        },
+        {
+            "title": "หุ้นไทยลุ้นแรงซื้อฝรั่งพยุง กรุงศรี ชู 11 หุ้นเด่นรับน้ำมัน ...",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยลุ้นแรงซื้อฝรั่งพยุง-กรุงศรี-ชู-11-หุ้นเด่นรับน้ำมันพุ่ง-รัฐกระตุ้นเศรษฐกิจ/ar-AA2eguoj",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-15T02:39:15+00:00"
+        },
+        {
+            "title": "ไทยโตไม่เต็มสปีด",
+            "url": "https://www.kaohoon.com/column/872019",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-10-15T00:00:00+00:00"
         },
         {
             "title": "หุ้นไทยเช้านี้บวก 4.34 จุด รับ IMF ปรับเพิ่มมุมมองเศรษฐกิจไทย ช่วยพยุงตลาด",
@@ -162,24 +214,6 @@
             "url": "https://www.msn.com/th-th/news/other/รำลึก-100-ปี-ศ-สังเวียน-สมคิด-ปลุกตลาดทุนไทย-ดึงหุ้นอนาคต-รักษา-trust/ar-AA2dJxPQ",
             "source": "ประชาชาติธุรกิจ",
             "date": "2026-10-07T06:32:26+00:00"
-        },
-        {
-            "title": "'มหากิจศิริ' ยื่นบอร์ดแข่งขันการค้า ร้อง 'เนสท์เล่' ทำธุรกิจ ...",
-            "url": "https://www.thansettakij.com/business/670873",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-10-07T02:21:00+00:00"
-        },
-        {
-            "title": "ไทยชู BOI IPO ดึงค่ายรถ-ทุนต่างชาติ เข้าตลาดหุ้นไทย \"เอกนิติ\" คาด 2 ...",
-            "url": "https://www.ejan.co/economics/2da23qf26zui",
-            "source": "อีจัน",
-            "date": "2026-10-07T01:55:00+00:00"
-        },
-        {
-            "title": "'ต่างชาติ' ทิ้งหุ้นไทย ลดเสี่ยงแรงกดดัน น้ำท่วม-ปัจจัยนอก",
-            "url": "https://www.msn.com/th-th/news/other/ต่างชาติทิ้งหุ้นไทย-ลดเสี่ยงแรงกดดัน-น้ำท่วม-ปัจจัยนอก/ar-AA2dEXMZ",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-10-06T09:45:00+00:00"
         }
     ]
 }
