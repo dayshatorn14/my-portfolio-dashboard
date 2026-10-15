@@ -1,66 +1,78 @@
 {
-    "last_updated": "2026-10-14T15:23:48.610592+07:00",
+    "last_updated": "2026-10-15T14:59:35.168165+07:00",
     "summary": {
-        "total_value_thb": 30928.439229378266,
-        "total_profit_thb": 1934.3133440125566,
-        "total_profit_percent": 6.671397343242096
+        "total_value_thb": 30914.727565110952,
+        "total_profit_thb": 1924.7001373773055,
+        "total_profit_percent": 6.639180118663905
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 145.5,
-            "total_value_thb": 14550.0,
-            "profit_thb": 950.0,
-            "profit_percent": 6.985294117647059
+            "current_price_thb": 146.5,
+            "total_value_thb": 14650.0,
+            "profit_thb": 1050.0,
+            "profit_percent": 7.720588235294118
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4199999570846558,
-            "total_value_thb": 2839.9999141693115,
-            "profit_thb": 19.999914169311523,
-            "profit_percent": 0.7092168145145931
+            "current_price_thb": 1.440000057220459,
+            "total_value_thb": 2880.000114440918,
+            "profit_thb": 60.00011444091797,
+            "profit_percent": 2.127663632656666
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 16.299999237060547,
-            "total_value_thb": 651.9999694824219,
-            "profit_thb": 42.79996948242183,
-            "profit_percent": 7.025602344455323
+            "current_price_thb": 16.200000762939453,
+            "total_value_thb": 648.0000305175781,
+            "profit_thb": 38.80003051757808,
+            "profit_percent": 6.369013545236061
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.202014738385856,
-            "total_value_thb": 10840.838507468803,
-            "profit_thb": 840.8389565088037,
-            "profit_percent": 8.408389942658378
+            "current_price_thb": 12.04491160108829,
+            "total_value_thb": 10701.260759287446,
+            "profit_thb": 701.2612083274471,
+            "profit_percent": 7.012612398168819
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4174.89990234375,
-            "cost_per_unit_thb": 134583.9955072403,
-            "current_price_thb": 140109.64645600878,
-            "total_value_thb": 2045.6008382577281,
-            "profit_thb": 80.67450385201982,
-            "profit_percent": 4.105726634093884
+            "current_price_usd": 4162.89990234375,
+            "cost_per_unit_thb": 134303.27923107147,
+            "current_price_thb": 139415.52471678145,
+            "total_value_thb": 2035.4666608650093,
+            "profit_thb": 74.63878409136578,
+            "profit_percent": 3.8064934192070354
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 11.500469999s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 11\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 26.096890256s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 26\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "อุ้มคนได้ แต่อย่าทิ้งวินัยคลัง IMF แนะช่วยให้ตรงจุด สร้างกันชน ...",
+            "url": "https://www.msn.com/th-th/money/economy/อุ้มคนได้-แต่อย่าทิ้งวินัยคลัง-imf-แนะช่วยให้ตรงจุด-สร้างกันชนรับวิกฤต/ar-AA2egNT3",
+            "source": "อมรินทร์ทีวี",
+            "date": "2026-10-15T07:03:55+00:00"
+        },
+        {
+            "title": "หุ้นไทยเช้านี้บวก 4.34 จุด รับ IMF ปรับเพิ่มมุมมองเศรษฐกิจไทย ช่วยพยุงตลาด",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยเช้านี้บวก-434-จุด-รับ-imf-ปรับเพิ่มมุมมองเศรษฐกิจไทย-ช่วยพยุงตลาด/ar-AA2ebvhX",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-10-14T09:43:00+00:00"
+        },
         {
             "title": "หุ้นไทยเช้านี้บวก 4.34 จุด รับ IMF ปรับเพิ่มมุมมองเศรษฐกิจไทย ช่วย ...",
             "url": "https://www.msn.com/th-th/money/economy/หุ้นไทยเช้านี้บวก-4-34-จุด-รับ-imf-ปรับเพิ่มมุมมองเศรษฐกิจไทย-ช่วยพยุงตลาด/ar-AA2ebvhX",
@@ -168,18 +180,6 @@
             "url": "https://www.msn.com/th-th/news/other/ต่างชาติทิ้งหุ้นไทย-ลดเสี่ยงแรงกดดัน-น้ำท่วม-ปัจจัยนอก/ar-AA2dEXMZ",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-10-06T09:45:00+00:00"
-        },
-        {
-            "title": "กลุ่ม ปตท. 48 ปี สร้างฐานพลังงานมั่นคง ขับเคลื่อนอนาคตโลกด้วย ...",
-            "url": "https://www.thebangkokinsight.com/news/business/1702017/",
-            "source": "The Bangkok Insight",
-            "date": "2026-10-06T07:29:00+00:00"
-        },
-        {
-            "title": "ปมกำกวม \"วีซ่าธุรกิจ\" ป่วนงาน IMF-World Bank 2026! จี้รัฐไทยแก้เกม ก่อนหลาย ...",
-            "url": "https://www.kaohoon.com/news/869474",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-10-06T00:00:00+00:00"
         }
     ]
 }
