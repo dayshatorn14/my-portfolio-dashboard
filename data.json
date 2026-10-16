@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-10-16T14:53:25.250599+07:00",
+    "last_updated": "2026-10-16T20:01:22.419646+07:00",
     "summary": {
-        "total_value_thb": 30926.358361026643,
-        "total_profit_thb": 1942.7714305288682,
-        "total_profit_percent": 6.703005515458132
+        "total_value_thb": 30922.167358462848,
+        "total_profit_thb": 1938.5804279650729,
+        "total_profit_percent": 6.688545598630566
     },
     "assets": [
         {
@@ -46,26 +46,184 @@
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4205.7998046875,
+            "current_price_usd": 4197.2001953125,
             "cost_per_unit_thb": 133862.14928340912,
-            "current_price_thb": 140389.6019727476,
-            "total_value_thb": 2049.688188802115,
-            "profit_thb": 95.30080926434175,
-            "profit_percent": 4.876249727261393
+            "current_price_thb": 140102.54700262472,
+            "total_value_thb": 2045.4971862383209,
+            "profit_thb": 91.10980670054778,
+            "profit_percent": 4.661808997257029
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash\nPlease retry in 34.909353463s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 34\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> IMF ปรับเพิ่มมุมมองเศรษฐกิจไทย ช่วยหนุนความเชื่อมั่นและดึงดูดเม็ดเงินลงทุนต่างชาติ ประกอบกับนโยบาย ก.ล.ต. ผลักดัน TISA และ Tokenization เพื่อเชื่อมเงินทุนโลก</li><li><b>ปัจจัยลบ/ข้อควรระวัง:</b> IMF เตือนเรื่องการรักษาวินัยการคลังและการขยายตัวของเศรษฐกิจไทยที่ยังไม่เต็มศักยภาพ (โตไม่เต็มสปีด) ทำให้ภาพรวมตลาดยังเป็นการฟื้นตัวแบบเลือกกลุ่ม (Selective Buy)</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความกังวลด้านภาระการคลังและทิศทางเศรษฐกิจโลกยังเป็นแรงหนุนสินทรัพย์ปลอดภัย (Safe Haven)</li><li><b>ปัจจัยลบ/ข้อควรระวัง:</b> การฟื้นตัวของตลาดสินทรัพย์เสี่ยงและมุมมองเศรษฐกิจที่ดีขึ้นในบางภูมิภาคอาจจำกัด upside ของราคาทองคำในระยะสั้น</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรปัจจุบัน 7.72% และยังมีปัจจัยหนุนจากการรุกตลาดดิจิทัลโลจิสติกส์ร่วมกับพันธมิตรช่วยหนุนการเติบโตระยะยาว"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 2.13% แนะนำถือรับปันผลและรออานิสงส์จากการฟื้นตัวของกำลังซื้อในประเทศ"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "กำไร 7.03% มีเสถียรภาพตามกลุ่มสินค้าอุปโภคบริโภคที่ได้ประโยชน์จากการกระตุ้นเศรษฐกิจฐานราก"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "กำไร 6.95% ยังคงถือครองเพื่อกระจายความเสี่ยงตามแนวโน้มการเติบโตของตลาดหุ้นสหรัฐฯ"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "กำไร 4.66% ควรถือครองเป็นสินทรัพย์ปลอดภัยป้องกันความผันผวนของระบบการเงินและนโยบายการคลังโลก"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "NETBAY",
+                "name": "บริษัท เน็ตเบย์ จำกัด (มหาชน)",
+                "reason": "ได้ประโยชน์โดยตรงจากการร่วมมือกับ SCB ในการขับเคลื่อนดิจิทัลแพลตฟอร์มด้านโลจิสติกส์และการค้าระหว่างประเทศ",
+                "tag": "Tech"
+            },
+            {
+                "symbol": "PTTEP",
+                "name": "บริษัท ปตท. สำรวจและผลิตปิโตรเลียม จำกัด (มหาชน)",
+                "reason": "ได้รับแรงหนุนจากมุมมองโบรกเกอร์ชูหุ้นเด่นรับอานิสงส์ทิศทางราคาน้ำมันและกระแสเงินทุนต่างชาติไหลเข้า",
+                "tag": "Value"
+            }
+        ]
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำเซมิคอนดักเตอร์และโครงสร้างพื้นฐาน AI ของโลกที่ยังคงเติบโตอย่างแข็งแกร่ง",
+            "category": "Tech"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "การนำระบบ Enterprise AI มาผสานรวมใน Cloud และ Software ก่อให้เกิดกระแสเงินสดมั่นคง",
+            "category": "Tech"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลกที่ครองส่วนแบ่งตลาดสูงสุดในยุคปัญญาประดิษฐ์",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้นำผูกขาดเครื่องผลิตชิปเทคโนโลยี EUV จากยุโรปที่มีความสำคัญต่อห่วงโซ่อุปทานโลก",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การฟื้นตัวของธุรกิจอีคอมเมิร์ซและการขยายตัวของ AWS พร้อมความสามารถในการควบคุมต้นทุน",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ราคาหุ้นอยู่ในระดับที่น่าสนใจเมื่อเทียบกับกำไร พร้อมศักยภาพด้านโมเดล AI และธุรกิจโฆษณา",
+            "category": "Tech"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "ยักษ์ใหญ่ฟาร์มาในยุโรปที่เป็นผู้นำตลาดรักษาโรคอ้วนและเบาหวานทั่วโลก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "MC.PA",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "แบรนด์หรูระดับพรีเมียมที่มีอำนาจกำหนดราคาสูงและได้ประโยชน์จากการฟื้นตัวของการบริโภคระดับบน",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "TENCENT",
+            "name": "Tencent Holdings Ltd.",
+            "exchange": "HKEX",
+            "reason": "แพลตฟอร์มเทคโนโลยีชั้นนำของจีนที่ได้อานิสงส์จากมาตรการกระตุ้นเศรษฐกิจและการฟื้นตัวของเกม/คลาวด์",
+            "category": "Tech"
+        },
+        {
+            "symbol": "SCB",
+            "name": "SCB X Public Company Limited",
+            "exchange": "SET",
+            "reason": "การรุกเทคโนโลยีการเงิน โลจิสติกส์ และระบบ Tokenization ตามนโยบายผลักดันตลาดทุนไทย พร้อมอัตราปันผลสูง",
+            "category": "Financials"
+        },
+        {
+            "symbol": "PTTEP",
+            "name": "PTT Exploration and Production PCL",
+            "exchange": "SET",
+            "reason": "การบริหารต้นทุนที่ดีเยี่ยม กระแสเงินสดแข็งแกร่ง และได้ประโยชน์จากความผันผวนของราคาน้ำมันโลก",
+            "category": "Energy"
+        },
+        {
+            "symbol": "XOM",
+            "name": "Exxon Mobil Corporation",
+            "exchange": "NYSE",
+            "reason": "สินทรัพย์พลังงานต้นน้ำที่แข็งแกร่ง ช่วยป้องกันความเสี่ยงด้านเงินเฟ้อและความตึงเครียดทางภูมิรัฐศาสตร์",
+            "category": "Energy"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้รับการยอมรับจากสถาบันการเงินผ่าน ETF และเป็นเครื่องมือป้องกันเงินเฟ้อระยะยาว",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "โครงสร้างพื้นฐานหลักสำหรับนวัตกรรม Tokenization, RWA และ Smart Contracts เชื่อมตลาดทุนโลก",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "SOL",
+            "name": "Solana",
+            "exchange": "Crypto",
+            "reason": "บล็อกเชนประสิทธิภาพสูงที่ได้รับความนิยมในระบบการชำระเงินและธุรกรรมที่มีความเร็วสูง",
+            "category": "Crypto"
+        }
+    ],
     "news": [
+        {
+            "title": "ก.ล.ต.ชู 3 นโยบายปลุกตลาดทุนไทย ดัน TISA-BOI to IPO-tokenization เชื่อมเงินทุนโลก",
+            "url": "https://www.msn.com/th-th/money/economy/ก-ล-ต-ชู-3-นโยบายปลุกตลาดทุนไทย-ดัน-tisa-boi-to-ipo-tokenization-เชื่อมเงินทุนโลก/ar-AA2en9GX",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-16T09:59:28+00:00"
+        },
+        {
+            "title": "MONEY AND STOCK MARKET REVIEW วันที่ 12-15 ตุลาคม 2569",
+            "url": "https://www.bangkokbiznews.com/world/economics/1256633",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-10-16T08:11:00+00:00"
+        },
         {
             "title": "Money and stock market review วันที่ 12-15 ตุลาคม 2569",
             "url": "https://www.msn.com/th-th/news/other/money-and-stock-market-review-วันที่-12-15-ตุลาคม-2569/ar-AA2emewY",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-10-16T07:42:00+00:00"
+        },
+        {
+            "title": "GO WHOLESALE สานต่อ \"GO Food ส่งสุขให้ทุกรอยยิ้ม\" ปีที่ 2 ชูกลยุทธ์ \"เปลี่ยน ...",
+            "url": "https://www.mitihoon.com/2026/10/16/686648/",
+            "source": "มิติหุ้น",
+            "date": "2026-10-16T05:31:00+00:00"
         },
         {
             "title": "ไส้ใน 'สตง.' สอบ 2 ยุค 'ผอ.ไทยพีบีเอส' หมักหมมปัญหาสั่งชดใช้ 230 ล.",
@@ -162,24 +320,6 @@
             "url": "https://www.msn.com/th-th/money/general/wha-ชี้ไทยคือ-safe-zone-ใช้เวที-imf-world-bank-2026-โอกาสทองดึงลงทุน/ar-AA2dSBky",
             "source": "ประชาชาติธุรกิจ",
             "date": "2026-10-09T05:10:00+00:00"
-        },
-        {
-            "title": "กรมพัฒนาธุรกิจฯ ลุยปฏิบัติการ \"ยุทธรัฐ\" บุกค้น 3 จุดกรุงเทพฯ ...",
-            "url": "https://www.thairath.co.th/news/governmentpolicy/2965127",
-            "source": "ไทยรัฐ",
-            "date": "2026-10-08T20:17:00+00:00"
-        },
-        {
-            "title": "8 พันธมิตรใหญ่ ผนึก KH Academy เปิด Prep for Fund Manager รุ่น 6 ปั้นคนรุ่นใหม่สู่ตลาด ...",
-            "url": "https://www.kaohoon.com/pr/870477",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-10-08T08:41:00+00:00"
-        },
-        {
-            "title": "ผลตอบแทนพันธบัตรสูงแข่งราคาทองคำ จับตาเงินเฟ้อสหรัฐฯ ชี้ราคา",
-            "url": "https://www.msn.com/th-th/news/other/ผลตอบแทนพันธบัตรสูงแข่งราคาทองคำ-จับตาเงินเฟ้อสหรัฐฯ-ชี้ราคา/ar-AA2dNXyT",
-            "source": "อมรินทร์ทีวี",
-            "date": "2026-10-08T08:39:40+00:00"
         }
     ]
 }
