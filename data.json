@@ -1,206 +1,84 @@
 {
-    "last_updated": "2026-10-23T15:19:14.523592+07:00",
+    "last_updated": "2026-10-26T15:50:42.483500+07:00",
     "summary": {
-        "total_value_thb": 31427.687102941585,
-        "total_profit_thb": 2424.193282509841,
-        "total_profit_percent": 8.35828020416664
+        "total_value_thb": 31361.993105785725,
+        "total_profit_thb": 2353.8154294955602,
+        "total_profit_percent": 8.114316782537676
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.5,
-            "total_value_thb": 15150.0,
-            "profit_thb": 1550.0,
-            "profit_percent": 11.397058823529411
+            "current_price_thb": 151.0,
+            "total_value_thb": 15100.0,
+            "profit_thb": 1500.0,
+            "profit_percent": 11.029411764705882
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.440000057220459,
-            "total_value_thb": 2880.000114440918,
-            "profit_thb": 60.00011444091797,
-            "profit_percent": 2.127663632656666
+            "current_price_thb": 1.4500000476837158,
+            "total_value_thb": 2900.0000953674316,
+            "profit_thb": 80.00009536743164,
+            "profit_percent": 2.8368828144479306
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 18.0,
-            "total_value_thb": 720.0,
-            "profit_thb": 110.79999999999995,
-            "profit_percent": 18.18778726198292
+            "current_price_thb": 17.799999237060547,
+            "total_value_thb": 711.9999694824219,
+            "profit_thb": 102.79996948242183,
+            "profit_percent": 16.874584616287233
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.038528286865073,
-            "total_value_thb": 10695.589525469099,
-            "profit_thb": 695.5899745090992,
-            "profit_percent": 6.955900057438728
+            "current_price_thb": 12.001675506096097,
+            "total_value_thb": 10662.847797694356,
+            "profit_thb": 662.8482467343565,
+            "profit_percent": 6.628482764988955
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4026.10009765625,
-            "cost_per_unit_thb": 135225.6348953247,
-            "current_price_thb": 135760.10020764172,
-            "total_value_thb": 1982.097463031569,
-            "profit_thb": 7.803193559828287,
-            "profit_percent": 0.3952396398291819
+            "current_price_usd": 4026.800048828125,
+            "cost_per_unit_thb": 135546.44694042206,
+            "current_price_thb": 136105.838578186,
+            "total_value_thb": 1987.1452432415156,
+            "profit_thb": 8.167117911353444,
+            "profit_percent": 0.4126936931145151
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> เม็ดเงินลงทุนต่างชาติ (Fund Flow) ยังไหลเข้าบวกสวนทางภูมิภาค ประกอบกับ FETCO มองแนวโน้มฟื้นตัวจากกำไร บจ. และผลการดำเนินงานกลุ่มธนาคารพาณิชย์ (เช่น TTB) ยังสะท้อนคุณภาพสินทรัพย์และการบริหารจัดการหนี้เสียได้ดี</li><li><b>ปัจจัยลบ/เสี่ยง:</b> ซีอีโอแบงก์เตือนเศรษฐกิจไทยยังเปราะบางและเผชิญความผันผวนสูงในระยะยาว ขณะที่หุ้นกลุ่มเทคโนโลยีและ AI ในตลาดโลกยังถูกกดดันจากแนวโน้มดอกเบี้ยสูงและเงินเฟ้อ</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความเสี่ยงด้านภูมิรัฐศาสตร์ ความกังวลเรื่องหนี้สินทั่วโลก และความผันผวนทางเศรษฐกิจระยะยาวยังคงกระตุ้นแรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัย (Safe Haven)</li><li><b>ปัจจัยลบ/ชะลอตัว:</b> อัตราผลตอบแทนพันธบัตรและระดับดอกเบี้ยโลกที่ยังทรงตัวสูงจำกัดการปรับตัวขึ้นอย่างรวดเร็วของราคาทองคำ</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรสะสมสูงถึง 11.4% และกลุ่มแบงก์ยังมีผลงานมั่นคง แม้มีความกังวลเศรษฐกิจเปราะบางแต่ยังจ่ายปันผลเด่น ควรถือรับกระแสเงินสด"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "กำไรบางเบาที่ 2.1% ภาคอสังหายังเผชิญแรงกดดันจากกำลังซื้อ แต่ราคาปัจจุบันทรงตัว ควรถือรอรับปันผลและรอบฟื้นตัวของเศรษฐกิจ"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "กำไรโดดเด่นถึง 18.2% อุปสงค์สินค้าอุปโภคบริโภคยังแข็งแกร่ง ทยอยถือ Let Profit Run ต่อเนื่อง"
-            },
-            "K-US500XUH": {
-                "action": "BUY",
-                "reason": "กำไรสะสม 7.0% สอดคล้องกับคำแนะนำสะสมหุ้นโลกช่วงตลาดย่อตัวเพื่อสร้างผลตอบแทนระยะยาวจากการฟื้นตัวของบริษัทชั้นนำ"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "ราคายังเคลื่อนไหวใกล้จุดคุ้มทุน ควรถือเพื่อเป็นสินทรัพย์ป้องกันความเสี่ยงจากความผันผวนทางเศรษฐกิจทั่วโลก"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "TTB",
-                "name": "ธนาคารทหารไทยธนชาต จำกัด (มหาชน)",
-                "reason": "งบไตรมาส 3 แกร่ง กำไรโต 3% สวนทางความกังวลเศรษฐกิจ พร้อมคุม NPL ลดลงเหลือ 2.88% สะท้อนการบริหารความเสี่ยงดีเยี่ยม",
-                "tag": "Dividend"
-            },
-            {
-                "symbol": "KBANK",
-                "name": "ธนาคารกสิกรไทย จำกัด (มหาชน)",
-                "reason": "ตอกย้ำความเป็นเลิศด้วย 3 รางวัลยอดเยี่ยมจากสมาคมนักวิเคราะห์ และมีโมเมนตัมบวกจากการผลักดันเทรดคาร์บอนเครดิตและสินเชื่อสีเขียว",
-                "tag": "Value"
-            }
-        ]
+        "market_analysis": "Error: 504 Deadline Exceeded",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำชิปประมวลผล AI ระดับโลก มีการเติบโตของกำไรแข็งแกร่งและได้ประโยชน์สูงสุดจากกระแส Generative AI",
-            "category": "Tech / AI"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านระบบคลาวด์ Azure และการบูรณาการเทคโนโลยี AI เข้ากับซอฟต์แวร์ระดับองค์กรที่มีกระแสเงินสดมั่นคง",
-            "category": "Tech / AI"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Company",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปเซมิคอนดักเตอร์ขั้นสูงรายใหญ่ที่สุดในโลก เป็นกระดูกสันหลังของห่วงโซ่อุปทานเทคโนโลยีโลก",
-            "category": "Semiconductor"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเทคโนโลยีเครื่องจักรผลิตชิป EUV ระดับโลก มีความได้เปรียบทางการแข่งขันสูงมาก (Moat แข็งแกร่ง)",
-            "category": "Semiconductor"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำคลาวด์ AWS ที่ฟื้นตัวต่อเนื่องควบคู่กับประสิทธิภาพการทำกำไรจากธุรกิจอีคอมเมิร์ซและการโฆษณา",
-            "category": "E-Commerce / Cloud"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ฐานธุรกิจเสิร์ชเอ็นจินและการโฆษณาแข็งแกร่ง พร้อมการพัฒนาระบบนิเวศ AI และคลาวด์ในอัตราเร่ง",
-            "category": "Tech / Advertising"
-        },
-        {
-            "symbol": "JPM",
-            "name": "JPMorgan Chase & Co.",
-            "exchange": "NYSE",
-            "reason": "ธนาคารอันดับหนึ่งของสหรัฐฯ งบดุลแข็งแกร่ง รองรับความผันผวนของดอกเบี้ยและวัฏจักรเศรษฐกิจโลกได้ดี",
-            "category": "Finance"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยารักษาโรคเบาหวานและยาลดน้ำหนัก (GLP-1) ที่มีความต้องการระดับโลกมหาศาลและเติบโตต่อเนื่อง",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "Nasdaq Copenhagen / NYSE",
-            "reason": "ยักษ์ใหญ่ฟาร์มาฝั่งยุโรป เจ้าของยา Ozempic/Wegovy เติบโตแข็งแกร่งและทนทานต่อสภาวะเศรษฐกิจถดถอย",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "BRK.B",
-            "name": "Berkshire Hathaway Inc.",
-            "exchange": "NYSE",
-            "reason": "ถือเงินสดมหาศาล พอร์ตลงทุนและธุรกิจกระจายความเสี่ยงยอดเยี่ยม เหมาะสำหรับรับมือความผันผวนของตลาด",
-            "category": "Holding / Value"
-        },
-        {
-            "symbol": "KBANK",
-            "name": "Kasikornbank PCL",
-            "exchange": "SET",
-            "reason": "ธนาคารไทยชั้นนำที่มีการบริหารคุณภาพสินทรัพย์เชิงรุก เงินปันผลสม่ำเสมอ และพร้อมรับโอกาส Digital Asset",
-            "category": "Finance"
-        },
-        {
-            "symbol": "7974",
-            "name": "Nintendo Co., Ltd.",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ทรัพย์สินทางปัญญา (IP) ชั้นนำระดับโลก กระแสเงินสดมั่นคง มีแรงหนุนจากการเปิดตัวคอนโซลและคอนเทนต์ใหม่",
-            "category": "Consumer / Entertainment"
-        },
-        {
-            "symbol": "TSLA",
-            "name": "Tesla, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำเทคโนโลยีพลังงานสะอาด รถยนต์ไฟฟ้า และระบบขับเคลื่อนอัตโนมัติ (FSD/Robotaxi) ในระยะยาว",
-            "category": "Clean Tech / Auto"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Global Crypto Markets",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่มีอุปทานจำกัด ได้รับแรงหนุนจาก Spot ETF สถาบัน และการเป็นสินทรัพย์ป้องกันความเสี่ยงเงินเฟ้อ",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Global Crypto Markets",
-            "reason": "โครงสร้างพื้นฐานหลักของระบบ Decentralized Finance (DeFi) และ Tokenization โลกที่มีการใช้งานจริงสูงสุด",
-            "category": "Crypto"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "PSP เดินหน้าธุรกิจ waste-to-value เปลี่ยนของเสียเคมีเป็นวัตถุดิบมูลค่าสูง",
+            "url": "https://www.msn.com/th-th/news/other/psp-เดินหน้าธุรกิจ-waste-to-value-เปลี่ยนของเสียเคมีเป็นวัตถุดิบมูลค่าสูง/ar-AA2g4tMe",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-10-26T07:14:00+00:00"
+        },
+        {
+            "title": "บลจ.กสิกรไทย ส่ง 2 กอง ThaiESGX ชูหุ้นปันผลยีลด์ 5.4%",
+            "url": "https://www.msn.com/th-th/money/economy/บลจ-กสิกรไทย-ส่ง-2-กอง-thaiesgx-ชูหุ้นปันผลยีลด์-5-4/ar-AA2g4iXl",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-26T06:40:40+00:00"
+        },
+        {
+            "title": "กลุ่ม PTT บวกคึก เก็งกำไร Q3/69 โตแกร่ง | SET Afternoon | 26-10-69",
+            "url": "https://www.bangkokbiznews.com/finance/stock/1257877",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-10-25T23:03:00+00:00"
+        },
         {
             "title": "ตลท. เปิดพิมพ์เขียวก้าวสู่ยุคดิจิทัล ลุ้นเทรดหุ้นไทย 24 ชั่วโมง ...",
             "url": "https://www.msn.com/th-th/money/general/ตลท-เปิดพิมพ์เขียวก้าวสู่ยุคดิจิทัล-ลุ้นเทรดหุ้นไทย-24-ชั่วโมง-ไม่มีวันหยุด/ar-AA2fTsXh",
@@ -302,24 +180,6 @@
             "url": "https://www.bangkokbiznews.com/world/economics/1256633",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-10-16T08:11:00+00:00"
-        },
-        {
-            "title": "Money and stock market review วันที่ 12-15 ตุลาคม 2569",
-            "url": "https://www.msn.com/th-th/news/other/money-and-stock-market-review-วันที่-12-15-ตุลาคม-2569/ar-AA2emewY",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-10-16T07:42:00+00:00"
-        },
-        {
-            "title": "GO WHOLESALE สานต่อ \"GO Food ส่งสุขให้ทุกรอยยิ้ม\" ปีที่ 2 ชูกลยุทธ์ \"เปลี่ยน ...",
-            "url": "https://www.mitihoon.com/2026/10/16/686648/",
-            "source": "มิติหุ้น",
-            "date": "2026-10-16T05:31:00+00:00"
-        },
-        {
-            "title": "ไส้ใน 'สตง.' สอบ 2 ยุค 'ผอ.ไทยพีบีเอส' หมักหมมปัญหาสั่งชดใช้ 230 ล.",
-            "url": "https://www.msn.com/th-th/news/other/ไส้ใน-สตง-สอบ-2-ยุค-ผอไทยพีบีเอส-หมักหมมปัญหาสั่งชดใช้-230-ล/ar-AA2ekzRD",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-10-16T01:08:00+00:00"
         }
     ]
 }
