@@ -1,66 +1,224 @@
 {
-    "last_updated": "2026-10-26T15:50:42.483500+07:00",
+    "last_updated": "2026-10-27T15:46:59.817688+07:00",
     "summary": {
-        "total_value_thb": 31361.993105785725,
-        "total_profit_thb": 2353.8154294955602,
-        "total_profit_percent": 8.114316782537676
+        "total_value_thb": 31600.629230227838,
+        "total_profit_thb": 2594.793593541479,
+        "total_profit_percent": 8.945763969853031
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.0,
-            "total_value_thb": 15100.0,
-            "profit_thb": 1500.0,
-            "profit_percent": 11.029411764705882
+            "current_price_thb": 153.0,
+            "total_value_thb": 15300.0,
+            "profit_thb": 1700.0,
+            "profit_percent": 12.5
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4500000476837158,
-            "total_value_thb": 2900.0000953674316,
-            "profit_thb": 80.00009536743164,
-            "profit_percent": 2.8368828144479306
+            "current_price_thb": 1.4299999475479126,
+            "total_value_thb": 2859.999895095825,
+            "profit_thb": 39.999895095825195,
+            "profit_percent": 1.418435996305858
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 17.799999237060547,
-            "total_value_thb": 711.9999694824219,
-            "profit_thb": 102.79996948242183,
-            "profit_percent": 16.874584616287233
+            "current_price_thb": 18.5,
+            "total_value_thb": 740.0,
+            "profit_thb": 130.79999999999995,
+            "profit_percent": 21.47078135259356
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 12.001675506096097,
-            "total_value_thb": 10662.847797694356,
-            "profit_thb": 662.8482467343565,
-            "profit_percent": 6.628482764988955
+            "current_price_thb": 12.072911748475857,
+            "total_value_thb": 10726.13739503343,
+            "profit_thb": 726.1378440734297,
+            "profit_percent": 7.2613787667992495
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4026.800048828125,
-            "cost_per_unit_thb": 135546.44694042206,
-            "current_price_thb": 136105.838578186,
-            "total_value_thb": 1987.1452432415156,
-            "profit_thb": 8.167117911353444,
-            "profit_percent": 0.4126936931145151
+            "current_price_usd": 4005.89990234375,
+            "cost_per_unit_thb": 135386.03326892853,
+            "current_price_thb": 135239.17397935502,
+            "total_value_thb": 1974.4919400985834,
+            "profit_thb": -2.144145627773014,
+            "profit_percent": -0.10847447556261236
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 504 Deadline Exceeded",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> กระแสเงินทุนต่างชาติ (Fund Flow) ยังคงไหลเข้าตลาดหุ้นไทยสวนทางกับภูมิภาค พร้อมแรงเก็งกำไรผลประกอบการไตรมาส 3 ในหุ้นกลุ่มพลังงาน (PTT) และชิ้นส่วนอิเล็กทรอนิกส์ (DELTA)</li><li><b>ปัจจัยลบ/ความเสี่ยง:</b> ซีอีโอกลุ่มธนาคารเตือนถึงความเปราะบางของเศรษฐกิจที่อาจยืดเยื้อ รวมถึงความผันผวนของตลาดการเงินโลกที่ยังต้องติดตามอย่างใกล้ชิด</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความเสี่ยงด้านภูมิรัฐศาสตร์และความไม่แน่นอนของเศรษฐกิจโลกยังเป็นแรงหนุนสำคัญให้ทองคำทำหน้าที่เป็นสินทรัพย์ปลอดภัย (Safe Haven)</li><li><b>ปัจจัยลบ/ความเสี่ยง:</b> แรงขายทำกำไรระยะสั้นในตลาดโลกและความผันผวนของค่าเงินบาทที่อาจจำกัดอัตราการทำกำไรของราคาทองคำในรูปเงินบาท</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 12.5% อยู่ในระดับที่ดี แนะนำถือเพื่อรับเงินปันผลต่อเนื่อง แม้มีประเด็นความเปราะบางทางเศรษฐกิจในระยะยาว"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "ราคาใกล้เคียงต้นทุน (กำไร 1.42%) ทรงตัวได้ดี ถือรอความชัดเจนของมาตรการกระตุ้นอสังหาริมทรัพย์และทิศทางอัตราดอกเบี้ย"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "สร้างผลตอบแทนโดดเด่นถึง 21.47% โมเมนตัมราคายังแข็งแกร่ง แนะนำถือ Run Trend ต่อไปโดยตั้งจุด Trailing Stop ป้องกันกำไร"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "กำไร 7.26% ควรถือครองต่อเนื่องเพื่อกระจายความเสี่ยงออกนอกประเทศและรับผลบวกจากการเติบโตของเศรษฐกิจสหรัฐฯ"
+            },
+            "MTS-GOLD": {
+                "action": "BUY",
+                "reason": "ราคาแทบไม่เปลี่ยนแปลง (-0.11%) เป็นจังหวะดีในการทยอยสะสมเพิ่มเพื่อใช้เป็นสินทรัพย์ปลอดภัยป้องกันความผันผวนของตลาด"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "BBL",
+                "name": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+                "reason": "โบรกเกอร์แนะนำรับมือตลาดผันผวนด้วยฐานเงินกองทุนที่แข็งแกร่ง และได้ประโยชน์จาก Fund Flow ต่างชาติที่ไหลเข้า",
+                "tag": "Value"
+            },
+            {
+                "symbol": "DELTA",
+                "name": "บมจ.เดลต้า อีเลคโทรนิคส์ (ไทยแลนด์)",
+                "reason": "มีแรงซื้อจากกระแสเงินทุนต่างชาติหนุนต่อเนื่อง พร้อมการเก็งกำไรผลประกอบการที่คาดว่าจะยังเติบโตได้ดี",
+                "tag": "Tech"
+            }
+        ]
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำผูกขาดด้านชิปประมวลผล AI และ Data Center ที่เติบโตอย่างก้าวกระโดดทั่วโลก",
+            "category": "Technology"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำด้านระบบคลาวด์ Azure และการนำ AI เชิงพาณิชย์มาสร้างรายได้ในซอฟต์แวร์องค์กร",
+            "category": "Technology"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดของโลกที่เป็นหัวใจหลักของซัพพลายเชนเทคโนโลยีระดับโลก",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "กระแสเงินสดแข็งแกร่ง ฐานผู้ใช้งานระดับพรีเมียม และการเปิดตัว Apple Intelligence",
+            "category": "Consumer Technology"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การฟื้นตัวของอัตรากำไรอีคอมเมิร์ซและการเติบโตอย่างต่อเนื่องของ AWS คลาวด์",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ความแข็งแกร่งในการผูกขาด Search Engine ธุรกิจโฆษณา และการเติบโตของ Google Cloud",
+            "category": "Communication Services"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผูกขาดเครื่องพิมพ์ชิปเทคโนโลยี EUV เพียงรายเดียวในโลก ไม่มีคู่แข่งทดแทนได้",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "ผู้นำระดับโลกด้านยารักษาเบาหวานและยาลดน้ำหนักกลุ่ม GLP-1 ที่มีความต้องการสูงมาก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "MC",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "พอร์ตแบรนด์หรูระดับโลกที่มีอำนาจกำหนดราคาสูง ทนทานต่อความผันผวนทางเศรษฐกิจ",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "BABA",
+            "name": "Alibaba Group Holding Ltd.",
+            "exchange": "HKEX",
+            "reason": "ระดับราคาหุ้น (Valuation) ไม่แพง ได้รับประโยชน์จากการฟื้นตัวของเศรษฐกิจจีนและธุรกิจคลาวด์",
+            "category": "E-Commerce"
+        },
+        {
+            "symbol": "DELTA",
+            "name": "Delta Electronics (Thailand) PCL",
+            "exchange": "SET",
+            "reason": "รับอานิสงส์การขยายตัวของ Data Center ทั่วโลกและระบบบริหารจัดการพลังงานไฟฟ้าสำหรับ AI",
+            "category": "Electronics"
+        },
+        {
+            "symbol": "BBL",
+            "name": "Bangkok Bank PCL",
+            "exchange": "SET",
+            "reason": "งบดุลแข็งแกร่ง สำรองหนี้สูง เงินปันผลโดดเด่น และรับผลบวกจากการเป็นธนาคารธุรกิจระดับภูมิภาค",
+            "category": "Financials"
+        },
+        {
+            "symbol": "XOM",
+            "name": "Exxon Mobil Corporation",
+            "exchange": "NYSE",
+            "reason": "กระแสเงินสดแข็งแกร่ง ปันผลสม่ำเสมอ และเป็นสินทรัพย์ป้องกันความเสี่ยงจากความขัดแย้งภูมิรัฐศาสตร์",
+            "category": "Energy"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "ทองคำดิจิทัล สินทรัพย์ทางเลือกป้องกันการเสื่อมค่าของเงินตรา รับแรงหนุนจาก Spot ETF ทั่วโลก",
+            "category": "Cryptocurrency"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "โครงสร้างพื้นฐานหลักของ Smart Contracts, Tokenization ของสินทรัพย์จริง (RWA) และระบบ DeFi",
+            "category": "Cryptocurrency"
+        }
+    ],
     "news": [
+        {
+            "title": "หุ้นไทยสัปดาห์นี้จับตาปัจจัยเสี่ยงโลก โบรกชู 6 หุ้นอานิสงส์ ...",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยสัปดาห์นี้จับตาปัจจัยเสี่ยงโลก-โบรกชู-6-หุ้นอานิสงส์โซลาร์ภาคประชาชน/ar-AA2g8Zwl",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-10-27T04:01:00+00:00"
+        },
+        {
+            "title": "ASPS แนะลุย DELTA-BBL-SCGP ชูพื้นฐานแกร่ง รับมือตลาดผันผวน",
+            "url": "https://www.kaohoon.com/news/874960",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-10-27T03:26:00+00:00"
+        },
+        {
+            "title": "หุ้นไทยวันนี้ลุ้นขึ้นต่อ รับแรงซื้อฟันด์โฟล์ว จับตางบ DELTA ...",
+            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยวันนี้ลุ้นขึ้นต่อ-รับแรงซื้อฟันด์โฟล์ว-จับตางบ-delta-ประชุม-ครม/ar-AA2g88U7",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-10-27T02:53:03+00:00"
+        },
         {
             "title": "PSP เดินหน้าธุรกิจ waste-to-value เปลี่ยนของเสียเคมีเป็นวัตถุดิบมูลค่าสูง",
             "url": "https://www.msn.com/th-th/news/other/psp-เดินหน้าธุรกิจ-waste-to-value-เปลี่ยนของเสียเคมีเป็นวัตถุดิบมูลค่าสูง/ar-AA2g4tMe",
@@ -162,24 +320,6 @@
             "url": "https://www.bangkokbiznews.com/politics/1256938",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-10-19T00:31:00+00:00"
-        },
-        {
-            "title": "\"พบชัย\" มอง SET ไซด์เวย์อัพ ลุ้น MSCI ลดชั้นหุ้นอินโดฯ หนุนโฟลว์เข้า ...",
-            "url": "https://www.kaohoon.com/news/872821",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-10-18T23:59:00+00:00"
-        },
-        {
-            "title": "ก.ล.ต.ชู 3 นโยบายปลุกตลาดทุนไทย ดัน TISA-BOI to IPO-tokenization เชื่อมเงินทุนโลก",
-            "url": "https://www.msn.com/th-th/money/economy/ก-ล-ต-ชู-3-นโยบายปลุกตลาดทุนไทย-ดัน-tisa-boi-to-ipo-tokenization-เชื่อมเงินทุนโลก/ar-AA2en9GX",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-10-16T09:59:28+00:00"
-        },
-        {
-            "title": "MONEY AND STOCK MARKET REVIEW วันที่ 12-15 ตุลาคม 2569",
-            "url": "https://www.bangkokbiznews.com/world/economics/1256633",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-10-16T08:11:00+00:00"
         }
     ]
 }
