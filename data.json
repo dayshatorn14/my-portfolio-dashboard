@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-11-02T17:37:33.706124+07:00",
+    "last_updated": "2026-11-03T17:27:48.940859+07:00",
     "summary": {
-        "total_value_thb": 31163.522931177267,
-        "total_profit_thb": 2158.272692717266,
-        "total_profit_percent": 7.440972496267134
+        "total_value_thb": 31106.494088599586,
+        "total_profit_thb": 2102.4148699414873,
+        "total_profit_percent": 7.248686828123888
     },
     "assets": [
         {
@@ -37,170 +37,48 @@
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.92001792150116,
-            "total_value_thb": 10590.299394296771,
-            "profit_thb": 590.299843336772,
-            "profit_percent": 5.902998698435974
+            "current_price_thb": 11.853010985692537,
+            "total_value_thb": 10530.767310001183,
+            "profit_thb": 530.767759041184,
+            "profit_percent": 5.307677828747806
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3907.10009765625,
-            "cost_per_unit_thb": 135345.9375,
-            "current_price_thb": 131864.62829589844,
-            "total_value_thb": 1925.2235731201172,
-            "profit_thb": -50.827114379882914,
-            "profit_percent": -2.5721564077987704
+            "current_price_usd": 3914.5,
+            "cost_per_unit_thb": 135265.73066425323,
+            "current_price_thb": 132036.0832080841,
+            "total_value_thb": 1927.726814838028,
+            "profit_thb": -47.15285286006906,
+            "profit_percent": -2.387631693784666
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> กนง. มีการปรับเพิ่มคาดการณ์ GDP และแนวโน้มเฟดคงอัตราดอกเบี้ยช่วยหนุน sentiment การลงทุน รวมถึงแรงหนุนระยะยาวในธีม AI-Data Center และการขยายตัวของกลุ่ม Wealth Management</li><li><b>ปัจจัยลบ:</b> ความกังวลเศรษฐกิจโลก Q4 เผชิญความเสี่ยงรอบด้าน ความไม่แน่นอนจากการเมืองสหรัฐฯ และแรงกดดันจากการกวาดล้างคดีปั่นหุ้น/ฟอกเงิน รวมถึงแรงขายในกลุ่มปิโตรเคมี (SCC, PTTGC)</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ทิศทางธนาคารกลางสหรัฐฯ ที่เริ่มชะลอการขึ้นดอกเบี้ย ประกอบกับความเสี่ยงภูมิรัฐศาสตร์และความผันผวนทางเศรษฐกิจโลกกระตุ้นแรงซื้อสินทรัพย์ปลอดภัย</li><li><b>ปัจจัยลบ:</b> แรงขายทำกำไรระยะสั้นหลังราคาปรับตัวขึ้นแรงก่อนหน้า และค่าเงินดอลลาร์ที่ยังคงทรงตัว</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรสะสมแตะ 11.03% แนะนำถือต่อรับเงินปันผลและรับอานิสงส์จากกลุ่มสถาบันการเงินที่ได้ประโยชน์จาก GDP เติบโต"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ราคาอยู่ที่ระดับต้นทุน แนะนำถือรอการฟื้นตัวของกำลังซื้อภาคอสังหาริมทรัพย์และมาตรการกระตุ้นเศรษฐกิจช่วงท้ายปี"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "มีผลตอบแทนโดดเด่นถึง 19.50% แนะนำให้ Let profit run พร้อมกำหนดจุด Trailing Stop เพื่อปกป้องผลกำไร"
-            },
-            "K-US500XUH": {
-                "action": "BUY",
-                "reason": "สร้างกำไรได้สม่ำเสมอ +5.90% และได้รับแรงหนุนระยะยาวจากกลุ่มบิ๊กเทค-AI ในสหรัฐฯ ทยอยสะสมเพื่อกระจายความเสี่ยง"
-            },
-            "MTS-GOLD": {
-                "action": "BUY",
-                "reason": "ราคาติดลบเล็กน้อย 2.57% เป็นจังหวะเข้าสะสมเพิ่มเพื่อใช้เป็นสินทรัพย์ปลอดภัยรับมือความเสี่ยงเศรษฐกิจโลกใน Q4"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "BDMS",
-                "name": "บริษัท กรุงเทพดุสิตเวชการ จำกัด (มหาชน)",
-                "reason": "หุ้น Defensive ผันผวนต่ำ เหมาะเป็นหลุมหลบภัยในช่วงตลาดหุ้นเผชิญแรงกดดันและมีความไม่แน่นอนทางการเมืองสหรัฐฯ",
-                "tag": "Defensive"
-            },
-            {
-                "symbol": "HANA",
-                "name": "บริษัท ฮานา ไมโครอิเล็คโทรนิคส จำกัด (มหาชน)",
-                "reason": "รับปัจจัยบวกจากรอบการเติบโตใหม่ของอุตสาหกรรมเทคโนโลยี AI และ Data Center ตามธีมการลงทุนเด่น",
-                "tag": "Tech"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 11.22970222s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 11\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำชิปประมวลผล AI และ Data Center ระดับโลกที่เติบโตต่อเนื่องตามเมกะเทรนด์",
-            "category": "Tech"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "มีกระแสเงินสดแข็งแกร่งและเป็นผู้นำด้านซอฟต์แวร์ Cloud และ AI ระดับองค์กร",
-            "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงรายใหญ่ที่สุดในโลก เป็นกระดูกสันหลังของห่วงโซ่อุปทานเทคโนโลยี",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผูกขาดเครื่องพิมพ์ชิป EUV รายเดียวในโลก ไร้คู่แข่งโดยตรงในอุตสาหกรรมชิปขั้นสูง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำนวัตกรรมยารักษาโรคเบาหวานและยาลดน้ำหนัก (GLP-1) ที่มีความต้องการสูงทั่วโลก",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE",
-            "reason": "หุ้นเฮลท์แคร์ชั้นนำของยุโรป เติบโตแข็งแกร่งจากตลาดยารักษาโรคอ้วนและเบาหวาน",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การเติบโตของธุรกิจ Cloud (AWS) และการฟื้นตัวของอัตรากำไรในธุรกิจ E-commerce",
-            "category": "Consumer / Tech"
-        },
-        {
-            "symbol": "CEG",
-            "name": "Constellation Energy Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้ผลิตไฟฟ้านิวเคลียร์สะอาด ตอบโจทย์ความต้องการใช้พลังงานมหาศาลของ AI Data Center",
-            "category": "Utilities"
-        },
-        {
-            "symbol": "V",
-            "name": "Visa Inc.",
-            "exchange": "NYSE",
-            "reason": "ธุรกิจคูเมืองกว้าง มีกำไรสม่ำเสมอ ทนทานต่อสภาวะเงินเฟ้อและความผันผวนของตลาด",
-            "category": "Financials"
-        },
-        {
-            "symbol": "0700",
-            "name": "Tencent Holdings Ltd.",
-            "exchange": "HKEX",
-            "reason": "ผู้นำเทคโนโลยีและเกมในเอเชีย มีกระแสเงินสดสูงและมูลค่าหุ้นอยู่ในระดับน่าสนใจ",
-            "category": "Tech"
-        },
-        {
-            "symbol": "7203",
-            "name": "Toyota Motor Corporation",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ยอดขายรถยนต์ไฮบริดทำสถิติสูงสุด ได้รับประโยชน์จากค่าเงินเยนและการเปลี่ยนผ่านยานยนต์",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "BDMS",
-            "name": "Bangkok Dusit Medical Services PCL",
-            "exchange": "SET",
-            "reason": "หุ้น Defensive คุณภาพสูง รับอานิสงส์สังคมสูงวัยและผู้ป่วยต่างชาติ ท่ามกลางตลาดไทยผันผวน",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "HANA",
-            "name": "Hana Microelectronics PCL",
-            "exchange": "SET",
-            "reason": "ผู้ผลิตชิ้นส่วนอิเล็กทรอนิกส์ไทยที่ได้รับประโยชน์จากวัฏจักรการฟื้นตัวของชิปและยานยนต์ไฟฟ้า",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลทางเลือกป้องกันความเสี่ยงการอ่อนค่าของเงินกระดาษ และแรงหนุนจาก Spot ETF",
-            "category": "Crypto"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "โครงสร้างพื้นฐานหลักของระบบ Smart Contracts และการแปลงสินทรัพย์ในโลกจริงเป็นโทเคน (RWA)",
-            "category": "Crypto"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "Currency Market Headlines | Breaking Stock Market News | Reuters",
+            "url": "https://www.reuters.com/markets/currencies/",
+            "source": "Reuters",
+            "date": "2026-11-03T00:00:00+00:00"
+        },
+        {
+            "title": "ดูบอลสด ไทยลีกถ่ายช่องไหน ถ่ายทอดสดไทยลีก ช่องถ่ายบอลไทยลีก ...",
+            "url": "https://www.sportingnews.com/th/football/news/ไทยลีกถ่ายช่องไหน-โปรแกรมถ่ายทอดสดไทยลีก-ฟุตบอลไทยถ่ายทอดสดวันนี้/nyjrylrnq991hpse75jepmbu",
+            "source": "Sporting News",
+            "date": "2026-11-03T00:00:00+00:00"
+        },
+        {
+            "title": "Tech News | Today's Latest Technology News | Reuters",
+            "url": "https://www.reuters.com/technology/",
+            "source": "Reuters",
+            "date": "2026-11-02T17:10:00+00:00"
+        },
         {
             "title": "คนไทย 86% ไร้แผนออมเกษียณ KKP เปิด 6 กองทุน ตั้งเป้า AUM 3 หมื่นล้าน ใน 3 ปี",
             "url": "https://www.msn.com/th-th/news/other/คนไทย-86-ไร้แผนออมเกษียณ-kkp-เปิด-6-กองทุน-ตั้งเป้า-aum-3-หมื่นล้าน-ใน-3-ปี/ar-AA2gzHrv",
@@ -302,24 +180,6 @@
             "url": "https://www.msn.com/th-th/money/economy/บลจ-กสิกรไทย-ส่ง-2-กอง-thaiesgx-ชูหุ้นปันผลยีลด์-5-4/ar-AA2g4iXl",
             "source": "ประชาชาติธุรกิจ",
             "date": "2026-10-26T06:40:40+00:00"
-        },
-        {
-            "title": "กลุ่ม PTT บวกคึก เก็งกำไร Q3/69 โตแกร่ง | SET Afternoon | 26-10-69",
-            "url": "https://www.bangkokbiznews.com/finance/stock/1257877",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-10-25T23:03:00+00:00"
-        },
-        {
-            "title": "ตลท. เปิดพิมพ์เขียวก้าวสู่ยุคดิจิทัล ลุ้นเทรดหุ้นไทย 24 ชั่วโมง ...",
-            "url": "https://www.msn.com/th-th/money/general/ตลท-เปิดพิมพ์เขียวก้าวสู่ยุคดิจิทัล-ลุ้นเทรดหุ้นไทย-24-ชั่วโมง-ไม่มีวันหยุด/ar-AA2fTsXh",
-            "source": "ไทยรัฐ",
-            "date": "2026-10-23T02:46:20+00:00"
-        },
-        {
-            "title": "'ซีอีโอแบงก์' ห่วงศก.เสี่ยงสูง ชี้ความผันผวนไม่ใช่เรื่องชั่วคราว-เปราะบางลากยาว",
-            "url": "https://www.msn.com/th-th/news/other/ซีอีโอแบงก์-ห่วงศกเสี่ยงสูง-ชี้ความผันผวนไม่ใช่เรื่องชั่วคราว-เปราะบางลากยาว/ar-AA2fS7X4",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-10-22T23:00:00+00:00"
         }
     ]
 }
