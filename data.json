@@ -1,66 +1,106 @@
 {
-    "last_updated": "2026-11-03T17:27:48.940859+07:00",
+    "last_updated": "2026-11-04T17:40:14.449246+07:00",
     "summary": {
-        "total_value_thb": 31106.494088599586,
-        "total_profit_thb": 2102.4148699414873,
-        "total_profit_percent": 7.248686828123888
+        "total_value_thb": 31252.58325331539,
+        "total_profit_thb": 2254.944531893161,
+        "total_profit_percent": 7.776303972734524
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.0,
-            "total_value_thb": 15100.0,
-            "profit_thb": 1500.0,
-            "profit_percent": 11.029411764705882
+            "current_price_thb": 151.5,
+            "total_value_thb": 15150.0,
+            "profit_thb": 1550.0,
+            "profit_percent": 11.397058823529411
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.409999966621399,
-            "total_value_thb": 2819.999933242798,
-            "profit_thb": -6.67572021484375e-05,
-            "profit_percent": -2.367276671930408e-06
+            "current_price_thb": 1.4199999570846558,
+            "total_value_thb": 2839.9999141693115,
+            "profit_thb": 19.999914169311523,
+            "profit_percent": 0.7092168145145931
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 18.200000762939453,
-            "total_value_thb": 728.0000305175781,
-            "profit_thb": 118.80003051757808,
-            "profit_percent": 19.500989907678605
+            "current_price_thb": 18.5,
+            "total_value_thb": 740.0,
+            "profit_thb": 130.79999999999995,
+            "profit_percent": 21.47078135259356
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.853010985692537,
-            "total_value_thb": 10530.767310001183,
-            "profit_thb": 530.767759041184,
-            "profit_percent": 5.307677828747806
+            "current_price_thb": 11.85377068740552,
+            "total_value_thb": 10531.442264405097,
+            "profit_thb": 531.442713445098,
+            "profit_percent": 5.314427373090027
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3914.5,
-            "cost_per_unit_thb": 135265.73066425323,
-            "current_price_thb": 132036.0832080841,
-            "total_value_thb": 1927.726814838028,
-            "profit_thb": -47.15285286006906,
-            "profit_percent": -2.387631693784666
+            "current_price_usd": 4056.5,
+            "cost_per_unit_thb": 134824.60071659088,
+            "current_price_thb": 136379.52566719055,
+            "total_value_thb": 1991.141074740982,
+            "profit_thb": 22.701904278755137,
+            "profit_percent": 1.1532946823764079
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 11.22970222s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 11\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> การปรับประมาณการ GDP ของ กนง. และทิศทางเฟดที่คงอัตราดอกเบี้ย รวมถึงแรงหนุนจากเมกะเทรนด์การลงทุนรอบใหม่ในธีม AI และ Data Center ที่ช่วยพยุงดัชนี</li><li><b>ปัจจัยลบ/ความเสี่ยง:</b> ความไม่แน่นอนจากความเสี่ยงเศรษฐกิจโลกในไตรมาส 4 และประเด็นการเมืองสหรัฐฯ ที่สร้างความผันผวน ส่งผลให้ตลาดหุ้นไทยยังมีความเสี่ยงแกว่งตัวในกรอบจำกัด</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยหนุน:</b> ความเสี่ยงด้านภูมิรัฐศาสตร์และการชะลอตัวของเศรษฐกิจโลกในระยะข้างหน้า ยังคงเป็นแรงผลักดันความต้องการสินทรัพย์ปลอดภัย (Safe Haven)</li><li><b>ปัจจัยกดดัน:</b> ค่าเงินดอลลาร์และอัตราผลตอบแทนพันธบัตรที่ทรงตัวในระดับสูงหลังเฟดยังไม่เร่งปรับลดดอกเบี้ย อาจจำกัดอัปไซด์ของราคาทองคำในระยะสั้น</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 11.40% มีฐานปันผลที่แข็งแกร่งและปลอดภัยจากความผันผวน จึงควรเน้นถือรับผลตอบแทนระยะยาว"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "ราคาปัจจุบันอยู่ใกล้เคียงต้นทุน (+0.71%) แนะนำถือรอการฟื้นตัวของยอดโอนและกำลังซื้อในช่วงปลายปี"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "กำไรอยู่ในระดับสูง (+21.47%) แนะนำถือต่อเพื่อ Let Profit Run พร้อมตั้งจุดขายทำกำไรหากราคาเริ่มย่อตัว"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "พอร์ตมีกำไร 5.31% แนะนำถือเพื่อกระจายความเสี่ยงในสินทรัพย์สหรัฐฯ แม้อาจเผชิญความผันผวนจากประเด็นการเมืองชั่วคราว"
+            },
+            "MTS-GOLD": {
+                "action": "BUY",
+                "reason": "มีกำไรเล็กน้อย 1.15% และมีสัดส่วนในพอร์ตน้อย ควรทยอยสะสมเพิ่มเพื่อเป็นเกราะป้องกันความเสี่ยงของเศรษฐกิจโลกช่วง Q4"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "BDMS",
+                "name": "บริษัท กรุงเทพดุสิตเวชการ จำกัด (มหาชน)",
+                "reason": "หุ้น Defensive พื้นฐานแข็งแกร่ง เป็นทางเลือกลงทุนที่ปลอดภัยและช่วยหลบความผันผวนของตลาดโลก",
+                "tag": "Defensive"
+            },
+            {
+                "symbol": "HANA",
+                "name": "บริษัท ฮานา ไมโครอิเล็คโทรนิคส จำกัด (มหาชน)",
+                "reason": "รับปัจจัยบวกจากการฟื้นตัวของรอบอุตสาหกรรมชิ้นส่วนอิเล็กทรอนิกส์และกระแสการเติบโตของเทคโนโลยี AI และ Data Center",
+                "tag": "Tech"
+            }
+        ]
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "เศรษฐกิจ/การเงิน",
+            "url": "https://www.thaipr.net/finance",
+            "source": "thaipr.net",
+            "date": "2026-11-03T17:25:00+00:00"
+        },
         {
             "title": "Currency Market Headlines | Breaking Stock Market News | Reuters",
             "url": "https://www.reuters.com/markets/currencies/",
@@ -174,12 +214,6 @@
             "url": "https://www.msn.com/th-th/news/other/psp-เดินหน้าธุรกิจ-waste-to-value-เปลี่ยนของเสียเคมีเป็นวัตถุดิบมูลค่าสูง/ar-AA2g4tMe",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-10-26T07:14:00+00:00"
-        },
-        {
-            "title": "บลจ.กสิกรไทย ส่ง 2 กอง ThaiESGX ชูหุ้นปันผลยีลด์ 5.4%",
-            "url": "https://www.msn.com/th-th/money/economy/บลจ-กสิกรไทย-ส่ง-2-กอง-thaiesgx-ชูหุ้นปันผลยีลด์-5-4/ar-AA2g4iXl",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-10-26T06:40:40+00:00"
         }
     ]
 }
