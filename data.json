@@ -1,57 +1,57 @@
 {
-    "last_updated": "2026-11-05T17:40:17.913413+07:00",
+    "last_updated": "2026-11-06T17:39:59.185405+07:00",
     "summary": {
-        "total_value_thb": 31480.063825855108,
-        "total_profit_thb": 2495.891497130975,
-        "total_profit_percent": 8.611222252006403
+        "total_value_thb": 30675.836702737437,
+        "total_profit_thb": 1682.8818371736306,
+        "total_profit_percent": 5.804450926016039
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.0,
-            "total_value_thb": 15200.0,
-            "profit_thb": 1600.0,
-            "profit_percent": 11.76470588235294
+            "current_price_thb": 149.0,
+            "total_value_thb": 14900.0,
+            "profit_thb": 1300.0,
+            "profit_percent": 9.558823529411764
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.440000057220459,
-            "total_value_thb": 2880.000114440918,
-            "profit_thb": 60.00011444091797,
-            "profit_percent": 2.127663632656666
+            "current_price_thb": 1.409999966621399,
+            "total_value_thb": 2819.999933242798,
+            "profit_thb": -6.67572021484375e-05,
+            "profit_percent": -2.367276671930408e-06
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 18.899999618530273,
-            "total_value_thb": 755.9999847412109,
-            "profit_thb": 146.7999847412109,
-            "profit_percent": 24.09717412035635
+            "current_price_thb": 18.799999237060547,
+            "total_value_thb": 751.9999694824219,
+            "profit_thb": 142.79996948242183,
+            "profit_percent": 23.440572797508505
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.96358601012953,
-            "total_value_thb": 10629.007314507147,
-            "profit_thb": 629.007763547148,
-            "profit_percent": 6.290077917921138
+            "current_price_thb": 11.48743778376565,
+            "total_value_thb": 10205.975041698126,
+            "profit_thb": 205.9754907381266,
+            "profit_percent": 2.0597549998725047
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4133.5,
-            "cost_per_unit_thb": 133902.24505233765,
-            "current_price_thb": 138017.56247711182,
-            "total_value_thb": 2015.0564121658326,
-            "profit_thb": 60.083634401702966,
-            "profit_percent": 3.0733744779003844
+            "current_price_usd": 4079.89990234375,
+            "cost_per_unit_thb": 134503.78867149353,
+            "current_price_thb": 136839.8464598693,
+            "total_value_thb": 1997.8617583140917,
+            "profit_thb": 34.10644371028616,
+            "profit_percent": 1.7367970162396353
         }
     ],
     "ai_analysis": {
@@ -61,6 +61,24 @@
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "กสิกรไทยชี้เลือกตั้งสหรัฐหนุนหุ้นโลก หุ้นไทยสวนทาง จากแรง ...",
+            "url": "https://www.msn.com/th-th/money/technology/กสิกรไทยชี้เลือกตั้งสหรัฐหนุนหุ้นโลก-หุ้นไทยสวนทาง-จากแรงกดดันหุ้นพลังงาน/ar-AA2gRQNN",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-11-06T03:59:19+00:00"
+        },
+        {
+            "title": "กลุ่มบิ๊กแคปฉุด 'ดัชนีหุ้นไทย' 'เฟทโก้-บล.บัวหลวง' มองปัจจัยใน ...",
+            "url": "https://www.bangkokbiznews.com/finance/stock/1259555",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-11-06T01:58:00+00:00"
+        },
+        {
+            "title": "\"หุ้นไทย\" ปรับตัวลดลง 22.91 จุด อยู่ที่ 1,475.08 ตามทิศทางตลาดหุ้นโลก",
+            "url": "https://www.thaipbs.or.th/news/content/572289",
+            "source": "Thai PBS",
+            "date": "2026-11-06T00:00:00+00:00"
+        },
         {
             "title": "ส่อง 3 หุ้นยักษ์ Cyber Security มาร์เก็ตแคปใหญ่สุดในโลก ทางเลือกลงทุนรับ ...",
             "url": "https://www.msn.com/th-th/news/other/ส่อง-3-หุ้นยักษ์-cyber-security-มาร์เก็ตแคปใหญ่สุดในโลก-ทางเลือกลงทุนรับภัยไซเบอร์ป่วนโลก/ar-AA2gNZTd",
@@ -162,24 +180,6 @@
             "url": "https://www.msn.com/th-th/news/other/ปปง-ก-ล-ต-cib-ทลายเครือข่าย-เบน-สมิธ-ยิม-เลียก-อายัดหุ้น-ทรัพย์สิน-2-6-หมื่นล้าน/ar-AA2gdsOW",
             "source": "ฐานเศรษฐกิจ",
             "date": "2026-10-28T05:50:00+00:00"
-        },
-        {
-            "title": "TED Fund ปักธงปี 70 เดินหน้า \"Matching Fund\" เชื่อมทุนรัฐ-เอกชน เร่งนวัตกรรมไทย",
-            "url": "https://www.mitihoon.com/2026/10/28/689864/",
-            "source": "มิติหุ้น",
-            "date": "2026-10-28T01:17:00+00:00"
-        },
-        {
-            "title": "ตำรวจออกหมายจับ-แจ้งข้อหา เครือข่าย \"เบน สมิธ-ยิม เลียก\" พบยักย้ายถ่ายเทเงินผ่านต่างประเทศ มาซื้อหุ้นในตลาดทุนไทย",
-            "url": "https://www.msn.com/th-th/news/other/ตำรวจออกหมายจับ-แจ้งข้อหา-เครือข่าย-เบน-สมิธ-ยิม-เลียก-พบยักย้ายถ่ายเทเงินผ่านต่างประเทศ-มาซื้อหุ้นในตลาดทุนไทย/ar-AA2gaIV8",
-            "source": "BBC",
-            "date": "2026-10-27T12:56:56+00:00"
-        },
-        {
-            "title": "หุ้นไทยสัปดาห์นี้จับตาปัจจัยเสี่ยงโลก โบรกชู 6 หุ้นอานิสงส์ ...",
-            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยสัปดาห์นี้จับตาปัจจัยเสี่ยงโลก-โบรกชู-6-หุ้นอานิสงส์โซลาร์ภาคประชาชน/ar-AA2g8Zwl",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-10-27T04:01:00+00:00"
         }
     ]
 }
