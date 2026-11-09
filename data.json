@@ -1,66 +1,224 @@
 {
-    "last_updated": "2026-11-06T17:39:59.185405+07:00",
+    "last_updated": "2026-11-09T18:00:20.672525+07:00",
     "summary": {
-        "total_value_thb": 30675.836702737437,
-        "total_profit_thb": 1682.8818371736306,
-        "total_profit_percent": 5.804450926016039
+        "total_value_thb": 30847.650967585796,
+        "total_profit_thb": 1855.8671218238924,
+        "total_profit_percent": 6.401355403645464
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 149.0,
-            "total_value_thb": 14900.0,
-            "profit_thb": 1300.0,
-            "profit_percent": 9.558823529411764
+            "current_price_thb": 150.0,
+            "total_value_thb": 15000.0,
+            "profit_thb": 1400.0,
+            "profit_percent": 10.294117647058822
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.409999966621399,
-            "total_value_thb": 2819.999933242798,
-            "profit_thb": -6.67572021484375e-05,
-            "profit_percent": -2.367276671930408e-06
+            "current_price_thb": 1.4199999570846558,
+            "total_value_thb": 2839.9999141693115,
+            "profit_thb": 19.999914169311523,
+            "profit_percent": 0.7092168145145931
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 18.799999237060547,
-            "total_value_thb": 751.9999694824219,
-            "profit_thb": 142.79996948242183,
-            "profit_percent": 23.440572797508505
+            "current_price_thb": 19.100000381469727,
+            "total_value_thb": 764.0000152587891,
+            "profit_thb": 154.80001525878902,
+            "profit_percent": 25.410376766052035
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.48743778376565,
-            "total_value_thb": 10205.975041698126,
-            "profit_thb": 205.9754907381266,
-            "profit_percent": 2.0597549998725047
+            "current_price_thb": 11.51910478888675,
+            "total_value_thb": 10234.10948473015,
+            "profit_thb": 234.10993377015075,
+            "profit_percent": 2.3410994428262373
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4079.89990234375,
-            "cost_per_unit_thb": 134503.78867149353,
-            "current_price_thb": 136839.8464598693,
-            "total_value_thb": 1997.8617583140917,
-            "profit_thb": 34.10644371028616,
-            "profit_percent": 1.7367970162396353
+            "current_price_usd": 4106.2001953125,
+            "cost_per_unit_thb": 134423.58183574677,
+            "current_price_thb": 137639.83242654428,
+            "total_value_thb": 2009.5415534275464,
+            "profit_thb": 46.95725862564359,
+            "profit_percent": 2.3926237843650586
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 504 Deadline expired before operation could complete.",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงกดดันหุ้นใหญ่ในประเทศ:</b> ดัชนี SET ปรับฐานลงแตะ 1,475.08 จุด ตามแรงขายในกลุ่ม Big-cap และความกังวลเชิงโครงสร้างเศรษฐกิจ เช่น หนี้ครัวเรือนและสังคมสูงวัย</li><li><b>การฟื้นตัวของหุ้นโลกและสหรัฐฯ:</b> ตลาดหุ้นต่างประเทศโดยเฉพาะสหรัฐฯ ได้รับโมเมนตัมเชิงบวกจากทิศทางการเมืองและกระแสการลงทุนในกลุ่มเทคโนโลยี/Cybersecurity</li><li><b>การขับเคลื่อนโครงสร้างใหม่:</b> การเตรียมปรับหมวดหุ้นเทคโนโลยีของ ตลท. สะท้อนการหมุนเวียนเม็ดเงินเข้าสู่สินทรัพย์ดิจิทัลและนวัตกรรมมากขึ้นในระยะยาว</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ความผันผวนของค่าเงินและตลาดการเงินโลก:</b> ทิศทางค่าเงินดอลลาร์และความเสี่ยงเชิงภูมิรัฐศาสตร์ยังคงหนุนแรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัย</li><li><b>การชะลอตัวของเศรษฐกิจมหภาค:</b> แรงกดดันทางเศรษฐกิจโลกและแนวโน้มการปรับนโยบายดอกเบี้ยช่วยรักษาเสถียรภาพราคาทองคำในระดับสูง</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไร 10.29% แข็งแกร่ง แต่ภาพรวมกลุ่ม Big-cap เผชิญแรงขาย แนะนำถือเพื่อรับเงินปันผลและรอความชัดเจนของทิศทางดอกเบี้ย"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "กำไรบาง 0.71% และภาคอสังหาฯ ยังถูกกดดันจากปัญหาหนี้ครัวเรือน แนะนำถือเพื่อติดตามยอดโอนและเงินปันผล"
+            },
+            "OSP": {
+                "action": "HOLD",
+                "reason": "กำไรสูงถึง 25.41% เติบโตสวนตลาด แนะนำถือต่อเพื่อสร้างผลตอบแทนสูงสุด (Let Profit Run)"
+            },
+            "K-US500XUH": {
+                "action": "BUY",
+                "reason": "กำไร 2.34% และยังมีแรงหนุนต่อเนื่องจากทิศทางตลาดหุ้นสหรัฐฯ ที่ได้อานิสงส์เชิงบวกจากการเมืองและผลประกอบการเทคฯ"
+            },
+            "MTS-GOLD": {
+                "action": "HOLD",
+                "reason": "กำไร 2.39% แนะนำถือครองเพื่อใช้ป้องกันความเสี่ยง (Hedge) ท่ามกลางความผันผวนของตลาดหุ้นไทยและค่าเงินโลก"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "BAM",
+                "name": "บริษัทบริหารสินทรัพย์ กรุงเทพพาณิชย์ จำกัด (มหาชน)",
+                "reason": "ได้ประโยชน์โดยตรงจากการจับมือพันธมิตรตั้ง JV AMC ขยายพอร์ตบริหารหนี้ด้วยโมเดล Asset Light สอดรับภาวะหนี้เสียในระบบที่อยู่ในระดับสูง",
+                "tag": "Value"
+            },
+            {
+                "symbol": "BBIK",
+                "name": "บริษัท บลูบิค กรุ๊ป จำกัด (มหาชน)",
+                "reason": "ได้รับอานิสงส์จากเมกะเทรนด์ Digital Transformation และความต้องการด้าน Cybersecurity พร้อมตอกย้ำความโปร่งใสด้วยคะแนน AGM Checklist เต็ม 100",
+                "tag": "Tech"
+            }
+        ]
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำผูกขาดชิปประมวลผล AI และ Data Center ที่ยังเติบโตต่อเนื่องตามดีมานด์โครงสร้างพื้นฐานดิจิทัลโลก",
+            "category": "Semiconductor & AI"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ได้ประโยชน์สูงสุดจากการนำ AI มาผนวกกับระบบคลาวด์ Azure และซอฟต์แวร์ระดับองค์กร",
+            "category": "Tech & Cloud"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "โรงหล่อชิปขั้นสูงอันดับ 1 ของโลก เป็นแกนหลักขับเคลื่อนอุปกรณ์ AI และเทคโนโลยีขั้นสูงทั่วโลก",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "การฟื้นตัวของ AWS และอัตรากำไรค้าปลีกอีคอมเมิร์ซและโฆษณาที่ขยายตัวอย่างแข็งแกร่ง",
+            "category": "Consumer & Cloud"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "รากฐานธุรกิจเสิร์ชเอ็นจินแข็งแกร่ง เสริมด้วยการเติบโตของ Google Cloud และโมเดล AI Gemini",
+            "category": "Tech & Internet"
+        },
+        {
+            "symbol": "PANW",
+            "name": "Palo Alto Networks, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ยักษ์ใหญ่ด้าน Cyber Security ที่ได้ประโยชน์จากภัยคุกคามทางไซเบอร์และกลยุทธ์ Platformization",
+            "category": "Cyber Security"
+        },
+        {
+            "symbol": "CRWD",
+            "name": "CrowdStrike Holdings, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำ Endpoint Security และโซลูชัน Cloud Protection ที่องค์กรชั้นนำทั่วโลกยังจำเป็นต้องใช้",
+            "category": "Cyber Security"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้ผูกขาดเครื่องพิมพ์ชิป EUV ระดับโลก ปัจจัยพื้นฐานแกร่งตามวงจรการฟื้นตัวของอุตสาหกรรมชิป",
+            "category": "Semiconductor Equipment"
+        },
+        {
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "exchange": "NYSE",
+            "reason": "ผู้นำยาลดน้ำหนักและโรคอ้วน (GLP-1) ที่มีตลาดรองรับมหาศาล สอดรับเทรนด์สังคมสูงวัยทั่วโลก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "ยักษ์ใหญ่ด้านยาเบาหวานและยาลดน้ำหนัก Wegovy/Ozempic ที่มีศักยภาพสร้างกระแสเงินสดระดับสูง",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "JPM",
+            "name": "JPMorgan Chase & Co.",
+            "exchange": "NYSE",
+            "reason": "สถาบันการเงินที่แข็งแกร่งที่สุดในโลก ได้ประโยชน์จากส่วนต่างดอกเบี้ยและวาณิชธนกิจที่ฟื้นตัว",
+            "category": "Financial Services"
+        },
+        {
+            "symbol": "0700.HK",
+            "name": "Tencent Holdings Ltd.",
+            "exchange": "HKEX",
+            "reason": "หุ้นเทคโนโลยีชั้นนำของเอเชียที่มี Valuation น่าสนใจ การเติบโตของธุรกิจเกม โฆษณา และ FinTech",
+            "category": "Asia Tech"
+        },
+        {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ความแข็งแกร่งของระบบนิเวศ iOS และรอบการอัปเกรดอุปกรณ์ผ่านระบบ Apple Intelligence",
+            "category": "Consumer Tech"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้แรงหนุนจากเงินทุนสถาบันผ่าน Spot ETF และนโยบายสนับสนุนคริปโทระดับสากล",
+            "category": "Digital Asset"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "แกนกลางของโครงสร้างพื้นฐาน Smart Contracts, Tokenization สินทรัพย์ในโลกจริง (RWA) และ DeFi",
+            "category": "Digital Asset"
+        }
+    ],
     "news": [
+        {
+            "title": "KKP Research ชี้คนไทยแก่ก่อนรวย 70% เงินออมเลี้ยงชีพได้ 5 ปี",
+            "url": "https://www.kaohoon.com/news/879133",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-11-09T09:28:00+00:00"
+        },
+        {
+            "title": "BAM จับมือ KTAH แก้เกมหนี้ล้นระบบ ชู Asset Light - ตั้งเป้า JV ธุรกิจ AMC ครบ 5 แห่ง ...",
+            "url": "https://www.efin.finance/th/stock/news/detail/V_90AA",
+            "source": "efin.finance",
+            "date": "2026-11-09T09:17:00+00:00"
+        },
+        {
+            "title": "THE STANDARD ECONOMIC FORUM 2026 เปิดฉาก REINVENT THAILAND ชวนถอดโจทย์ใหญ่เศรษฐกิจไทย ให้เป็น ...",
+            "url": "https://www.efin.finance/th/stock/news/detail/1F50AA",
+            "source": "efin.finance",
+            "date": "2026-11-08T21:47:00+00:00"
+        },
         {
             "title": "กสิกรไทยชี้เลือกตั้งสหรัฐหนุนหุ้นโลก หุ้นไทยสวนทาง จากแรง ...",
             "url": "https://www.msn.com/th-th/money/technology/กสิกรไทยชี้เลือกตั้งสหรัฐหนุนหุ้นโลก-หุ้นไทยสวนทาง-จากแรงกดดันหุ้นพลังงาน/ar-AA2gRQNN",
@@ -162,24 +320,6 @@
             "url": "https://www.msn.com/th-th/news/other/ซีไอเอ็มบี-ไทย-เตือนเศรษฐกิจโลก-q4-เผชิญ-6-ความเสี่ยง-แนะเตรียมพร้อมรับมือให้ทันท่วงที/ar-AA2gjNRL",
             "source": "ประชาชาติธุรกิจ",
             "date": "2026-10-29T08:35:48+00:00"
-        },
-        {
-            "title": "หุ้นไทยวันนี้แกว่ง 1,560-1,575 จุด รับ กนง.อัพ GDP-เฟดคงดอกเบี้ย ชู 4 ธีม ...",
-            "url": "https://www.msn.com/th-th/news/other/หุ้นไทยวันนี้แกว่ง-1560-1575-จุด-รับ-กนงอัพ-gdp-เฟดคงดอกเบี้ย-ชู-4-ธีมหุ้นเด่น/ar-AA2giyUC",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-10-29T03:03:19+00:00"
-        },
-        {
-            "title": "เกิดอะไรขึ้น? SCC-PTTGC หุ้นร่วงยกแผง",
-            "url": "https://www.dailynews.co.th/news/6314574/",
-            "source": "เดลินิวส์",
-            "date": "2026-10-28T23:52:00+00:00"
-        },
-        {
-            "title": "ปปง.-ก.ล.ต.-CIB ทลายเครือข่าย เบน สมิธ - ยิม เลียก อายัดหุ้น-ทรัพย์สิน 2 ...",
-            "url": "https://www.msn.com/th-th/news/other/ปปง-ก-ล-ต-cib-ทลายเครือข่าย-เบน-สมิธ-ยิม-เลียก-อายัดหุ้น-ทรัพย์สิน-2-6-หมื่นล้าน/ar-AA2gdsOW",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-10-28T05:50:00+00:00"
         }
     ]
 }
