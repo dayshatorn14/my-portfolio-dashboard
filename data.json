@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-11-09T18:00:20.672525+07:00",
+    "last_updated": "2026-11-10T17:45:56.176967+07:00",
     "summary": {
-        "total_value_thb": 30847.650967585796,
-        "total_profit_thb": 1855.8671218238924,
-        "total_profit_percent": 6.401355403645464
+        "total_value_thb": 31167.495824695667,
+        "total_profit_thb": 2181.5670779432767,
+        "total_profit_percent": 7.526296973277772
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 150.0,
-            "total_value_thb": 15000.0,
-            "profit_thb": 1400.0,
-            "profit_percent": 10.294117647058822
+            "current_price_thb": 151.0,
+            "total_value_thb": 15100.0,
+            "profit_thb": 1500.0,
+            "profit_percent": 11.029411764705882
         },
         {
             "symbol": "SIRI",
@@ -28,179 +28,57 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.100000381469727,
-            "total_value_thb": 764.0000152587891,
-            "profit_thb": 154.80001525878902,
-            "profit_percent": 25.410376766052035
+            "current_price_thb": 19.799999237060547,
+            "total_value_thb": 791.9999694824219,
+            "profit_thb": 182.79996948242183,
+            "profit_percent": 30.00656097872978
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.51910478888675,
-            "total_value_thb": 10234.10948473015,
-            "profit_thb": 234.10993377015075,
-            "profit_percent": 2.3410994428262373
+            "current_price_thb": 11.754801763193234,
+            "total_value_thb": 10443.513660183033,
+            "profit_thb": 443.5141092230333,
+            "profit_percent": 4.435141291385918
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4106.2001953125,
-            "cost_per_unit_thb": 134423.58183574677,
-            "current_price_thb": 137639.83242654428,
-            "total_value_thb": 2009.5415534275464,
-            "profit_thb": 46.95725862564359,
-            "profit_percent": 2.3926237843650586
+            "current_price_usd": 4082.5,
+            "cost_per_unit_thb": 134022.54765701294,
+            "current_price_thb": 136437.14252471924,
+            "total_value_thb": 1991.9822808609008,
+            "profit_thb": 35.25308506851184,
+            "profit_percent": 1.8016333146312509
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงกดดันหุ้นใหญ่ในประเทศ:</b> ดัชนี SET ปรับฐานลงแตะ 1,475.08 จุด ตามแรงขายในกลุ่ม Big-cap และความกังวลเชิงโครงสร้างเศรษฐกิจ เช่น หนี้ครัวเรือนและสังคมสูงวัย</li><li><b>การฟื้นตัวของหุ้นโลกและสหรัฐฯ:</b> ตลาดหุ้นต่างประเทศโดยเฉพาะสหรัฐฯ ได้รับโมเมนตัมเชิงบวกจากทิศทางการเมืองและกระแสการลงทุนในกลุ่มเทคโนโลยี/Cybersecurity</li><li><b>การขับเคลื่อนโครงสร้างใหม่:</b> การเตรียมปรับหมวดหุ้นเทคโนโลยีของ ตลท. สะท้อนการหมุนเวียนเม็ดเงินเข้าสู่สินทรัพย์ดิจิทัลและนวัตกรรมมากขึ้นในระยะยาว</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ความผันผวนของค่าเงินและตลาดการเงินโลก:</b> ทิศทางค่าเงินดอลลาร์และความเสี่ยงเชิงภูมิรัฐศาสตร์ยังคงหนุนแรงซื้อทองคำในฐานะสินทรัพย์ปลอดภัย</li><li><b>การชะลอตัวของเศรษฐกิจมหภาค:</b> แรงกดดันทางเศรษฐกิจโลกและแนวโน้มการปรับนโยบายดอกเบี้ยช่วยรักษาเสถียรภาพราคาทองคำในระดับสูง</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไร 10.29% แข็งแกร่ง แต่ภาพรวมกลุ่ม Big-cap เผชิญแรงขาย แนะนำถือเพื่อรับเงินปันผลและรอความชัดเจนของทิศทางดอกเบี้ย"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "กำไรบาง 0.71% และภาคอสังหาฯ ยังถูกกดดันจากปัญหาหนี้ครัวเรือน แนะนำถือเพื่อติดตามยอดโอนและเงินปันผล"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "กำไรสูงถึง 25.41% เติบโตสวนตลาด แนะนำถือต่อเพื่อสร้างผลตอบแทนสูงสุด (Let Profit Run)"
-            },
-            "K-US500XUH": {
-                "action": "BUY",
-                "reason": "กำไร 2.34% และยังมีแรงหนุนต่อเนื่องจากทิศทางตลาดหุ้นสหรัฐฯ ที่ได้อานิสงส์เชิงบวกจากการเมืองและผลประกอบการเทคฯ"
-            },
-            "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "กำไร 2.39% แนะนำถือครองเพื่อใช้ป้องกันความเสี่ยง (Hedge) ท่ามกลางความผันผวนของตลาดหุ้นไทยและค่าเงินโลก"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "BAM",
-                "name": "บริษัทบริหารสินทรัพย์ กรุงเทพพาณิชย์ จำกัด (มหาชน)",
-                "reason": "ได้ประโยชน์โดยตรงจากการจับมือพันธมิตรตั้ง JV AMC ขยายพอร์ตบริหารหนี้ด้วยโมเดล Asset Light สอดรับภาวะหนี้เสียในระบบที่อยู่ในระดับสูง",
-                "tag": "Value"
-            },
-            {
-                "symbol": "BBIK",
-                "name": "บริษัท บลูบิค กรุ๊ป จำกัด (มหาชน)",
-                "reason": "ได้รับอานิสงส์จากเมกะเทรนด์ Digital Transformation และความต้องการด้าน Cybersecurity พร้อมตอกย้ำความโปร่งใสด้วยคะแนน AGM Checklist เต็ม 100",
-                "tag": "Tech"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 4.04167197s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://aistudio.google.com/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 4\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำผูกขาดชิปประมวลผล AI และ Data Center ที่ยังเติบโตต่อเนื่องตามดีมานด์โครงสร้างพื้นฐานดิจิทัลโลก",
-            "category": "Semiconductor & AI"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ได้ประโยชน์สูงสุดจากการนำ AI มาผนวกกับระบบคลาวด์ Azure และซอฟต์แวร์ระดับองค์กร",
-            "category": "Tech & Cloud"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "โรงหล่อชิปขั้นสูงอันดับ 1 ของโลก เป็นแกนหลักขับเคลื่อนอุปกรณ์ AI และเทคโนโลยีขั้นสูงทั่วโลก",
-            "category": "Semiconductor"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "การฟื้นตัวของ AWS และอัตรากำไรค้าปลีกอีคอมเมิร์ซและโฆษณาที่ขยายตัวอย่างแข็งแกร่ง",
-            "category": "Consumer & Cloud"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "รากฐานธุรกิจเสิร์ชเอ็นจินแข็งแกร่ง เสริมด้วยการเติบโตของ Google Cloud และโมเดล AI Gemini",
-            "category": "Tech & Internet"
-        },
-        {
-            "symbol": "PANW",
-            "name": "Palo Alto Networks, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ยักษ์ใหญ่ด้าน Cyber Security ที่ได้ประโยชน์จากภัยคุกคามทางไซเบอร์และกลยุทธ์ Platformization",
-            "category": "Cyber Security"
-        },
-        {
-            "symbol": "CRWD",
-            "name": "CrowdStrike Holdings, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำ Endpoint Security และโซลูชัน Cloud Protection ที่องค์กรชั้นนำทั่วโลกยังจำเป็นต้องใช้",
-            "category": "Cyber Security"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้ผูกขาดเครื่องพิมพ์ชิป EUV ระดับโลก ปัจจัยพื้นฐานแกร่งตามวงจรการฟื้นตัวของอุตสาหกรรมชิป",
-            "category": "Semiconductor Equipment"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำยาลดน้ำหนักและโรคอ้วน (GLP-1) ที่มีตลาดรองรับมหาศาล สอดรับเทรนด์สังคมสูงวัยทั่วโลก",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE",
-            "reason": "ยักษ์ใหญ่ด้านยาเบาหวานและยาลดน้ำหนัก Wegovy/Ozempic ที่มีศักยภาพสร้างกระแสเงินสดระดับสูง",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "JPM",
-            "name": "JPMorgan Chase & Co.",
-            "exchange": "NYSE",
-            "reason": "สถาบันการเงินที่แข็งแกร่งที่สุดในโลก ได้ประโยชน์จากส่วนต่างดอกเบี้ยและวาณิชธนกิจที่ฟื้นตัว",
-            "category": "Financial Services"
-        },
-        {
-            "symbol": "0700.HK",
-            "name": "Tencent Holdings Ltd.",
-            "exchange": "HKEX",
-            "reason": "หุ้นเทคโนโลยีชั้นนำของเอเชียที่มี Valuation น่าสนใจ การเติบโตของธุรกิจเกม โฆษณา และ FinTech",
-            "category": "Asia Tech"
-        },
-        {
-            "symbol": "AAPL",
-            "name": "Apple Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ความแข็งแกร่งของระบบนิเวศ iOS และรอบการอัปเกรดอุปกรณ์ผ่านระบบ Apple Intelligence",
-            "category": "Consumer Tech"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ได้แรงหนุนจากเงินทุนสถาบันผ่าน Spot ETF และนโยบายสนับสนุนคริปโทระดับสากล",
-            "category": "Digital Asset"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "แกนกลางของโครงสร้างพื้นฐาน Smart Contracts, Tokenization สินทรัพย์ในโลกจริง (RWA) และ DeFi",
-            "category": "Digital Asset"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "ส่อง 6 หุ้นท่องเที่ยวไทยฟื้นช่วงไฮซีซัน จับตา Tomorrowland ส่งท้ายปี 2569",
+            "url": "https://www.msn.com/th-th/entertainment/general/ส่อง-6-หุ้นท่องเที่ยวไทยฟื้นช่วงไฮซีซัน-จับตา-tomorrowland-ส่งท้ายปี-2569/ar-AA2h7nuX",
+            "source": "ไทยรัฐ",
+            "date": "2026-11-10T05:32:36+00:00"
+        },
+        {
+            "title": "'ทีทีบี' ชู Reinvent Thailand ทางรอดเข็นเศรษฐกิจไทยโต 4%",
+            "url": "https://www.msn.com/th-th/news/other/ทีทีบี-ชู-reinvent-thailand-ทางรอดเข็นเศรษฐกิจไทยโต-4/ar-AA2h6z3u",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-11-10T03:55:00+00:00"
+        },
+        {
+            "title": "SCB WEALTH เปิดเวทีสัมมนา Next Gen โครงการ XCELERATE เจาะทิศทางลงทุนปี 2027",
+            "url": "https://www.sanook.com/money/961043/",
+            "source": "Sanook.com",
+            "date": "2026-11-10T00:00:00+00:00"
+        },
         {
             "title": "KKP Research ชี้คนไทยแก่ก่อนรวย 70% เงินออมเลี้ยงชีพได้ 5 ปี",
             "url": "https://www.kaohoon.com/news/879133",
@@ -302,24 +180,6 @@
             "url": "https://www.msn.com/th-th/news/other/เศรษฐกิจโตกระจุก-cimb-thai-รุกตลาด-wealth-เน้นกลุ่มลูกค้ามีทรัพย์สิน-30-ล้านบาทขึ้นไป/ar-AA2gnSYZ",
             "source": "ไทยรัฐ",
             "date": "2026-10-30T06:30:00+00:00"
-        },
-        {
-            "title": "บลจ.ยูโอบี ชี้เป้าหุ้นไทยปีนี้ 1,650 จุด ชู 5 ธีมลงทุน รับรอบใหม่ AI-Data ...",
-            "url": "https://www.msn.com/th-th/news/other/บลจยูโอบี-ชี้เป้าหุ้นไทยปีนี้-1650-จุด-ชู-5-ธีมลงทุน-รับรอบใหม่-ai-data-center/ar-AA2gnMsy",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-10-30T03:50:09+00:00"
-        },
-        {
-            "title": "กมธ.พัฒนาเศรษฐกิจ จี้รัฐกวาดล้างกองถ่ายศูนย์เหรียญ แฉ ขน ...",
-            "url": "https://www.msn.com/th-th/news/national/กมธพัฒนาเศรษฐกิจ-จี้รัฐกวาดล้างกองถ่ายศูนย์เหรียญ-แฉ-ขนอุปกรณ์-แรงงานเถื่อน-มาถ่ายทำในไทย/ar-AA2gk0mq",
-            "source": "ไทยรัฐ",
-            "date": "2026-10-29T09:36:02+00:00"
-        },
-        {
-            "title": "ซีไอเอ็มบี ไทย เตือนเศรษฐกิจโลก Q4 เผชิญ 6 ความเสี่ยง แนะเตรียม ...",
-            "url": "https://www.msn.com/th-th/news/other/ซีไอเอ็มบี-ไทย-เตือนเศรษฐกิจโลก-q4-เผชิญ-6-ความเสี่ยง-แนะเตรียมพร้อมรับมือให้ทันท่วงที/ar-AA2gjNRL",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-10-29T08:35:48+00:00"
         }
     ]
 }
