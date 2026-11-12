@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-11-11T17:22:44.948222+07:00",
+    "last_updated": "2026-11-12T17:48:19.788313+07:00",
     "summary": {
-        "total_value_thb": 31409.586438946353,
-        "total_profit_thb": 2410.191076146675,
-        "total_profit_percent": 8.311176995222665
+        "total_value_thb": 31500.86283571586,
+        "total_profit_thb": 2496.1979954822127,
+        "total_profit_percent": 8.60619493185671
     },
     "assets": [
         {
@@ -28,179 +28,91 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.899999618530273,
-            "total_value_thb": 795.9999847412109,
-            "profit_thb": 186.7999847412109,
-            "profit_percent": 30.663162301577625
+            "current_price_thb": 19.299999237060547,
+            "total_value_thb": 771.9999694824219,
+            "profit_thb": 162.79996948242183,
+            "profit_percent": 26.723566888119144
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.79374638896556,
-            "total_value_thb": 10478.113880538729,
-            "profit_thb": 478.11432957872967,
-            "profit_percent": 4.781143510479765
+            "current_price_thb": 11.977703482330979,
+            "total_value_thb": 10641.549934685117,
+            "profit_thb": 641.5503837251181,
+            "profit_percent": 6.415504125332978
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 4061.699951171875,
-            "cost_per_unit_thb": 134944.91861915588,
-            "current_price_thb": 136676.20955459587,
-            "total_value_thb": 1995.4726594970998,
-            "profit_thb": 25.276847657423787,
-            "profit_percent": 1.2829611912443089
+            "current_price_usd": 3953.10009765625,
+            "cost_per_unit_thb": 135305.84173107147,
+            "current_price_thb": 133377.60393006913,
+            "total_value_thb": 1947.3130173790094,
+            "profit_thb": -28.15227189463417,
+            "profit_percent": -1.4250957507324993
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>ปัจจัยบวก:</b> ครม. เดินหน้าหนุนการลงทุน Data Center และโครงสร้างพื้นฐานดิจิทัล ช่วยสร้างแรงเก็งกำไรในหุ้นกลุ่มเทคโนโลยีและนิคมอุตสาหกรรม รวมถึงแรงหนุนไฮซีซันของภาคการท่องเที่ยว</li><li><b>ปัจจัยลบ:</b> ตลาดหุ้นไทยเผชิญแรงขายทำกำไรในหุ้นกลุ่มบิ๊กแคปตามทิศทางความผันผวนของตลาดโลก ประกอบกับความกังวลเชิงโครงสร้างเศรษฐกิจและหนี้ครัวเรือนในประเทศ</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยบวก:</b> ความไม่แน่นอนทางภูมิรัฐศาสตร์และทิศทางนโยบายเศรษฐกิจหลังการเลือกตั้งสหรัฐฯ หนุนสถานะสินทรัพย์ปลอดภัย</li><li><b>ปัจจัยลบ:</b> อัตราผลตอบแทนพันธบัตรและค่าเงินดอลลาร์ที่ทรงตัวในระดับสูงจำกัดการปรับตัวขึ้นอย่างรวดเร็วของราคาทองคำ</li></ul>",
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงหนุนกระแส Data Center และ AI:</b> นโยบายสนับสนุน Data Center ของ ครม. และแผนผลักดันธุรกิจเทคโนโลยีของตลาดหลักทรัพย์ฯ หนุนความเชื่อมั่นผลักดันดัชนีทดสอบ 1,500 จุด</li><li><b>เม็ดเงินกองทุนปลายปี:</b> การระดมทุนผ่าน ThaiESG และ RMF คาดว่าจะช่วยสร้างสภาพคล่องและพยุงดัชนีหุ้นไทยในช่วงปลายปี</li><li><b>แรงส่งภาคท่องเที่ยว:</b> การเข้าสู่ช่วงไฮซีซันและอีเวนต์ใหญ่ในอนาคตช่วยฟื้นตัวหุ้นกลุ่มบริการและการท่องเที่ยว</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>แรงกดดันจากผลตอบแทนพันธบัตร:</b> มุมมอง Bond Yield ในตลาดโลกที่ทรงตัวในระดับสูง (BlackRock มองสูงถึง 7%) ลดทอนความน่าสนใจของทองคำในระยะสั้น</li><li><b>แรงพยุงจากสินทรัพย์ปลอดภัย:</b> ความผันผวนของเศรษฐกิจระดับมหภาคและความเสี่ยงทางภูมิรัฐศาสตร์ยังคงทำให้มีแรงซื้อทองคำเพื่อป้องกันความเสี่ยงจำกัดการย่อตัว</li></ul>",
         "recommendations": {
             "SCB": {
                 "action": "HOLD",
-                "reason": "กำไรสะสม 12.50% อยู่ในเกณฑ์ดีและรับแรงหนุนจากกลยุทธ์ Wealth/Fintech แนะนำถือรับปันผลและสังเกตแนวโน้มหนี้ครัวเรือน"
+                "reason": "กำไรเติบโตเด่น 12.5% และมีปัจจัยบวกจากธุรกิจ Wealth ต่อเนื่อง แนะนำถือครองเพื่อรับเงินปันผล"
             },
             "SIRI": {
                 "action": "HOLD",
-                "reason": "ราคาอยู่ในระดับใกล้เคียงต้นทุน (+0.71%) แนะนำถือรอการฟื้นตัวจากมาตรการกระตุ้นอสังหาริมทรัพย์และบรรยากาศปลายปี"
+                "reason": "ราคาเริ่มฟื้นตัวใกล้จุดคุ้มทุน (+0.71%) แนะนำถือรอดูทิศทางยอดโอนอสังหาริมทรัพย์และมาตรการกระตุ้นปลายปี"
             },
             "OSP": {
                 "action": "HOLD",
-                "reason": "ผลตอบแทนโดดเด่นถึง 30.66% แนะนำถือต่อเพื่อรันเทรนด์การบริโภคปลายปีพร้อมกำหนดจุด Trailing Stop ล็อกกำไร"
+                "reason": "ผลตอบแทนแข็งแกร่งถึง 26.72% โมเมนตัมยังดี ให้ Let Profit Run โดยตั้งจุด Trailing Stop ป้องกันกำไร"
             },
             "K-US500XUH": {
                 "action": "BUY",
-                "reason": "หุ้นสหรัฐฯ ได้รับแรงขับเคลื่อนต่อเนื่องหลังผลการเลือกตั้งและหุ้นเทคโนโลยียังมีโมเมนตัมแข็งแกร่ง"
+                "reason": "กำไรเติบโต 6.42% ทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงสู่หุ้นกลุ่มบิ๊กเทคสหรัฐฯ ที่ยังได้รับอานิสงส์จาก AI"
             },
             "MTS-GOLD": {
-                "action": "HOLD",
-                "reason": "มีกำไรเล็กน้อย 1.28% ควรถือครองต่อไปเพื่อทำหน้าที่กระจายความเสี่ยงและป้องกันความผันผวนของตลาดโลก"
+                "action": "BUY",
+                "reason": "ขาดทุนเล็กน้อย 1.43% ถือเป็นจังหวะทยอยสะสมเพิ่มที่แนวรับเพื่อกระจายความเสี่ยงในพอร์ตระยะยาว"
             }
         },
         "daily_picks": [
             {
                 "symbol": "GULF",
-                "name": "บมจ.กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์",
-                "reason": "รับประโยชน์โดยตรงจากนโยบายภาครัฐที่เร่งผลักดันการลงทุน Data Center และโครงสร้างพื้นฐานพลังงานสะอาด",
-                "tag": "Tech Infrastructure"
+                "name": "กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์",
+                "reason": "รับอานิสงส์โดยตรงจากมติ ครม. หนุน Data Center และการลงทุนคลาวด์ขนาดใหญ่ในประเทศ",
+                "tag": "Tech / Growth"
             },
             {
                 "symbol": "AOT",
-                "name": "บมจ.ท่าอากาศยานไทย",
-                "reason": "ได้รับอานิสงส์เต็มที่จากการเข้าสู่ช่วงไฮซีซันของการท่องเที่ยวไทยและแผนงานส่งเสริมอีเวนต์ระดับโลก",
-                "tag": "Tourism"
+                "name": "ท่าอากาศยานไทย",
+                "reason": "ได้รับผลบวกโดยตรงจากการเข้าสู่ช่วงไฮซีซันของภาคการท่องเที่ยวและการเพิ่มขึ้นของเที่ยวบินระหว่างประเทศ",
+                "tag": "Tourism / Value"
             }
         ]
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำเบอร์หนึ่งด้านชิปประมวลผล AI และโครงสร้างพื้นฐาน Data Center ระดับโลกที่เติบโตต่อเนื่อง",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำ Cloud Infrastructure (Azure) และการผนวกรวม AI สู่กลุ่มผู้ใช้งานระดับองค์กรทั่วโลก",
-            "category": "Cloud & AI"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงผูกขาดตลาดโลก รองรับคำสั่งซื้อชิป AI ทั้งหมดจากยักษ์ใหญ่เทคโนโลยี",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "AWS ได้รับประโยชน์โดยตรงจากความต้องการ Data Center ทั่วโลก พร้อมธุรกิจค้าปลีกที่มีประสิทธิภาพสูงขึ้น",
-            "category": "Cloud & E-Commerce"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "Google Cloud ขยายตัวสูง มีโครงสร้างพื้นฐาน TPU ของตนเองและกระแสเงินสดแข็งแกร่ง",
-            "category": "Tech & AI"
-        },
-        {
-            "symbol": "AVGO",
-            "name": "Broadcom Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านอุปกรณ์เครือข่ายสำหรับ Data Center และการผลิตชิป AI แบบ Custom Silicon",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผูกขาดเครื่องพิมพ์ชิป EUV ระดับสูงทั่วโลก เป็นหัวใจหลักของห่วงโซ่อุปทานเซมิคอนดักเตอร์",
-            "category": "Semiconductor Equipment"
-        },
-        {
-            "symbol": "CEG",
-            "name": "Constellation Energy Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้ผลิตพลังงานนิวเคลียร์สะอาดป้อน Data Center รายใหญ่ เช่น ข้อตกลงระยะยาวกับ Microsoft",
-            "category": "Clean Energy & Utilities"
-        },
-        {
-            "symbol": "SAP",
-            "name": "SAP SE",
-            "exchange": "XETRA",
-            "reason": "หุ้นเทคโนโลยีชั้นนำของยุโรป เติบโตจากการย้ายระบบ Enterprise ERP สู่ระบบ Cloud อย่างรวดเร็ว",
-            "category": "Enterprise Software"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
-            "exchange": "NYSE",
-            "reason": "ผู้นำตลาดยารักษาโรคอ้วนและเบาหวาน (GLP-1) ที่มีอัตราการเติบโตสูงและมีสิทธิบัตรคุ้มครองแข็งแกร่ง",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "BABA",
-            "name": "Alibaba Group Holding Limited",
-            "exchange": "NYSE",
-            "reason": "หุ้นเทคจีนมูลค่า Valuation ไม่แพง รับอานิสงส์มาตรการกระตุ้นเศรษฐกิจและการเติบโตของ Cloud ในเอเชีย",
-            "category": "Consumer & Cloud"
-        },
-        {
-            "symbol": "GULF",
-            "name": "Gulf Energy Development PCL",
-            "exchange": "SET",
-            "reason": "ผู้เล่นแถวหน้าด้านพลังงานและโครงสร้างพื้นฐานดิจิทัล/Data Center ของไทยที่รับประโยชน์จากนโยบายรัฐ",
-            "category": "Energy & Infrastructure"
-        },
-        {
-            "symbol": "AOT",
-            "name": "Airports of Thailand PCL",
-            "exchange": "SET",
-            "reason": "ได้รับผลบวกโดยตรงจากการฟื้นตัวของภาคการท่องเที่ยวช่วง High Season และมาตรการกระตุ้นการเดินทาง",
-            "category": "Transportation & Tourism"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลชั้นนำ ได้แรงหนุนจากเงินทุนสถาบันผ่าน Spot ETF และนโยบายสนับสนุนคริปโตในสหรัฐฯ",
-            "category": "Digital Assets"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "แพลตฟอร์ม Smart Contract หลักของโลก ได้รับความเชื่อมั่นจากระบบนิเวศการเงินแบบกระจายศูนย์ (DeFi)",
-            "category": "Digital Assets"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "SCB WEALTH ชูตราสารหนี้รับมือผันผวน BlackRock มอง Yield สูง 7%",
+            "url": "https://www.thansettakij.com/social-biz/673605",
+            "source": "ฐานเศรษฐกิจ",
+            "date": "2026-11-12T10:16:00+00:00"
+        },
+        {
+            "title": "ต่างชาติสนใจลงทุนในไทย! HSBC Thailand ชวนมองโอกาส-ความเสี่ยงของ ...",
+            "url": "https://www.msn.com/th-th/money/other/ต่างชาติสนใจลงทุนในไทย-hsbc-thailand-ชวนมองโอกาส-ความเสี่ยงของเศรษฐกิจดิจิทัล-และ-ai/ar-AA2hhxnD",
+            "source": "ไทยรัฐ",
+            "date": "2026-11-12T09:39:32+00:00"
+        },
+        {
+            "title": "ตลท. ชี้ ThaiESG-RMF จ่อหนุนหุ้นไทยปลายปี เร่ง \"BOI to IPO\" ดึงธุรกิจ AI เข้า ...",
+            "url": "https://www.kaohoon.com/news/local/880463",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-11-12T08:42:00+00:00"
+        },
         {
             "title": "ชำแหละ 16,504 บริษัท ที่มีต่างชาติได้สัญชาติไทยถือหุ้น-เป็น ...",
             "url": "https://news1live.com/detail/1794383440978",
@@ -302,24 +214,6 @@
             "url": "https://www.reuters.com/markets/currencies/",
             "source": "Reuters",
             "date": "2026-11-03T00:00:00+00:00"
-        },
-        {
-            "title": "ดูบอลสด ไทยลีกถ่ายช่องไหน ถ่ายทอดสดไทยลีก ช่องถ่ายบอลไทยลีก ...",
-            "url": "https://www.sportingnews.com/th/football/news/ไทยลีกถ่ายช่องไหน-โปรแกรมถ่ายทอดสดไทยลีก-ฟุตบอลไทยถ่ายทอดสดวันนี้/nyjrylrnq991hpse75jepmbu",
-            "source": "Sporting News",
-            "date": "2026-11-03T00:00:00+00:00"
-        },
-        {
-            "title": "Tech News | Today's Latest Technology News | Reuters",
-            "url": "https://www.reuters.com/technology/",
-            "source": "Reuters",
-            "date": "2026-11-02T17:10:00+00:00"
-        },
-        {
-            "title": "คนไทย 86% ไร้แผนออมเกษียณ KKP เปิด 6 กองทุน ตั้งเป้า AUM 3 หมื่นล้าน ใน 3 ปี",
-            "url": "https://www.msn.com/th-th/news/other/คนไทย-86-ไร้แผนออมเกษียณ-kkp-เปิด-6-กองทุน-ตั้งเป้า-aum-3-หมื่นล้าน-ใน-3-ปี/ar-AA2gzHrv",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-11-02T09:59:00+00:00"
         }
     ]
 }
