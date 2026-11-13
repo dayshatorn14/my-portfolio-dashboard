@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-11-12T17:48:19.788313+07:00",
+    "last_updated": "2026-11-13T17:50:24.344581+07:00",
     "summary": {
-        "total_value_thb": 31500.86283571586,
-        "total_profit_thb": 2496.1979954822127,
-        "total_profit_percent": 8.60619493185671
+        "total_value_thb": 31630.43307804222,
+        "total_profit_thb": 2618.742342346348,
+        "total_profit_percent": 9.026507162935724
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 153.0,
-            "total_value_thb": 15300.0,
-            "profit_thb": 1700.0,
-            "profit_percent": 12.5
+            "current_price_thb": 154.5,
+            "total_value_thb": 15450.0,
+            "profit_thb": 1850.0,
+            "profit_percent": 13.602941176470587
         },
         {
             "symbol": "SIRI",
@@ -28,73 +28,75 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.299999237060547,
-            "total_value_thb": 771.9999694824219,
-            "profit_thb": 162.79996948242183,
-            "profit_percent": 26.723566888119144
+            "current_price_thb": 19.100000381469727,
+            "total_value_thb": 764.0000152587891,
+            "profit_thb": 154.80001525878902,
+            "profit_percent": 25.410376766052035
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.977703482330979,
-            "total_value_thb": 10641.549934685117,
-            "profit_thb": 641.5503837251181,
-            "profit_percent": 6.415504125332978
+            "current_price_thb": 11.984072901892386,
+            "total_value_thb": 10647.208823838424,
+            "profit_thb": 647.2092728784246,
+            "profit_percent": 6.472093019407112
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3953.10009765625,
-            "cost_per_unit_thb": 135305.84173107147,
-            "current_price_thb": 133377.60393006913,
-            "total_value_thb": 1947.3130173790094,
-            "profit_thb": -28.15227189463417,
-            "profit_percent": -1.4250957507324993
+            "current_price_usd": 3902.5,
+            "cost_per_unit_thb": 135787.06744766235,
+            "current_price_thb": 132138.65238189697,
+            "total_value_thb": 1929.2243247756958,
+            "profit_thb": -53.26685996017454,
+            "profit_percent": -2.686864908671528
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงหนุนกระแส Data Center และ AI:</b> นโยบายสนับสนุน Data Center ของ ครม. และแผนผลักดันธุรกิจเทคโนโลยีของตลาดหลักทรัพย์ฯ หนุนความเชื่อมั่นผลักดันดัชนีทดสอบ 1,500 จุด</li><li><b>เม็ดเงินกองทุนปลายปี:</b> การระดมทุนผ่าน ThaiESG และ RMF คาดว่าจะช่วยสร้างสภาพคล่องและพยุงดัชนีหุ้นไทยในช่วงปลายปี</li><li><b>แรงส่งภาคท่องเที่ยว:</b> การเข้าสู่ช่วงไฮซีซันและอีเวนต์ใหญ่ในอนาคตช่วยฟื้นตัวหุ้นกลุ่มบริการและการท่องเที่ยว</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>แรงกดดันจากผลตอบแทนพันธบัตร:</b> มุมมอง Bond Yield ในตลาดโลกที่ทรงตัวในระดับสูง (BlackRock มองสูงถึง 7%) ลดทอนความน่าสนใจของทองคำในระยะสั้น</li><li><b>แรงพยุงจากสินทรัพย์ปลอดภัย:</b> ความผันผวนของเศรษฐกิจระดับมหภาคและความเสี่ยงทางภูมิรัฐศาสตร์ยังคงทำให้มีแรงซื้อทองคำเพื่อป้องกันความเสี่ยงจำกัดการย่อตัว</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรเติบโตเด่น 12.5% และมีปัจจัยบวกจากธุรกิจ Wealth ต่อเนื่อง แนะนำถือครองเพื่อรับเงินปันผล"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ราคาเริ่มฟื้นตัวใกล้จุดคุ้มทุน (+0.71%) แนะนำถือรอดูทิศทางยอดโอนอสังหาริมทรัพย์และมาตรการกระตุ้นปลายปี"
-            },
-            "OSP": {
-                "action": "HOLD",
-                "reason": "ผลตอบแทนแข็งแกร่งถึง 26.72% โมเมนตัมยังดี ให้ Let Profit Run โดยตั้งจุด Trailing Stop ป้องกันกำไร"
-            },
-            "K-US500XUH": {
-                "action": "BUY",
-                "reason": "กำไรเติบโต 6.42% ทยอยสะสมเพิ่มเพื่อกระจายความเสี่ยงสู่หุ้นกลุ่มบิ๊กเทคสหรัฐฯ ที่ยังได้รับอานิสงส์จาก AI"
-            },
-            "MTS-GOLD": {
-                "action": "BUY",
-                "reason": "ขาดทุนเล็กน้อย 1.43% ถือเป็นจังหวะทยอยสะสมเพิ่มที่แนวรับเพื่อกระจายความเสี่ยงในพอร์ตระยะยาว"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "GULF",
-                "name": "กัลฟ์ เอ็นเนอร์จี ดีเวลลอปเมนท์",
-                "reason": "รับอานิสงส์โดยตรงจากมติ ครม. หนุน Data Center และการลงทุนคลาวด์ขนาดใหญ่ในประเทศ",
-                "tag": "Tech / Growth"
-            },
-            {
-                "symbol": "AOT",
-                "name": "ท่าอากาศยานไทย",
-                "reason": "ได้รับผลบวกโดยตรงจากการเข้าสู่ช่วงไฮซีซันของภาคการท่องเที่ยวและการเพิ่มขึ้นของเที่ยวบินระหว่างประเทศ",
-                "tag": "Tourism / Value"
-            }
-        ]
+        "market_analysis": "Error: 504 Deadline expired before operation could complete.",
+        "recommendations": {},
+        "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "‘สตีเฟน เอ็น. เอ็นเดกวา’ โลกกำลังบอกอะไรเรา? 4 ทางรอดที่ธุรกิจไทยต้องรู้เพื่อสู้ในกติกาใหม่ - thepeople",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qTy10VWFEZVRfUF9fTUhaU3JCZDhHd0NkYzFpS0lnUEg1NkhCWDFRVVNQb1FEVGhyZHpOQTFlc1ZKOXlYOTJBbUlnS19SbUlfWkhZOUtDN1Q?oc=5",
+            "source": "thepeople",
+            "date": "2026-11-13T08:50:00+00:00"
+        },
+        {
+            "title": "ก.ล.ต.ยัน Microsoft ล่ม ไม่กระทบซื้อขายหุ้นไทย ระบบตลาดยังปกติ ย้ำจับตาใกล้ชิด - ผู้จัดการออนไลน์",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LR1RMNGs3U1BsZmNEanA5N296VjRoN0hHZF9SblVGTTRYc2ljS3dkLTJzVE00Y2FnV1hkUGJPajRDWWhDX3NLSTdQOXg4N3pEM05qdTJBOUU1aElyMTB2d25RaGM?oc=5",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-11-13T07:25:00+00:00"
+        },
+        {
+            "title": "UPDATE : ‘ศุภวุฒิ’ ชี้ปม ‘เจนเซน หวง’ สะเทือนเกมอำนาจสหรัฐ-จีน จับตาทรัมป์เยือน ASEAN Summit-APEC-G20 เตือนแรงกระแทกถึงเศรษฐกิจไทย ดร.ศุภวุฒิ ประเมินเศรษฐกิจโลกหลังเลือกตั้งกลางเทอมสหรัฐฯ ชี้จับตาความสัมพันธ์ทรัมป์-เดโมแครต และปม ‘เจนเซน หวง’ เพิ่มแรงเสียดทา - Facebook",
+            "url": "https://news.google.com/rss/articles/CBMi4AZBVV95cUxNOEl4UmNUNzBDMjlVRTM1Zkl2UlF6NGNjUmNuTHk1TEFuZzAxWlFpcWtYNmZoU3d0MmVUc2JBS3hHa2s2XzhVR21XS2p1a1JGLVU2eFJuX1llNE5jeDhrZ2R4eFpJNUo1bjlxaXVDUjVSdjhxdEVxdy1aTXl0bXY1UWQzXzJ6enRTc3RhM2x6V21yZU5qWGtxeTJaaG1RcmdSSlZKUEhjR3FfcDVYbEl5b0VoR1Y4RlBHcVhVS1VnZk1FRUxiQTJPcE12RUpXblIwWG5XaF9uWU9QeDRWNzV3azJBaENfaUFLdzZpbEZKLUZIU1dHY1BFMUZ3em9GTlBNWlpxZTIwblR3SzBZTzk1azhWVHhDN0ZmYTZnckpyT3gyWUtWOEs5cGtUZGhWOXU2c0tBQWN1YW9FbUNwbXhOaS1XNmhSbTlueVU5Z09qQWR5VjVhS05aakZuSXVPU2JtVldGSVJRWkphX0ExVjVTeEdqR2NRNU5wYjA4U0xEZzJpQWFhMGJCMldfX05RUExweVN5N0p3aS1WMzV4TTkwOVo0cmp1RjlSSlJqSFFyazFZWXpkMko2dXNJUElBVUlPRXVycWJkRUNhNE9tT3hycllwSHJDaXhhV1oybWhsTlU1YzRMV1dFU1A4RzMxdzNUX0NnUU44aC1RVDlrVU9Lak5taVpLZlZqOGFwbEF0RzFySnFqblZMd3BFMFM5ZkxnU01hZUg4RmlKLVdFZVBqRldpZ1FQS25qQXJKcUJkaW9CMkxFUElVNGhzdk9ZTHN5VG9iU09vYWp6LWU4cks0eGhyOVJjUlkteEhJZ3lFbWNOY0FsQmlrRHVnYVU1b2VSQllBYV9qbEFiSEEzYTJ2OTRUcGttWEltUG1iT2RtQlR1MFFRRnZZUXAyQll5WmJZd3NMUWtCRTV2UzREeGRoaVRlVTVuWTdjN3FGNS1zZUNwMlg5WHVkSzJnZ0FBQ19xaHJOUkpoRjYxX1Iyei1Lemc4d29MT2hLOHBsQ2NPdzBzeVA2U0lkVmZFaE9ucVRlc29QNEtSU1VLTDk4cjc0SGlUaG5NSm1kYmxsR0FGaXJIVm9pclp5WnlqSUFZejFEcjZlc2QwUERvWTFRWElEcFdFWkxwRi03THRNZG9BWG4?oc=5",
+            "source": "Facebook",
+            "date": "2026-11-13T06:20:32+00:00"
+        },
+        {
+            "title": "HSBC เผยธุรกิจไทยลงทุนต่างประเทศติดอันดับ 2 ของโลก เร่งใช้ AI รับมือเศรษฐกิจไม่แน่นอน จากกำแพงภาษี-สงคราม - thestandard.co",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1reHRUNmNOdV9pbnZUQXdUM3lFRzVQOXUtVllWNlVLMWx4SWtiQVd2RVA2SXU4Tk5NS3RFaVBXdXFsdXVRNTE4cGNnbnhNMFlPMUtJcjg5NlgxaXFKMHBDTTgtd1JCRF9TWGY3OTJWV1UxTWFORXpnTw?oc=5",
+            "source": "thestandard.co",
+            "date": "2026-11-13T01:32:58+00:00"
+        },
+        {
+            "title": "Fund Flow ต่างชาติมีลุ้นกลับเข้าหุ้นไทย จับตา 5 หุ้นเด่นรับแรงซื้อ - Thunhoon",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsTHFKQ2w3YmJWbW5CSTVicEhtaVdiWHFTRHlKOTk5QnQxQXJ2SDR6dTFKVjJ5SnNHSmpVWXRYcS1iUzNJNXRhNzNYWXBjZkVmVHAtMmNkeGtBQQ?oc=5",
+            "source": "Thunhoon",
+            "date": "2026-11-12T23:10:32+00:00"
+        },
+        {
+            "title": "หุ้นไทยปิดลบ 3 จุด ต่างชาติพลิกซื้อ 1.7 พันล้าน - ผู้จัดการออนไลน์",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53Y3hkeGM3eUVWSUx3NGF2NkdNOHdOZUJWSXhxN05iMTc4S2h0X1N3YVViZmtVZS1fWjVnM3NKOUpfMF9ycVFhcE9TOEpQSzc3OU5HVnEyNlh3VG1VTjZFOFhJNFk?oc=5",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-11-12T12:21:00+00:00"
+        },
         {
             "title": "SCB WEALTH ชูตราสารหนี้รับมือผันผวน BlackRock มอง Yield สูง 7%",
             "url": "https://www.thansettakij.com/social-biz/673605",
@@ -178,42 +180,6 @@
             "url": "https://www.bangkokbiznews.com/finance/stock/1259555",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-11-06T01:58:00+00:00"
-        },
-        {
-            "title": "\"หุ้นไทย\" ปรับตัวลดลง 22.91 จุด อยู่ที่ 1,475.08 ตามทิศทางตลาดหุ้นโลก",
-            "url": "https://www.thaipbs.or.th/news/content/572289",
-            "source": "Thai PBS",
-            "date": "2026-11-06T00:00:00+00:00"
-        },
-        {
-            "title": "ส่อง 3 หุ้นยักษ์ Cyber Security มาร์เก็ตแคปใหญ่สุดในโลก ทางเลือกลงทุนรับ ...",
-            "url": "https://www.msn.com/th-th/news/other/ส่อง-3-หุ้นยักษ์-cyber-security-มาร์เก็ตแคปใหญ่สุดในโลก-ทางเลือกลงทุนรับภัยไซเบอร์ป่วนโลก/ar-AA2gNZTd",
-            "source": "ไทยรัฐ",
-            "date": "2026-11-05T08:49:35+00:00"
-        },
-        {
-            "title": "ตลท. จัดหมวดหุ้นใหม่ 1 มี.ค. 70 แยก หุ้นเทคโนโลยี ชัดๆ รองรับบริษัท ...",
-            "url": "https://www.msn.com/th-th/news/other/ตลท-จัดหมวดหุ้นใหม่-1-มีค-70-แยก-หุ้นเทคโนโลยี-ชัดๆ-รองรับบริษัทจดทะเบียนธุรกิจโลกใหม่/ar-AA2gMi8m",
-            "source": "ไทยรัฐ",
-            "date": "2026-11-05T03:17:50+00:00"
-        },
-        {
-            "title": "BBIK ตอกย้ำความเป็นเลิศด้านธรรมาภิบาล คว้า 100 คะแนนเต็ม AGM Checklist 2026 ...",
-            "url": "https://www.share2trade.com/news/60827/bbik-ตอกย้ำความเป็นเลิศด้านธรรมาภิบาล-คว้า-100-คะแนนเต็ม-agm-checklist-2026-ต่อเนื่องปีที่-5",
-            "source": "Share2Trade",
-            "date": "2026-11-04T23:59:00+00:00"
-        },
-        {
-            "title": "เศรษฐกิจ/การเงิน",
-            "url": "https://www.thaipr.net/finance",
-            "source": "thaipr.net",
-            "date": "2026-11-03T17:25:00+00:00"
-        },
-        {
-            "title": "Currency Market Headlines | Breaking Stock Market News | Reuters",
-            "url": "https://www.reuters.com/markets/currencies/",
-            "source": "Reuters",
-            "date": "2026-11-03T00:00:00+00:00"
         }
     ]
 }
