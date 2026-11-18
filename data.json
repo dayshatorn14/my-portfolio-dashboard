@@ -1,57 +1,57 @@
 {
-    "last_updated": "2026-11-17T18:48:43.549216+07:00",
+    "last_updated": "2026-11-18T18:17:45.852633+07:00",
     "summary": {
-        "total_value_thb": 31304.683052572254,
-        "total_profit_thb": 2295.919754706545,
-        "total_profit_percent": 7.914573024474522
+        "total_value_thb": 31119.702871025613,
+        "total_profit_thb": 2103.3282794713195,
+        "total_profit_percent": 7.248763186575104
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 154.0,
-            "total_value_thb": 15400.0,
-            "profit_thb": 1800.0,
-            "profit_percent": 13.23529411764706
+            "current_price_thb": 153.5,
+            "total_value_thb": 15350.0,
+            "profit_thb": 1750.0,
+            "profit_percent": 12.867647058823529
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.4199999570846558,
-            "total_value_thb": 2839.9999141693115,
-            "profit_thb": 19.999914169311523,
-            "profit_percent": 0.7092168145145931
+            "current_price_thb": 1.409999966621399,
+            "total_value_thb": 2819.999933242798,
+            "profit_thb": -6.67572021484375e-05,
+            "profit_percent": -2.367276671930408e-06
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.299999237060547,
-            "total_value_thb": 771.9999694824219,
-            "profit_thb": 162.79996948242183,
-            "profit_percent": 26.723566888119144
+            "current_price_thb": 19.0,
+            "total_value_thb": 760.0,
+            "profit_thb": 150.79999999999995,
+            "profit_percent": 24.753775443204194
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.69190387541416,
-            "total_value_thb": 10387.632245638535,
-            "profit_thb": 387.6326946785357,
-            "profit_percent": 3.87632712084795
+            "current_price_thb": 11.616384017477912,
+            "total_value_thb": 10320.536884622592,
+            "profit_thb": 320.5373336625926,
+            "profit_percent": 3.205373480560017
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3859.300048828125,
-            "cost_per_unit_thb": 135586.5580072403,
-            "current_price_thb": 130482.93995082099,
-            "total_value_thb": 1905.0509232819866,
-            "profit_thb": -74.51282362372172,
-            "profit_percent": -3.764103264681122
+            "current_price_usd": 3772.10009765625,
+            "cost_per_unit_thb": 136107.8794927597,
+            "current_price_thb": 128025.07213426195,
+            "total_value_thb": 1869.1660531602245,
+            "profit_thb": -118.0089874340672,
+            "profit_percent": -5.938530075275855
         }
     ],
     "ai_analysis": {
@@ -59,8 +59,150 @@
         "recommendations": {},
         "daily_picks": []
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำด้านชิปประมวลผล AI และ Data Center ระดับโลกที่ได้รับประโยชน์โดยตรงจากการเร่งลงทุน Synthetic Intelligence",
+            "category": "Tech"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้รับจ้างผลิตชิปขั้นสูงที่มีเทคโนโลยีผูกขาดตลาดและเป็นหัวใจหลักของห่วงโซ่อุปทานเซมิคอนดักเตอร์โลก",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ระบบนิเวศ Cloud (Azure) และการบูรณาการ AI เข้ากับซอฟต์แวร์องค์กรที่มีกระแสเงินสดแข็งแกร่งสูง",
+            "category": "Tech"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผลิตเครื่องพิมพ์ชิป EUV รายเดียวในโลก ได้รับแรงหนุนจากการขยายกำลังผลิตชิปขั้นสูงทั่วโลก",
+            "category": "Tech"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำนวัตกรรมโมเดล AI และธุรกิจ Search/Cloud ที่มีงบดุลแข็งแกร่งและมูลค่าพื้นฐานยังน่าดึงดูด",
+            "category": "Tech"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "AWS เติบโตแข็งแกร่งจากการรองรับเวิร์กโหลด AI และธุรกิจอีคอมเมิร์ซมีประสิทธิภาพการทำกำไรสูงขึ้น",
+            "category": "Tech"
+        },
+        {
+            "symbol": "9988.HK",
+            "name": "Alibaba Group Holding Limited",
+            "exchange": "HKEX",
+            "reason": "รับผลเชิงบวกจากแผนพัฒนา 5 ปีฉบับที่ 15 ของจีน และการกระตุ้นเศรษฐกิจผ่านการค้าเสรีและคลาวด์",
+            "category": "Consumer/Tech"
+        },
+        {
+            "symbol": "NOVO-B.CO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "Nasdaq Copenhagen",
+            "reason": "หุ้นยุโรปปลอดภัยสูง ผู้นำตลาดยารักษาโรคเบาหวานและยาลดน้ำหนักที่มีความต้องการเติบโตอย่างต่อเนื่อง",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "exchange": "NYSE",
+            "reason": "พอร์ตยาเมตาบอลิซึมและเบาหวานเติบโตโดดเด่น สามารถต้านทานแรงกดดันจากวัฏจักรเศรษฐกิจโลกได้ดี",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "JPM",
+            "name": "JPMorgan Chase & Co.",
+            "exchange": "NYSE",
+            "reason": "ธนาคารยักษ์ใหญ่ที่มีฐานะการเงินแข็งแกร่ง ได้รับประโยชน์จากโครงสร้างอัตราดอกเบี้ยระดับสูง",
+            "category": "Financials"
+        },
+        {
+            "symbol": "005930.KS",
+            "name": "Samsung Electronics Co., Ltd.",
+            "exchange": "KRX",
+            "reason": "รอบการฟื้นตัวของชิปหน่วยความจำ HBM สำคัญสำหรับ AI และการกระจายตัวในอุปกรณ์อิเล็กทรอนิกส์ทั่วโลก",
+            "category": "Semiconductor"
+        },
+        {
+            "symbol": "SAP",
+            "name": "SAP SE",
+            "exchange": "XETRA",
+            "reason": "ผู้นำซอฟต์แวร์บริหารจัดการองค์กรของยุโรปที่เปลี่ยนผ่านสู่ Cloud-ERP และผสาน AI สำเร็จ",
+            "category": "Tech"
+        },
+        {
+            "symbol": "DELTA.BK",
+            "name": "Delta Electronics (Thailand) PCL",
+            "exchange": "SET",
+            "reason": "ผู้ผลิตชิ้นส่วนพาวเวอร์ซัพพลายป้อนดาต้าเซ็นเตอร์ AI ระดับโลก ได้ประโยชน์ระยะยาวจากเทรนด์พลังงานและ AI",
+            "category": "Electronics"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ดิจิทัลหลักที่ทำหน้าที่เป็น Digital Gold เพื่อกระจายความเสี่ยงจากภูมิรัฐศาสตร์และการแบ่งขั้วเศรษฐกิจ",
+            "category": "Crypto"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "โครงสร้างพื้นฐาน Layer-1 ชั้นนำของโลก รองรับนวัตกรรม DeFi และการแปลงสินทรัพย์ในโลกจริงเป็นโทเคน (RWA)",
+            "category": "Crypto"
+        }
+    ],
     "news": [
+        {
+            "title": "หุ้นไทยวันนี้ 18 พฤศจิกายน 2569 ปิดลบ 2.67 จุด ตลาดแกว่งตัวค่อนข้างผันผวน - TNN Thailand",
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TMHlDUUV0OXFVVmV1TW0zRHhmMGZVaDlIT0RINmZaRzREeHJ4ZXhPWEdDVnRoeTRHTnJHVlpON1d4Y0FUaGpDUlJiTWNCNUJxUF8wXw?oc=5",
+            "source": "TNN Thailand",
+            "date": "2026-11-18T10:45:21+00:00"
+        },
+        {
+            "title": "กรุงเทพธุรกิจ. . สี จิ้นผิง เปิดฉาก APEC 2026 ชู ‘การค้าเสรี’ | กรุงเทพธุรกิจ_InFocus . ‘สี จิ้นผิง’ เปิดฉาก APEC 2026 ณ เซินเจิ้น ชูจุดยืนการค้าเสรี-ห่วงโซ่อุปทานมั่นคง ร่วมฝ่าวิกฤติเศรษฐกิจโลก . #สีจิ้นผิง #APEC2026 #การค้าเสรี #เศรษฐกิจโลก #กรุงเทพธุรกิจ_InFocus #กรุงเทพธุรกิ - Facebook",
+            "url": "https://news.google.com/rss/articles/CBMiqAZBVV95cUxOTVptT2hxX1JGWTg0a1Ywcjk1QU5wb1NhYWZ0QVBpaEJ4UmQzVGs1UFZKLU5PNzRtM2g2bnFIYXZyMTM0ZUhhaUoxTlNIZjFhSFRCWlVJcGM2YTlPUWw4WEtkdk9LQXkzam1fUjBfX1dTU1p0WlBRVU5kVnhLMFdhN3hrbXFlQzA4SXlGYjljQV9ONVNjQjBuMkdwcXdCMzBzSWR0V1dkMnhYTDdHOXNLc1BpcTRmaGdRZWtaejJnckYtVXU4Ym9nc3ZVdnRhNGVOaDhNV1BVaDBPbGZEOVVMV1E5bm9UdGNxQVc1VWZ0ZlFaSUF4Q19GUHJPV20zVEd0eGF5V243aDduYkhUQUFiQllUeXhycG8tUHd1SFNJMjJuemhmbHhfQXBEWWo5SklyamZpS2dYVHZvMXY3dDkxQWRHSTNiOGZxQUF3UHQ1aVMtMlNuSlpLcWVNaHZLckFQWTFENWpTaXM4a294SDl6VXdjRmxHV2R6UUFRTEFscXlzS2ZvR1paMlZ5eHFCNmhFcE12ZDVQUVh0SzNhSnlNdnM2RUgycGQ5S2lucEpIbHhDTDllNkVaVDNZc3JNbDIwdVliMjJLaHZpUy0zZHhLY0V6VWdnRHpjNl9Fd2lrakNZbVBLTTZCNjhBZ3lXeU1FMjloRWtSVHpIVl9tdVFFYkc4Z1pOckh1Zy1qWE94V2hZcUd0X2ZlVkppdWhTQTN6ZWNCb2xBQUo4Vk5VU3hzenZZU0RjODVBVm1QR2xVV0RqZG4tdFhsaWY0RmxtZVhoSTItU0tHMW81anlBWnljMjF2T2llM1VRRHNScHB1QjdEb0FGb2VsWGJMRjJnZmw3N1loOWNPYzZrWUJMUUVkQ09ldDNSMEUzcUU2cTBZcm1jaWJxQnh2Mm93VkhvZUNKQ1ZLdHk2Z1NZRWNkM3htNjU0SmtuYlVpazRBTXRhYUtfQTdJc2xaa1hwQVhKVEhlZlVEeFoyS2xkSl91QkpRblpONjNNNFBpMEx1d3BHb2VQeEhRQklTcUFmV3NuTnRrWlVnU2Fkb3Y0RlNsd01lWElISnNxeWJJ?oc=5",
+            "source": "Facebook",
+            "date": "2026-11-18T09:21:21+00:00"
+        },
+        {
+            "title": "XSPRING มองหุ้นไทยปี 70 ลุ้นแตะ 1,725 จุด เปิด 8 หุ้นเด่น 3 ธีมลงทุน | การเงินธนาคาร - LINE TODAY",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MM2JZVk1vaXRVZ3JocnF5clJ6dWlBTjYwZjdYaENYZXZQeXhTdVNXX2xqR2x1N3hld3hkN0Z6eFcySE1kUHNYc251bjlSRVVqTHdqemhR?oc=5",
+            "source": "LINE TODAY",
+            "date": "2026-11-18T09:20:41+00:00"
+        },
+        {
+            "title": "\"ปูติน\" คาดถก 3 ฝ่าย \"ทรัมป์-สี\" พรุ่งนี้มีโอกาสสร้างประโยชน์อย่างมาก ชี้เศรษฐกิจโลกแบ่งขั้วต้องร่วมมือกัน : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QY3BuaHp2Zlk4YUpjS1ViVnE3OUpvMy1mQy11RnpEQ1NLSFNBekVDUTNjZjdUaWY4NGUtQ0lFODhheTQ1VGtRZ0JWejFYSnVC?oc=5",
+            "source": "สำนักข่าวอินโฟเควสท์",
+            "date": "2026-11-18T08:43:36+00:00"
+        },
+        {
+            "title": "สี จิ้นผิง ชี้ แผนพัฒนา 5 ปีฉบับที่ 15 ของจีน เป็นคำเชิญสู่ความร่วมมือที่จีนส่งถึงภาคธุรกิจทั่วโลก - 国际在线",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41RHAySUtldlRQcm1TTmJnOUJhRWJINmRXay1DaDZGRTdYNjdfel9sQ1lVU0E1UzhZTmZoTWU2ZVVXaE5fd3RZcVM4UnVWem0wX1Z0TmExZHNkZVpqbldHLQ?oc=5",
+            "source": "国际在线",
+            "date": "2026-11-18T07:49:30+00:00"
+        },
+        {
+            "title": "คุมชิปสะเทือนหุ้นไทย - ข่าวหุ้นธุรกิจออนไลน์",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrV2hvaU16bzlQR2xUZFpyR25kZkh6Mk1PbHdYOEpjQWRxa2hjRklYR0l3eWVGZkxpT2V6TzFfdThBRHBYUUhiVFhaaDQtQQ?oc=5",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-11-18T00:00:02+00:00"
+        },
         {
             "title": "“กองทุน-พร็อพ-ต่างชาติ” เทขายหุ้นไทย 3.87 พันล้าน กด SET ปิดร่วง 25 จุด - ข่าวหุ้นธุรกิจออนไลน์",
             "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnNkhtWWdPamZvaVlyanJlLTgwcElHQnhuQy1RcU1YVXVGVWdxX1NoVHlKMlhhTkg2OHFmQWpFdUVqMjJMekpVWXk3Vm5pT2M?oc=5",
@@ -144,42 +286,6 @@
             "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LR1RMNGs3U1BsZmNEanA5N296VjRoN0hHZF9SblVGTTRYc2ljS3dkLTJzVE00Y2FnV1hkUGJPajRDWWhDX3NLSTdQOXg4N3pEM05qdTJBOUU1aElyMTB2d25RaGM?oc=5",
             "source": "ผู้จัดการออนไลน์",
             "date": "2026-11-13T07:25:00+00:00"
-        },
-        {
-            "title": "UPDATE : ‘ศุภวุฒิ’ ชี้ปม ‘เจนเซน หวง’ สะเทือนเกมอำนาจสหรัฐ-จีน จับตาทรัมป์เยือน ASEAN Summit-APEC-G20 เตือนแรงกระแทกถึงเศรษฐกิจไทย ดร.ศุภวุฒิ ประเมินเศรษฐกิจโลกหลังเลือกตั้งกลางเทอมสหรัฐฯ ชี้จับตาความสัมพันธ์ทรัมป์-เดโมแครต และปม ‘เจนเซน หวง’ เพิ่มแรงเสียดทา - Facebook",
-            "url": "https://news.google.com/rss/articles/CBMi4AZBVV95cUxNOEl4UmNUNzBDMjlVRTM1Zkl2UlF6NGNjUmNuTHk1TEFuZzAxWlFpcWtYNmZoU3d0MmVUc2JBS3hHa2s2XzhVR21XS2p1a1JGLVU2eFJuX1llNE5jeDhrZ2R4eFpJNUo1bjlxaXVDUjVSdjhxdEVxdy1aTXl0bXY1UWQzXzJ6enRTc3RhM2x6V21yZU5qWGtxeTJaaG1RcmdSSlZKUEhjR3FfcDVYbEl5b0VoR1Y4RlBHcVhVS1VnZk1FRUxiQTJPcE12RUpXblIwWG5XaF9uWU9QeDRWNzV3azJBaENfaUFLdzZpbEZKLUZIU1dHY1BFMUZ3em9GTlBNWlpxZTIwblR3SzBZTzk1azhWVHhDN0ZmYTZnckpyT3gyWUtWOEs5cGtUZGhWOXU2c0tBQWN1YW9FbUNwbXhOaS1XNmhSbTlueVU5Z09qQWR5VjVhS05aakZuSXVPU2JtVldGSVJRWkphX0ExVjVTeEdqR2NRNU5wYjA4U0xEZzJpQWFhMGJCMldfX05RUExweVN5N0p3aS1WMzV4TTkwOVo0cmp1RjlSSlJqSFFyazFZWXpkMko2dXNJUElBVUlPRXVycWJkRUNhNE9tT3hycllwSHJDaXhhV1oybWhsTlU1YzRMV1dFU1A4RzMxdzNUX0NnUU44aC1RVDlrVU9Lak5taVpLZlZqOGFwbEF0RzFySnFqblZMd3BFMFM5ZkxnU01hZUg4RmlKLVdFZVBqRldpZ1FQS25qQXJKcUJkaW9CMkxFUElVNGhzdk9ZTHN5VG9iU09vYWp6LWU4cks0eGhyOVJjUlkteEhJZ3lFbWNOY0FsQmlrRHVnYVU1b2VSQllBYV9qbEFiSEEzYTJ2OTRUcGttWEltUG1iT2RtQlR1MFFRRnZZUXAyQll5WmJZd3NMUWtCRTV2UzREeGRoaVRlVTVuWTdjN3FGNS1zZUNwMlg5WHVkSzJnZ0FBQ19xaHJOUkpoRjYxX1Iyei1Lemc4d29MT2hLOHBsQ2NPdzBzeVA2U0lkVmZFaE9ucVRlc29QNEtSU1VLTDk4cjc0SGlUaG5NSm1kYmxsR0FGaXJIVm9pclp5WnlqSUFZejFEcjZlc2QwUERvWTFRWElEcFdFWkxwRi03THRNZG9BWG4?oc=5",
-            "source": "Facebook",
-            "date": "2026-11-13T06:20:32+00:00"
-        },
-        {
-            "title": "HSBC เผยธุรกิจไทยลงทุนต่างประเทศติดอันดับ 2 ของโลก เร่งใช้ AI รับมือเศรษฐกิจไม่แน่นอน จากกำแพงภาษี-สงคราม - thestandard.co",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1reHRUNmNOdV9pbnZUQXdUM3lFRzVQOXUtVllWNlVLMWx4SWtiQVd2RVA2SXU4Tk5NS3RFaVBXdXFsdXVRNTE4cGNnbnhNMFlPMUtJcjg5NlgxaXFKMHBDTTgtd1JCRF9TWGY3OTJWV1UxTWFORXpnTw?oc=5",
-            "source": "thestandard.co",
-            "date": "2026-11-13T01:32:58+00:00"
-        },
-        {
-            "title": "Fund Flow ต่างชาติมีลุ้นกลับเข้าหุ้นไทย จับตา 5 หุ้นเด่นรับแรงซื้อ - Thunhoon",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsTHFKQ2w3YmJWbW5CSTVicEhtaVdiWHFTRHlKOTk5QnQxQXJ2SDR6dTFKVjJ5SnNHSmpVWXRYcS1iUzNJNXRhNzNYWXBjZkVmVHAtMmNkeGtBQQ?oc=5",
-            "source": "Thunhoon",
-            "date": "2026-11-12T23:10:32+00:00"
-        },
-        {
-            "title": "หุ้นไทยปิดลบ 3 จุด ต่างชาติพลิกซื้อ 1.7 พันล้าน - ผู้จัดการออนไลน์",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53Y3hkeGM3eUVWSUx3NGF2NkdNOHdOZUJWSXhxN05iMTc4S2h0X1N3YVViZmtVZS1fWjVnM3NKOUpfMF9ycVFhcE9TOEpQSzc3OU5HVnEyNlh3VG1VTjZFOFhJNFk?oc=5",
-            "source": "ผู้จัดการออนไลน์",
-            "date": "2026-11-12T12:21:00+00:00"
-        },
-        {
-            "title": "SCB WEALTH ชูตราสารหนี้รับมือผันผวน BlackRock มอง Yield สูง 7%",
-            "url": "https://www.thansettakij.com/social-biz/673605",
-            "source": "ฐานเศรษฐกิจ",
-            "date": "2026-11-12T10:16:00+00:00"
-        },
-        {
-            "title": "ต่างชาติสนใจลงทุนในไทย! HSBC Thailand ชวนมองโอกาส-ความเสี่ยงของ ...",
-            "url": "https://www.msn.com/th-th/money/other/ต่างชาติสนใจลงทุนในไทย-hsbc-thailand-ชวนมองโอกาส-ความเสี่ยงของเศรษฐกิจดิจิทัล-และ-ai/ar-AA2hhxnD",
-            "source": "ไทยรัฐ",
-            "date": "2026-11-12T09:39:32+00:00"
         }
     ]
 }
