@@ -1,19 +1,19 @@
 {
-    "last_updated": "2026-11-18T18:17:45.852633+07:00",
+    "last_updated": "2026-11-19T18:13:54.027994+07:00",
     "summary": {
-        "total_value_thb": 31119.702871025613,
-        "total_profit_thb": 2103.3282794713195,
-        "total_profit_percent": 7.248763186575104
+        "total_value_thb": 30945.58941782033,
+        "total_profit_thb": 1934.4843037000028,
+        "total_profit_percent": 6.668082088187837
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 153.5,
-            "total_value_thb": 15350.0,
-            "profit_thb": 1750.0,
-            "profit_percent": 12.867647058823529
+            "current_price_thb": 152.5,
+            "total_value_thb": 15250.0,
+            "profit_thb": 1650.0,
+            "profit_percent": 12.132352941176471
         },
         {
             "symbol": "SIRI",
@@ -28,145 +28,209 @@
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.0,
-            "total_value_thb": 760.0,
-            "profit_thb": 150.79999999999995,
-            "profit_percent": 24.753775443204194
+            "current_price_thb": 19.149999618530273,
+            "total_value_thb": 765.9999847412109,
+            "profit_thb": 156.7999847412109,
+            "profit_percent": 25.73867116566167
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.616384017477912,
-            "total_value_thb": 10320.536884622592,
-            "profit_thb": 320.5373336625926,
-            "profit_percent": 3.205373480560017
+            "current_price_thb": 11.551092859559805,
+            "total_value_thb": 10262.529177360186,
+            "profit_thb": 262.5296264001863,
+            "profit_percent": 2.625296381888172
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3772.10009765625,
-            "cost_per_unit_thb": 136107.8794927597,
-            "current_price_thb": 128025.07213426195,
-            "total_value_thb": 1869.1660531602245,
-            "profit_thb": -118.0089874340672,
-            "profit_percent": -5.938530075275855
+            "current_price_usd": 3737.39990234375,
+            "cost_per_unit_thb": 135746.95638084412,
+            "current_price_thb": 126510.98099151626,
+            "total_value_thb": 1847.0603224761373,
+            "profit_thb": -134.84524068418682,
+            "profit_percent": -6.803817658655952
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 504 Deadline expired before operation could complete.",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงกดดันระยะสั้นจากกระแสเงินทุน:</b> ตลาดหุ้นไทยเผชิญแรงขายสุทธิจากกองทุนและต่างชาติกว่า 3.87 พันล้านบาท ท่ามกลางความกังวลทิศทางอัตราดอกเบี้ยและมาตรการควบคุมชิปที่กระทบกลุ่มเทคโนโลยี</li><li><b>ความหวังเชิงนโยบายและการค้าโลก:</b> ประธานาธิบดี สี จิ้นผิง ผลักดันการค้าเสรีในเวที APEC และการเตรียมเจรจา 3 ฝ่าย (สหรัฐฯ-จีน-รัสเซีย) ช่วยคลายความกังวลสงครามการค้าในระยะกลาง-ยาว</li><li><b>แรงขับเคลื่อนโครงสร้างพื้นฐานในประเทศ:</b> นโยบายผลักดันไทยสู่ศูนย์กลางโลจิสติกส์ภูมิภาคและการวางเป้าหมาย SET สู่ 1,725 จุด ช่วยสร้างความเชื่อมั่นเชิงโครงสร้าง</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยกดดัน:</b> ความไม่แน่นอนของทิศทางดอกเบี้ยโลกที่อาจยืนระดับสูงนานกว่าคาด กดดันสินทรัพย์ที่ไม่ให้ผลตอบแทนในรูปดอกเบี้ย</li><li><b>ปัจจัยหนุนเชิงรับ:</b> ความเสี่ยงด้านสงครามไซเบอร์และความตึงเครียดทางภูมิรัฐศาสตร์ระดับมหาอำนาจ ยังคงเป็นแรงหนุนฐานะสินทรัพย์ปลอดภัย (Safe Haven) เมื่อราคาย่อตัว</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 12.13% ยังคงได้ประโยชน์จากส่วนต่างดอกเบี้ยและผลตอบแทนเงินปันผลที่มั่นคงท่ามกลางตลาดผันผวน"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "ราคาอยู่ในระดับต้นทุน ควรรอจังหวะนโยบายกระตุ้นเศรษฐกิจและการผ่อนคลายมาตรการอสังหาริมทรัพย์"
+            },
+            "OSP": {
+                "action": "SELL",
+                "reason": "กำไรทะลุเป้าหมายที่ 25.74% ท่ามกลางแรงเทขายของสถาบัน แนะนำแบ่งขายทำกำไรเพื่อถือเงินสดล็อกผลตอบแทน"
+            },
+            "K-US500XUH": {
+                "action": "BUY",
+                "reason": "ผลการดำเนินงานยังเป็นบวกต่อเนื่อง และได้รับแรงส่งจากกระแสการลงทุนนวัตกรรม AI ทั่วโลก"
+            },
+            "MTS-GOLD": {
+                "action": "BUY",
+                "reason": "สถานะติดลบ 6.80% และราคาย่อตัวลงมา ถือเป็นโอกาสทยอยสะสมเพื่อถัวเฉลี่ยต้นทุนและป้องกันความเสี่ยงภูมิรัฐศาสตร์"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "WHA",
+                "name": "บริษัท ดับบลิวเอชเอ คอร์ปอเรชั่น จำกัด (มหาชน)",
+                "reason": "รับอานิสงส์ตรงจากนโยบายผลักดันไทยเป็นศูนย์กลางโลจิสติกส์ภูมิภาคและการย้ายฐานการผลิตของภาคธุรกิจโลกตามแผนพัฒนาของจีน",
+                "tag": "Value"
+            },
+            {
+                "symbol": "ADVANC",
+                "name": "บริษัท แอดวานซ์ อินโฟร์ เซอร์วิส จำกัด (มหาชน)",
+                "reason": "หุ้นปลอดภัยกระแสเงินสดแข็งแกร่ง พร้อมโอกาสเติบโตจากบริการคลาวด์และระบบความปลอดภัยทางไซเบอร์ที่ความต้องการพุ่งสูงขึ้น",
+                "tag": "Dividend"
+            }
+        ]
     },
     "global_watchlist": [
         {
             "symbol": "NVDA",
             "name": "NVIDIA Corporation",
             "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านชิปประมวลผล AI และ Data Center ระดับโลกที่ได้รับประโยชน์โดยตรงจากการเร่งลงทุน Synthetic Intelligence",
-            "category": "Tech"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้รับจ้างผลิตชิปขั้นสูงที่มีเทคโนโลยีผูกขาดตลาดและเป็นหัวใจหลักของห่วงโซ่อุปทานเซมิคอนดักเตอร์โลก",
-            "category": "Semiconductor"
+            "reason": "ผู้นำโครงสร้างพื้นฐานชิปประมวลผล AI ระดับโลกที่ยังคงเติบโตสูง แม้เผชิญมาตรการกีดกันทางการค้า",
+            "category": "Technology"
         },
         {
             "symbol": "MSFT",
             "name": "Microsoft Corporation",
             "exchange": "NASDAQ",
-            "reason": "ระบบนิเวศ Cloud (Azure) และการบูรณาการ AI เข้ากับซอฟต์แวร์องค์กรที่มีกระแสเงินสดแข็งแกร่งสูง",
-            "category": "Tech"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผลิตเครื่องพิมพ์ชิป EUV รายเดียวในโลก ได้รับแรงหนุนจากการขยายกำลังผลิตชิปขั้นสูงทั่วโลก",
-            "category": "Tech"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำนวัตกรรมโมเดล AI และธุรกิจ Search/Cloud ที่มีงบดุลแข็งแกร่งและมูลค่าพื้นฐานยังน่าดึงดูด",
-            "category": "Tech"
+            "reason": "ผู้นำด้าน Enterprise AI และ Cloud รายใหญ่ พร้อมระบบความปลอดภัยไซเบอร์ระดับองค์กรที่แข็งแกร่ง",
+            "category": "Technology"
         },
         {
             "symbol": "AMZN",
             "name": "Amazon.com, Inc.",
             "exchange": "NASDAQ",
-            "reason": "AWS เติบโตแข็งแกร่งจากการรองรับเวิร์กโหลด AI และธุรกิจอีคอมเมิร์ซมีประสิทธิภาพการทำกำไรสูงขึ้น",
-            "category": "Tech"
+            "reason": "ผู้ถือหุ้นและพันธมิตรสำคัญของ Anthropic อีกทั้งคลาวด์ AWS ได้ประโยชน์จากความต้องการ AI ทั่วโลก",
+            "category": "Technology"
         },
         {
-            "symbol": "9988.HK",
-            "name": "Alibaba Group Holding Limited",
-            "exchange": "HKEX",
-            "reason": "รับผลเชิงบวกจากแผนพัฒนา 5 ปีฉบับที่ 15 ของจีน และการกระตุ้นเศรษฐกิจผ่านการค้าเสรีและคลาวด์",
-            "category": "Consumer/Tech"
+            "symbol": "PANW",
+            "name": "Palo Alto Networks, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "รับประโยชน์โดยตรงจากการที่องค์กรทั่วโลกเร่งลงทุนระบบความปลอดภัยรับมือภัยไซเบอร์ที่เพิ่มขึ้นอย่างรวดเร็ว",
+            "category": "Cybersecurity"
         },
         {
-            "symbol": "NOVO-B.CO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "Nasdaq Copenhagen",
-            "reason": "หุ้นยุโรปปลอดภัยสูง ผู้นำตลาดยารักษาโรคเบาหวานและยาลดน้ำหนักที่มีความต้องการเติบโตอย่างต่อเนื่อง",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "LLY",
-            "name": "Eli Lilly and Company",
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
             "exchange": "NYSE",
-            "reason": "พอร์ตยาเมตาบอลิซึมและเบาหวานเติบโตโดดเด่น สามารถต้านทานแรงกดดันจากวัฏจักรเศรษฐกิจโลกได้ดี",
+            "reason": "ผู้ผลิตชิปขั้นสูงผูกขาดตลาดโลก เป็นหัวใจหลักของห่วงโซ่อุปทานเทคโนโลยีและการแบ่งขั้วอำนาจเศรษฐกิจ",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "ผู้ผลิตเครื่องพิมพ์ชิป EUV รายเดียวในโลก ป้อมปราการทางเทคโนโลยีที่ทุกมหาอำนาจต้องพึ่งพา",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "0700.HK",
+            "name": "Tencent Holdings Ltd.",
+            "exchange": "HKEX",
+            "reason": "รับอานิสงส์แผนพัฒนา 5 ปีฉบับที่ 15 ของจีน และการสนับสนุนเศรษฐกิจดิจิทัลระดับภูมิภาค",
+            "category": "Technology"
+        },
+        {
+            "symbol": "1211.HK",
+            "name": "BYD Company Limited",
+            "exchange": "HKEX",
+            "reason": "ผู้นำยานยนต์ไฟฟ้าและห่วงโซ่อุปทานขนส่งสีเขียว (Green Transport) สอดรับเทรนด์ลดการปล่อยคาร์บอนทั่วโลก",
+            "category": "Automotive"
+        },
+        {
+            "symbol": "8035.T",
+            "name": "Tokyo Electron Limited",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "แกนหลักด้านอุปกรณ์ผลิตชิปของเอเชีย ได้ประโยชน์จากการกระจายฐานการผลิตเซมิคอนดักเตอร์ในภูมิภาค",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE",
+            "reason": "หุ้นปลอดภัยในยุโรปที่มีการเติบโตเชิงโครงสร้างจากยารักษาโรคอ้วนและเบาหวาน ต้านทานความผันผวนของดอกเบี้ยได้ดี",
             "category": "Healthcare"
         },
         {
             "symbol": "JPM",
             "name": "JPMorgan Chase & Co.",
             "exchange": "NYSE",
-            "reason": "ธนาคารยักษ์ใหญ่ที่มีฐานะการเงินแข็งแกร่ง ได้รับประโยชน์จากโครงสร้างอัตราดอกเบี้ยระดับสูง",
+            "reason": "สถาบันการเงินที่แข็งแกร่งที่สุดในโลก ได้ประโยชน์จากภาวะดอกเบี้ยสูงยาวนานและรายได้จากตลาดทุน",
             "category": "Financials"
         },
         {
-            "symbol": "005930.KS",
-            "name": "Samsung Electronics Co., Ltd.",
-            "exchange": "KRX",
-            "reason": "รอบการฟื้นตัวของชิปหน่วยความจำ HBM สำคัญสำหรับ AI และการกระจายตัวในอุปกรณ์อิเล็กทรอนิกส์ทั่วโลก",
-            "category": "Semiconductor"
-        },
-        {
-            "symbol": "SAP",
-            "name": "SAP SE",
-            "exchange": "XETRA",
-            "reason": "ผู้นำซอฟต์แวร์บริหารจัดการองค์กรของยุโรปที่เปลี่ยนผ่านสู่ Cloud-ERP และผสาน AI สำเร็จ",
-            "category": "Tech"
-        },
-        {
-            "symbol": "DELTA.BK",
-            "name": "Delta Electronics (Thailand) PCL",
-            "exchange": "SET",
-            "reason": "ผู้ผลิตชิ้นส่วนพาวเวอร์ซัพพลายป้อนดาต้าเซ็นเตอร์ AI ระดับโลก ได้ประโยชน์ระยะยาวจากเทรนด์พลังงานและ AI",
-            "category": "Electronics"
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ระบบนิเวศข้อมูลขนาดใหญ่ พร้อมศักยภาพการสร้างรายได้จาก AI และการลงทุนใน Anthropic",
+            "category": "Technology"
         },
         {
             "symbol": "BTC",
             "name": "Bitcoin",
             "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลหลักที่ทำหน้าที่เป็น Digital Gold เพื่อกระจายความเสี่ยงจากภูมิรัฐศาสตร์และการแบ่งขั้วเศรษฐกิจ",
-            "category": "Crypto"
+            "reason": "สินทรัพย์ดิจิทัลที่ทำหน้าที่เป็น Digital Gold ป้องกันความเสี่ยงจากการแบ่งขั้วเศรษฐกิจและการด้อยค่าของเงินตรา",
+            "category": "Cryptocurrency"
         },
         {
             "symbol": "ETH",
             "name": "Ethereum",
             "exchange": "Crypto",
-            "reason": "โครงสร้างพื้นฐาน Layer-1 ชั้นนำของโลก รองรับนวัตกรรม DeFi และการแปลงสินทรัพย์ในโลกจริงเป็นโทเคน (RWA)",
-            "category": "Crypto"
+            "reason": "โครงสร้างพื้นฐานหลักของการทำ Tokenization และสัญญาสมาร์ตคอนแทรกต์ของสถาบันการเงินทั่วโลก",
+            "category": "Cryptocurrency"
+        },
+        {
+            "symbol": "SOL",
+            "name": "Solana",
+            "exchange": "Crypto",
+            "reason": "บล็อกเชนประสิทธิภาพสูงที่ได้รับความนิยมสูงในการทำธุรกรรมดิจิทัลและการชำระเงินข้ามพรมแดนต้นทุนต่ำ",
+            "category": "Cryptocurrency"
         }
     ],
     "news": [
+        {
+            "title": "“รมว.พิพัฒน์” ชู 3 แนวทางคมนาคมไทยบนเวที UN ESCAP ผลักดันไทยสู่ศูนย์กลางโลจิสติกส์ภูมิภาค เชื่อมเศรษฐกิจโลก - ลดภาระประชาชน - ขับเคลื่อนขนส่งสีเขียว พร้อมเน้นความปลอดภัยยุคดิจิทัล - พรรคภูมิใจไทย : พูดแล้วทำ - ภูมิใจ ไทย",
+            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GbngyT0ZKamNZVWExZ3pRVk5GUGNCdG83MFJjU0l5WEwxZ2k4TFpFd0FLRXUtR0E2bklXak9wSnNGbm5TV0loVGpWbw?oc=5",
+            "source": "ภูมิใจ ไทย",
+            "date": "2026-11-19T10:53:04+00:00"
+        },
+        {
+            "title": "หุ้นไทยวันนี้ 19 พฤศจิกายน 2569 ปิดบวก 0.63 จุด กังวลทิศทางอัตราดอกเบี้ย - TNN Thailand",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVeEVBTlQ4Y0k1MTNPdVRXMjZNN2g0N1dIYV9MX2FJSHFPRXZtVDBtUTR5Z0dTeHdmNGtRU1lqUzU0NndJUG5tR3JaUFhxSEEyOV9z?oc=5",
+            "source": "TNN Thailand",
+            "date": "2026-11-19T10:27:15+00:00"
+        },
+        {
+            "title": "สี จิ้นผิง เปิดฉาก APEC 2026 ชู ‘การค้าเสรี’ | กรุงเทพธุรกิจ_InFocus . ‘สี จิ้นผิง’ เปิดฉาก APEC 2026 ณ เซินเจิ้น ชูจุดยืนการค้าเสรี-ห่วงโซ่อุปทานมั่นคง ร่วมฝ่าวิกฤติเศรษฐกิจโลก . #สีจิ้นผิง #APEC2026 #การค้าเสรี #เศรษฐกิจโลก #กรุงเทพธุรกิจ_InFocus #กรุงเทพธุรกิจ - Facebook",
+            "url": "https://news.google.com/rss/articles/CBMipwZBVV95cUxPS0lhdDZxdE1QazZQdlc2aDBKNlZZR3NhbFJ6dE9vaEdTdG1JQVVfOEREZmtPX0RackFYR3I3WWFEcWdzVFFZNTdVeXM5dDBFWGdsVVdWRDBPRWVCM00xMlBIbGVRYlk3OHg4UE5RRlg3dWlpZEZ6d2QxdUp3OTNwZmp2Z1VaZHg0b3h6YWp1eXlVdlBab2VGOXdsVURwRS1rVXhsVWtaa19maEhHVVd4aEFsT0liLU91ejJvaWJqOGxjR1ZUU1daYW1rdHhoWFRINDBrbzlDcW8tbnktWFR5b0FLQW1zRjJDTjhoSDljSUtNWlpTb05WSkZncGp5aXJLaFluMzV1aVlvNkY3bjhBbTFiSGxsdG82SHhEc1FsMDFkM0J1dzJIQzZQTUd1V1NjeGVxMnNzSXV3TDhzZDd1bGlCeWc4WjJFMENIaWtqQVNELTVBcnBjX3RIWUZGcE5iSmxKOHcxVWo4VlZrNTNPNzQ3ZnNLWTFlSkZkZ0Jtdi1GaGRwZnpsRGR0TGVfaUtSd0tucHFBNUFCRTlaUzd3bTVMRjdQOHp5M25aWVVobHptcWZhZDNRN0NYRG9jckx6MUtJSEluSGIyYU9tYk9XNnZSbDlteVo4OGkyNk4xcEl1QUFuRGJFOGdfYzRHNjdrVFE1bU1qU0FOMzVGNU42d1pPZlJEeWVIejg3dU1laFRIWUlYM2Zqc2t4LXl2enNPQWRNZW5ldS1qTGRoTTUyX1JMa0p6X2FfQTJmM3o3R08wcE50SU5fcFBIYTBsRTZITk16WVhwWS1salB5aS1EalQ5dVkwbmJCMGd0ZGhjU2E1NktfRng3Ylo5RHZtamp5NFUtZ2QtMlIxRmdBMlZSUDdfNURyUjdVT3RPQTFtR3JoUUZSWFlIOWdodDQ2eU9YZWUxSkRKQWtpWVYxWHdxci1rNUM0bmVwU2hqVS1pTXh6TkNvMUw2d0IyNDdsbHBhTWhqVVNIQmJ6TjN0Sm9vYUpFdThTMkQzVzVnaW8ycklmZWgweTBRWEw4c1ZBanFLbGdkU0ZFWEh4dVZEYnpuMzZNZnJXSW8?oc=5",
+            "source": "Facebook",
+            "date": "2026-11-19T09:38:23+00:00"
+        },
+        {
+            "title": "สนค.เตือนภัยไซเบอร์เขย่าเศรษฐกิจโลก ไทยพบแล้ว 3,520 เรื่องใน 10 เดือน - Thai PBS",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xc1NEWkRIbVBJZDZEWGZzNVdkS0UyX29seHFzd01uQ3VJbzJHeGhKY2hUSE9SaE5WdE1oOEZQUTd3c3hrakhsOXlILUJiYnM4MTI5dUVPWmU?oc=5",
+            "source": "Thai PBS",
+            "date": "2026-11-19T08:42:56+00:00"
+        },
+        {
+            "title": "หุ้นไทยวันนี้ ไซด์เวย์กรอบ 1,455-1,485 จุด เกาะติด IPO Anthropic | การเงินธนาคาร - LINE TODAY",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WQmEtUzFTdDlZdVZybEVjdkRhWGNmekRHaDRVMDFudmpnT0dGdzJYRTFQNU12SHozd0RqcHVOaWI0V1gzUXhhNHdHZ0FoWU5VOEYyd3F3?oc=5",
+            "source": "LINE TODAY",
+            "date": "2026-11-19T05:20:48+00:00"
+        },
         {
             "title": "หุ้นไทยวันนี้ 18 พฤศจิกายน 2569 ปิดลบ 2.67 จุด ตลาดแกว่งตัวค่อนข้างผันผวน - TNN Thailand",
             "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TMHlDUUV0OXFVVmV1TW0zRHhmMGZVaDlIT0RINmZaRzREeHJ4ZXhPWEdDVnRoeTRHTnJHVlpON1d4Y0FUaGpDUlJiTWNCNUJxUF8wXw?oc=5",
@@ -256,36 +320,6 @@
             "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EY0FTbk82MUg2Z21WYjExZ0dhZnByZ3c3eHhxaWp2UUFmSXZrZnBlMFZnWTNJOEh1UmFtaUl4WnJsSGF6Um10QXpSZ3QyOVhseVVRdmZB?oc=5",
             "source": "LINE TODAY",
             "date": "2026-11-16T08:30:16+00:00"
-        },
-        {
-            "title": "ลุ้นเงินไหลเข้าหุ้นไทย หลัง FTSE ถอด 14 หุ้นอินโดฯ พ้นดัชนี ชู 6 กลุ่มหุ้นรับอานิสงส์ - ประชาชาติธุรกิจ",
-            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xeTVYOG8wZ0J3SEJ1U3NxaW5nWkZ3cDg0M24zWXlvWXdWUXdjckVQUTB2RWpybU9mUDRURDQwQ3AtWHdweHB4YlZoTFQtSzZfZXhPTGpUN1NEN0U?oc=5",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-11-16T04:19:48+00:00"
-        },
-        {
-            "title": "KTAM เปิดมุมมองการลงทุนปี 2027 ชี้เศรษฐกิจโลกยังแกร่งจากแรงหนุน AI แนะกระจายลงทุนรับความไม่แน่นอน เน้นเทคโนโลยี สุขภาพ และหุ้นคุณภาพ - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80LUZPU0VHREdnN1BIMDZIWFNvMDdCeERQQkNOVWZPeEFZQUgzMUs1THRrRk1HVDhlVjBjakdpbF8yb2Izei02LVA4TFpsX0QyeVpOMVFB?oc=5",
-            "source": "มิติหุ้น",
-            "date": "2026-11-16T04:17:21+00:00"
-        },
-        {
-            "title": "หุ้นไทยเปิดตลาดวันนี้ ร่วง 5.34 จุด สารพัดปัจจัยลบรุมเร้า - bangkokbiznews",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jSUFaaVpieFM1TkNmbFVGWWtfOTlyclprVndJMXRKcG9oS0ZGeHoxYzFnNG1VbFowM3J3MXhfS3ExQ1VIT2c5TFg1NjRJWUY4VmNDUGFPOVN1ZUhmQmkwaUpR?oc=5",
-            "source": "bangkokbiznews",
-            "date": "2026-11-16T03:05:00+00:00"
-        },
-        {
-            "title": "‘สตีเฟน เอ็น. เอ็นเดกวา’ โลกกำลังบอกอะไรเรา? 4 ทางรอดที่ธุรกิจไทยต้องรู้เพื่อสู้ในกติกาใหม่ - thepeople",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qTy10VWFEZVRfUF9fTUhaU3JCZDhHd0NkYzFpS0lnUEg1NkhCWDFRVVNQb1FEVGhyZHpOQTFlc1ZKOXlYOTJBbUlnS19SbUlfWkhZOUtDN1Q?oc=5",
-            "source": "thepeople",
-            "date": "2026-11-13T08:50:00+00:00"
-        },
-        {
-            "title": "ก.ล.ต.ยัน Microsoft ล่ม ไม่กระทบซื้อขายหุ้นไทย ระบบตลาดยังปกติ ย้ำจับตาใกล้ชิด - ผู้จัดการออนไลน์",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LR1RMNGs3U1BsZmNEanA5N296VjRoN0hHZF9SblVGTTRYc2ljS3dkLTJzVE00Y2FnV1hkUGJPajRDWWhDX3NLSTdQOXg4N3pEM05qdTJBOUU1aElyMTB2d25RaGM?oc=5",
-            "source": "ผู้จัดการออนไลน์",
-            "date": "2026-11-13T07:25:00+00:00"
         }
     ]
 }
