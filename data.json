@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-11-19T18:13:54.027994+07:00",
+    "last_updated": "2026-11-20T18:14:01.057108+07:00",
     "summary": {
-        "total_value_thb": 30945.58941782033,
-        "total_profit_thb": 1934.4843037000028,
-        "total_profit_percent": 6.668082088187837
+        "total_value_thb": 30672.785440211646,
+        "total_profit_thb": 1658.7526649119682,
+        "total_profit_percent": 5.717070349228057
     },
     "assets": [
         {
@@ -19,188 +19,66 @@
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.409999966621399,
-            "total_value_thb": 2819.999933242798,
-            "profit_thb": -6.67572021484375e-05,
-            "profit_percent": -2.367276671930408e-06
+            "current_price_thb": 1.399999976158142,
+            "total_value_thb": 2799.999952316284,
+            "profit_thb": -20.00004768371582,
+            "profit_percent": -0.7092215490679369
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.149999618530273,
-            "total_value_thb": 765.9999847412109,
-            "profit_thb": 156.7999847412109,
-            "profit_percent": 25.73867116566167
+            "current_price_thb": 19.200000762939453,
+            "total_value_thb": 768.0000305175781,
+            "profit_thb": 158.80003051757808,
+            "profit_percent": 26.066978088899877
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.551092859559805,
-            "total_value_thb": 10262.529177360186,
-            "profit_thb": 262.5296264001863,
-            "profit_percent": 2.625296381888172
+            "current_price_thb": 11.340107667814996,
+            "total_value_thb": 10075.080101104162,
+            "profit_thb": 75.08055014416277,
+            "profit_percent": 0.7508055351557995
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3737.39990234375,
-            "cost_per_unit_thb": 135746.95638084412,
-            "current_price_thb": 126510.98099151626,
-            "total_value_thb": 1847.0603224761373,
-            "profit_thb": -134.84524068418682,
-            "profit_percent": -6.803817658655952
+            "current_price_usd": 3595.800048828125,
+            "cost_per_unit_thb": 135947.48111915588,
+            "current_price_thb": 121897.62714202888,
+            "total_value_thb": 1779.7053562736216,
+            "profit_thb": -205.12786806605436,
+            "profit_percent": -10.334765941571606
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงกดดันระยะสั้นจากกระแสเงินทุน:</b> ตลาดหุ้นไทยเผชิญแรงขายสุทธิจากกองทุนและต่างชาติกว่า 3.87 พันล้านบาท ท่ามกลางความกังวลทิศทางอัตราดอกเบี้ยและมาตรการควบคุมชิปที่กระทบกลุ่มเทคโนโลยี</li><li><b>ความหวังเชิงนโยบายและการค้าโลก:</b> ประธานาธิบดี สี จิ้นผิง ผลักดันการค้าเสรีในเวที APEC และการเตรียมเจรจา 3 ฝ่าย (สหรัฐฯ-จีน-รัสเซีย) ช่วยคลายความกังวลสงครามการค้าในระยะกลาง-ยาว</li><li><b>แรงขับเคลื่อนโครงสร้างพื้นฐานในประเทศ:</b> นโยบายผลักดันไทยสู่ศูนย์กลางโลจิสติกส์ภูมิภาคและการวางเป้าหมาย SET สู่ 1,725 จุด ช่วยสร้างความเชื่อมั่นเชิงโครงสร้าง</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>ปัจจัยกดดัน:</b> ความไม่แน่นอนของทิศทางดอกเบี้ยโลกที่อาจยืนระดับสูงนานกว่าคาด กดดันสินทรัพย์ที่ไม่ให้ผลตอบแทนในรูปดอกเบี้ย</li><li><b>ปัจจัยหนุนเชิงรับ:</b> ความเสี่ยงด้านสงครามไซเบอร์และความตึงเครียดทางภูมิรัฐศาสตร์ระดับมหาอำนาจ ยังคงเป็นแรงหนุนฐานะสินทรัพย์ปลอดภัย (Safe Haven) เมื่อราคาย่อตัว</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรสะสม 12.13% ยังคงได้ประโยชน์จากส่วนต่างดอกเบี้ยและผลตอบแทนเงินปันผลที่มั่นคงท่ามกลางตลาดผันผวน"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ราคาอยู่ในระดับต้นทุน ควรรอจังหวะนโยบายกระตุ้นเศรษฐกิจและการผ่อนคลายมาตรการอสังหาริมทรัพย์"
-            },
-            "OSP": {
-                "action": "SELL",
-                "reason": "กำไรทะลุเป้าหมายที่ 25.74% ท่ามกลางแรงเทขายของสถาบัน แนะนำแบ่งขายทำกำไรเพื่อถือเงินสดล็อกผลตอบแทน"
-            },
-            "K-US500XUH": {
-                "action": "BUY",
-                "reason": "ผลการดำเนินงานยังเป็นบวกต่อเนื่อง และได้รับแรงส่งจากกระแสการลงทุนนวัตกรรม AI ทั่วโลก"
-            },
-            "MTS-GOLD": {
-                "action": "BUY",
-                "reason": "สถานะติดลบ 6.80% และราคาย่อตัวลงมา ถือเป็นโอกาสทยอยสะสมเพื่อถัวเฉลี่ยต้นทุนและป้องกันความเสี่ยงภูมิรัฐศาสตร์"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "WHA",
-                "name": "บริษัท ดับบลิวเอชเอ คอร์ปอเรชั่น จำกัด (มหาชน)",
-                "reason": "รับอานิสงส์ตรงจากนโยบายผลักดันไทยเป็นศูนย์กลางโลจิสติกส์ภูมิภาคและการย้ายฐานการผลิตของภาคธุรกิจโลกตามแผนพัฒนาของจีน",
-                "tag": "Value"
-            },
-            {
-                "symbol": "ADVANC",
-                "name": "บริษัท แอดวานซ์ อินโฟร์ เซอร์วิส จำกัด (มหาชน)",
-                "reason": "หุ้นปลอดภัยกระแสเงินสดแข็งแกร่ง พร้อมโอกาสเติบโตจากบริการคลาวด์และระบบความปลอดภัยทางไซเบอร์ที่ความต้องการพุ่งสูงขึ้น",
-                "tag": "Dividend"
-            }
-        ]
+        "market_analysis": "Error: 504 Deadline expired before operation could complete.",
+        "recommendations": {},
+        "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำโครงสร้างพื้นฐานชิปประมวลผล AI ระดับโลกที่ยังคงเติบโตสูง แม้เผชิญมาตรการกีดกันทางการค้า",
-            "category": "Technology"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำด้าน Enterprise AI และ Cloud รายใหญ่ พร้อมระบบความปลอดภัยไซเบอร์ระดับองค์กรที่แข็งแกร่ง",
-            "category": "Technology"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ผู้ถือหุ้นและพันธมิตรสำคัญของ Anthropic อีกทั้งคลาวด์ AWS ได้ประโยชน์จากความต้องการ AI ทั่วโลก",
-            "category": "Technology"
-        },
-        {
-            "symbol": "PANW",
-            "name": "Palo Alto Networks, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "รับประโยชน์โดยตรงจากการที่องค์กรทั่วโลกเร่งลงทุนระบบความปลอดภัยรับมือภัยไซเบอร์ที่เพิ่มขึ้นอย่างรวดเร็ว",
-            "category": "Cybersecurity"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงผูกขาดตลาดโลก เป็นหัวใจหลักของห่วงโซ่อุปทานเทคโนโลยีและการแบ่งขั้วอำนาจเศรษฐกิจ",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "ผู้ผลิตเครื่องพิมพ์ชิป EUV รายเดียวในโลก ป้อมปราการทางเทคโนโลยีที่ทุกมหาอำนาจต้องพึ่งพา",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "0700.HK",
-            "name": "Tencent Holdings Ltd.",
-            "exchange": "HKEX",
-            "reason": "รับอานิสงส์แผนพัฒนา 5 ปีฉบับที่ 15 ของจีน และการสนับสนุนเศรษฐกิจดิจิทัลระดับภูมิภาค",
-            "category": "Technology"
-        },
-        {
-            "symbol": "1211.HK",
-            "name": "BYD Company Limited",
-            "exchange": "HKEX",
-            "reason": "ผู้นำยานยนต์ไฟฟ้าและห่วงโซ่อุปทานขนส่งสีเขียว (Green Transport) สอดรับเทรนด์ลดการปล่อยคาร์บอนทั่วโลก",
-            "category": "Automotive"
-        },
-        {
-            "symbol": "8035.T",
-            "name": "Tokyo Electron Limited",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "แกนหลักด้านอุปกรณ์ผลิตชิปของเอเชีย ได้ประโยชน์จากการกระจายฐานการผลิตเซมิคอนดักเตอร์ในภูมิภาค",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE",
-            "reason": "หุ้นปลอดภัยในยุโรปที่มีการเติบโตเชิงโครงสร้างจากยารักษาโรคอ้วนและเบาหวาน ต้านทานความผันผวนของดอกเบี้ยได้ดี",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "JPM",
-            "name": "JPMorgan Chase & Co.",
-            "exchange": "NYSE",
-            "reason": "สถาบันการเงินที่แข็งแกร่งที่สุดในโลก ได้ประโยชน์จากภาวะดอกเบี้ยสูงยาวนานและรายได้จากตลาดทุน",
-            "category": "Financials"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ระบบนิเวศข้อมูลขนาดใหญ่ พร้อมศักยภาพการสร้างรายได้จาก AI และการลงทุนใน Anthropic",
-            "category": "Technology"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ดิจิทัลที่ทำหน้าที่เป็น Digital Gold ป้องกันความเสี่ยงจากการแบ่งขั้วเศรษฐกิจและการด้อยค่าของเงินตรา",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "โครงสร้างพื้นฐานหลักของการทำ Tokenization และสัญญาสมาร์ตคอนแทรกต์ของสถาบันการเงินทั่วโลก",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "SOL",
-            "name": "Solana",
-            "exchange": "Crypto",
-            "reason": "บล็อกเชนประสิทธิภาพสูงที่ได้รับความนิยมสูงในการทำธุรกรรมดิจิทัลและการชำระเงินข้ามพรมแดนต้นทุนต่ำ",
-            "category": "Cryptocurrency"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "ฟิลลิป หั่นเป้า SET เหลือ 1,570 จุด เซ่นพิษคุมชิป AI-ข่าวช็อก NVIDIA",
+            "url": "https://mgronline.com/stockmarket/detail/9690000111096",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-11-20T10:13:00+00:00"
+        },
+        {
+            "title": "หุ้นไทยปิดทิ้งดิ่ง 19.36 จุด DELTA ฉุดตลาดหนัก โบรกชี้สัปดาห์หน้าจับ ...",
+            "url": "https://www.msn.com/th-th/technology/general/หุ้นไทยปิดทิ้งดิ่ง-19-36-จุด-delta-ฉุดตลาดหนัก-โบรกชี้สัปดาห์หน้าจับตา-gdp-สหรัฐฯ-ทิศทางดอลลาร์-ลุ้นรีบาวด์/ar-AA2hQkos",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-11-20T09:54:00+00:00"
+        },
+        {
+            "title": "KGI หั่นเป้าหุ้นไทยปี '70 เหลือ 1,711 จุด หวั่นกระแส AI โลกชะลอ ชู 5 หุ้น ...",
+            "url": "https://www.msn.com/th-th/money/technology/kgi-หั่นเป้าหุ้นไทยปี-70-เหลือ-1-711-จุด-หวั่นกระแส-ai-โลกชะลอ-ชู-5-หุ้นเด่นรับลงทุนในประเทศ/ar-AA2hPL62",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-11-20T08:40:57+00:00"
+        },
         {
             "title": "“รมว.พิพัฒน์” ชู 3 แนวทางคมนาคมไทยบนเวที UN ESCAP ผลักดันไทยสู่ศูนย์กลางโลจิสติกส์ภูมิภาค เชื่อมเศรษฐกิจโลก - ลดภาระประชาชน - ขับเคลื่อนขนส่งสีเขียว พร้อมเน้นความปลอดภัยยุคดิจิทัล - พรรคภูมิใจไทย : พูดแล้วทำ - ภูมิใจ ไทย",
             "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GbngyT0ZKamNZVWExZ3pRVk5GUGNCdG83MFJjU0l5WEwxZ2k4TFpFd0FLRXUtR0E2bklXak9wSnNGbm5TV0loVGpWbw?oc=5",
@@ -302,24 +180,6 @@
             "url": "https://news.google.com/rss/articles/CBMihwdBVV95cUxPR3lzQWVVZHpUbkVsc2c4TzBoMktfS3BBdnhhZkJNUmd3eDhnU09vNGJGWnJjS0E5NTZhNnE1OVJMcXE3RkpTZHJJYkhRTTVaajN6U3JKMDRGX2syQmF1THhFcERjSUdhUVJtYldfMnFYVFV0VDdHMEw1Q1RMOE55RkNDZE5JbmFOR3h5T20wU2ZoRjVuby1TcTNnWmVVSlgwZDlPQXVLOVI2dzU3Um1TUmxVT0M4ZmtyaFFqZl9jNlB2RVNiTFV4WWtUMnVjSDRTSWVvQS1iVER5MElUdVpfQ1RZNm5iaEVyYWhVUkFKOEVIWHVzQ1ZDTU9fcFVrY3lhNDZSQnFaekFwS3o2VmpjSnA2NTRpakFSRGlRNUk1ZmIwd0VIQTVBRVhkRTF3eHpzd3ZkcE5VVHZwOFNPV1B3THpLRkxKSExFZGxtZ2U1V1diMmZIcDByYjVSdzFweG1ocHllNFBLdGh6VEZMVTBud0FCXzZKZ3FzVEZhS0tNWVlKUEJDRF9qQ0xyR2lUQ2xfTW1vWGFYNXZPc191d2VlTG53ZlVKVHJfLVU0Nmg4UlJhWkQ0UENUZHJLOTRnRVhReFFiRWdqNnEtcXpOclpHRTRtcG9MaWhkSVFxU0lzZThmV3dCd2JCb1VqSGdMUmdfeERDMlVLb3dTaWpTUG1xb1lzaERkVGxKV3hKUmlOMzViMHpsT2Z3Y25xWDBpdGlXcGdrRG53UmdOb3ZhOFBCS0hxU2FIUGV2NEpYbUcycXYyMkFySHUtazJoS0Q2SjZGazNwclVPeS03MzRPd0N1VnUyV1ZKYUFiMnd6eXlTR3dFelpYbS1XLU9fTnYtQlk4empTb2UxcnB1ZmhfdHhRU2ZKX1BGNy1rN0ExVTFQOTJxX2MwT282RWd3OWFvTExEenVGVXdkMFBNXzlvSVQzbEhUWnJGUVRjdTN1c1Zlal8yWDBHdm15YTQ1NmFXNEFRUUVOMHljUXg4NHE2Y1dNNm5CV0FVczZzWVhpYUlxME03bFdZM1FVa3dIRURvTmlta1poWklOZFQtYzVNZFRTNnhoWTJaVkFrTXpqRTdaWnlKazdfX2xoRlVPSUhxVWd4WDBrYmJZVXZTS1Vvd2d5bmxOZGp5Uk5iSklvNGRBTGxEUm9rSkFpQTR6alctWFZMcm1DYzRLTWVpSFlqVGJZTDl0ZmtLMGc?oc=5",
             "source": "Facebook",
             "date": "2026-11-17T05:30:48+00:00"
-        },
-        {
-            "title": "UPDATE: ‘กรณ์’ เสนอ 3 ยุทธศาสตร์อาเซียน รับมือโลกใหม่บนเวที Hong Kong Forum ย้ำ ไม่ควรถูกบีบให้อยู่กลางการแข่งขันมหาอำนาจ วันนี้ (16 พ.ย. 69) ณ เขตบริหารพิเศษฮ่องกง แห่งสาธารณรัฐประชาชนจีน นายกรณ์ จาติกวณิช รองหัวหน้าพรรคประชาธิปัตย์ ร่วมเสวนาในหัวข้อ “Geopoli - Facebook",
-            "url": "https://news.google.com/rss/articles/CBMi8gVBVV95cUxQUHNqNlZMWGZtSmZJWFREZFBRVGhJdWVrVVFHSF84N1pvbG1kaEU3UU5fWTZNVy1DOUh6Q284dUk4WkJtbDk0aV9jU3FTdzlSczBBbml0WDVvV2Z5Tk9yX25OSjlUNjhJd2J6bFZqd19NaXlHem9QMVk4VzlwcnRtSnNuY1FjamVOeTNHLXdGRUVFWEw0M2NwWndyS1pqV1FqazRtT0VQamxBckFVUzNlR3hOM0l1dGJ3RWNUemVlaTR4QlRCNzZVZ2x2cjQ2ZVAzVzhQeG05UGhiSFdaR2Y0V1VVSnFBSHFjM21KNVd3aFlqckFkb1VRYlNVQ0ZnRm04eXFqS1BDRW1EVUhzWmcwaFFMcXlEWE92N3hMNG9McDFLS2xuLWptZDVDTk1PM3BBMEVud19fR3JmRXBQUUhFNGdJc0xpc0EyLTd1Y1d0Z1ZoSm5wVDd2cFk5VTVZRDNrZ3ZkWXhwSHZsZkFXRnBkR1BGRm1STzlOb2ZvYnFJYjZOODRsaHVMOTV0S1gyRzkxZ216TDc1SWtTUmpod3d2TVU1dzAyM2paUjVNVDVWZVl4Z1hKc0U5YmlTaWdPU3Jnck5mOEtEVFhUUzdsbGZIdGFsaG9TTWw2SHp3Q3k0RC02cFE3NWRvOXJBWXkxemZhQlU0cHItRnRNRTNhV2d1c282UWdaNUdTUWUxMjBGWGdnckw0MWRodVVvaFU1UHg3X3pFVG1jd2oxUmhBUHplTHl5cVdsR2ZuOUxfWFNsM0M5Ym1TUXN1cEFBajIxWUp4aVlyQ0tMRmVVLS05NThkT1lTRWVIOG5JMXB6VUJfS0Jtcjl2X0VjaWE4X0lTQk4yVnhfeW5nb1NUV3JTTmloT05xZG9CNEZIVk5jNkdDQ3VoRnU5ekt1ZmVDeS1yWG54a2FNUW45RkkweXZIb3RqV2NUODNsWVg0RzV6X2ZRcVg3U3dMY0YzalN3X2llZ0piVVpncXREcmhfVnZJUUh0Y1hn?oc=5",
-            "source": "Facebook",
-            "date": "2026-11-16T09:21:55+00:00"
-        },
-        {
-            "title": "เศรษฐกิจไทยโตต่ำ ปีหน้ายังย่ำอยู่กับที่ 2-3% ไม่พอเยียวยาภาระประเทศ - Policy Watch",
-            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaaU9Lb2d1dEZoQzdrWnB6alR0RTE2d1I4NmVXd2dzM19pT3lReGtiYTdqUl9YbTA1dEJSSVZPdkZWWWRHREIyd3JDU2ZhbjQyb1p0UURkTDdKVDVPd053b0VsSQ?oc=5",
-            "source": "Policy Watch",
-            "date": "2026-11-16T09:04:00+00:00"
-        },
-        {
-            "title": "หุ้นไทย Sideway จับตา 3 ฝ่ายหารือ!! | 16 พ.ย. 69 | การเงินธนาคาร - LINE TODAY",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EY0FTbk82MUg2Z21WYjExZ0dhZnByZ3c3eHhxaWp2UUFmSXZrZnBlMFZnWTNJOEh1UmFtaUl4WnJsSGF6Um10QXpSZ3QyOVhseVVRdmZB?oc=5",
-            "source": "LINE TODAY",
-            "date": "2026-11-16T08:30:16+00:00"
         }
     ]
 }
