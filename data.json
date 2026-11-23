@@ -1,66 +1,190 @@
 {
-    "last_updated": "2026-11-20T18:14:01.057108+07:00",
+    "last_updated": "2026-11-23T18:58:31.212886+07:00",
     "summary": {
-        "total_value_thb": 30672.785440211646,
-        "total_profit_thb": 1658.7526649119682,
-        "total_profit_percent": 5.717070349228057
+        "total_value_thb": 30437.16350752293,
+        "total_profit_thb": 1417.8612547892844,
+        "total_profit_percent": 4.885924693987845
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.5,
-            "total_value_thb": 15250.0,
-            "profit_thb": 1650.0,
-            "profit_percent": 12.132352941176471
+            "current_price_thb": 153.5,
+            "total_value_thb": 15350.0,
+            "profit_thb": 1750.0,
+            "profit_percent": 12.867647058823529
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.399999976158142,
-            "total_value_thb": 2799.999952316284,
-            "profit_thb": -20.00004768371582,
-            "profit_percent": -0.7092215490679369
+            "current_price_thb": 1.3899999856948853,
+            "total_value_thb": 2779.9999713897705,
+            "profit_thb": -40.00002861022949,
+            "profit_percent": -1.4184407308592017
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.200000762939453,
-            "total_value_thb": 768.0000305175781,
-            "profit_thb": 158.80003051757808,
-            "profit_percent": 26.066978088899877
+            "current_price_thb": 19.100000381469727,
+            "total_value_thb": 764.0000152587891,
+            "profit_thb": 154.80001525878902,
+            "profit_percent": 25.410376766052035
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.340107667814996,
-            "total_value_thb": 10075.080101104162,
-            "profit_thb": 75.08055014416277,
-            "profit_percent": 0.7508055351557995
+            "current_price_thb": 10.969517662275686,
+            "total_value_thb": 9745.830670688782,
+            "profit_thb": -254.16888027121786,
+            "profit_percent": -2.541688916844178
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3595.800048828125,
-            "cost_per_unit_thb": 135947.48111915588,
-            "current_price_thb": 121897.62714202888,
-            "total_value_thb": 1779.7053562736216,
-            "profit_thb": -205.12786806605436,
-            "profit_percent": -10.334765941571606
+            "current_price_usd": 3621.800048828125,
+            "cost_per_unit_thb": 136308.40423107147,
+            "current_price_thb": 123104.9897387391,
+            "total_value_thb": 1797.3328501855908,
+            "profit_thb": -192.7698515880527,
+            "profit_percent": -9.68642730931675
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 504 Deadline expired before operation could complete.",
+        "market_analysis": "Error: 504 Deadline Exceeded",
         "recommendations": {},
         "daily_picks": []
     },
-    "global_watchlist": [],
+    "global_watchlist": [
+        {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": "NASDAQ",
+            "reason": "ผู้นำด้านโครงสร้างพื้นฐาน AI ระดับโลก ราคาปรับฐานเป็นโอกาสสะสมระยะยาว",
+            "category": "Technology"
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft Corporation",
+            "exchange": "NASDAQ",
+            "reason": "กระแสเงินสดแข็งแกร่ง ผู้นำ Cloud และการสร้างรายได้จริงจาก Enterprise AI",
+            "category": "Technology"
+        },
+        {
+            "symbol": "PANW",
+            "name": "Palo Alto Networks, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ได้ประโยชน์โดยตรงจากความต้องการด้าน Cyber Security ที่พุ่งสูงทั่วโลก",
+            "category": "Cybersecurity"
+        },
+        {
+            "symbol": "AMZN",
+            "name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "reason": "AWS เติบโตต่อเนื่อง ผสานระบบโลจิสติกส์และค้าปลีกที่ฟื้นตัวแข็งแกร่ง",
+            "category": "Technology"
+        },
+        {
+            "symbol": "GOOGL",
+            "name": "Alphabet Inc.",
+            "exchange": "NASDAQ",
+            "reason": "ความแข็งแกร่งของ Search Engine, Google Cloud และชิปประมวลผล TPU ของตนเอง",
+            "category": "Technology"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Co.",
+            "exchange": "NYSE",
+            "reason": "ผู้ผลิตชิปขั้นสูงผูกขาดระดับโลกที่ขาดไม่ได้ในห่วงโซ่อุปทานเทคโนโลยี",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "exchange": "Euronext Amsterdam",
+            "reason": "เจ้าตลาดเครื่องจักร EUV รายเดียวในโลก มีคูเมืองทางธุรกิจสูงมาก",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": "NYSE / OMX",
+            "reason": "หุ้นกลุ่ม Defensive Healthcare เติบโตสูงจากความต้องการยาลดน้ำหนักทั่วโลก",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "SAP",
+            "name": "SAP SE",
+            "exchange": "XETRA",
+            "reason": "การเปลี่ยนผ่านสู่ Cloud ERP สำเร็จ รายได้ประจำสม่ำเสมอ ผันผวนต่ำในยุโรป",
+            "category": "Enterprise Software"
+        },
+        {
+            "symbol": "8035",
+            "name": "Tokyo Electron Limited",
+            "exchange": "Tokyo Stock Exchange",
+            "reason": "ตัวแทนห่วงโซ่อุปทานเซมิคอนดักเตอร์เอเชียที่ได้แรงหนุนจากการฟื้นตัวของชิป",
+            "category": "Semiconductors"
+        },
+        {
+            "symbol": "9988",
+            "name": "Alibaba Group Holding Ltd.",
+            "exchange": "HKEX",
+            "reason": "มูลค่าหุ้นยังไม่แพง ได้อานิสงส์จากการกระตุ้นเศรษฐกิจและการค้าเสรีในจีน",
+            "category": "E-Commerce"
+        },
+        {
+            "symbol": "BDMS",
+            "name": "Bangkok Dusit Medical Services PCL",
+            "exchange": "SET",
+            "reason": "หุ้นปลอดภัยต้านทานความผันผวนของตลาดไทย ได้แรงหนุนจากการท่องเที่ยวเชิงการแพทย์",
+            "category": "Healthcare"
+        },
+        {
+            "symbol": "MC",
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "exchange": "Euronext Paris",
+            "reason": "แบรนด์หรูทรงอิทธิพล อำนาจกำหนดราคาสูง รองรับการฟื้นตัวของการบริโภคระดับบน",
+            "category": "Consumer Discretionary"
+        },
+        {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "exchange": "Crypto",
+            "reason": "สินทรัพย์ทางเลือกป้องกันความเสี่ยงจากเงินเฟ้อและการลดดอกเบี้ย มีเงินทุนสถาบันหนุนหลัง",
+            "category": "Cryptocurrency"
+        },
+        {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "exchange": "Crypto",
+            "reason": "โครงสร้างพื้นฐานหลักของ Web3, DeFi และการแปลงสินทรัพย์เป็นโทเคน (RWA)",
+            "category": "Cryptocurrency"
+        }
+    ],
     "news": [
+        {
+            "title": "เอเซีย พลัส เตือนหุ้นไทยยังผันผวน ห่วงเศรษฐกิจไทยพึ่งพา ...",
+            "url": "https://mgronline.com/stockmarket/detail/9690000111629",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-11-23T10:49:00+00:00"
+        },
+        {
+            "title": "\"ถิรไทย\" เคาะจ่ายปันผลระหว่างกาล 0.20 บาทต่อหุ้น ตอบแทนผู้ถือหุ้น",
+            "url": "https://www.dailynews.co.th/news/6383958/",
+            "source": "เดลินิวส์",
+            "date": "2026-11-23T04:21:00+00:00"
+        },
+        {
+            "title": "อมรเทพ ชี้หุ้น AI สหรัฐร่วง 20% ฉุดเศรษฐกิจหนักกว่าที่คิด แต่ไม่ ...",
+            "url": "https://www.msn.com/th-th/money/technology/อมรเทพ-ชี้หุ้น-ai-สหรัฐร่วง-20-ฉุดเศรษฐกิจหนักกว่าที่คิด-แต่ไม่ถึงขั้นถดถอย-มองปีหน้า-เฟด-ไม่-hawkish/ar-AA2i03MJ",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-11-23T03:07:38+00:00"
+        },
         {
             "title": "ฟิลลิป หั่นเป้า SET เหลือ 1,570 จุด เซ่นพิษคุมชิป AI-ข่าวช็อก NVIDIA",
             "url": "https://mgronline.com/stockmarket/detail/9690000111096",
@@ -162,24 +286,6 @@
             "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93cXZlODJpX19pUWxhZkF6UC1uNmIzRXZTQmlYWUFTT3MxT085Y21NbTE0NnUyZHVMYmc1Qk9GT0xiSElGM2FBV0RRUEg2eDZseEhNdFVn?oc=5",
             "source": "LINE TODAY",
             "date": "2026-11-17T10:21:53+00:00"
-        },
-        {
-            "title": "หุ้นไทยวันนี้ร่วง 24.85 จุด ขาย PTT-DELTA-GULF - Thunhoon",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uMm1zd2E4WjctV0tYNm5iSnRJVHp5VVhEODhSTUpscXJSczhYRld3QzZxLUMtZXdVZlhoLWZSbmFSb0RoVVN2LTdmc0doVXBzZ2FETDlCb25FWXBEeW1VbHhTYks?oc=5",
-            "source": "Thunhoon",
-            "date": "2026-11-17T10:03:08+00:00"
-        },
-        {
-            "title": "KTAM มองเศรษฐกิจไทยปี 2570 รับแรงหนุนลงทุนเอกชน ลุ้น SET แตะ 1,700 จุด ชี้ - thestandard.co",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRd3QtbkN2czg3TmFvRWphVlM3SmtXTzNoazNsaEJBMWxLNWJXd3hENTVxTTc1N2g0NTNKVHMyU2ZWQklHNTY2cWNhS1RWTm9KVVdqWFFvVXBVeHJKWEVkaWFpdXlqVW5r?oc=5",
-            "source": "thestandard.co",
-            "date": "2026-11-17T06:51:47+00:00"
-        },
-        {
-            "title": "กรุงเทพธุรกิจ. . เฟดเตือน SI ดาบสองคม เขย่าเศรษฐกิจโลก | กรุงเทพธุรกิจ InFocus . ‘เควิน วอร์ช’ เตือนถึงยุคใหม่ของ SI หรือ Synthetic Intelligence เร่งสปีดนวัตกรรม แต่ความเสี่ยงก็น่ากลัวเขย่าเศรษฐกิจโลก . . #เฟด #SyntheticIntelligence #SI #เทคโนโลยีAI #เควินวอร์ช #กรุงเทพธุรกิจ - Facebook",
-            "url": "https://news.google.com/rss/articles/CBMihwdBVV95cUxPR3lzQWVVZHpUbkVsc2c4TzBoMktfS3BBdnhhZkJNUmd3eDhnU09vNGJGWnJjS0E5NTZhNnE1OVJMcXE3RkpTZHJJYkhRTTVaajN6U3JKMDRGX2syQmF1THhFcERjSUdhUVJtYldfMnFYVFV0VDdHMEw1Q1RMOE55RkNDZE5JbmFOR3h5T20wU2ZoRjVuby1TcTNnWmVVSlgwZDlPQXVLOVI2dzU3Um1TUmxVT0M4ZmtyaFFqZl9jNlB2RVNiTFV4WWtUMnVjSDRTSWVvQS1iVER5MElUdVpfQ1RZNm5iaEVyYWhVUkFKOEVIWHVzQ1ZDTU9fcFVrY3lhNDZSQnFaekFwS3o2VmpjSnA2NTRpakFSRGlRNUk1ZmIwd0VIQTVBRVhkRTF3eHpzd3ZkcE5VVHZwOFNPV1B3THpLRkxKSExFZGxtZ2U1V1diMmZIcDByYjVSdzFweG1ocHllNFBLdGh6VEZMVTBud0FCXzZKZ3FzVEZhS0tNWVlKUEJDRF9qQ0xyR2lUQ2xfTW1vWGFYNXZPc191d2VlTG53ZlVKVHJfLVU0Nmg4UlJhWkQ0UENUZHJLOTRnRVhReFFiRWdqNnEtcXpOclpHRTRtcG9MaWhkSVFxU0lzZThmV3dCd2JCb1VqSGdMUmdfeERDMlVLb3dTaWpTUG1xb1lzaERkVGxKV3hKUmlOMzViMHpsT2Z3Y25xWDBpdGlXcGdrRG53UmdOb3ZhOFBCS0hxU2FIUGV2NEpYbUcycXYyMkFySHUtazJoS0Q2SjZGazNwclVPeS03MzRPd0N1VnUyV1ZKYUFiMnd6eXlTR3dFelpYbS1XLU9fTnYtQlk4empTb2UxcnB1ZmhfdHhRU2ZKX1BGNy1rN0ExVTFQOTJxX2MwT282RWd3OWFvTExEenVGVXdkMFBNXzlvSVQzbEhUWnJGUVRjdTN1c1Zlal8yWDBHdm15YTQ1NmFXNEFRUUVOMHljUXg4NHE2Y1dNNm5CV0FVczZzWVhpYUlxME03bFdZM1FVa3dIRURvTmlta1poWklOZFQtYzVNZFRTNnhoWTJaVkFrTXpqRTdaWnlKazdfX2xoRlVPSUhxVWd4WDBrYmJZVXZTS1Vvd2d5bmxOZGp5Uk5iSklvNGRBTGxEUm9rSkFpQTR6alctWFZMcm1DYzRLTWVpSFlqVGJZTDl0ZmtLMGc?oc=5",
-            "source": "Facebook",
-            "date": "2026-11-17T05:30:48+00:00"
         }
     ]
 }
