@@ -1,172 +1,84 @@
 {
-    "last_updated": "2026-11-23T18:58:31.212886+07:00",
+    "last_updated": "2026-11-24T20:16:49.304302+07:00",
     "summary": {
-        "total_value_thb": 30437.16350752293,
-        "total_profit_thb": 1417.8612547892844,
-        "total_profit_percent": 4.885924693987845
+        "total_value_thb": 30935.406247620595,
+        "total_profit_thb": 1920.788074094562,
+        "total_profit_percent": 6.6200701405306015
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 153.5,
-            "total_value_thb": 15350.0,
-            "profit_thb": 1750.0,
-            "profit_percent": 12.867647058823529
+            "current_price_thb": 154.0,
+            "total_value_thb": 15400.0,
+            "profit_thb": 1800.0,
+            "profit_percent": 13.23529411764706
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.3899999856948853,
-            "total_value_thb": 2779.9999713897705,
-            "profit_thb": -40.00002861022949,
-            "profit_percent": -1.4184407308592017
+            "current_price_thb": 1.399999976158142,
+            "total_value_thb": 2799.999952316284,
+            "profit_thb": -20.00004768371582,
+            "profit_percent": -0.7092215490679369
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.100000381469727,
-            "total_value_thb": 764.0000152587891,
-            "profit_thb": 154.80001525878902,
-            "profit_percent": 25.410376766052035
+            "current_price_thb": 19.200000762939453,
+            "total_value_thb": 768.0000305175781,
+            "profit_thb": 158.80003051757808,
+            "profit_percent": 26.066978088899877
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 10.969517662275686,
-            "total_value_thb": 9745.830670688782,
-            "profit_thb": -254.16888027121786,
-            "profit_percent": -2.541688916844178
+            "current_price_thb": 11.445047238438994,
+            "total_value_thb": 10168.313305830514,
+            "profit_thb": 168.31375487051446,
+            "profit_percent": 1.6831376242847567
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3621.800048828125,
-            "cost_per_unit_thb": 136308.40423107147,
-            "current_price_thb": 123104.9897387391,
-            "total_value_thb": 1797.3328501855908,
-            "profit_thb": -192.7698515880527,
-            "profit_percent": -9.68642730931675
+            "current_price_usd": 3633.89990234375,
+            "cost_per_unit_thb": 135987.5768880844,
+            "current_price_thb": 123225.54513398744,
+            "total_value_thb": 1799.0929589562168,
+            "profit_thb": -186.3256636098156,
+            "profit_percent": -9.384704137055039
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 504 Deadline Exceeded",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 11.828669644s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://aistudio.google.com/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 11\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
-    "global_watchlist": [
-        {
-            "symbol": "NVDA",
-            "name": "NVIDIA Corporation",
-            "exchange": "NASDAQ",
-            "reason": "ผู้นำด้านโครงสร้างพื้นฐาน AI ระดับโลก ราคาปรับฐานเป็นโอกาสสะสมระยะยาว",
-            "category": "Technology"
-        },
-        {
-            "symbol": "MSFT",
-            "name": "Microsoft Corporation",
-            "exchange": "NASDAQ",
-            "reason": "กระแสเงินสดแข็งแกร่ง ผู้นำ Cloud และการสร้างรายได้จริงจาก Enterprise AI",
-            "category": "Technology"
-        },
-        {
-            "symbol": "PANW",
-            "name": "Palo Alto Networks, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ได้ประโยชน์โดยตรงจากความต้องการด้าน Cyber Security ที่พุ่งสูงทั่วโลก",
-            "category": "Cybersecurity"
-        },
-        {
-            "symbol": "AMZN",
-            "name": "Amazon.com, Inc.",
-            "exchange": "NASDAQ",
-            "reason": "AWS เติบโตต่อเนื่อง ผสานระบบโลจิสติกส์และค้าปลีกที่ฟื้นตัวแข็งแกร่ง",
-            "category": "Technology"
-        },
-        {
-            "symbol": "GOOGL",
-            "name": "Alphabet Inc.",
-            "exchange": "NASDAQ",
-            "reason": "ความแข็งแกร่งของ Search Engine, Google Cloud และชิปประมวลผล TPU ของตนเอง",
-            "category": "Technology"
-        },
-        {
-            "symbol": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Co.",
-            "exchange": "NYSE",
-            "reason": "ผู้ผลิตชิปขั้นสูงผูกขาดระดับโลกที่ขาดไม่ได้ในห่วงโซ่อุปทานเทคโนโลยี",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "ASML",
-            "name": "ASML Holding N.V.",
-            "exchange": "Euronext Amsterdam",
-            "reason": "เจ้าตลาดเครื่องจักร EUV รายเดียวในโลก มีคูเมืองทางธุรกิจสูงมาก",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "NVO",
-            "name": "Novo Nordisk A/S",
-            "exchange": "NYSE / OMX",
-            "reason": "หุ้นกลุ่ม Defensive Healthcare เติบโตสูงจากความต้องการยาลดน้ำหนักทั่วโลก",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "SAP",
-            "name": "SAP SE",
-            "exchange": "XETRA",
-            "reason": "การเปลี่ยนผ่านสู่ Cloud ERP สำเร็จ รายได้ประจำสม่ำเสมอ ผันผวนต่ำในยุโรป",
-            "category": "Enterprise Software"
-        },
-        {
-            "symbol": "8035",
-            "name": "Tokyo Electron Limited",
-            "exchange": "Tokyo Stock Exchange",
-            "reason": "ตัวแทนห่วงโซ่อุปทานเซมิคอนดักเตอร์เอเชียที่ได้แรงหนุนจากการฟื้นตัวของชิป",
-            "category": "Semiconductors"
-        },
-        {
-            "symbol": "9988",
-            "name": "Alibaba Group Holding Ltd.",
-            "exchange": "HKEX",
-            "reason": "มูลค่าหุ้นยังไม่แพง ได้อานิสงส์จากการกระตุ้นเศรษฐกิจและการค้าเสรีในจีน",
-            "category": "E-Commerce"
-        },
-        {
-            "symbol": "BDMS",
-            "name": "Bangkok Dusit Medical Services PCL",
-            "exchange": "SET",
-            "reason": "หุ้นปลอดภัยต้านทานความผันผวนของตลาดไทย ได้แรงหนุนจากการท่องเที่ยวเชิงการแพทย์",
-            "category": "Healthcare"
-        },
-        {
-            "symbol": "MC",
-            "name": "LVMH Moët Hennessy Louis Vuitton",
-            "exchange": "Euronext Paris",
-            "reason": "แบรนด์หรูทรงอิทธิพล อำนาจกำหนดราคาสูง รองรับการฟื้นตัวของการบริโภคระดับบน",
-            "category": "Consumer Discretionary"
-        },
-        {
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "exchange": "Crypto",
-            "reason": "สินทรัพย์ทางเลือกป้องกันความเสี่ยงจากเงินเฟ้อและการลดดอกเบี้ย มีเงินทุนสถาบันหนุนหลัง",
-            "category": "Cryptocurrency"
-        },
-        {
-            "symbol": "ETH",
-            "name": "Ethereum",
-            "exchange": "Crypto",
-            "reason": "โครงสร้างพื้นฐานหลักของ Web3, DeFi และการแปลงสินทรัพย์เป็นโทเคน (RWA)",
-            "category": "Cryptocurrency"
-        }
-    ],
+    "global_watchlist": [],
     "news": [
+        {
+            "title": "โลกทั้งใบอยู่ในกำมือคนสองคน! 'เจนเซน หวง' คืนทัพเขย่าทอง-คริปโต ...",
+            "url": "https://www.nationtv.tv/exclusive/columnist/378986638",
+            "source": "เนชั่นทีวี",
+            "date": "2026-11-24T12:38:00+00:00"
+        },
+        {
+            "title": "เอเซีย พลัส มองหุ้นไทยฟื้นตัวจำกัด แม้ตลาดโลกรีบาวด์แรง",
+            "url": "https://mgronline.com/stockmarket/detail/9690000111958",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-11-24T11:32:00+00:00"
+        },
+        {
+            "title": "ลุ้นหุ้นไทยรีบาวด์ รับแรงซื้อหุ้นเทคฯ โลก ชู GPSC-HANA เด่น",
+            "url": "https://www.msn.com/th-th/money/general/ลุ้นหุ้นไทยรีบาวด์-รับแรงซื้อหุ้นเทคฯ-โลก-ชู-gpsc-hana-เด่น/ar-AA2i5gv4",
+            "source": "ประชาชาติธุรกิจ",
+            "date": "2026-11-24T02:32:56+00:00"
+        },
         {
             "title": "เอเซีย พลัส เตือนหุ้นไทยยังผันผวน ห่วงเศรษฐกิจไทยพึ่งพา ...",
             "url": "https://mgronline.com/stockmarket/detail/9690000111629",
@@ -268,24 +180,6 @@
             "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrV2hvaU16bzlQR2xUZFpyR25kZkh6Mk1PbHdYOEpjQWRxa2hjRklYR0l3eWVGZkxpT2V6TzFfdThBRHBYUUhiVFhaaDQtQQ?oc=5",
             "source": "ข่าวหุ้นธุรกิจออนไลน์",
             "date": "2026-11-18T00:00:02+00:00"
-        },
-        {
-            "title": "“กองทุน-พร็อพ-ต่างชาติ” เทขายหุ้นไทย 3.87 พันล้าน กด SET ปิดร่วง 25 จุด - ข่าวหุ้นธุรกิจออนไลน์",
-            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnNkhtWWdPamZvaVlyanJlLTgwcElHQnhuQy1RcU1YVXVGVWdxX1NoVHlKMlhhTkg2OHFmQWpFdUVqMjJMekpVWXk3Vm5pT2M?oc=5",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-11-17T10:42:19+00:00"
-        },
-        {
-            "title": "หุ้นไทยปิดตลาดเย็นวันนี้ ร่วงแรง 24.85 จุด ปัจจัยนอกประเทศ ตามหุ้นเทคฯ- น้ำมันลง - bangkokbiznews",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zRGNjTklTVWw4RnNzdkpjWFZkck5GczNrSFRnZkNNam5UbDkyTTB3OWRiUmpZSnBZREJtcE5Vc0JvV2swaE9vMEYxbWRYaE4ycENIdzJseWRCRHg0MkxtdWN3?oc=5",
-            "source": "bangkokbiznews",
-            "date": "2026-11-17T10:24:46+00:00"
-        },
-        {
-            "title": "“พิพัฒน์” ชู AI พยุงเศรษฐกิจโลก เตือนพิษทรัมป์–ดอกเบี้ยสูง ฉุดไทยฟื้นตัว K-Shape | ข่าวหุ้นธุรกิจ - LINE TODAY",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93cXZlODJpX19pUWxhZkF6UC1uNmIzRXZTQmlYWUFTT3MxT085Y21NbTE0NnUyZHVMYmc1Qk9GT0xiSElGM2FBV0RRUEg2eDZseEhNdFVn?oc=5",
-            "source": "LINE TODAY",
-            "date": "2026-11-17T10:21:53+00:00"
         }
     ]
 }
