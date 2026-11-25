@@ -1,66 +1,102 @@
 {
-    "last_updated": "2026-11-24T20:16:49.304302+07:00",
+    "last_updated": "2026-11-25T19:06:27.291273+07:00",
     "summary": {
-        "total_value_thb": 30935.406247620595,
-        "total_profit_thb": 1920.788074094562,
-        "total_profit_percent": 6.6200701405306015
+        "total_value_thb": 30649.745885973432,
+        "total_profit_thb": 1628.1018169851704,
+        "total_profit_percent": 5.609957220600454
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 154.0,
-            "total_value_thb": 15400.0,
-            "profit_thb": 1800.0,
-            "profit_percent": 13.23529411764706
+            "current_price_thb": 152.0,
+            "total_value_thb": 15200.0,
+            "profit_thb": 1600.0,
+            "profit_percent": 11.76470588235294
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.399999976158142,
-            "total_value_thb": 2799.999952316284,
-            "profit_thb": -20.00004768371582,
-            "profit_percent": -0.7092215490679369
+            "current_price_thb": 1.3799999952316284,
+            "total_value_thb": 2759.999990463257,
+            "profit_thb": -60.000009536743164,
+            "profit_percent": -2.1276599126504667
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.200000762939453,
-            "total_value_thb": 768.0000305175781,
-            "profit_thb": 158.80003051757808,
-            "profit_percent": 26.066978088899877
+            "current_price_thb": 19.450000762939453,
+            "total_value_thb": 778.0000305175781,
+            "profit_thb": 168.80003051757808,
+            "profit_percent": 27.708475134205194
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.445047238438994,
-            "total_value_thb": 10168.313305830514,
-            "profit_thb": 168.31375487051446,
-            "profit_percent": 1.6831376242847567
+            "current_price_thb": 11.429979877251068,
+            "total_value_thb": 10154.926760012127,
+            "profit_thb": 154.9272090521281,
+            "profit_percent": 1.549272160089798
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3633.89990234375,
-            "cost_per_unit_thb": 135987.5768880844,
-            "current_price_thb": 123225.54513398744,
-            "total_value_thb": 1799.0929589562168,
-            "profit_thb": -186.3256636098156,
-            "profit_percent": -9.384704137055039
+            "current_price_usd": 3536.0,
+            "cost_per_unit_thb": 136468.8026046753,
+            "current_price_thb": 120330.07568359375,
+            "total_value_thb": 1756.8191049804689,
+            "profit_thb": -235.62541304779052,
+            "profit_percent": -11.825946013340813
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 11.828669644s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://aistudio.google.com/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 11\n}\n]",
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 34.84318416s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://aistudio.google.com/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 34\n}\n]",
         "recommendations": {},
         "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "หุ้นไทยวันนี้ ปิดตลาด ร่วงแรง 21.27 จุด แรงขายทำกำไรหุ้น AI-ฟันด์โฟลว์ไหลออก . “ตลาดหุ้นไทยวันนี้” (25 พ.ย.2569) ปิดตลาด ที่ 1,428.50จุด ปรับลง 23.15 จุด หรือ 1.59%โดยดัชนีทำจุดสูงสุดที่ 1,447.45จุด และจุดต่ำสุดที่ 1,427.26 จุด มีมูลค่าการซื้อขายรวม 62,004.61 ล้านบาท . นาย - Facebook",
+            "url": "https://news.google.com/rss/articles/CBMingdBVV95cUxOV1RXSDh5cFZ6Q3RreGtYVlE1bERTUFhkMHFQRHcxTnJzTW83LWJsNGgwRlhaOWVVanRuNzRrZnk1U0Y5Y19mWUpYWnp4WTNTNDE0Sy0xNFdJbHhCY0wyMVhfTzBZRlUxeDJtUUs5bUpSLXhvQU1UQ1pmQmtNZTlYX2M5SWtSVUplQ0I5cjE4MWVlSXRteXpfM0t6Q2wxUGxKXzRMYk5qeVJjZU1HTnhtXzNmbTltM2h6c21TUVFaZ0JHMDRZVEwyc1ZMTjNTV050d3dyYUt6ZzduQnhNYTFFemhVVnNSMDAtejF2N0twNnhPcmpkNnNwRjlHbUJBQ3lHZU5hTGhuZmt2OEFzNDdJYk9EX2tuMVNvUE9sM1l2OTFnUHY0Y19jZVJpUEwwLXdPZlQyYVpCS0pkNjZ6TGtmTUo4cGZYTDJsV0s2NE5pd2JJamctTWNoYVlyUGwzYjVyVmJpMXlNSFhzZWduSkIzTnZLdkFHMkVFbm5BQWxFTVlOSVhCbGF6NWt1Tkg1MWN4WEhkOThkbVBFUjM3cDVJRWZYeWxPU0Y4WVhzaGViYjAwcS1EY05wZTZvQnUwelJMQnJPT3lCZFhfdFUxa0FUdmpranpXRldBNXVhWURtU1ZEaDNlUWZVakNMa2Nqc3ZLbXdKTzdVTTh0OWZfQTAwLVZDOC1wQjhKMlN4bmw1V2ZVUG00c0ZabHRLVVI0ME9PLXFydTRaTUZJNE9pWnFjdEhQSTJseWlLQ0liS1ZOZkNKWmJzNzJybkNBUlZfYzdldHBxenVPcEdsbGxkdWFIcUhyZXhLQTF3NVN6ei1VdUVtbUVTUmRwa19mV0RJYlRmMWVHTmF1ajFybEw2c3FvcTdCejVfT3hodzdzWmxVcHFBQmdqcVZ6N3VtcldESFAzSnNiVXNCNDhNdlZfd3BQd0FrZEpCLTNkZDQ1XzhQMDdXY2FzZGpacDdSVDNISmZwNDd2VjVGcVlvRzZxSldkZlBzdTF2d3BLVXBkWVo4RHlZaUdEMVJvbzVmTG9KbUpITTV3a3FvWV9RdW8wNC00Uy14YlJjYW1LdHRMV0ltSU5rejFpVnZhbkZjaDk1QUhqUFUwaXFJRWszeW50dV9Mb3dBZFJneDhHVlN1OVNhbUpfTFhENWpDbDlQOXEyRlJYWDZsR0o3THJ0X24xc2YtN2FBSTZwbGtqdG5Fb2hhenoyY3doVHRmMWJLSnc0Zw?oc=5",
+            "source": "Facebook",
+            "date": "2026-11-25T10:33:35+00:00"
+        },
+        {
+            "title": "“กองทุน-พร็อพ-ต่างชาติ” เทขายหุ้นไทย 5.5 พันล้าน กด SET ปิดร่วง 23 จุด - ข่าวหุ้นธุรกิจออนไลน์",
+            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaRldTWmJZZXl6RW1CelJwWVRCZGZIMkpJSGkza1dIWVo1aXRGV2xrQUVQTjBtd2VEREw1TWZ1RDFNNkRyaEhpWjcwU1BzLW8?oc=5",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-11-25T10:26:05+00:00"
+        },
+        {
+            "title": "EXIM BANK เปิดเวที The EXIMNOMICS 2026 ถอดรหัสเศรษฐกิจโลก - มิติหุ้น",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1scWpWbU9TUEp2SUpNdDBhWXFoNWtyaFM4ZHE1TF8yYnB4bTY3MWY0Qm02d2RsUVVfa3V2NWxXb2Y0NmZtY19CUlBXWEwzSFlRSC1WZkNB?oc=5",
+            "source": "มิติหุ้น",
+            "date": "2026-11-25T10:20:45+00:00"
+        },
+        {
+            "title": "คลัง-ตลท. ชี้จุดเปลี่ยนเศรษฐกิจโลก แนะไทยเร่งปั้น Growth ใหม่ ฝ่า 4 คลื่นดิสรัป : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9USHhDdmw1MTNCdHc3dTA2NnNkQWZTYVgtek9ad0ZxNWI0QW1Qbk5HZmVPaXRyQkVfTXRQQmE3WXNkdC1KZWlEaTZDb3JCYTI0?oc=5",
+            "source": "สำนักข่าวอินโฟเควสท์",
+            "date": "2026-11-25T08:52:29+00:00"
+        },
+        {
+            "title": "SCB EIC มองเศรษฐกิจโลกเติบโต2.6% ในปี 2569 และ 2.7% ในปี 2570 - Thunhoon",
+            "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FcVNYRG04Qlo4cUNDTERKM3ducVQzcFcyNEhTV3l2eDh0SlVBZ1k5SXdNYXc4YlhaZy1TNWU5Vll3Y1k0TF9sMQ?oc=5",
+            "source": "Thunhoon",
+            "date": "2026-11-25T07:06:54+00:00"
+        },
+        {
+            "title": "หุ้นไทยพักเที่ยงร่วง 11.86 จุด ขาย GULF-DELTA-KTB - Thunhoon",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmR1dBZ29uRlBITThVSmtEMWJCeERiRzFSS091T1FZYU01djF1eGRmVFlrcHFjeHZ6X09iNi1KQXlVTE5za0FlTnJrekJvYW9KQlY2NllHdXZ6bDVW?oc=5",
+            "source": "Thunhoon",
+            "date": "2026-11-25T05:45:13+00:00"
+        },
         {
             "title": "โลกทั้งใบอยู่ในกำมือคนสองคน! 'เจนเซน หวง' คืนทัพเขย่าทอง-คริปโต ...",
             "url": "https://www.nationtv.tv/exclusive/columnist/378986638",
@@ -144,42 +180,6 @@
             "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WQmEtUzFTdDlZdVZybEVjdkRhWGNmekRHaDRVMDFudmpnT0dGdzJYRTFQNU12SHozd0RqcHVOaWI0V1gzUXhhNHdHZ0FoWU5VOEYyd3F3?oc=5",
             "source": "LINE TODAY",
             "date": "2026-11-19T05:20:48+00:00"
-        },
-        {
-            "title": "หุ้นไทยวันนี้ 18 พฤศจิกายน 2569 ปิดลบ 2.67 จุด ตลาดแกว่งตัวค่อนข้างผันผวน - TNN Thailand",
-            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TMHlDUUV0OXFVVmV1TW0zRHhmMGZVaDlIT0RINmZaRzREeHJ4ZXhPWEdDVnRoeTRHTnJHVlpON1d4Y0FUaGpDUlJiTWNCNUJxUF8wXw?oc=5",
-            "source": "TNN Thailand",
-            "date": "2026-11-18T10:45:21+00:00"
-        },
-        {
-            "title": "กรุงเทพธุรกิจ. . สี จิ้นผิง เปิดฉาก APEC 2026 ชู ‘การค้าเสรี’ | กรุงเทพธุรกิจ_InFocus . ‘สี จิ้นผิง’ เปิดฉาก APEC 2026 ณ เซินเจิ้น ชูจุดยืนการค้าเสรี-ห่วงโซ่อุปทานมั่นคง ร่วมฝ่าวิกฤติเศรษฐกิจโลก . #สีจิ้นผิง #APEC2026 #การค้าเสรี #เศรษฐกิจโลก #กรุงเทพธุรกิจ_InFocus #กรุงเทพธุรกิ - Facebook",
-            "url": "https://news.google.com/rss/articles/CBMiqAZBVV95cUxOTVptT2hxX1JGWTg0a1Ywcjk1QU5wb1NhYWZ0QVBpaEJ4UmQzVGs1UFZKLU5PNzRtM2g2bnFIYXZyMTM0ZUhhaUoxTlNIZjFhSFRCWlVJcGM2YTlPUWw4WEtkdk9LQXkzam1fUjBfX1dTU1p0WlBRVU5kVnhLMFdhN3hrbXFlQzA4SXlGYjljQV9ONVNjQjBuMkdwcXdCMzBzSWR0V1dkMnhYTDdHOXNLc1BpcTRmaGdRZWtaejJnckYtVXU4Ym9nc3ZVdnRhNGVOaDhNV1BVaDBPbGZEOVVMV1E5bm9UdGNxQVc1VWZ0ZlFaSUF4Q19GUHJPV20zVEd0eGF5V243aDduYkhUQUFiQllUeXhycG8tUHd1SFNJMjJuemhmbHhfQXBEWWo5SklyamZpS2dYVHZvMXY3dDkxQWRHSTNiOGZxQUF3UHQ1aVMtMlNuSlpLcWVNaHZLckFQWTFENWpTaXM4a294SDl6VXdjRmxHV2R6UUFRTEFscXlzS2ZvR1paMlZ5eHFCNmhFcE12ZDVQUVh0SzNhSnlNdnM2RUgycGQ5S2lucEpIbHhDTDllNkVaVDNZc3JNbDIwdVliMjJLaHZpUy0zZHhLY0V6VWdnRHpjNl9Fd2lrakNZbVBLTTZCNjhBZ3lXeU1FMjloRWtSVHpIVl9tdVFFYkc4Z1pOckh1Zy1qWE94V2hZcUd0X2ZlVkppdWhTQTN6ZWNCb2xBQUo4Vk5VU3hzenZZU0RjODVBVm1QR2xVV0RqZG4tdFhsaWY0RmxtZVhoSTItU0tHMW81anlBWnljMjF2T2llM1VRRHNScHB1QjdEb0FGb2VsWGJMRjJnZmw3N1loOWNPYzZrWUJMUUVkQ09ldDNSMEUzcUU2cTBZcm1jaWJxQnh2Mm93VkhvZUNKQ1ZLdHk2Z1NZRWNkM3htNjU0SmtuYlVpazRBTXRhYUtfQTdJc2xaa1hwQVhKVEhlZlVEeFoyS2xkSl91QkpRblpONjNNNFBpMEx1d3BHb2VQeEhRQklTcUFmV3NuTnRrWlVnU2Fkb3Y0RlNsd01lWElISnNxeWJJ?oc=5",
-            "source": "Facebook",
-            "date": "2026-11-18T09:21:21+00:00"
-        },
-        {
-            "title": "XSPRING มองหุ้นไทยปี 70 ลุ้นแตะ 1,725 จุด เปิด 8 หุ้นเด่น 3 ธีมลงทุน | การเงินธนาคาร - LINE TODAY",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MM2JZVk1vaXRVZ3JocnF5clJ6dWlBTjYwZjdYaENYZXZQeXhTdVNXX2xqR2x1N3hld3hkN0Z6eFcySE1kUHNYc251bjlSRVVqTHdqemhR?oc=5",
-            "source": "LINE TODAY",
-            "date": "2026-11-18T09:20:41+00:00"
-        },
-        {
-            "title": "\"ปูติน\" คาดถก 3 ฝ่าย \"ทรัมป์-สี\" พรุ่งนี้มีโอกาสสร้างประโยชน์อย่างมาก ชี้เศรษฐกิจโลกแบ่งขั้วต้องร่วมมือกัน : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
-            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QY3BuaHp2Zlk4YUpjS1ViVnE3OUpvMy1mQy11RnpEQ1NLSFNBekVDUTNjZjdUaWY4NGUtQ0lFODhheTQ1VGtRZ0JWejFYSnVC?oc=5",
-            "source": "สำนักข่าวอินโฟเควสท์",
-            "date": "2026-11-18T08:43:36+00:00"
-        },
-        {
-            "title": "สี จิ้นผิง ชี้ แผนพัฒนา 5 ปีฉบับที่ 15 ของจีน เป็นคำเชิญสู่ความร่วมมือที่จีนส่งถึงภาคธุรกิจทั่วโลก - 国际在线",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41RHAySUtldlRQcm1TTmJnOUJhRWJINmRXay1DaDZGRTdYNjdfel9sQ1lVU0E1UzhZTmZoTWU2ZVVXaE5fd3RZcVM4UnVWem0wX1Z0TmExZHNkZVpqbldHLQ?oc=5",
-            "source": "国际在线",
-            "date": "2026-11-18T07:49:30+00:00"
-        },
-        {
-            "title": "คุมชิปสะเทือนหุ้นไทย - ข่าวหุ้นธุรกิจออนไลน์",
-            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrV2hvaU16bzlQR2xUZFpyR25kZkh6Mk1PbHdYOEpjQWRxa2hjRklYR0l3eWVGZkxpT2V6TzFfdThBRHBYUUhiVFhaaDQtQQ?oc=5",
-            "source": "ข่าวหุ้นธุรกิจออนไลน์",
-            "date": "2026-11-18T00:00:02+00:00"
         }
     ]
 }
