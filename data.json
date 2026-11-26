@@ -1,66 +1,136 @@
 {
-    "last_updated": "2026-11-25T19:06:27.291273+07:00",
+    "last_updated": "2026-11-26T19:08:28.142502+07:00",
     "summary": {
-        "total_value_thb": 30649.745885973432,
-        "total_profit_thb": 1628.1018169851704,
-        "total_profit_percent": 5.609957220600454
+        "total_value_thb": 30570.96073535657,
+        "total_profit_thb": 1548.145646566405,
+        "total_profit_percent": 5.334236674940483
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 152.0,
-            "total_value_thb": 15200.0,
-            "profit_thb": 1600.0,
-            "profit_percent": 11.76470588235294
+            "current_price_thb": 151.5,
+            "total_value_thb": 15150.0,
+            "profit_thb": 1550.0,
+            "profit_percent": 11.397058823529411
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.3799999952316284,
-            "total_value_thb": 2759.999990463257,
-            "profit_thb": -60.000009536743164,
-            "profit_percent": -2.1276599126504667
+            "current_price_thb": 1.3700000047683716,
+            "total_value_thb": 2740.000009536743,
+            "profit_thb": -79.99999046325684,
+            "profit_percent": -2.8368790944417315
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.450000762939453,
-            "total_value_thb": 778.0000305175781,
-            "profit_thb": 168.80003051757808,
-            "profit_percent": 27.708475134205194
+            "current_price_thb": 19.049999237060547,
+            "total_value_thb": 761.9999694824219,
+            "profit_thb": 152.79996948242183,
+            "profit_percent": 25.082069842813826
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.429979877251068,
-            "total_value_thb": 10154.926760012127,
-            "profit_thb": 154.9272090521281,
-            "profit_percent": 1.549272160089798
+            "current_price_thb": 11.405491826548205,
+            "total_value_thb": 10133.170434624542,
+            "profit_thb": 133.170883664543,
+            "profit_percent": 1.3317088964444863
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3536.0,
-            "cost_per_unit_thb": 136468.8026046753,
-            "current_price_thb": 120330.07568359375,
-            "total_value_thb": 1756.8191049804689,
-            "profit_thb": -235.62541304779052,
-            "profit_percent": -11.825946013340813
+            "current_price_usd": 3592.199951171875,
+            "cost_per_unit_thb": 136549.00944042206,
+            "current_price_thb": 122314.40559677128,
+            "total_value_thb": 1785.7903217128608,
+            "profit_thb": -207.82521611730135,
+            "profit_percent": -10.424538341203787
         }
     ],
     "ai_analysis": {
-        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 34.84318416s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://aistudio.google.com/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 34\n}\n]",
-        "recommendations": {},
-        "daily_picks": []
+        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงกดดันด้านนโยบายการค้า:</b> ความกังวลต่อนโยบายของสหรัฐฯ ในการเตรียมปรับขึ้นภาษีนำเข้าสินค้าไทย และมาตรการคุมเข้มการส่งออกชิป AI ส่งผลกระทบเชิงลบต่อภาคการส่งออกและหุ้นกลุ่มเทคโนโลยี/อิเล็กทรอนิกส์</li><li><b>Fund Flow ไหลออกต่อเนื่อง:</b> นักลงทุนต่างชาติ กองทุน และบัญชี บล. ร่วมกันเทขายสุทธิกดดัน SET Index หลุดแนวรับสำคัญ ท่ามกลางการจับตาทิศทางนโยบายดอกเบี้ยของเฟด</li><li><b>การชะลอตัวของเศรษฐกิจโลก:</b> ความเสี่ยงจากการแบ่งขั้วทางเศรษฐกิจ (Deglobalization) กดดันประมาณการเติบโตของเศรษฐกิจไทยในระยะกลาง-ยาว</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>แรงหนุนจาก Safe-Haven:</b> ความไม่แน่นอนทางภูมิรัฐศาสตร์และความเสี่ยงจากสงครามการค้ารอบใหม่ยังคงเป็นปัจจัยหนุนทองคำในฐานะสินทรัพย์ป้องกันความเสี่ยง</li><li><b>ความผันผวนของค่าเงินและดอกเบี้ย:</b> ทิศทางอัตราผลตอบแทนพันธบัตรสหรัฐฯ และความไม่แน่นอนของการปรับลดดอกเบี้ยเฟดสร้างแรงกดดันการพักฐานของราคาทองคำในระยะสั้น</li></ul>",
+        "recommendations": {
+            "SCB": {
+                "action": "HOLD",
+                "reason": "กำไรสะสม 11.40% มีเงินปันผลรองรับและปัจจัยพื้นฐานแข็งแกร่งพอที่จะรับมือความผันผวนของตลาดได้ดี"
+            },
+            "SIRI": {
+                "action": "HOLD",
+                "reason": "ขาดทุนเล็กน้อย 2.84% ยังมีปัจจัยหนุนจากอัตราผลตอบแทนเงินปันผลสูง ควรรอจังหวะฟื้นตัวของกำลังซื้อในประเทศ"
+            },
+            "OSP": {
+                "action": "SELL",
+                "reason": "ผลกำไรอยู่ในระดับสูงถึง 25.08% ควรขายทำกำไรบางส่วนเพื่อล็อกผลตอบแทนและถือเงินสดรับมือความผันผวน"
+            },
+            "K-US500XUH": {
+                "action": "HOLD",
+                "reason": "กระจายความเสี่ยงในตลาดหุ้นสหรัฐฯ แม้มีแรงขายระยะสั้นในกลุ่ม AI แต่พื้นฐานดัชนียังมีโอกาสเติบโตตามเศรษฐกิจสหรัฐฯ"
+            },
+            "MTS-GOLD": {
+                "action": "BUY",
+                "reason": "ผลขาดทุนสะสม -10.42% เป็นโอกาสทยอยสะสมถัวเฉลี่ยต้นทุน เพื่อใช้ทองคำเป็นเกราะป้องกันความเสี่ยงจากสงครามการค้า"
+            }
+        },
+        "daily_picks": [
+            {
+                "symbol": "BDMS",
+                "name": "บริษัท กรุงเทพดุสิตเวชการ จำกัด (มหาชน)",
+                "reason": "หุ้นกลุ่มการแพทย์ที่เป็น Defensive Play คุณภาพสูง ปลอดภัยจากความเสี่ยงด้านภาษีนำเข้าและเศรษฐกิจโลกแบ่งขั้ว",
+                "tag": "Defensive"
+            },
+            {
+                "symbol": "CPALL",
+                "name": "บริษัท ซีพี ออลล์ จำกัด (มหาชน)",
+                "reason": "ได้รับประโยชน์โดยตรงจากการบริโภคภายในประเทศ และมีกระแสเงินสดมั่นคงท่ามกลางแรงเทขายของตลาดภาพรวม",
+                "tag": "Value"
+            }
+        ]
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "หุ้นไทย ปิดลบ 14.06 จุด รับแรงขายหนักช่วงบ่ายกังวลสหรัฐคุมชิป AI-Fund Flow ยังไหลออก จับตาทิศทางเฟด - LINE TODAY",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02XzUwZXZrT3c1My1FTXF0c1ZTaVkzbmNiX1hId202YTROOVNTSFN4WXZSemFLZm1za0VwUjNfVTN4LXB1WDdmTkgwMXpERDNwZXJPdjh3?oc=5",
+            "source": "LINE TODAY",
+            "date": "2026-11-26T11:02:30+00:00"
+        },
+        {
+            "title": "ดัชนีหุ้นไทยร่วงหนักปิดลบ 14.06 จุด กดดันจากทรัมป์เตรียมขึ้นภาษีนำเข้าสินค้าไทย - เดลินิวส์",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WZS1QWEtsWWVhNUNRMXBxeVprb0hjU1ExM2FTcE50STF5UHQtdHRFN3prRHNUcWg5d3NsTS1VUThIWTVpN1J4dDNHcVdqQ2g5Z2R3?oc=5",
+            "source": "เดลินิวส์",
+            "date": "2026-11-26T10:09:00+00:00"
+        },
+        {
+            "title": "ฝ่ามรสุมเศรษฐกิจโลก! แนะไทยเร่งยกระดับเครื่องยนต์เศรษฐกิจ-ปรับเกมลงทุน-การค้า : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JaVprLTRxbWNHT05ndXRGX3BLbFZWaFBuMndFdGh6bExNa0RiZFZVQTdTclFtdENSOWptS0NPY0pFbjBHeUhMQTdSZEFETGYt?oc=5",
+            "source": "สำนักข่าวอินโฟเควสท์",
+            "date": "2026-11-26T09:17:01+00:00"
+        },
+        {
+            "title": "ส.อ.ท. ร่วมงาน The EXIMNOMICS 2026 ถอดรหัสเศรษฐกิจโลก พลิกความท้าทายสู่โอกาสทางธุรกิจไทย - สภาอุตสาหกรรมแห่งประเทศไทย",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMy1acWxXMmU3cENhT1U3YTdicEZlLTFOZXJtVkk2cXVmZ1ZVMXhJdExQQ3VsbThFNmpFcFh5ZFoydHhveGJIOUZpZlFNLUVZNXFaeC11N010emhxWG5TLVBjdUNXOEdIYVRlRE0tTVNFTUhXaUNocWZzNUxmRVo0Z2I1d015NkZWcEcwUGlWUjg?oc=5",
+            "source": "สภาอุตสาหกรรมแห่งประเทศไทย",
+            "date": "2026-11-26T02:39:21+00:00"
+        },
+        {
+            "title": "อ่านเกมยุคเศรษฐกิจแบ่งขั้ว ปรับพอร์ตรับระเบียบโลกใหม่ - Forbes Thailand",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWDhaMGE4SHMtOE1MM2pUMWVHRTFXbEJlYTA5bjNENXRQUkEyRFhwLURBb3lvbTNYLVNxOWxiby1vMGppQTZYYjBFeHVmSWhVZ251SEJhYWd4aENkTnZvSjk3Qy0zWGIzQUsyVVFwU1h1alB2aGJ6TmtjQ3pnNzk3MVBaWWpuYnctNGhiMlBnS0J5NWdIZFJlVXdvdXBENWs3V1Q5alZEdzVmUV9lOEpvSWVQOFRkUVRhSUQ4SHJ1cTE1QQ?oc=5",
+            "source": "Forbes Thailand",
+            "date": "2026-11-26T02:01:46+00:00"
+        },
+        {
+            "title": "มุมมืดหุ้นไทย - ข่าวหุ้นธุรกิจออนไลน์",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hZUhia1ljN2ZrdXZTanRGY0FfS3g4N1hoM0hWc3NydVZ4UV9Oa1R3ZjRkNlRGbXVNbjZib3pDUnQ3RTBuX0RoMExRV3pSUQ?oc=5",
+            "source": "ข่าวหุ้นธุรกิจออนไลน์",
+            "date": "2026-11-26T00:00:47+00:00"
+        },
         {
             "title": "หุ้นไทยวันนี้ ปิดตลาด ร่วงแรง 21.27 จุด แรงขายทำกำไรหุ้น AI-ฟันด์โฟลว์ไหลออก . “ตลาดหุ้นไทยวันนี้” (25 พ.ย.2569) ปิดตลาด ที่ 1,428.50จุด ปรับลง 23.15 จุด หรือ 1.59%โดยดัชนีทำจุดสูงสุดที่ 1,447.45จุด และจุดต่ำสุดที่ 1,427.26 จุด มีมูลค่าการซื้อขายรวม 62,004.61 ล้านบาท . นาย - Facebook",
             "url": "https://news.google.com/rss/articles/CBMingdBVV95cUxOV1RXSDh5cFZ6Q3RreGtYVlE1bERTUFhkMHFQRHcxTnJzTW83LWJsNGgwRlhaOWVVanRuNzRrZnk1U0Y5Y19mWUpYWnp4WTNTNDE0Sy0xNFdJbHhCY0wyMVhfTzBZRlUxeDJtUUs5bUpSLXhvQU1UQ1pmQmtNZTlYX2M5SWtSVUplQ0I5cjE4MWVlSXRteXpfM0t6Q2wxUGxKXzRMYk5qeVJjZU1HTnhtXzNmbTltM2h6c21TUVFaZ0JHMDRZVEwyc1ZMTjNTV050d3dyYUt6ZzduQnhNYTFFemhVVnNSMDAtejF2N0twNnhPcmpkNnNwRjlHbUJBQ3lHZU5hTGhuZmt2OEFzNDdJYk9EX2tuMVNvUE9sM1l2OTFnUHY0Y19jZVJpUEwwLXdPZlQyYVpCS0pkNjZ6TGtmTUo4cGZYTDJsV0s2NE5pd2JJamctTWNoYVlyUGwzYjVyVmJpMXlNSFhzZWduSkIzTnZLdkFHMkVFbm5BQWxFTVlOSVhCbGF6NWt1Tkg1MWN4WEhkOThkbVBFUjM3cDVJRWZYeWxPU0Y4WVhzaGViYjAwcS1EY05wZTZvQnUwelJMQnJPT3lCZFhfdFUxa0FUdmpranpXRldBNXVhWURtU1ZEaDNlUWZVakNMa2Nqc3ZLbXdKTzdVTTh0OWZfQTAwLVZDOC1wQjhKMlN4bmw1V2ZVUG00c0ZabHRLVVI0ME9PLXFydTRaTUZJNE9pWnFjdEhQSTJseWlLQ0liS1ZOZkNKWmJzNzJybkNBUlZfYzdldHBxenVPcEdsbGxkdWFIcUhyZXhLQTF3NVN6ei1VdUVtbUVTUmRwa19mV0RJYlRmMWVHTmF1ajFybEw2c3FvcTdCejVfT3hodzdzWmxVcHFBQmdqcVZ6N3VtcldESFAzSnNiVXNCNDhNdlZfd3BQd0FrZEpCLTNkZDQ1XzhQMDdXY2FzZGpacDdSVDNISmZwNDd2VjVGcVlvRzZxSldkZlBzdTF2d3BLVXBkWVo4RHlZaUdEMVJvbzVmTG9KbUpITTV3a3FvWV9RdW8wNC00Uy14YlJjYW1LdHRMV0ltSU5rejFpVnZhbkZjaDk1QUhqUFUwaXFJRWszeW50dV9Mb3dBZFJneDhHVlN1OVNhbUpfTFhENWpDbDlQOXEyRlJYWDZsR0o3THJ0X24xc2YtN2FBSTZwbGtqdG5Fb2hhenoyY3doVHRmMWJLSnc0Zw?oc=5",
@@ -144,42 +214,6 @@
             "url": "https://www.msn.com/th-th/technology/general/หุ้นไทยปิดทิ้งดิ่ง-19-36-จุด-delta-ฉุดตลาดหนัก-โบรกชี้สัปดาห์หน้าจับตา-gdp-สหรัฐฯ-ทิศทางดอลลาร์-ลุ้นรีบาวด์/ar-AA2hQkos",
             "source": "กรุงเทพธุรกิจ",
             "date": "2026-11-20T09:54:00+00:00"
-        },
-        {
-            "title": "KGI หั่นเป้าหุ้นไทยปี '70 เหลือ 1,711 จุด หวั่นกระแส AI โลกชะลอ ชู 5 หุ้น ...",
-            "url": "https://www.msn.com/th-th/money/technology/kgi-หั่นเป้าหุ้นไทยปี-70-เหลือ-1-711-จุด-หวั่นกระแส-ai-โลกชะลอ-ชู-5-หุ้นเด่นรับลงทุนในประเทศ/ar-AA2hPL62",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-11-20T08:40:57+00:00"
-        },
-        {
-            "title": "“รมว.พิพัฒน์” ชู 3 แนวทางคมนาคมไทยบนเวที UN ESCAP ผลักดันไทยสู่ศูนย์กลางโลจิสติกส์ภูมิภาค เชื่อมเศรษฐกิจโลก - ลดภาระประชาชน - ขับเคลื่อนขนส่งสีเขียว พร้อมเน้นความปลอดภัยยุคดิจิทัล - พรรคภูมิใจไทย : พูดแล้วทำ - ภูมิใจ ไทย",
-            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GbngyT0ZKamNZVWExZ3pRVk5GUGNCdG83MFJjU0l5WEwxZ2k4TFpFd0FLRXUtR0E2bklXak9wSnNGbm5TV0loVGpWbw?oc=5",
-            "source": "ภูมิใจ ไทย",
-            "date": "2026-11-19T10:53:04+00:00"
-        },
-        {
-            "title": "หุ้นไทยวันนี้ 19 พฤศจิกายน 2569 ปิดบวก 0.63 จุด กังวลทิศทางอัตราดอกเบี้ย - TNN Thailand",
-            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVeEVBTlQ4Y0k1MTNPdVRXMjZNN2g0N1dIYV9MX2FJSHFPRXZtVDBtUTR5Z0dTeHdmNGtRU1lqUzU0NndJUG5tR3JaUFhxSEEyOV9z?oc=5",
-            "source": "TNN Thailand",
-            "date": "2026-11-19T10:27:15+00:00"
-        },
-        {
-            "title": "สี จิ้นผิง เปิดฉาก APEC 2026 ชู ‘การค้าเสรี’ | กรุงเทพธุรกิจ_InFocus . ‘สี จิ้นผิง’ เปิดฉาก APEC 2026 ณ เซินเจิ้น ชูจุดยืนการค้าเสรี-ห่วงโซ่อุปทานมั่นคง ร่วมฝ่าวิกฤติเศรษฐกิจโลก . #สีจิ้นผิง #APEC2026 #การค้าเสรี #เศรษฐกิจโลก #กรุงเทพธุรกิจ_InFocus #กรุงเทพธุรกิจ - Facebook",
-            "url": "https://news.google.com/rss/articles/CBMipwZBVV95cUxPS0lhdDZxdE1QazZQdlc2aDBKNlZZR3NhbFJ6dE9vaEdTdG1JQVVfOEREZmtPX0RackFYR3I3WWFEcWdzVFFZNTdVeXM5dDBFWGdsVVdWRDBPRWVCM00xMlBIbGVRYlk3OHg4UE5RRlg3dWlpZEZ6d2QxdUp3OTNwZmp2Z1VaZHg0b3h6YWp1eXlVdlBab2VGOXdsVURwRS1rVXhsVWtaa19maEhHVVd4aEFsT0liLU91ejJvaWJqOGxjR1ZUU1daYW1rdHhoWFRINDBrbzlDcW8tbnktWFR5b0FLQW1zRjJDTjhoSDljSUtNWlpTb05WSkZncGp5aXJLaFluMzV1aVlvNkY3bjhBbTFiSGxsdG82SHhEc1FsMDFkM0J1dzJIQzZQTUd1V1NjeGVxMnNzSXV3TDhzZDd1bGlCeWc4WjJFMENIaWtqQVNELTVBcnBjX3RIWUZGcE5iSmxKOHcxVWo4VlZrNTNPNzQ3ZnNLWTFlSkZkZ0Jtdi1GaGRwZnpsRGR0TGVfaUtSd0tucHFBNUFCRTlaUzd3bTVMRjdQOHp5M25aWVVobHptcWZhZDNRN0NYRG9jckx6MUtJSEluSGIyYU9tYk9XNnZSbDlteVo4OGkyNk4xcEl1QUFuRGJFOGdfYzRHNjdrVFE1bU1qU0FOMzVGNU42d1pPZlJEeWVIejg3dU1laFRIWUlYM2Zqc2t4LXl2enNPQWRNZW5ldS1qTGRoTTUyX1JMa0p6X2FfQTJmM3o3R08wcE50SU5fcFBIYTBsRTZITk16WVhwWS1salB5aS1EalQ5dVkwbmJCMGd0ZGhjU2E1NktfRng3Ylo5RHZtamp5NFUtZ2QtMlIxRmdBMlZSUDdfNURyUjdVT3RPQTFtR3JoUUZSWFlIOWdodDQ2eU9YZWUxSkRKQWtpWVYxWHdxci1rNUM0bmVwU2hqVS1pTXh6TkNvMUw2d0IyNDdsbHBhTWhqVVNIQmJ6TjN0Sm9vYUpFdThTMkQzVzVnaW8ycklmZWgweTBRWEw4c1ZBanFLbGdkU0ZFWEh4dVZEYnpuMzZNZnJXSW8?oc=5",
-            "source": "Facebook",
-            "date": "2026-11-19T09:38:23+00:00"
-        },
-        {
-            "title": "สนค.เตือนภัยไซเบอร์เขย่าเศรษฐกิจโลก ไทยพบแล้ว 3,520 เรื่องใน 10 เดือน - Thai PBS",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xc1NEWkRIbVBJZDZEWGZzNVdkS0UyX29seHFzd01uQ3VJbzJHeGhKY2hUSE9SaE5WdE1oOEZQUTd3c3hrakhsOXlILUJiYnM4MTI5dUVPWmU?oc=5",
-            "source": "Thai PBS",
-            "date": "2026-11-19T08:42:56+00:00"
-        },
-        {
-            "title": "หุ้นไทยวันนี้ ไซด์เวย์กรอบ 1,455-1,485 จุด เกาะติด IPO Anthropic | การเงินธนาคาร - LINE TODAY",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WQmEtUzFTdDlZdVZybEVjdkRhWGNmekRHaDRVMDFudmpnT0dGdzJYRTFQNU12SHozd0RqcHVOaWI0V1gzUXhhNHdHZ0FoWU5VOEYyd3F3?oc=5",
-            "source": "LINE TODAY",
-            "date": "2026-11-19T05:20:48+00:00"
         }
     ]
 }
