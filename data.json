@@ -1,100 +1,84 @@
 {
-    "last_updated": "2026-11-26T19:08:28.142502+07:00",
+    "last_updated": "2026-11-27T18:55:43.094552+07:00",
     "summary": {
-        "total_value_thb": 30570.96073535657,
-        "total_profit_thb": 1548.145646566405,
-        "total_profit_percent": 5.334236674940483
+        "total_value_thb": 30765.54195659069,
+        "total_profit_thb": 1751.5091812910105,
+        "total_profit_percent": 6.036765708702553
     },
     "assets": [
         {
             "symbol": "SCB",
             "shares": 100,
             "cost_per_unit_thb": 136.0,
-            "current_price_thb": 151.5,
-            "total_value_thb": 15150.0,
-            "profit_thb": 1550.0,
-            "profit_percent": 11.397058823529411
+            "current_price_thb": 153.0,
+            "total_value_thb": 15300.0,
+            "profit_thb": 1700.0,
+            "profit_percent": 12.5
         },
         {
             "symbol": "SIRI",
             "shares": 2000,
             "cost_per_unit_thb": 1.41,
-            "current_price_thb": 1.3700000047683716,
-            "total_value_thb": 2740.000009536743,
-            "profit_thb": -79.99999046325684,
-            "profit_percent": -2.8368790944417315
+            "current_price_thb": 1.3899999856948853,
+            "total_value_thb": 2779.9999713897705,
+            "profit_thb": -40.00002861022949,
+            "profit_percent": -1.4184407308592017
         },
         {
             "symbol": "OSP",
             "shares": 40,
             "cost_per_unit_thb": 15.23,
-            "current_price_thb": 19.049999237060547,
-            "total_value_thb": 761.9999694824219,
-            "profit_thb": 152.79996948242183,
-            "profit_percent": 25.082069842813826
+            "current_price_thb": 19.100000381469727,
+            "total_value_thb": 764.0000152587891,
+            "profit_thb": 154.80001525878902,
+            "profit_percent": 25.410376766052035
         },
         {
             "symbol": "K-US500XUH",
             "shares": 888.4466,
             "cost_per_unit_thb": 11.2556,
-            "current_price_thb": 11.405491826548205,
-            "total_value_thb": 10133.170434624542,
-            "profit_thb": 133.170883664543,
-            "profit_percent": 1.3317088964444863
+            "current_price_thb": 11.355248134706326,
+            "total_value_thb": 10088.531597436177,
+            "profit_thb": 88.53204647617713,
+            "profit_percent": 0.8853205045162034
         },
         {
             "symbol": "MTS-GOLD",
             "shares": 0.0146,
             "cost_per_unit_usd": 4010.25,
-            "current_price_usd": 3592.199951171875,
-            "cost_per_unit_thb": 136549.00944042206,
-            "current_price_thb": 122314.40559677128,
-            "total_value_thb": 1785.7903217128608,
-            "profit_thb": -207.82521611730135,
-            "profit_percent": -10.424538341203787
+            "current_price_usd": 3703.5,
+            "cost_per_unit_thb": 135947.48111915588,
+            "current_price_thb": 125548.65565109253,
+            "total_value_thb": 1833.010372505951,
+            "profit_thb": -151.82285183372505,
+            "profit_percent": -7.64914905554517
         }
     ],
     "ai_analysis": {
-        "market_analysis": "<h4>📈 ปัจจัยที่มีผลต่อตลาดหุ้น</h4><ul><li><b>แรงกดดันด้านนโยบายการค้า:</b> ความกังวลต่อนโยบายของสหรัฐฯ ในการเตรียมปรับขึ้นภาษีนำเข้าสินค้าไทย และมาตรการคุมเข้มการส่งออกชิป AI ส่งผลกระทบเชิงลบต่อภาคการส่งออกและหุ้นกลุ่มเทคโนโลยี/อิเล็กทรอนิกส์</li><li><b>Fund Flow ไหลออกต่อเนื่อง:</b> นักลงทุนต่างชาติ กองทุน และบัญชี บล. ร่วมกันเทขายสุทธิกดดัน SET Index หลุดแนวรับสำคัญ ท่ามกลางการจับตาทิศทางนโยบายดอกเบี้ยของเฟด</li><li><b>การชะลอตัวของเศรษฐกิจโลก:</b> ความเสี่ยงจากการแบ่งขั้วทางเศรษฐกิจ (Deglobalization) กดดันประมาณการเติบโตของเศรษฐกิจไทยในระยะกลาง-ยาว</li></ul><h4>🪙 ปัจจัยที่มีผลต่อทองคำ</h4><ul><li><b>แรงหนุนจาก Safe-Haven:</b> ความไม่แน่นอนทางภูมิรัฐศาสตร์และความเสี่ยงจากสงครามการค้ารอบใหม่ยังคงเป็นปัจจัยหนุนทองคำในฐานะสินทรัพย์ป้องกันความเสี่ยง</li><li><b>ความผันผวนของค่าเงินและดอกเบี้ย:</b> ทิศทางอัตราผลตอบแทนพันธบัตรสหรัฐฯ และความไม่แน่นอนของการปรับลดดอกเบี้ยเฟดสร้างแรงกดดันการพักฐานของราคาทองคำในระยะสั้น</li></ul>",
-        "recommendations": {
-            "SCB": {
-                "action": "HOLD",
-                "reason": "กำไรสะสม 11.40% มีเงินปันผลรองรับและปัจจัยพื้นฐานแข็งแกร่งพอที่จะรับมือความผันผวนของตลาดได้ดี"
-            },
-            "SIRI": {
-                "action": "HOLD",
-                "reason": "ขาดทุนเล็กน้อย 2.84% ยังมีปัจจัยหนุนจากอัตราผลตอบแทนเงินปันผลสูง ควรรอจังหวะฟื้นตัวของกำลังซื้อในประเทศ"
-            },
-            "OSP": {
-                "action": "SELL",
-                "reason": "ผลกำไรอยู่ในระดับสูงถึง 25.08% ควรขายทำกำไรบางส่วนเพื่อล็อกผลตอบแทนและถือเงินสดรับมือความผันผวน"
-            },
-            "K-US500XUH": {
-                "action": "HOLD",
-                "reason": "กระจายความเสี่ยงในตลาดหุ้นสหรัฐฯ แม้มีแรงขายระยะสั้นในกลุ่ม AI แต่พื้นฐานดัชนียังมีโอกาสเติบโตตามเศรษฐกิจสหรัฐฯ"
-            },
-            "MTS-GOLD": {
-                "action": "BUY",
-                "reason": "ผลขาดทุนสะสม -10.42% เป็นโอกาสทยอยสะสมถัวเฉลี่ยต้นทุน เพื่อใช้ทองคำเป็นเกราะป้องกันความเสี่ยงจากสงครามการค้า"
-            }
-        },
-        "daily_picks": [
-            {
-                "symbol": "BDMS",
-                "name": "บริษัท กรุงเทพดุสิตเวชการ จำกัด (มหาชน)",
-                "reason": "หุ้นกลุ่มการแพทย์ที่เป็น Defensive Play คุณภาพสูง ปลอดภัยจากความเสี่ยงด้านภาษีนำเข้าและเศรษฐกิจโลกแบ่งขั้ว",
-                "tag": "Defensive"
-            },
-            {
-                "symbol": "CPALL",
-                "name": "บริษัท ซีพี ออลล์ จำกัด (มหาชน)",
-                "reason": "ได้รับประโยชน์โดยตรงจากการบริโภคภายในประเทศ และมีกระแสเงินสดมั่นคงท่ามกลางแรงเทขายของตลาดภาพรวม",
-                "tag": "Value"
-            }
-        ]
+        "market_analysis": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 20h9m1.053504308s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://aistudio.google.com/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 72541\n}\n]",
+        "recommendations": {},
+        "daily_picks": []
     },
     "global_watchlist": [],
     "news": [
+        {
+            "title": "มาสเตอร์พีซแห่งปี SCB WEALTH ผนึก BlackRock ติดอาวุธ 'ทายาทหมื่นล้าน' ก้าวข้ามความผันผวนโลก",
+            "url": "https://www.msn.com/th-th/news/other/มาสเตอร์พีซแห่งปี-scb-wealth-ผนึก-blackrock-ติดอาวุธ-ทายาทหมื่นล้าน-ก้าวข้ามความผันผวนโลก/ar-AA2ilg7Z",
+            "source": "กรุงเทพธุรกิจ",
+            "date": "2026-11-27T09:00:00+00:00"
+        },
+        {
+            "title": "จี้จัดระเบียบภูเก็ต เตรียมเช็กบิลธุรกิจ กว่า 3 พันสถาน ...",
+            "url": "https://mgronline.com/south/detail/9690000113171",
+            "source": "ผู้จัดการออนไลน์",
+            "date": "2026-11-27T07:37:00+00:00"
+        },
+        {
+            "title": "โจทย์ใหญ่ไทย เศรษฐกิจโตช้า ธุรกิจถูกบีบ ต้องรับมือเกมมหาอำนาจ",
+            "url": "https://www.msn.com/th-th/news/other/โจทย์ใหญ่ไทย-เศรษฐกิจโตช้า-ธุรกิจถูกบีบ-ต้องรับมือเกมมหาอำนาจ/ar-AA2ilS8L",
+            "source": "อมรินทร์ทีวี",
+            "date": "2026-11-27T02:20:00+00:00"
+        },
         {
             "title": "หุ้นไทย ปิดลบ 14.06 จุด รับแรงขายหนักช่วงบ่ายกังวลสหรัฐคุมชิป AI-Fund Flow ยังไหลออก จับตาทิศทางเฟด - LINE TODAY",
             "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02XzUwZXZrT3c1My1FTXF0c1ZTaVkzbmNiX1hId202YTROOVNTSFN4WXZSemFLZm1za0VwUjNfVTN4LXB1WDdmTkgwMXpERDNwZXJPdjh3?oc=5",
@@ -196,24 +180,6 @@
             "url": "https://www.dailynews.co.th/news/6383958/",
             "source": "เดลินิวส์",
             "date": "2026-11-23T04:21:00+00:00"
-        },
-        {
-            "title": "อมรเทพ ชี้หุ้น AI สหรัฐร่วง 20% ฉุดเศรษฐกิจหนักกว่าที่คิด แต่ไม่ ...",
-            "url": "https://www.msn.com/th-th/money/technology/อมรเทพ-ชี้หุ้น-ai-สหรัฐร่วง-20-ฉุดเศรษฐกิจหนักกว่าที่คิด-แต่ไม่ถึงขั้นถดถอย-มองปีหน้า-เฟด-ไม่-hawkish/ar-AA2i03MJ",
-            "source": "ประชาชาติธุรกิจ",
-            "date": "2026-11-23T03:07:38+00:00"
-        },
-        {
-            "title": "ฟิลลิป หั่นเป้า SET เหลือ 1,570 จุด เซ่นพิษคุมชิป AI-ข่าวช็อก NVIDIA",
-            "url": "https://mgronline.com/stockmarket/detail/9690000111096",
-            "source": "ผู้จัดการออนไลน์",
-            "date": "2026-11-20T10:13:00+00:00"
-        },
-        {
-            "title": "หุ้นไทยปิดทิ้งดิ่ง 19.36 จุด DELTA ฉุดตลาดหนัก โบรกชี้สัปดาห์หน้าจับ ...",
-            "url": "https://www.msn.com/th-th/technology/general/หุ้นไทยปิดทิ้งดิ่ง-19-36-จุด-delta-ฉุดตลาดหนัก-โบรกชี้สัปดาห์หน้าจับตา-gdp-สหรัฐฯ-ทิศทางดอลลาร์-ลุ้นรีบาวด์/ar-AA2hQkos",
-            "source": "กรุงเทพธุรกิจ",
-            "date": "2026-11-20T09:54:00+00:00"
         }
     ]
 }
